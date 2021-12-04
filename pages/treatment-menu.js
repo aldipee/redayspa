@@ -2,7 +2,6 @@
 import clsx from "clsx";
 import { useState } from "react";
 import Head from "next/head";
-import Script from "next/script";
 import Link from "next/link";
 export default function Home() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);

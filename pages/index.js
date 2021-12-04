@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-sync-scripts */
-import { useState } from "react";
-
+import { Formik, ErrorMessage } from "formik";
+import { useState, useRef } from "react";
+import * as Yup from "yup";
+import emailjs from "emailjs-com";
 import Head from "next/head";
 import Link from "next/link";
 import clsx from "clsx";
@@ -8,6 +10,31 @@ import clsx from "clsx";
 export default function Home() {
   const [showContact, setShowContact] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const formikRef = useRef(null);
+
+  const contactUsSchema = Yup.object().shape({
+    customer_firstName: Yup.string().required("Firstname is required!"),
+    customer_lastName: Yup.string().required("Lastname is required!"),
+    customer_message: Yup.string().required("Message is required!"),
+    customer_email: Yup.string().email("Invalid email").required("Email is required!"),
+    customer_subject: Yup.string().required("Subject is required!"),
+  });
+
+  const handleSubmitContactUs = async (data) => {
+    try {
+      console.log(data, "templateParams");
+      const response = await emailjs.send("service_4ruek8a", "template_geb5qtm", data, "user_jqilAXqo3WGAJA44b2E2h");
+      if (response.status === 200) {
+        setShowContact(false);
+        formikRef.current?.resetForm();
+        alert("Message sent successfully");
+      }
+      console.log(response, "response");
+    } catch (error) {
+      alert(error);
+    }
+  };
   return (
     <>
       <Head>
@@ -447,41 +474,109 @@ export default function Home() {
                 }}
               ></button>
             </div>
-            <form>
-              <div className="form-group">
-                <label className="label-form">Name *</label>
-                <span className="ft-sm mb15">Hi! What is your name?</span>
-                <div className="row">
-                  <div className="col-sm-6">
-                    <input type="text" className="form-control" />
-                    <small>First Name</small>
+            <Formik
+              innerRef={formikRef}
+              onSubmit={handleSubmitContactUs}
+              validationSchema={contactUsSchema}
+              initialValues={{
+                customer_firstName: "",
+                customer_lastName: "",
+                customer_message: "",
+                customer_email: "",
+                customer_subject: "",
+              }}
+            >
+              {({ values, handleChange, handleSubmit, isValid }) => (
+                <form onSubmit={handleSubmit}>
+                  <div className="form-group">
+                    <label className="label-form">Name *</label>
+                    <span className="ft-sm mb15">Hi! What is your name?</span>
+                    <div className="row">
+                      <div className="col-sm-6">
+                        <input
+                          type="text"
+                          className="form-control"
+                          name="customer_firstName"
+                          value={values.customer_firstName}
+                          onChange={handleChange}
+                        />
+                        <small>First Name</small>
+                        <ErrorMessage
+                          name="customer_firstName"
+                          render={(errorMessage) => <p className="text-error">{errorMessage}</p>}
+                        />
+                      </div>
+                      <div className="col-sm-6">
+                        <input
+                          type="text"
+                          className="form-control"
+                          name="customer_lastName"
+                          value={values.customer_lastName}
+                          onChange={handleChange}
+                        />
+                        <small>Last Name</small>
+                        <ErrorMessage
+                          name="customer_lastName"
+                          render={(errorMessage) => <p className="text-error">{errorMessage}</p>}
+                        />
+                      </div>
+                    </div>
                   </div>
-                  <div className="col-sm-6">
-                    <input type="text" className="form-control" />
-                    <small>Last Name</small>
+                  <div className="form-group">
+                    <label className="label-form">Email *</label>
+                    <input
+                      type="email"
+                      className="form-control"
+                      placeholder="Your email address"
+                      name="customer_email"
+                      value={values.customer_email}
+                      onChange={handleChange}
+                    />
+                    <ErrorMessage
+                      name="customer_email"
+                      render={(errorMessage) => <p className="text-error">{errorMessage}</p>}
+                    />
                   </div>
-                </div>
-              </div>
-              <div className="form-group">
-                <label className="label-form">Email *</label>
-                <input type="email" className="form-control" placeholder="Your email address" />
-              </div>
-              <div className="form-group">
-                <label className="label-form">Subject *</label>
-                <input type="email" className="form-control" placeholder="Your subject" />
-              </div>
-              <div className="form-group">
-                <label className="label-form">Message *</label>
-                <textarea
-                  className="form-control"
-                  rows="6"
-                  placeholder="How can we help? Please leave a time and date for reserved?"
-                ></textarea>
-              </div>
-              <div className="d-flex justify-content-center">
-                <input type="submit" className="btn btn-green" value="SUBMIT" />
-              </div>
-            </form>
+                  <div className="form-group">
+                    <label className="label-form">Subject *</label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      placeholder="Your subject"
+                      name="customer_subject"
+                      value={values.customer_subject}
+                      onChange={handleChange}
+                    />
+                    <ErrorMessage
+                      name="customer_message"
+                      render={(errorMessage) => <p className="text-error">{errorMessage}</p>}
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label className="label-form">Message *</label>
+                    <textarea
+                      className="form-control"
+                      rows="6"
+                      name="customer_message"
+                      value={values.customer_message}
+                      onChange={handleChange}
+                      placeholder="How can we help? Please leave a time and date for reserved?"
+                    ></textarea>
+                    <ErrorMessage
+                      name="customer_message"
+                      render={(errorMessage) => <p className="text-error">{errorMessage}</p>}
+                    />
+                  </div>
+                  <div className="d-flex justify-content-center">
+                    {loading ? (
+                      "Submitting..."
+                    ) : (
+                      <input type="submit" className="btn btn-green" value="SUBMIT" disabled={!isValid} />
+                    )}
+                  </div>
+                </form>
+              )}
+            </Formik>
           </div>
         </div>
 
