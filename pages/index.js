@@ -1,63 +1,68 @@
 /* eslint-disable @next/next/no-sync-scripts */
-import Head from 'next/head';
-import Link from 'next/link';
+import { useState } from "react";
+
+import Head from "next/head";
+import Link from "next/link";
+import clsx from "clsx";
 
 export default function Home() {
+  const [showContact, setShowContact] = useState(false);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
     <>
       <Head>
-        <meta charset='utf-8' />
+        <meta charset="utf-8" />
         <title>RE DAY SPA - Rejuvenation in Tranquility</title>
-        <meta name='description' content='' />
-        <meta name='description' content='' />
-        <meta name='keywords' content='' />
-        <meta name='author' content='' />
-        <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />
+        <meta name="description" content="" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-        <meta property='og:title' content='' />
-        <meta property='og:type' content='' />
-        <meta property='og:url' content='' />
-        <meta property='og:image' content='' />
-        <meta property='og:description' content='' />
-        <meta property='og:site_name' content='' />
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:site_name" content="" />
 
-        <link rel='icon' type='image/png' href='favicon.png' />
-        <link rel='apple-touch-icon' href='icon.png' />
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link rel="apple-touch-icon" href="icon.png" />
 
-        <link rel='stylesheet' href='css/bootstrap.min.css' />
-        <link rel='stylesheet' href='css/normalize.css' />
-        <link rel='stylesheet' href='css/swiper.min.css' />
-        <link rel='stylesheet' href='css/aos.css' />
-        <link rel='stylesheet' href='css/main.css' />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/swiper.min.css" />
+        <link rel="stylesheet" href="css/aos.css" />
+        <link rel="stylesheet" href="css/main.css" />
       </Head>
 
       <body>
-        <header className='nav-fix'>
-          <div className='container'>
-            <ul className='top-nav'>
+        <header className="nav-fix">
+          <div className="container">
+            <ul className="top-nav">
               <li>
-                <a href='#top' className='item-main-nav'>
+                <a href="#top" className="item-main-nav">
                   HOME
                 </a>
               </li>
               <li>
-                <a href='#about' className='item-main-nav'>
+                <a href="#about" className="item-main-nav">
                   ABOUT
                 </a>
               </li>
               <li>
-                <a href='#treatment' className='item-main-nav'>
+                <a href="#treatment" className="item-main-nav">
                   TREATMENT
                 </a>
               </li>
               <li>
-                <a href='#contact' className='item-main-nav'>
+                <a href="#contact" className="item-main-nav">
                   CONTACT US
                 </a>
               </li>
               <li>
-                <Link href='/cleanlines-guidelines'>
-                  <a className='item-nav-last'>CLEANLINESS GUIDELINES</a>
+                <Link href="/cleanlines-guidelines">
+                  <a className="item-nav-last">CLEANLINESS GUIDELINES</a>
                 </Link>
               </li>
             </ul>
@@ -65,69 +70,69 @@ export default function Home() {
         </header>
 
         <section
-          id='top'
-          className='main-hero'
-          data-aos='fade-up'
-          style={{ backgroundImage: 'url(img/main-hero.jpg)' }}
+          id="top"
+          className="main-hero"
+          data-aos="fade-up"
+          style={{ backgroundImage: "url(img/main-hero.jpg)" }}
         >
-          <div className='container'>
-            <div className='main-nav'>
-              <div className='left-side'>
-                <a href='#top' className='item-main-nav'>
+          <div className="container">
+            <div className="main-nav">
+              <div className="left-side">
+                <a href="#top" className="item-main-nav">
                   HOME
                 </a>
-                <a href='#about' className='item-main-nav'>
+                <a href="#about" className="item-main-nav">
                   ABOUT
                 </a>
-                <a href='#treatment' className='item-main-nav'>
+                <a href="#treatment" className="item-main-nav">
                   TREATMENT
                 </a>
               </div>
-              <div className='center-side'>
-                <Link href='/'>
+              <div className="center-side">
+                <Link href="/">
                   <a>
-                    <img src='img/logo.png' className='img-fluid logo' />
+                    <img src="img/logo.png" className="img-fluid logo" />
                   </a>
                 </Link>
               </div>
-              <div className='right-side'>
-                <a href='#contact' className='item-main-nav'>
+              <div className="right-side">
+                <a href="#contact" className="item-main-nav">
                   CONTACT US
                 </a>
-                <Link href='/cleanlines-guidelines'>
-                  <a className='item-nav-last'>CLEANLINESS GUIDELINES</a>
+                <Link href="/cleanlines-guidelines">
+                  <a className="item-nav-last">CLEANLINESS GUIDELINES</a>
                 </Link>
               </div>
             </div>
 
-            <div className='hero-desc'>
-              <div className='title-hero mb24'>Rejuvenation in Tranquility</div>
-              <div className='re-desc mb24'>LOCALLY SOURCED - CRAFTED FOR YOU</div>
-              <p className='mb24'>
+            <div className="hero-desc">
+              <div className="title-hero mb24">Rejuvenation in Tranquility</div>
+              <div className="re-desc mb24">LOCALLY SOURCED - CRAFTED FOR YOU</div>
+              <p className="mb24">
                 We are bringing total relaxation experience of spa at comfort of your home, when you want it.
               </p>
-              <Link href='home-treatment'>
-                <a className='btn btn-white mx-2'>SEE HOME TREATMENT</a>
+              <Link href="home-treatment">
+                <a className="btn btn-white mx-2">SEE HOME TREATMENT</a>
               </Link>
-              <Link href='spa-promotion'>
-                <a className='btn btn-white mx-2'>SEE IN-SPA PROMOTION</a>
+              <Link href="treatment-menu">
+                <a className="btn btn-white mx-2">SEE IN-SPA TREATMENT</a>
               </Link>
             </div>
           </div>
         </section>
 
-        <section id='about' className='about-section' data-aos='fade-up'>
-          <div className='container'>
-            <div className='row align-items-center justify-content-between'>
-              <div className='col-xl-8 col-sm-8 col-md-8'>
-                <div className='about-title mb30'>
+        <section id="about" className="about-section" data-aos="fade-up">
+          <div className="container">
+            <div className="row align-items-center justify-content-between">
+              <div className="col-xl-8 col-sm-8 col-md-8">
+                <div className="about-title mb30">
                   Located in Seminyak, Re Day Spa is established to nurture comfort in the middle of our hectic lives.
                 </div>
                 <p>
                   Re Day Spa has been serving both quality interpretations of traditional balinese treatments and proven
                   contemporary rejuvenation. We invite you to leave the busy streets, shops and bars behind you for a
                   moment to feel the peaceful and tranquil ambience of our spa that will help you to relax, unwind and
-                  enjoy.{' '}
+                  enjoy.{" "}
                 </p>
                 <p>
                   At Re Day Spa, the focus are to deliver genuine and friendly treatments that are personally crafted
@@ -136,23 +141,23 @@ export default function Home() {
                 </p>
                 <p>
                   We look forward to welcoming you at Re Day Spa and helping you to feel refreshed and to experience
-                  genuine Balinese hospitality.{' '}
+                  genuine Balinese hospitality.{" "}
                 </p>
               </div>
-              <div className='col-xl-2 col-sm-4 col-md-3'>
-                <div className='mb50'>
-                  <div className='sm-heading'>PHONE</div>
-                  <a href='tel:+6281237375791' target='_blank' className='link-telephone' rel='noreferrer'>
-                    {' '}
+              <div className="col-xl-2 col-sm-4 col-md-3">
+                <div className="mb50">
+                  <div className="sm-heading">PHONE</div>
+                  <a href="tel:+6281237375791" target="_blank" className="link-telephone" rel="noreferrer">
+                    {" "}
                     +62 812 3737 5791
                   </a>
                 </div>
-                <div className='mb50'>
-                  <div className='sm-heading'>LOCATION</div>
+                <div className="mb50">
+                  <div className="sm-heading">LOCATION</div>
                   <p>Jalan Petitenget 88D at Seminyak Kuta, Bali</p>
                 </div>
-                <div className='mb10'>
-                  <div className='sm-heading'>HOURS</div>
+                <div className="mb10">
+                  <div className="sm-heading">HOURS</div>
                   <p>
                     Home Pampering
                     <br />
@@ -164,12 +169,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section id='main-slider' className='swiper-container' data-aos='fade-up'>
-          <div className='swiper-wrapper'>
-            <div className='swiper-slide'>
-              <div className='slider-item' style={{ backgroundImage: 'url(img/slider-3.jpeg)' }}>
-                <div className='inner-slider-item'>
-                  <div className='ttl-journey'>Journey</div>
+        <section id="main-slider" className="swiper-container" data-aos="fade-up">
+          <div className="swiper-wrapper">
+            <div className="swiper-slide">
+              <div className="slider-item" style={{ backgroundImage: "url(img/slider-3.jpeg)" }}>
+                <div className="inner-slider-item">
+                  <div className="ttl-journey">Journey</div>
                   <p>
                     The spa journey has been specifically designed with you in mind and in order to provide you with the
                     best spa experience, we strongly recommend you to book your spa treatment in advance. We also
@@ -179,9 +184,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='swiper-slide'>
-              <div className='slider-item' style={{ backgroundImage: 'url(img/slider-2.jpeg)' }}>
-                <div className='inner-slider-item'>
+            <div className="swiper-slide">
+              <div className="slider-item" style={{ backgroundImage: "url(img/slider-2.jpeg)" }}>
+                <div className="inner-slider-item">
                   <p>
                     The therapist will take you to the treatment room and that is the time for you to step into cocoon
                     of well-being and experience the world of Balinese charm. Most treatments will start with a lime and
@@ -190,9 +195,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='swiper-slide'>
-              <div className='slider-item' style={{ backgroundImage: 'url(img/slider-1.jpeg)' }}>
-                <div className='inner-slider-item'>
+            <div className="swiper-slide">
+              <div className="slider-item" style={{ backgroundImage: "url(img/slider-1.jpeg)" }}>
+                <div className="inner-slider-item">
                   <p>
                     A complementary drink and a scented cold towel will welcome you upon your arrival. Re Day Spa ensure
                     the quality for each individual with a consultation prior to your treatment that will help us to
@@ -202,53 +207,53 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='swiper-button-next'></div>
-          <div className='swiper-button-prev'></div>
-          <div className='swiper-pagination'></div>
+          <div className="swiper-button-next"></div>
+          <div className="swiper-button-prev"></div>
+          <div className="swiper-pagination"></div>
         </section>
 
-        <section id='treatment' className='treatment-section'>
-          <div className='container' data-aos='fade-up'>
-            <div className='inner-ts'>
-              <div className='row'>
-                <div className='col-lg-8 offset-lg-2'>
-                  <div className='sm-heading'>LET US INDULGE YOU</div>
-                  <p className='mb50'>For every service is crafted to your needs.</p>
-                  <div className='ttl-treatment mb30'>TREATMENT</div>
-                  <p className='mb30'>
+        <section id="treatment" className="treatment-section">
+          <div className="container" data-aos="fade-up">
+            <div className="inner-ts">
+              <div className="row">
+                <div className="col-lg-8 offset-lg-2">
+                  <div className="sm-heading">LET US INDULGE YOU</div>
+                  <p className="mb50">For every service is crafted to your needs.</p>
+                  <div className="ttl-treatment mb30">TREATMENT</div>
+                  <p className="mb30">
                     At Re Day Spa, we offer you range of indulging treatments from head to toe, starting with manicure
                     and pedicure, solacing facial for specific type of skin as well as traditional and various signature
                     Aromatherapy massages based on your necessity.
                   </p>
-                  <div className='row mb40'>
-                    <div className='col-sm-6'>
-                      <Link href='home-treatment'>
-                        <a className='btn btn-dark'>View home pampering menu</a>
+                  <div className="row mb40">
+                    <div className="col-sm-6">
+                      <Link href="home-treatment">
+                        <a className="btn btn-dark">View home pampering menu</a>
                       </Link>
                     </div>
-                    <div className='col-sm-6'>
-                      <Link href='spa-promotion'>
-                        <a className='btn btn-dark'>View in-spa promotion</a>
+                    <div className="col-sm-6">
+                      <Link href="treatment-menu">
+                        <a className="btn btn-dark">View in-spa TREATMENT</a>
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className='row'>
-                <div className='col-sm-4'>
-                  <img src='img/treatment-1.jpeg' className='img-fluid mb30' />
+              <div className="row">
+                <div className="col-sm-4">
+                  <img src="img/treatment-1.jpeg" className="img-fluid mb30" />
                 </div>
-                <div className='col-sm-4'>
-                  <img src='img/treatment-2.jpeg' className='img-fluid mb30' />
+                <div className="col-sm-4">
+                  <img src="img/treatment-2.jpeg" className="img-fluid mb30" />
                 </div>
-                <div className='col-sm-4'>
-                  <img src='img/treatment-3.jpeg' className='img-fluid mb30' />
+                <div className="col-sm-4">
+                  <img src="img/treatment-3.jpeg" className="img-fluid mb30" />
                 </div>
               </div>
-              <div className='row'>
-                <div className='col-lg-8 offset-lg-2'>
-                  <p className='mb30'>
+              <div className="row">
+                <div className="col-lg-8 offset-lg-2">
+                  <p className="mb30">
                     Wide variety of individually crafted treatments are inspired by local ingredients and based on
                     authentic, age-old Balinese traditions. For all treatments we use high quality spa products that are
                     composed of natural ingredients and produced in Bali to ensure freshness, purity and efficacy. The
@@ -266,216 +271,227 @@ export default function Home() {
           </div>
         </section>
 
-        <section id='contact' className='contact-section'>
-          <div className='container' data-aos='fade-up'>
-            <div className='inner-ts'>
-              <div className='sm-heading'>LET US KNOW</div>
-              <p className='mb50'>
-                <a href='tel:+6281237375791' className='link-telephone' target='_blank' rel='noreferrer'>
+        <section id="contact" className="contact-section">
+          <div className="container" data-aos="fade-up">
+            <div className="inner-ts">
+              <div className="sm-heading">LET US KNOW</div>
+              <p className="mb50">
+                <a href="tel:+6281237375791" className="link-telephone" target="_blank" rel="noreferrer">
                   Call
-                </a>{' '}
-                or{' '}
+                </a>{" "}
+                or{" "}
                 <a
-                  href='https://wa.me/6281237375791?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20home%20spa%20treatment%20you%20offer.'
-                  target='_blank'
-                  className='link-telephone'
-                  rel='noreferrer'
+                  href="https://wa.me/6281237375791?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20home%20spa%20treatment%20you%20offer."
+                  target="_blank"
+                  className="link-telephone"
+                  rel="noreferrer"
                 >
                   WhatsApp us on +62 812 3737 5791
-                </a>{' '}
+                </a>{" "}
                 or book online by filling the form.
               </p>
-              <div className='ttl-contact mb30'>CONTACT US</div>
-              <button className='btn btn-green open-form mb40' type='button'>
+              <div className="ttl-contact mb30">CONTACT US</div>
+              <button
+                className="btn btn-green open-form mb40"
+                type="button"
+                onClick={() => {
+                  setShowContact(!showContact);
+                }}
+              >
                 Open Form
               </button>
 
-              <div className='map'>
+              <div className="map">
                 <iframe
-                  src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.158782991845!2d115.15319791478414!3d-8.676445993765888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd247132e6a30f7%3A0x51dfa61729bee047!2sRe%20Day%20Spa!5e0!3m2!1sen!2sid!4v1637738875940!5m2!1sen!2sid'
-                  width='100%'
-                  height='100%'
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.158782991845!2d115.15319791478414!3d-8.676445993765888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd247132e6a30f7%3A0x51dfa61729bee047!2sRe%20Day%20Spa!5e0!3m2!1sen!2sid!4v1637738875940!5m2!1sen!2sid"
+                  width="100%"
+                  height="100%"
                   style={{ border: 0 }}
-                  allowFullScreen=''
-                  loading='lazy'
+                  allowFullScreen=""
+                  loading="lazy"
                 ></iframe>
               </div>
             </div>
           </div>
         </section>
 
-        <section className='footer'>
-          <div className='container'>
+        <section className="footer">
+          <div className="container">
             <p>RE DAY SPA, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
-            <p className='mb30'>
-              {' '}
-              <a href='tel:+6281237375791' className='link-footer'>
+            <p className="mb30">
+              {" "}
+              <a href="tel:+6281237375791" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href='mailto:care@redayaspabali.com' className='link-footer'>
+              <a href="mailto:care@redayaspabali.com" className="link-footer">
                 CARE@REDAYSPABALI.COM
               </a>
             </p>
-            <ul className='social'>
+            <ul className="social">
               <li>
                 <a
-                  href='https://www.facebook.com/pages/Re-Day-Spa/821996157852429'
-                  target='_blank'
-                  className='social-link'
-                  rel='noreferrer'
+                  href="https://www.facebook.com/pages/Re-Day-Spa/821996157852429"
+                  target="_blank"
+                  className="social-link"
+                  rel="noreferrer"
                 >
-                  <img src='img/ico-facebook.svg' className='img-fluid' />
+                  <img src="img/ico-facebook.svg" className="img-fluid" />
                 </a>
               </li>
               <li>
-                <a href='https://twitter.com/ReDaySpa' className='social-link' target='_blank' rel='noreferrer'>
-                  <img src='img/ico-twitter.svg' className='img-fluid' />
+                <a href="https://twitter.com/ReDaySpa" className="social-link" target="_blank" rel="noreferrer">
+                  <img src="img/ico-twitter.svg" className="img-fluid" />
                 </a>
               </li>
               <li>
-                <a href='https://www.instagram.com/redayspa/' className='social-link' target='_blank' rel='noreferrer'>
-                  <img src='img/ico-instagram.svg' className='img-fluid' />
+                <a href="https://www.instagram.com/redayspa/" className="social-link" target="_blank" rel="noreferrer">
+                  <img src="img/ico-instagram.svg" className="img-fluid" />
                 </a>
               </li>
             </ul>
           </div>
         </section>
 
-        <div className='button-toggle'>
-          <button className='btn btn-toggle'>
-            <img src='img/toggle.svg' className='img-fluid' />
+        <div className="button-toggle">
+          <button className="btn btn-toggle" onClick={() => setShowMobileMenu(true)}>
+            <img src="img/toggle.svg" className="img-fluid" />
           </button>
         </div>
 
-        <div className='mobile-menu'>
-          <div className='mm-header'>
-            <Link href='/'>
+        <div className={clsx("mobile-menu", showMobileMenu && "show")}>
+          <div className="mm-header">
+            <Link href="/">
               <a>
-                <img src='img/logo.png' className='logo-menu' />
+                <img src="img/logo.png" className="logo-menu" />
               </a>
             </Link>
-            <div className='btn-close-menu'>
-              <button className='btn btn-for-close'>
-                <img src='img/close.svg' className='img-fluid' />
+            <div className="btn-close-menu">
+              <button className="btn btn-for-close" onClick={() => setShowMobileMenu(false)}>
+                <img src="img/close.svg" className="img-fluid" />
               </button>
             </div>
           </div>
-          <div className='mm-content'>
-            <ul className='list-menu-mobile'>
-              <li>
-                <a href='#top' className='link-menu-mobile'>
-                  HOME
+          <div className="mm-content">
+            <ul className="list-menu-mobile">
+              <li onClick={() => setShowMobileMenu(false)}>
+                <a href="#top" className="link-menu-mobile">
+                  HOME AJA
                 </a>
               </li>
-              <li>
-                <a href='#about' className='link-menu-mobile'>
+              <li onClick={() => setShowMobileMenu(false)}>
+                <a href="#about" className="link-menu-mobile">
                   ABOUT
                 </a>
               </li>
-              <li>
-                <a href='#treatment' className='link-menu-mobile'>
+              <li onClick={() => setShowMobileMenu(false)}>
+                <a href="#treatment" className="link-menu-mobile">
                   TREATMENT
                 </a>
               </li>
-              <li>
-                <a href='#contact' className='link-menu-mobile'>
+              <li onClick={() => setShowMobileMenu(false)}>
+                <a href="#contact" className="link-menu-mobile">
                   CONTACT US
                 </a>
               </li>
               <li>
-                <Link href='/cleanlines-guidelines'>
-                  <a className='link-menu-mobile-last'>CLEANLINESS GUIDELINES</a>
+                <Link href="/cleanlines-guidelines">
+                  <a className="link-menu-mobile-last">CLEANLINESS GUIDELINES</a>
                 </Link>
               </li>
             </ul>
           </div>
-          <div className='mm-footer'>
-            <p className='mb30'>
-              {' '}
-              <a href='tel:+6281237375791' className='link-footer'>
+          <div className="mm-footer">
+            <p className="mb30">
+              {" "}
+              <a href="tel:+6281237375791" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href='mailto:care@redayaspabali.com' className='link-footer'>
+              <a href="mailto:care@redayaspabali.com" className="link-footer">
                 CARE@REDAYSPABALI.COM
               </a>
             </p>
-            <ul className='social'>
+            <ul className="social">
               <li>
                 <a
-                  href='https://www.facebook.com/pages/Re-Day-Spa/821996157852429'
-                  target='_blank'
-                  className='social-link'
-                  rel='noreferrer'
+                  href="https://www.facebook.com/pages/Re-Day-Spa/821996157852429"
+                  target="_blank"
+                  className="social-link"
+                  rel="noreferrer"
                 >
-                  <img src='img/ico-facebook.svg' className='img-fluid' />
+                  <img src="img/ico-facebook.svg" className="img-fluid" />
                 </a>
               </li>
               <li>
-                <a href='https://twitter.com/ReDaySpa' className='social-link' target='_blank' rel='noreferrer'>
-                  <img src='img/ico-twitter.svg' className='img-fluid' />
+                <a href="https://twitter.com/ReDaySpa" className="social-link" target="_blank" rel="noreferrer">
+                  <img src="img/ico-twitter.svg" className="img-fluid" />
                 </a>
               </li>
               <li>
-                <a href='https://www.instagram.com/redayspa/' className='social-link' target='_blank' rel='noreferrer'>
-                  <img src='img/ico-instagram.svg' className='img-fluid' />
+                <a href="https://www.instagram.com/redayspa/" className="social-link" target="_blank" rel="noreferrer">
+                  <img src="img/ico-instagram.svg" className="img-fluid" />
                 </a>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className='overlay'></div>
-        <div className='popup-wrapper'>
-          <div className='popup-card'>
-            <div className='d-flex align-items-center justify-content-between mb30'>
-              <div className='header-popup'>Contact Us</div>
-              <button className='btn btn-close'></button>
+        <div className={clsx("overlay", showContact && "overlayshow")}></div>
+        <div className={clsx("popup-wrapper", showContact && "showing")}>
+          <div className="popup-card">
+            <div className="d-flex align-items-center justify-content-between mb30">
+              <div className="header-popup">Contact Us</div>
+              <button
+                className="btn btn-close"
+                onClick={() => {
+                  setShowContact(!showContact);
+                }}
+              ></button>
             </div>
             <form>
-              <div className='form-group'>
-                <label className='label-form'>Name *</label>
-                <span className='ft-sm mb15'>Hi! What is your name?</span>
-                <div className='row'>
-                  <div className='col-sm-6'>
-                    <input type='text' className='form-control' />
+              <div className="form-group">
+                <label className="label-form">Name *</label>
+                <span className="ft-sm mb15">Hi! What is your name?</span>
+                <div className="row">
+                  <div className="col-sm-6">
+                    <input type="text" className="form-control" />
                     <small>First Name</small>
                   </div>
-                  <div className='col-sm-6'>
-                    <input type='text' className='form-control' />
+                  <div className="col-sm-6">
+                    <input type="text" className="form-control" />
                     <small>Last Name</small>
                   </div>
                 </div>
               </div>
-              <div className='form-group'>
-                <label className='label-form'>Email *</label>
-                <input type='email' className='form-control' placeholder='Your email address' />
+              <div className="form-group">
+                <label className="label-form">Email *</label>
+                <input type="email" className="form-control" placeholder="Your email address" />
               </div>
-              <div className='form-group'>
-                <label className='label-form'>Subject *</label>
-                <input type='email' className='form-control' placeholder='Your subject' />
+              <div className="form-group">
+                <label className="label-form">Subject *</label>
+                <input type="email" className="form-control" placeholder="Your subject" />
               </div>
-              <div className='form-group'>
-                <label className='label-form'>Message *</label>
+              <div className="form-group">
+                <label className="label-form">Message *</label>
                 <textarea
-                  className='form-control'
-                  rows='6'
-                  placeholder='How can we help? Please leave a time and date for reserved?'
+                  className="form-control"
+                  rows="6"
+                  placeholder="How can we help? Please leave a time and date for reserved?"
                 ></textarea>
               </div>
-              <div className='d-flex justify-content-center'>
-                <input type='submit' className='btn btn-green' value='SUBMIT' />
+              <div className="d-flex justify-content-center">
+                <input type="submit" className="btn btn-green" value="SUBMIT" />
               </div>
             </form>
           </div>
         </div>
 
-        <script src='js/vendor/jquery-3.5.1.min.js'></script>
-        <script src='js/vendor/bootstrap.bundle.min.js'></script>
-        <script src='js/vendor/modernizr-3.11.2.min.js'></script>
-        <script src='js/vendor/aos.js'></script>
-        <script src='js/vendor/swiper.min.js'></script>
-        <script src='js/plugins.js'></script>
-        <script src='js/main.js'></script>
+        <script src="js/vendor/jquery-3.5.1.min.js"></script>
+        <script src="js/vendor/bootstrap.bundle.min.js"></script>
+        <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+        <script src="js/vendor/aos.js"></script>
+        <script src="js/vendor/swiper.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
       </body>
     </>
   );

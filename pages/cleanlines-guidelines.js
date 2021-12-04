@@ -1,76 +1,79 @@
 /* eslint-disable @next/next/no-sync-scripts */
-import Head from 'next/head';
-import Link from 'next/link';
+import clsx from "clsx";
+import { useState } from "react";
+import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
     <>
       <Head>
-        <meta charset='utf-8' />
+        <meta charset="utf-8" />
         <title>RE DAY SPA - Rejuvenation in Tranquility</title>
-        <meta name='description' content='' />
-        <meta name='description' content='' />
-        <meta name='keywords' content='' />
-        <meta name='author' content='' />
-        <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />
+        <meta name="description" content="" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-        <meta property='og:title' content='' />
-        <meta property='og:type' content='' />
-        <meta property='og:url' content='' />
-        <meta property='og:image' content='' />
-        <meta property='og:description' content='' />
-        <meta property='og:site_name' content='' />
+        <meta property="og:title" content="" />
+        <meta property="og:type" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:description" content="" />
+        <meta property="og:site_name" content="" />
 
-        <link rel='icon' type='image/png' href='favicon.png' />
-        <link rel='apple-touch-icon' href='icon.png' />
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link rel="apple-touch-icon" href="icon.png" />
 
-        <link rel='stylesheet' href='css/bootstrap.min.css' />
-        <link rel='stylesheet' href='css/normalize.css' />
-        <link rel='stylesheet' href='css/swiper.min.css' />
-        <link rel='stylesheet' href='css/aos.css' />
-        <link rel='stylesheet' href='css/main.css' />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/swiper.min.css" />
+        <link rel="stylesheet" href="css/aos.css" />
+        <link rel="stylesheet" href="css/main.css" />
       </Head>
 
       <body>
-        <section className='header-inner'>
-          <div className='container'>
-            <div className='main-nav'>
-              <div className='left-side'>
-                <Link href='/'>
-                  <a className='item-main-nav'>HOME</a>
+        <section className="header-inner">
+          <div className="container">
+            <div className="main-nav">
+              <div className="left-side">
+                <Link href="/">
+                  <a className="item-main-nav">HOME</a>
                 </Link>
-                <Link href='/#about'>
-                  <a className='item-main-nav'>ABOUT</a>
+                <Link href="/#about">
+                  <a className="item-main-nav">ABOUT</a>
                 </Link>
-                <Link href='/#treatment'>
-                  <a className='item-main-nav'>TREATMENT</a>
+                <Link href="/#treatment">
+                  <a className="item-main-nav">TREATMENT</a>
                 </Link>
               </div>
-              <div className='center-side'>
-                <Link href='/'>
+              <div className="center-side">
+                <Link href="/">
                   <a>
-                    <img src='img/logo.png' className='img-fluid logo' alt='Logo' />
+                    <img src="img/logo.png" className="img-fluid logo" alt="Logo" />
                   </a>
                 </Link>
               </div>
-              <div className='right-side'>
-                <Link href='/#contact'>
-                  <a className='item-main-nav'>CONTACT US</a>
+              <div className="right-side">
+                <Link href="/#contact">
+                  <a className="item-main-nav">CONTACT US</a>
                 </Link>
-                <Link href='/cleanlines-guidelines'>
-                  <a className='item-nav-last'>CLEANLINESS GUIDELINES</a>
+                <Link href="/cleanlines-guidelines">
+                  <a className="item-nav-last">CLEANLINESS GUIDELINES</a>
                 </Link>
               </div>
             </div>
           </div>
         </section>
 
-        <section className='about-section'>
-          <div className='row'>
-            <div className='col-lg-8 offset-lg-2'>
-              <div className='treatment-item' data-aos='fade-up'>
-                <div className='ttl-treatment text-center mb50'>Cleanliness Guidelines</div>
-                <div className='sm-heading'>IT’S ALL START WITH HONESTY…</div>
+        <section className="about-section">
+          <div className="row">
+            <div className="col-lg-8 offset-lg-2">
+              <div className="treatment-item" data-aos="fade-up">
+                <div className="ttl-treatment text-center mb50">Cleanliness Guidelines</div>
+                <div className="sm-heading">IT’S ALL START WITH HONESTY…</div>
                 <p>
                   We would like you to relax during your visit and immerse yourself into the Spa Experience. For this
                   reason, we have taken extra measures to safeguard our guests prior to arrival.
@@ -94,8 +97,8 @@ export default function Home() {
                   <li>Please reschedule if you or anyone have been in contact with is sick.</li>
                 </ul>
               </div>
-              <div className='treatment-item border-0' data-aos='fade-up'>
-                <div className='about-title mb24'>Our staffs</div>
+              <div className="treatment-item border-0" data-aos="fade-up">
+                <div className="about-title mb24">Our staffs</div>
                 <p>
                   We ensure all of our staffs are healthy before arriving at the premise. We monitor their body
                   temperature and assess symptoms prior entering our office location before they visit our spa location.
@@ -104,10 +107,10 @@ export default function Home() {
                 <p>
                   Our staff keep a spare clean uniform at work, so they can change during their shift if they feel it is
                   required. We provide clean attire from head to toe only to be wear in the premise to minimise the
-                  chance of contamination{' '}
+                  chance of contamination{" "}
                 </p>
 
-                <div className='about-title mb24'>Area Maintenance</div>
+                <div className="about-title mb24">Area Maintenance</div>
                 <p>
                   <strong>General Area</strong>
                 </p>
@@ -164,8 +167,8 @@ export default function Home() {
                 </ul>
                 <p>
                   If you have any inquiry regarding how we handling COVID-19 in our premises, you are welcome to contact
-                  us through email{' '}
-                  <a href='mailto:care@redayspabali.com' className='link-telephone'>
+                  us through email{" "}
+                  <a href="mailto:care@redayspabali.com" className="link-telephone">
                     care@redayspabali.com
                   </a>
                   .
@@ -175,131 +178,133 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='footer'>
-          <div className='container'>
+        <section className="footer">
+          <div className="container">
             <p>RE DAY SPA, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
-            <p className='mb30'>
-              {' '}
-              <a href='tel:+6281248788391' className='link-footer'>
+            <p className="mb30">
+              {" "}
+              <a href="tel:+6281248788391" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href='mailto:care@redayaspabali.com' className='link-footer'>
+              <a href="mailto:care@redayaspabali.com" className="link-footer">
                 CARE@REDAYSPABALI.COM
               </a>
             </p>
-            <ul className='social'>
+            <ul className="social">
               <li>
                 <a
-                  href='https://www.facebook.com/pages/Re-Day-Spa/821996157852429'
-                  target='_blank'
-                  className='social-link'
-                  rel='noreferrer'
+                  href="https://www.facebook.com/pages/Re-Day-Spa/821996157852429"
+                  target="_blank"
+                  className="social-link"
+                  rel="noreferrer"
                 >
-                  <img src='img/ico-facebook.svg' className='img-fluid' />
+                  <img src="img/ico-facebook.svg" className="img-fluid" />
                 </a>
               </li>
               <li>
-                <a href='https://twitter.com/ReDaySpa' className='social-link' target='_blank' rel='noreferrer'>
-                  <img src='img/ico-twitter.svg' className='img-fluid' />
+                <a href="https://twitter.com/ReDaySpa" className="social-link" target="_blank" rel="noreferrer">
+                  <img src="img/ico-twitter.svg" className="img-fluid" />
                 </a>
               </li>
               <li>
-                <a href='https://www.instagram.com/redayspa/' className='social-link' target='_blank' rel='noreferrer'>
-                  <img src='img/ico-instagram.svg' className='img-fluid' />
+                <a href="https://www.instagram.com/redayspa/" className="social-link" target="_blank" rel="noreferrer">
+                  <img src="img/ico-instagram.svg" className="img-fluid" />
                 </a>
               </li>
             </ul>
           </div>
         </section>
 
-        <div className='button-toggle'>
-          <button className='btn btn-toggle'>
-            <img src='img/toggle.svg' className='img-fluid' />
+        <div className="button-toggle">
+          <button className="btn btn-toggle" onClick={() => setShowMobileMenu(true)}>
+            <img src="img/toggle.svg" className="img-fluid" />
           </button>
         </div>
 
-        <div className='mobile-menu'>
-          <div className='mm-header'>
-            <a href='index.html'>
-              <img src='img/logo.png' className='logo-menu' />
-            </a>
-            <div className='btn-close-menu'>
-              <button className='btn btn-for-close'>
-                <img src='img/close.svg' className='img-fluid' />
+        <div className={clsx("mobile-menu", showMobileMenu && "show")}>
+          <div className="mm-header">
+            <Link href="/">
+              <a>
+                <img src="img/logo.png" className="logo-menu" />
+              </a>
+            </Link>
+            <div className="btn-close-menu">
+              <button className="btn btn-for-close" onClick={() => setShowMobileMenu(false)}>
+                <img src="img/close.svg" className="img-fluid" />
               </button>
             </div>
           </div>
-          <div className='mm-content'>
-            <ul className='list-menu-mobile'>
-              <li>
-                <a href='index.html' className='link-menu-mobile'>
-                  HOME
-                </a>
+          <div className="mm-content">
+            <ul className="list-menu-mobile">
+              <li onClick={() => setShowMobileMenu(false)}>
+                <Link href="/">
+                  <a className="link-menu-mobile">HOME</a>
+                </Link>
+              </li>
+              <li onClick={() => setShowMobileMenu(false)}>
+                <Link href="/#about">
+                  <a className="link-menu-mobile">ABOUT</a>
+                </Link>
+              </li>
+              <li onClick={() => setShowMobileMenu(false)}>
+                <Link href="/#treatment">
+                  <a className="link-menu-mobile">TREATMENT</a>
+                </Link>
+              </li>
+              <li onClick={() => setShowMobileMenu(false)}>
+                <Link href="/#contact">
+                  <a className="link-menu-mobile">CONTACT US</a>
+                </Link>
               </li>
               <li>
-                <a href='index.html#about' className='link-menu-mobile'>
-                  ABOUT
-                </a>
-              </li>
-              <li>
-                <a href='index.html#treatment' className='link-menu-mobile'>
-                  TREATMENT
-                </a>
-              </li>
-              <li>
-                <a href='index.html#contact' className='link-menu-mobile'>
-                  CONTACT US
-                </a>
-              </li>
-              <li>
-                <a href='cleanlines-guidelines.html' className='link-menu-mobile-last'>
-                  CLEANLINESS GUIDELINES
-                </a>
+                <Link href="cleanlines-guidelines">
+                  <a className="link-menu-mobile-last">CLEANLINESS GUIDELINES</a>
+                </Link>
               </li>
             </ul>
           </div>
-          <div className='mm-footer'>
-            <p className='mb30'>
-              {' '}
-              <a href='tel:+6281237375791' className='link-footer'>
+          <div className="mm-footer">
+            <p className="mb30">
+              {" "}
+              <a href="tel:+6281237375791" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href='mailto:care@redayaspabali.com' className='link-footer'>
+              <a href="mailto:care@redayaspabali.com" className="link-footer">
                 CARE@REDAYSPABALI.COM
               </a>
             </p>
-            <ul className='social'>
+            <ul className="social">
               <li>
                 <a
-                  href='https://www.facebook.com/pages/Re-Day-Spa/821996157852429'
-                  target='_blank'
-                  className='social-link'
-                  rel='noreferrer'
+                  href="https://www.facebook.com/pages/Re-Day-Spa/821996157852429"
+                  target="_blank"
+                  className="social-link"
+                  rel="noreferrer"
                 >
-                  <img src='img/ico-facebook.svg' className='img-fluid' />
+                  <img src="img/ico-facebook.svg" className="img-fluid" />
                 </a>
               </li>
               <li>
-                <a href='https://twitter.com/ReDaySpa' className='social-link' target='_blank' rel='noreferrer'>
-                  <img src='img/ico-twitter.svg' className='img-fluid' />
+                <a href="https://twitter.com/ReDaySpa" className="social-link" target="_blank" rel="noreferrer">
+                  <img src="img/ico-twitter.svg" className="img-fluid" />
                 </a>
               </li>
               <li>
-                <a href='https://www.instagram.com/redayspa/' className='social-link' target='_blank' rel='noreferrer'>
-                  <img src='img/ico-instagram.svg' className='img-fluid' />
+                <a href="https://www.instagram.com/redayspa/" className="social-link" target="_blank" rel="noreferrer">
+                  <img src="img/ico-instagram.svg" className="img-fluid" />
                 </a>
               </li>
             </ul>
           </div>
         </div>
 
-        <script src='js/vendor/jquery-3.5.1.min.js'></script>
-        <script src='js/vendor/bootstrap.bundle.min.js'></script>
-        <script src='js/vendor/modernizr-3.11.2.min.js'></script>
-        <script src='js/vendor/aos.js'></script>
-        <script src='js/vendor/swiper.min.js'></script>
-        <script src='js/plugins.js'></script>
-        <script src='js/main.js'></script>
+        <script src="js/vendor/jquery-3.5.1.min.js"></script>
+        <script src="js/vendor/bootstrap.bundle.min.js"></script>
+        <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+        <script src="js/vendor/aos.js"></script>
+        <script src="js/vendor/swiper.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
       </body>
     </>
   );
