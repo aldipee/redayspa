@@ -112,7 +112,6 @@ export default function Home() {
             <div className="row">
               <div className="col-lg-10 offset-lg-1">
                 <h2 className="mb40" data-aos="fade-up">
-                  {" "}
                   FULL BODY MESSAGE{" "}
                 </h2>
                 <div className="treatment-item" data-aos="fade-up">
@@ -206,6 +205,36 @@ export default function Home() {
                       <p>You can choose our selection of scrubs: coconut vanila / coffee / lulur.</p>
 
                       <p className="font-bold green">30mins - 150K</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-10 offset-lg-1">
+                <h2 className="mb40" data-aos="fade-up">
+                  OTHER TREATMENT
+                </h2>
+                <div className="treatment-item" data-aos="fade-up">
+                  <div className="row">
+                    <div className="col-sm-6">
+                      <div className="sm-heading">HAND & FOOT MASSAGE</div>
+                    </div>
+                    <div className="col-sm-6">
+                      <p>Hand, sholder, nec massage and foot relaxing massage.</p>
+
+                      <p className="font-bold green">90mins - 300k</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="treatment-item" data-aos="fade-up">
+                  <div className="row">
+                    <div className="col-sm-6">
+                      <div className="sm-heading">HEAD TO TOE MASSAGE</div>
+                    </div>
+                    <div className="col-sm-6">
+                      <p>Head massage, neck & shoulder, hand, and foot massage. Not include body massage.</p>
+                      <p className="font-bold green">120mins - 400k</p>
                     </div>
                   </div>
                 </div>
