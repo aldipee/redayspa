@@ -221,7 +221,7 @@ export default function Home() {
                       <div className="sm-heading">HAND & FOOT MASSAGE</div>
                     </div>
                     <div className="col-sm-6">
-                      <p>Hand, sholder, neck massage and foot relaxing massage.</p>
+                      <p>Hand, shoulder, neck massage and foot relaxing massage.</p>
 
                       <p className="font-bold green">90mins - 300k</p>
                     </div>
