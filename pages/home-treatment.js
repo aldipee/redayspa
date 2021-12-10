@@ -111,10 +111,14 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-lg-10 offset-lg-1">
+                <h2 className="mb40" data-aos="fade-up">
+                  {" "}
+                  FULL BODY MESSAGE{" "}
+                </h2>
                 <div className="treatment-item" data-aos="fade-up">
                   <div className="row">
                     <div className="col-sm-6">
-                      <div className="sm-heading">RE SIGNATURE MASSAGE</div>
+                      <div className="sm-heading">AROMASENSE MASSAGE</div>
                     </div>
                     <div className="col-sm-6">
                       <p>Smell the aromatherapy oil, your body knows best.</p>
@@ -122,11 +126,15 @@ export default function Home() {
                         Let your senses pick the right blended infused oil. Feel grounded by nurturing your natural
                         state with a combination of Balinese, Reiki, and Aromatherapy techniques
                       </p>
-                      <p className="font-bold green">120mins - 480k</p>
+                      <p className="font-bold green">
+                        90mins - 400k
+                        <br />
+                        120mins - 480K
+                      </p>
                     </div>
                   </div>
                 </div>
-                <div className="treatment-item" data-aos="fade-up">
+                {/* <div className="treatment-item" data-aos="fade-up">
                   <div className="row">
                     <div className="col-sm-6">
                       <div className="sm-heading">RE SIGNATURE SCRUB MASSAGE</div>
@@ -147,7 +155,7 @@ export default function Home() {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="treatment-item" data-aos="fade-up">
                   <div className="row">
                     <div className="col-sm-6">
@@ -160,9 +168,9 @@ export default function Home() {
                         increase flexibility and ultimately relax your entire body.
                       </p>
                       <p className="font-bold green">
-                        90mins - 380k
+                        90mins - 400K
                         <br />
-                        120mins - 450k
+                        120mins - 480k
                       </p>
                     </div>
                   </div>
@@ -182,10 +190,22 @@ export default function Home() {
                         result is an overall grounding effect on the body and mind
                       </p>
                       <p className="font-bold green">
-                        90mins - 380k
+                        90mins - 430K
                         <br />
-                        120mins - 450k
+                        120mins - 520k
                       </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="treatment-item" data-aos="fade-up">
+                  <div className="row">
+                    <div className="col-sm-6">
+                      <div className="sm-heading">ADDITIONAL BODY SCRUB</div>
+                    </div>
+                    <div className="col-sm-6">
+                      <p>You can choose our selection of scrubs: coconut vanila / coffee / lulur.</p>
+
+                      <p className="font-bold green">30mins - 150K</p>
                     </div>
                   </div>
                 </div>
