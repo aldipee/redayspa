@@ -57,9 +57,9 @@ export default function Home() {
                 <a href="https://wa.me/6281237375791" className="btn btn-bordered">
                   REACH OUR WHATSAPP
                 </a>
-                <Link href="spa-promotion">
+                {/* <Link href="spa-promotion">
                   <a className="btn btn-bordered">IN SPA PROMOTION</a>
-                </Link>
+                </Link> */}
                 <Link href="home-treatment">
                   <a className="btn btn-bordered">SEE HOME TREATMENT MENU</a>
                 </Link>
