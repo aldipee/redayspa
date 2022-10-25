@@ -146,7 +146,7 @@ export default function Home() {
                         <p className="font-bold green">
                           90 / 120 min
                           <br />
-                          400 / 550 IDR
+                          450 / 650 IDR
                         </p>
                       </div>
                     </div>
