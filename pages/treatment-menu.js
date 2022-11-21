@@ -95,6 +95,12 @@ export default function Home() {
                       </div>
                       <div className="text-center mb30">
                         <div className="sm-heading">AROMASENSE MASSAGE</div>
+                        <p>
+                          Relax and heal with our beautiful blend of aromatherapy oil with 100% natural essential oils. Choose one of our four blends* to induce calm and help your body surrender to an invigorating combination of Balinese, Reiki, and Aromatherapy techniques.
+                          <br />
+                          *you can choose energize/detox/wellbeing/tranquility EO blend
+                        </p>
+                        /*
                         <p className="italic green">Wellbeing & Balance</p>
                         <p>
                           Relax and heal with our beautiful blend of Wellbeing oil. Allow the fragrance to induce calm
@@ -118,10 +124,11 @@ export default function Home() {
                           Aromatherapy massage, applies pressure point massage techniques to relax and to revitalize
                           your body.
                         </p>
+                        */
                         <p className="font-bold green">
-                          60 / 90 min
+                          60 / 90 / 120 min
                           <br />
-                          280 / 400 IDR
+                          280 / 400 / 500 IDR
                         </p>
                       </div>
                       <div className="text-center mb30">
