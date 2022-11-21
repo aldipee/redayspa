@@ -534,8 +534,7 @@ export default function Home() {
                         <div className="sm-heading">ACHING FOOT RELAXER</div>
                         <p>
                           Our holistic foot massage is performed with firm stroke to help you release fatigue and leave
-                          leg muscles feel lighten. Complemented with a warm towel to cocoon your feet, set free of the
-                          aching.
+                          leg muscles feel lighten.
                         </p>
                         <p className="font-bold green">
                           60 min
@@ -546,8 +545,7 @@ export default function Home() {
                       <div className="text-center mb30">
                         <div className="sm-heading">FOOT REFLEXOLOGY</div>
                         <p>
-                          A combination of thumb-and-finger technique delivers an invigorating and relaxing massage. A
-                          warm towel to cocoon your feet, leaves you feeling totally relaxed and restores your body’s
+                          A combination of thumb-and-finger technique delivers an invigorating and relaxing massage. Leaves you feeling totally relaxed and restores your body’s
                           natural state of equilibrium.
                         </p>
                         <p className="font-bold green">
