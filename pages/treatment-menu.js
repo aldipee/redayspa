@@ -198,14 +198,11 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>THE BALI SPLENDOR</div>
                         <p>
-                          Using an original blend of different natural ingredients, this invigorating scrub eliminates
-                          the body’s dead skin cells and leaves your skin feeling soft and radiant. Afterwards, a
-                          sumptuous sandalwood body moisturizer will leave you feeling totally refreshed and relaxed.
+                          Experience the authentic Balinese beauty regime in our spa. Enjoy an invigorating Balinese massage continues with our traditional Lulur blend to eliminate the dead skin cells and leave your skin feeling soft and radiant.
                         </p>
                         <p className='italic green'>Treatment Steps</p>
                         <p>
-                          Lime and Himalayan Salt Refreshing Foot Ritual + Balinese Massage + Lulur Ritual + Sandalwood
-                          Body Moisturizer
+                          Refreshing Foot Bath + Balinese Massage + Lulur + Shower & Body Lotion
                         </p>
                         <p className='font-bold green'>
                           1 hr 45 min
@@ -216,16 +213,11 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>TRANQUIL HAVEN</div>
                         <p>
-                          Lemon and Rosemary blended oil will be left to absorb deep into the skin, while a stimulating
-                          Lemon aroma encourages the release and elimination of toxins. Commencing with a detoxifying
-                          coffee body scrub to remove dead skin cells, your body feels thoroughly cleansed and
-                          re-mineralized before being enveloped in a nourishing coffee body moisturizer. You will feel
-                          refreshed, revived and toned as your journey is concluded.
+                          Our signature Detox massage oil blend, combined with our signature massage technique will stimulate the release and elimination of toxins from your body. Topped-off with our Coffee Scrub to resurface your skin, you will feel refreshed, revived, and toned as your journey is concluded.
                         </p>
                         <p className='italic green'>Treatment Steps</p>
                         <p>
-                          Lime and Himalayan Salt Refreshing Foot Ritual + Detoxify & Recharge Aromasense Massage +
-                          Coffee Scrub + Coffee Body Moisturizer
+                          Refreshing Foot Bath + Aromasense Massage + Coffee Scrub + Shower & Body Lotion
                         </p>
                         <p className='font-bold green'>
                           1 hr 45 min
@@ -236,14 +228,11 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>THE BODY LUSTER</div>
                         <p>
-                          Application of a healing property of Coconut Oil draws out impurities to further improve skin
-                          condition. Complete your journey with a revitalizing full body Aromasense massage with our
-                          unique earthy scent Vetiver oil blend.
+                          The perfect package to bring back your skin luster, great for dry-flaky skin. Start the treatment with energizing Aromasense massage and then slush out the dull skin with our Coconut & Vanilla Scrub. Say hello to supple radiant skin afterward.
                         </p>
                         <p className='italic green'>Treatment Steps</p>
                         <p>
-                          Lime and Himalayan Salt Refreshing Foot Ritual + Oil Drizzling + Coconut and Vanilla Scrub +
-                          Energizing & Reboot Aromasense Massage
+                          Refreshing Foot Bath + Aromasense Massage + Coconut & Vanilla Scrub + Shower & Body Lotion
                         </p>
                         <p className='font-bold green'>
                           1 hr 45 min
