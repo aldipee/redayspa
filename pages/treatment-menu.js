@@ -143,9 +143,9 @@ export default function Home() {
                           blended oil, the result is an overall grounding effect on the body and mind.
                         </p>
                         <p className='font-bold green'>
-                          60 / 90 min
+                          60 / 90 / 120 min
                           <br />
-                          300 / 430 IDR
+                          300 / 430 / 540 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
