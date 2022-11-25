@@ -100,14 +100,14 @@ export default function Home() {
                           Choose one of our four blends* to induce calm and help your body surrender to an invigorating
                           combination of Balinese, Reiki, and Aromatherapy techniques.
                           <br />
-                          *you can choose energize/detox/wellbeing/tranquility EO blend
+                          You can choose <span className='italic green'>Energize / Detox / Wellbeing / Tranquility</span> Essential Oil blend
                         </p>
                         {/* <p className='italic green'>Wellbeing & Balance</p>
                         <p>
                           Relax and heal with our beautiful blend of Wellbeing oil. Allow the fragrance to induce calm
                           and to help your body surrender to an invigorating combination of Balinese, Reiki and
                           Aromatherapy techniques.
-                        </p> */}
+                        </p> 
                       </div>
                       <div className='text-center mb30'>
                         <p className='italic green'>Energize & Reboot</p>
@@ -124,7 +124,7 @@ export default function Home() {
                           Using our unique blend of Detoxifying oil, this therapeutic experience, in the form of an
                           Aromatherapy massage, applies pressure point massage techniques to relax and to revitalize
                           your body.
-                        </p>
+                        </p> */}
                         <p className='font-bold green'>
                           60 / 90 / 120 min
                           <br />
