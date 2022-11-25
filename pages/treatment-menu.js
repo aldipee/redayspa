@@ -138,9 +138,18 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>DEEP TISSUE RUBDOWN</div>
                         <p>
-                          Deep and relaxing massage therapy that focuses on realigning deeper layers of muscles and
-                          connective tissue. With the uplifting effects of the fresh and potent Clove and Ginger infused
-                          blended oil, the result is an overall grounding effect on the body and mind.
+                        Deep and relaxing massage therapy that focuses on realigning deeper layers of muscles and connective tissue to relieve tension, reduce stress and re-align the body as a whole. 
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          300 / 430 / 540 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>DRY MASSAGE</div>
+                        <p>
+                          Oil-free massage with finger pressure technique to massage the body at specific points to focus on the meridian lines or nerve flow from head to toe.
                         </p>
                         <p className='font-bold green'>
                           60 / 90 / 120 min
