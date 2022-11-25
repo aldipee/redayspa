@@ -88,9 +88,9 @@ export default function Home() {
                           increase flexibility and ultimately relax your entire body.
                         </p>
                         <p className='font-bold green'>
-                          60 / 90 min
+                          60 / 90 / 120 min
                           <br />
-                          280 / 400 IDR
+                          280 / 400 / 500 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
@@ -129,6 +129,7 @@ export default function Home() {
                           Aromatherapy massage, applies pressure point massage techniques to relax and to revitalize
                           your body.
                         </p> */}
+
                         <p className='font-bold green'>
                           60 / 90 / 120 min
                           <br />
@@ -138,14 +139,23 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>DEEP TISSUE RUBDOWN</div>
                         <p>
-                          Deep and relaxing massage therapy that focuses on realigning deeper layers of muscles and
-                          connective tissue. With the uplifting effects of the fresh and potent Clove and Ginger infused
-                          blended oil, the result is an overall grounding effect on the body and mind.
+                          Deep and relaxing massage therapy that focuses on realigning deeper layers of muscles and connective tissue to relieve tension, reduce stress and re-align the body as a whole. 
                         </p>
                         <p className='font-bold green'>
-                          60 / 90 min
+                          60 / 90 / 120 min
                           <br />
-                          300 / 430 IDR
+                          300 / 430 / 540 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>DRY MASSAGE</div>
+                        <p>
+                          Oil-free massage with finger pressure technique to massage the body at specific points to focus on the meridian lines or nerve flow from head to toe.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          300 / 430 / 540 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
@@ -163,12 +173,22 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>FOUR HANDS MASSAGE</div>
                         <p>
-                        A perfectly choreographed Balinese massage technique performed by two therapists at the same time, and in perfect harmony creating a unique and unforgettable massage therapy for you.
+                          A perfectly choreographed Balinese massage technique performed by two therapists at the same time, and in perfect harmony creating a unique and unforgettable massage therapy for you.
                         </p>
                         <p className='font-bold green'>
                           60 / 90 min
                           <br />
                           470 / 600 IDR
+                        </p>
+                        <div className='text-center mb30'>
+                        <div className='sm-heading'>FOUR HANDS MASSAGE</div>
+                        <p>
+                          Gentle, side-lying massage with aromatherapy technique for mom-to-be after their first trimester. Helps to reduce swelling, nausea, and muscle tension with a unique blend of pregnancy-safe aromatic massage oil.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 min
+                          <br />
+                          300 / 430 IDR
                         </p>
                       </div>
                     </div>
