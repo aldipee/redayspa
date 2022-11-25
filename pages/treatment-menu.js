@@ -160,6 +160,17 @@ export default function Home() {
                           450 / 650 IDR
                         </p>
                       </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>FOUR HANDS MASSAGE</div>
+                        <p>
+                        A perfectly choreographed Balinese massage technique performed by two therapists at the same time, and in perfect harmony creating a unique and unforgettable massage therapy for you.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 min
+                          <br />
+                          470 / 600 IDR
+                        </p>
+                      </div>
                     </div>
 
                     <div className='col-sm-6'>
