@@ -249,14 +249,11 @@ export default function Home() {
                       <div className='treatment-heading mb24'>REJUVENATE FACIAL</div>
                       <div className='text-center mb30'>
                         <p className='mb30'>
-                          All facial treatments are using BIOKOS products, include a relaxing scalp massage, and full
-                          facial massage to reduce muscle tension and firm facial contours.
+                          All facial treatments include a relaxing scalp massage and full facial massage to stimulate blood circulation, firm facial contour, and address each individual facial concern.
                         </p>
                         <div className='sm-heading'>REHYDRATING FACIAL</div>
                         <p>
-                          Gentle deep cleansing and exfoliation helps the skin to improve the absorption of nourishing
-                          moisturizing mask, with ingredients specifically chosen for deeply rehydrating that will
-                          leaves the skin smooth, supple and nourished.
+                          Gentle deep cleansing and exfoliation help the skin to improve the absorption of a nourishing moisturizing mask. Focuses on replenishing dry skin by providing vital nutrients that will restore skin hydration so that skin becomes more supple and healthy.
                         </p>
                         <p className='font-bold green'>
                           60 min
@@ -267,9 +264,7 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>REBALANCING FACIAL</div>
                         <p>
-                          An intensive purifying treatment for oily and combination skin. Incorporates steams and hot
-                          towel compresses, alongside facial massage and oil control mask help soothe, calm, rebalance,
-                          to encourage clearer complexion.
+                          An intensive clarifying treatment specifically for oily/acne-prone skin. Incorporates steams, alongside facial massage and calming facial mask, this facial treatment aims to help repair the skin barrier to achieve balance and a clearer complexion.
                         </p>
                         <p className='font-bold green'>
                           60 min
@@ -280,14 +275,34 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>REGENERATING FACIAL</div>
                         <p>
-                          ntensive boost for maturing or distressed skin, to give concentrated protection and
-                          nourishment. Focusing on regenerating, firming, and nourishing, this facial leaves the skin
-                          fresh, revitalized and plumped.
+                          Intensive boost for dull/distressed skin, with a facial massage to help stimulate new collagen formation. This will help with skin regeneration, improve dark-spots/hyperpigmentation, and leaves the skin radiant and plump after treatment.
                         </p>
                         <p className='font-bold green'>
                           60 min
                           <br />
                           450 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>ANTI-AGING FACIAL</div>
+                        <p>
+                          This facial treatment targets maturing skin and will help to bring back the skin's elasticity, glow, and youthful appearance. Enriched with silk protein and gold extract which is high in antioxidant and helps to fight wrinkles and hyperpigmentation.
+                        </p>
+                        <p className='font-bold green'>
+                          60 min
+                          <br />
+                          500 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>SUN S.O.S MINI FACIAL</div>
+                        <p>
+                          Give your sun-soaked face some extra TLC with a cooling mini-facial treatment. Aloe Vera - a cherished ingredient used for centuries will help to reduce redness, restore luminosity after it's been dehydrated and weather-worn, also relieve heat/stinging after being overexposed to UV rays.
+                        </p>
+                        <p className='font-bold green'>
+                          30 min
+                          <br />
+                          300 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
