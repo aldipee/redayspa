@@ -97,11 +97,15 @@ export default function Home() {
                         <div className='sm-heading'>AROMASENSE MASSAGE</div>
                         <p>
                           Relax and heal with our beautiful blend of aromatherapy oil with 100% natural essential oils.
-                          Choose one of our four blends* to induce calm and help your body surrender to an invigorating
+                          Choose one of our four blends to induce calm and help your body surrender to an invigorating
                           combination of Balinese, Reiki, and Aromatherapy techniques.
-                          <br />
-                          You can choose <span className='italic green'>Energize / Detox / Wellbeing / Tranquility</span> Essential Oil blend
                         </p>
+                        <p>
+                          Essential oil options:
+                          <br />
+                          <span className='italic green'>Energize / Detox / Wellbeing / Tranquility</span>
+                        </p>
+                    
                         {/* <p className='italic green'>Wellbeing & Balance</p>
                         <p>
                           Relax and heal with our beautiful blend of Wellbeing oil. Allow the fragrance to induce calm
