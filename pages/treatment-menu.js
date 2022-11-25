@@ -124,7 +124,6 @@ export default function Home() {
                           Aromatherapy massage, applies pressure point massage techniques to relax and to revitalize
                           your body.
                         </p>
-                        */
                         <p className="font-bold green">
                           60 / 90 / 120 min
                           <br />
