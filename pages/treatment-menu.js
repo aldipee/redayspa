@@ -316,9 +316,21 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>HERITAGE HAIR CARE</div>
                         <p>
-                          This famous traditional treatment includes hair shampooing, conditioning scalp massage with
-                          intensive hair treatment cream and nourishing hair tonic. It also comes with a deeply relaxing
-                          hand, neck and shoulder massage.
+                          A famous Indonesian "creambath" for hair, includes hair wash, and relaxing scalp massage with intensive hair treatment cream from Makarizo. Finished with another round of hair wash and conditioner, plus hair tonic to strengthen hair and healthy scalp.
+                        </p>
+                        <p className='italic green'>
+                          Cream options:
+                        </p>
+                        <p>
+                          Dark Chocolate: deep moisturizing/dry hair
+                          <br />
+                          Strawberry Yogurt: shine boosting/dull hair
+                          <br />
+                          Mint Sorbet: itchy scalp/dandruff
+                          <br />
+                          Green Tea Butter: intensive repair/damaged hair
+                          <br />
+                          Vanilla Milk: nourishing/frizzy hair
                         </p>
                         <p className='font-bold green'>
                           60 min
