@@ -284,17 +284,6 @@ export default function Home() {
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>ANTI AGING FACIAL</div>
-                        <p>
-                          This facial treatment targets maturing skin and will help to bring back the skin's elasticity, glow, and youthful appearance. Enriched with silk protein and gold extract which is high in antioxidant and helps to fight wrinkles and hyperpigmentation.
-                        </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          500 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
                         <div className='sm-heading'>TOTAL HOLISTIC FACIAL</div>
                         <p>
                           A soothing aromatherapy back massage using essential oil, is followed by a Rējuvenate Facial
