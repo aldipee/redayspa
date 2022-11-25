@@ -180,6 +180,17 @@ export default function Home() {
                           470 / 600 IDR
                         </p>
                       </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>PRENATAL MASSAGE</div>
+                        <p>
+                          Gentle, side-lying massage with aromatherapy technique for mom-to-be after their first trimester. Helps to reduce swelling, nausea, and muscle tension with a unique blend of pregnancy-safe aromatic massage oil.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 min
+                          <br />
+                          300 / 430 IDR
+                        </p>
+                      </div>
                     </div>
 
                     <div className='col-sm-6'>
