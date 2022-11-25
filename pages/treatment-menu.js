@@ -102,12 +102,12 @@ export default function Home() {
                           <br />
                           *you can choose energize/detox/wellbeing/tranquility EO blend
                         </p>
-                        <p className='italic green'>Wellbeing & Balance</p>
+                        {/* <p className='italic green'>Wellbeing & Balance</p>
                         <p>
                           Relax and heal with our beautiful blend of Wellbeing oil. Allow the fragrance to induce calm
                           and to help your body surrender to an invigorating combination of Balinese, Reiki and
                           Aromatherapy techniques.
-                        </p>
+                        </p> */}
                       </div>
                       <div className='text-center mb30'>
                         <p className='italic green'>Energize & Reboot</p>
