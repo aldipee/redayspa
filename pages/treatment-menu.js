@@ -100,12 +100,10 @@ export default function Home() {
                           Choose one of our four blends to induce calm and help your body surrender to an invigorating
                           combination of Balinese, Reiki, and Aromatherapy techniques.
                         </p>
-                        <p>
+                        <p className='italic green'>
                           Essential oil options:
-                          <br />
-                          <span className='italic green'>Energize / Detox / Wellbeing / Tranquility</span>
                         </p>
-                    
+                        <p>Energize / Detox / Wellbeing / Tranquility</p>
                         {/* <p className='italic green'>Wellbeing & Balance</p>
                         <p>
                           Relax and heal with our beautiful blend of Wellbeing oil. Allow the fragrance to induce calm
