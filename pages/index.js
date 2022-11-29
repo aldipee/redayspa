@@ -186,9 +186,14 @@ export default function Home() {
                 <div className="mb10">
                   <div className="sm-heading">HOURS</div>
                   <p>
+                    In-Spa
+                    <br />
+                    <strong>10am - 10pm</strong>
+                  </p>
+                  <p>
                     Home Pampering
                     <br />
-                    <strong>10am - 6pm</strong>
+                    <strong>Last booking 7pm</strong>
                   </p>
                 </div>
               </div>
@@ -402,7 +407,7 @@ export default function Home() {
             <ul className="list-menu-mobile">
               <li onClick={() => setShowMobileMenu(false)}>
                 <a href="#top" className="link-menu-mobile">
-                  HOME AJA
+                  HOME
                 </a>
               </li>
               <li onClick={() => setShowMobileMenu(false)}>
