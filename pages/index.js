@@ -322,6 +322,7 @@ export default function Home() {
                 </a>{" "}
                 or book online by filling the form.
               </p>
+              {/*
               <div className="ttl-contact mb30">CONTACT US</div>
               <button
                 className="btn btn-green open-form mb40"
@@ -332,6 +333,7 @@ export default function Home() {
               >
                 Open Form
               </button>
+              */}
 
               <div className="map">
                 <iframe
