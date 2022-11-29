@@ -469,6 +469,7 @@ export default function Home() {
           </div>
         </div>
 
+        {/*
         <div className={clsx("overlay", showContact && "overlayshow")}></div>
         <div className={clsx("popup-wrapper", showContact && "showing")}>
           <div className="popup-card">
@@ -586,6 +587,7 @@ export default function Home() {
             </Formik>
           </div>
         </div>
+        */}
 
         <script src="js/vendor/jquery-3.5.1.min.js"></script>
         <script src="js/vendor/bootstrap.bundle.min.js"></script>
