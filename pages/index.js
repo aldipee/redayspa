@@ -308,7 +308,7 @@ export default function Home() {
                 </a>{" "}
                 or{" "}
                 <a
-                  href="https://wa.me/6281237375791?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20home%20spa%20treatment%20you%20offer."
+                  href="https://wa.me/6281237375791?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20spa%20treatment%20you%20offer."
                   target="_blank"
                   className="link-telephone"
                   rel="noreferrer"
