@@ -8,9 +8,9 @@ import Link from "next/link";
 import clsx from "clsx";
 
 export default function Home() {
-  const [showContact, setShowContact] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [showContact, setShowContact] = useState(false);
   const formikRef = useRef(null);
 
   const contactUsSchema = Yup.object().shape({
