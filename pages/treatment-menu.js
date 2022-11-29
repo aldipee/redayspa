@@ -293,28 +293,9 @@ export default function Home() {
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>TOTAL HOLISTIC FACIAL</div>
+                        <div className='sm-heading'>SUN S.O.S MINI FACIAL</div>
                         <p>
-                          A soothing aromatherapy back massage using essential oil, is followed by a Rējuvenate Facial
-                          tailored to your specific needs. While you are being indulged with Cell Activator Mask, a
-                          deeply relaxing hand massage is performed so you are left calm and comfortable.
-                        </p>
-                        <p className='font-bold green'>
-                          90 min
-                          <br />
-                          500 IDR
-                        </p>
-                      </div>
-                    </div>
-
-                    <div className='col-sm-6'>
-                      <div className='treatment-heading mb24'>REPLENISH TREATMENT</div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>HUFF THE PUFF</div>
-                        <p>
-                          A blissful firming and hydrating treatment using specific products rich in Bio-Aloe Vera
-                          Extract and Collagen, which help to reduce the appearance of dark circles and fine lines
-                          around the eye area.
+                          Give your sun-soaked face some extra TLC with a cooling mini-facial treatment. Aloe Vera - a cherished ingredient used for centuries will help to reduce redness, restore luminosity after {`it's`} been dehydrated and weather-worn, also relieve heat/stinging after being overexposed to UV rays.
                         </p>
                         <p className='font-bold green'>
                           30 min
@@ -322,6 +303,10 @@ export default function Home() {
                           300 IDR
                         </p>
                       </div>
+                    </div>
+
+                    <div className='col-sm-6'>
+                      <div className='treatment-heading mb24'>REPLENISH TREATMENT</div>
                       <div className='text-center mb30'>
                         <div className='sm-heading'>HERITAGE HAIR CARE</div>
                         <p>
@@ -348,6 +333,18 @@ export default function Home() {
                         </p>
                       </div>
                       <div className='text-center mb30'>
+                        <div className='sm-heading'>Luxurious Keratin Mask</div>
+                        <p>
+                          {`You'll`} be pampered with this luxurious treatment. Start the treatment with hair wash, and then continues with a scalp massage while the ultra-rich keratin cream is applied to your hair. The Keratin Mask is infused with argan oil to increase hair softness and also reduce hair breakage and split ends.
+                          {`You'll`} also get hand, neck, and shoulder massage included in this treatment. Fabulous shinny and soft hair awaits.
+                        </p>
+                        <p className='font-bold green'>
+                          90 min
+                          <br />
+                          450 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
                         <div className='sm-heading'>INTENSELY NOURISHING HAIR WITH HOT OIL</div>
                         <p>
                           Rich warm olive oil infused with fresh pandanus leaves, is massaged into the hair, releasing
@@ -358,19 +355,6 @@ export default function Home() {
                           60 min
                           <br />
                           300 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>INTUITIVE HEAD PAMPER</div>
-                        <p>
-                          A calming yet energizing intuitive head massage focusing upon vital energy points. Warm
-                          infused olive oil with fresh pandanus leaves will help to reduce tensions and increase
-                          circulation to leave you with a profound sense of wellbeing.
-                        </p>
-                        <p className='font-bold green'>
-                          30 min
-                          <br />
-                          120 IDR
                         </p>
                       </div>
                     </div>
@@ -475,8 +459,11 @@ export default function Home() {
                     </div>
 
                     <div className='col-sm-6'>
-                      <div className='treatment-heading mb24'>HASTY REMEDY</div>
+                      <div className='treatment-heading mb24'>ADD ON</div>
                       <div className='text-center mb30'>
+                        <p className='mb30'>
+                          Have some extra care to your treatment. The treatments below can only be done on top of other treatments as an addition / cannot be taken alone.
+                        </p>
                         <div className='sm-heading'>MINI FACIAL</div>
                         <p>
                           A mini facial that uses an exfoliating cleanser to clean off any residual makeup, oil and
@@ -510,7 +497,7 @@ export default function Home() {
                           circulation to leave you with a profound sense of wellbeing.
                         </p>
                         <p className='font-bold green'>
-                          20 min
+                          30 min
                           <br />
                           120 IDR
                         </p>
