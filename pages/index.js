@@ -322,6 +322,15 @@ export default function Home() {
                 </a>{" "}
                 or book online by filling the form.
               </p>
+              <div>
+                <a
+                  href="https://widget.zenwel.com/234592772/re-day-spa?lang=id&lid=2879"
+                  className="btn btn-green open-form mb40"
+                  target="_blank"
+                >
+                  Book Online
+                </a>
+              </div>
               {/*
               <div className="ttl-contact mb30">CONTACT US</div>
               <button
