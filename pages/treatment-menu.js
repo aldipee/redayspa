@@ -459,6 +459,18 @@ export default function Home() {
                           </p>
                         </div>
                       </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>OTHER</div>
+                        <div className='mb30'>
+                          <p className='font-bold green'>
+                            Nail Polish only (hands/feet) 30 min / 120 IDR
+                            <br />
+                            Gel Polish only (hands/feet) 30 min / 150 IDR
+                            <br />
+                            Gel Polish removal (hands/feet) 15 min / 60 IDR
+                          </p>
+                        </div>
+                      </div>
                     </div>
 
                     <div className='col-sm-6'>
