@@ -386,7 +386,7 @@ export default function Home() {
                           <br />
                           For gel polishes we use CND Shellac, Gelish, and O.P.I.
                           <br />
-                          Feel free to browse our extensive color collection in-spa.
+                          Feel free to browse our extensive color collection in spa.
                         </p>
                       </div>
                       <div className='text-center mb30'>
@@ -405,6 +405,22 @@ export default function Home() {
                           </p>
                           <p>
                             Nails trim and shape, Cuticle cleaning, buffing, hand massage & exfoliation, and polish.
+                          </p>
+                        </div>
+                        <div className='mb30'>
+                          <p className='font-bold green'>
+                            Sport 45 min / 160 IDR
+                          </p>
+                          <p>
+                            Nails trim and shape, Cuticle cleaning, buffing, hand massage & exfoliation.
+                          </p>
+                        </div>
+                        <div className='mb30'>
+                          <p className='font-bold green'>
+                            Gel / Shellac 60 min / 200 IDR
+                          </p>
+                          <p>
+                            Nails trim and shape, Cuticle cleaning, buffing, hand massage & exfoliation, and gel polish.
                           </p>
                         </div>
                       </div>
