@@ -104,29 +104,6 @@ export default function Home() {
                           Essential oil options:
                         </p>
                         <p>Energize / Detox / Wellbeing / Tranquility</p>
-                        {/* <p className='italic green'>Wellbeing & Balance</p>
-                        <p>
-                          Relax and heal with our beautiful blend of Wellbeing oil. Allow the fragrance to induce calm
-                          and to help your body surrender to an invigorating combination of Balinese, Reiki and
-                          Aromatherapy techniques.
-                        </p> 
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='italic green'>Energize & Reboot</p>
-                        <p>
-                          Experience our signature massage and allow yourself to slip into oblivion while your stress
-                          melts under a warm coat of Vetiver infused blended oil. A full body massage, employing
-                          aromatherapy technique, is a truly tranquil experience for those who need a break from their
-                          busy life, or a long day of travelling.
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='italic green'>Detoxify & Recharge</p>
-                        <p>
-                          Using our unique blend of Detoxifying oil, this therapeutic experience, in the form of an
-                          Aromatherapy massage, applies pressure point massage techniques to relax and to revitalize
-                          your body.
-                        </p> */}
                         <p className='font-bold green'>
                           60 / 90 / 120 min
                           <br />
@@ -236,6 +213,36 @@ export default function Home() {
                           1 hr 45 min
                           <br />
                           430 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>SUN RELIEVER</div>
+                        <p>
+                          Out and about all day in the sun is not only physically exhausting for your body, but also for your skin. Come and get some after-sun/relaxation and take care of your body and let it heal to enjoy the rest of your stay in this sunshine island of Bali.
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing Foot Bath + Aromasense Massage + Aloe Body Mask + Sun S.O.S. Mini Facial
+                        </p>
+                        <p className='font-bold green'>
+                          1 hr 45 min
+                          <br />
+                          650 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>THE ROYAL</div>
+                        <p>
+                          The ultimate care package to make you feel like royalty! Pamper yourself from head to toe and feel luxurious authentic Balinese Royal ritual yourself. Guaranteed you will leave refreshed and looking absolutely perfect.
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing Foot Bath + Balinese Massage + Lulur + Regenerating Facial + Sport Manicure & Pedicure
+                        </p>
+                        <p className='font-bold green'>
+                          3 hr 45 min
+                          <br />
+                          1000 IDR
                         </p>
                       </div>
                     </div>
