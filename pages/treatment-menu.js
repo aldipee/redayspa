@@ -391,98 +391,22 @@ export default function Home() {
                       </div>
                       <div className='text-center mb30'>
                         <div className='sm-heading'>MANICURE</div>
-                        <p className='font-bold green'>
-                          Basic 45 min / 180 IDR
-                        </p>
-                        <p>
-                          Nails trim and shape, buffing, hand massage, and polish (no cuticle work & exfoliation)
-                        </p>
-                        <p className='font-bold green'>
-                          Complete 60 min / 200 IDR
-                        </p>
-                        <p>
-                          Nails trim and shape, Cuticle cleaning, buffing, hand massage & exfoliation, and polish.
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>RESHINE MANICURE OPI</div>
-                        <p>
-                          Rēshine spa manicure, to feel relaxed, nourished, thoroughly pampered and revitalized.
-                          Includes: nails trimmed to perfection, massage, exfoliation and polish.
-                        </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          200 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>PEDICURE OPI</div>
-                        <p>
-                          Mini caring to transform your feet and toenails. No cuticle work, no exfoliation. Includes:
-                          Cut and shape, buff, massage and polish
-                        </p>
-                        <p className='font-bold green'>
-                          45 min
-                          <br />
-                          200 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>RESHINE PEDICURE OPI</div>
-                        <p>
-                          Rēshine spa pedicure, relax, nourish, and leave your foot thoroughly pampered and revitalized.
-                          Includes: nails trimmed to perfection, massage, exfoliation and polish.
-                        </p>
-                        <p className='font-bold green'>
-                          1 hr 15 min
-                          <br />
-                          225 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>RESPORT MANICURE / PEDICURE OPI</div>
-                        <p>
-                          Perfect for the active man or woman who wants absolutely professional, but short, neat and
-                          sweet nails. Includes: nail trimmed to perfection, massage and exfoliation, without polish!
-                        </p>
-                        <p className='font-bold green'>
-                          45 min
-                          <br />
-                          160 IDR / 180 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>SHELLAC MANICURE</div>
-                        <p className='font-bold green'>
-                          1 hr 30 min
-                          <br />
-                          300 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>SHELLAC PEDICURE</div>
-                        <p className='font-bold green'>
-                          1 hr 30 min
-                          <br />
-                          300 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>SHELLAC REMOVER</div>
-                        <p className='font-bold green'>
-                          15 min
-                          <br />
-                          60 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>RESHINE POLISH (ONLY)</div>
-                        <p className='font-bold green'>
-                          30 min
-                          <br />
-                          120 IDR
-                        </p>
+                        <div className='mb30'>
+                          <p className='font-bold green'>
+                            Basic 45 min / 180 IDR
+                          </p>
+                          <p>
+                            Nails trim and shape, buffing, hand massage, and polish (no cuticle work & exfoliation)
+                          </p>
+                        </div>
+                        <div className='mb30'>
+                          <p className='font-bold green'>
+                            Complete 60 min / 200 IDR
+                          </p>
+                          <p>
+                            Nails trim and shape, Cuticle cleaning, buffing, hand massage & exfoliation, and polish.
+                          </p>
+                        </div>
                       </div>
                     </div>
 
