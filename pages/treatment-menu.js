@@ -475,9 +475,7 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>HUFF THE PUFF</div>
                         <p>
-                          A blissful firming and hydrating treatment using specific products rich in Bio-Aloe Vera
-                          Extract and Collagen, which help to reduce the appearance of dark circles and fine lines
-                          around the eye area.
+                          Goodbye Panda eyes! Have a blissfully firming and hydrating treatment to target the under-eye area and achieve brighten and well-rested eyes.
                         </p>
                         <p className='font-bold green'>
                           30 min
@@ -486,11 +484,9 @@ export default function Home() {
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>INTUITIVE HEAD PAMPER</div>
+                        <div className='sm-heading'>HAND, NECK AND SHOULDER MASSAGE</div>
                         <p>
-                          A calming yet energizing intuitive head massage focusing upon vital energy points. Warm
-                          infused olive oil with fresh pandanus leaves will help to reduce tensions and increase
-                          circulation to leave you with a profound sense of wellbeing.
+                          Yes, our magic hands are addicting! Add some additional time to caress your stiff areas.
                         </p>
                         <p className='font-bold green'>
                           30 min
@@ -499,11 +495,25 @@ export default function Home() {
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>HAND, NECK AND SHOULDER MASSAGE</div>
+                        <div className='sm-heading'>INTUITIVE HEAD PAMPER</div>
+                        <p>
+                          A calming yet energizing head massage focusing upon vital energy points. Helps to reduce tension and increase circulation. Great for headaches and hangover.
+                        </p>
                         <p className='font-bold green'>
                           30 min
                           <br />
                           120 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>BEAUTY FACE ACCUPRESSURE</div>
+                        <p>
+                          Activate your glow with accupressure! Addresses the face from within to create a glowing exterior. This includes helping to tone the facial muscles and stimulation circulation.
+                        </p>
+                        <p className='font-bold green'>
+                          30 min
+                          <br />
+                          150 IDR
                         </p>
                       </div>
                     </div>
