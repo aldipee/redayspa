@@ -253,9 +253,11 @@ export default function Home() {
                     <div className='col-sm-6'>
                       <div className='treatment-heading mb24'>REJUVENATE FACIAL</div>
                       <div className='text-center mb30'>
-                        <p className='mb30'>
-                          All facial treatments include a relaxing scalp massage and full facial massage to stimulate blood circulation, firm facial contour, and address each individual facial concern.
+                        <p>
+                        All facial treatments include a relaxing scalp massage and full facial massage to stimulate blood circulation, firm facial contour, and address each individual facial concern.
                         </p>
+                      </div>
+                      <div className='text-center mb30'>
                         <div className='sm-heading'>REHYDRATING FACIAL</div>
                         <p>
                           Gentle deep cleansing and exfoliation help the skin to improve the absorption of a nourishing moisturizing mask. Focuses on replenishing dry skin by providing vital nutrients that will restore skin hydration so that skin becomes more supple and healthy.
@@ -379,10 +381,21 @@ export default function Home() {
                     <div className='col-sm-6'>
                       <div className='treatment-heading mb24'>RESHINE AND BUFF</div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>MINICURE OPI</div>
                         <p>
-                          Mini caring to transform your hand and nails. No cuticle work, no exfoliation. Includes: file,
-                          buff, massage and polish.
+                          We use O.P.I, Essie, Orly, and China Glaze nail polishes.
+                          <br />
+                          For gel polishes we use CND Shellac, Gelish, and O.P.I.
+                          <br />
+                          Feel free to browse our extensive color collection in-spa.
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>MANICURE</div>
+                        <p className='font-bold green'>
+                          Basic
+                        </p>
+                        <p>
+                          Nails trim and shape, buffing, hand massage, and polish (no cuticle work & exfoliation)
                         </p>
                         <p className='font-bold green'>
                           45 min
