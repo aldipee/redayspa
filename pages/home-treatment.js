@@ -188,7 +188,7 @@ export default function Home() {
                       <div className="sm-heading">ADDITIONAL BODY SCRUB</div>
                     </div>
                     <div className="col-sm-6">
-                      <p>You can choose our selection of scrubs: Coconut vanila / Coffee / Lulur.</p>
+                      <p>You can choose our selection of scrubs:<br />Coconut vanila / Coffee / Lulur.</p>
                       <p className="font-bold green">
                         30 min
                         <br />
