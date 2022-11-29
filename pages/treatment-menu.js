@@ -284,7 +284,7 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>ANTI-AGING FACIAL</div>
                         <p>
-                          This facial treatment targets maturing skin and will help to bring back the skin elasticity, glow, and youthful appearance. Enriched with silk protein and gold extract which is high in antioxidant and helps to fight wrinkles and hyperpigmentation.
+                          This facial treatment targets maturing skin and will help to bring back the {`skin's`} elasticity, glow, and youthful appearance. Enriched with silk protein and gold extract which is high in antioxidant and helps to fight wrinkles and hyperpigmentation.
                         </p>
                         <p className='font-bold green'>
                           60 min
