@@ -325,7 +325,7 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>HERITAGE HAIR CARE</div>
                         <p>
-                          A famous Indonesian creambath for hair, includes hair wash, and relaxing scalp massage with intensive hair treatment cream from Makarizo. Finished with another round of hair wash and conditioner, plus hair tonic to strengthen hair and healthy scalp.
+                          A famous Indonesian {`"creambath"`} for hair, includes hair wash, and relaxing scalp massage with intensive hair treatment cream from Makarizo. Finished with another round of hair wash and conditioner, plus hair tonic to strengthen hair and healthy scalp.
                         </p>
                         <p className='italic green'>
                           Cream options:
