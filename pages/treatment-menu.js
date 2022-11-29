@@ -335,8 +335,7 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>Luxurious Keratin Mask</div>
                         <p>
-                          {`You'll`} be pampered with this luxurious treatment. Start the treatment with hair wash, and then continues with a scalp massage while the ultra-rich keratin cream is applied to your hair. The Keratin Mask is infused with argan oil to increase hair softness and also reduce hair breakage and split ends.
-                          {`You'll`} also get hand, neck, and shoulder massage included in this treatment. Fabulous shinny and soft hair awaits.
+                          {`You'll`} be pampered with this luxurious treatment. Start the treatment with hair wash, and then continues with a scalp massage while the ultra-rich keratin cream is applied to your hair. The Keratin Mask is infused with argan oil to increase hair softness and also reduce hair breakage and split ends. {`You'll`} also get hand, neck, and shoulder massage included in this treatment. Fabulous shinny and soft hair awaits.
                         </p>
                         <p className='font-bold green'>
                           90 min
@@ -355,6 +354,14 @@ export default function Home() {
                           60 min
                           <br />
                           300 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>BASIC HAIR WASH</div>
+                        <p className='font-bold green'>
+                          Short Hair 30 min / 175 IDR
+                          <br />
+                          Long Hair 45 min / 200 IDR
                         </p>
                       </div>
                     </div>
@@ -461,19 +468,8 @@ export default function Home() {
                     <div className='col-sm-6'>
                       <div className='treatment-heading mb24'>ADD ON</div>
                       <div className='text-center mb30'>
-                        <p className='mb30'>
-                          Have some extra care to your treatment. The treatments below can only be done on top of other treatments as an addition / cannot be taken alone.
-                        </p>
-                        <div className='sm-heading'>MINI FACIAL</div>
                         <p>
-                          A mini facial that uses an exfoliating cleanser to clean off any residual makeup, oil and
-                          dirt. A nourishing moisturizing mask made of Bio-Aloe Vera Extract, Collagen, Protein and Pro
-                          Vitamin B5 is then applied and leaves the skin smooth, soft, supple and nourished.
-                        </p>
-                        <p className='font-bold green'>
-                          30 min
-                          <br />
-                          300 IDR
+                          Have some extra care to your treatment. The treatments below can only be done on top of other treatments as an addition / cannot be taken alone.
                         </p>
                       </div>
                       <div className='text-center mb30'>
@@ -500,14 +496,6 @@ export default function Home() {
                           30 min
                           <br />
                           120 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>HAIR WASH AND DRY</div>
-                        <p className='font-bold green'>
-                          30 min
-                          <br />
-                          from 175 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
