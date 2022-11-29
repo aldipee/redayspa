@@ -112,49 +112,8 @@ export default function Home() {
             <div className="row">
               <div className="col-lg-10 offset-lg-1">
                 <h2 className="mb40" data-aos="fade-up">
-                  FULL BODY MESSAGE{" "}
+                  FULL BODY MASSAGE
                 </h2>
-                <div className="treatment-item" data-aos="fade-up">
-                  <div className="row">
-                    <div className="col-sm-6">
-                      <div className="sm-heading">AROMASENSE MASSAGE</div>
-                    </div>
-                    <div className="col-sm-6">
-                      <p>Smell the aromatherapy oil, your body knows best.</p>
-                      <p>
-                        Let your senses pick the right blended infused oil. Feel grounded by nurturing your natural
-                        state with a combination of Balinese, Reiki, and Aromatherapy techniques
-                      </p>
-                      <p className="font-bold green">
-                        90mins - 400k
-                        <br />
-                        120mins - 480K
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                {/* <div className="treatment-item" data-aos="fade-up">
-                  <div className="row">
-                    <div className="col-sm-6">
-                      <div className="sm-heading">RE SIGNATURE SCRUB MASSAGE</div>
-                    </div>
-                    <div className="col-sm-6">
-                      <p>
-                        Your moment of pampering to rejuvenate the entire body with Re signature massage followed with
-                        body scrub of your body needs
-                      </p>
-                      <p>
-                        Each unique blended oil and scrub has its benefits, your body knows best and our talented
-                        therapist would cater to your need
-                      </p>
-                      <p className="font-bold green">
-                        90mins - 400k
-                        <br />
-                        120mins - 500k
-                      </p>
-                    </div>
-                  </div>
-                </div> */}
                 <div className="treatment-item" data-aos="fade-up">
                   <div className="row">
                     <div className="col-sm-6">
@@ -162,14 +121,29 @@ export default function Home() {
                     </div>
                     <div className="col-sm-6">
                       <p>
-                        Our take on traditional Balinese techniques applies combination of acupressure, kneading and
-                        invigorating hand movements using our unique blended oil to stimulate blood circulation,
-                        increase flexibility and ultimately relax your entire body.
+                        Our take on traditional Balinese technique applies a combination of accupressure, kneading, and invigorating hand movements.
                       </p>
                       <p className="font-bold green">
-                        90mins - 400K
+                        90 / 120 min
                         <br />
-                        120mins - 480k
+                        500 / 570 IDR
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="treatment-item" data-aos="fade-up">
+                  <div className="row">
+                    <div className="col-sm-6">
+                      <div className="sm-heading">AROMASENSE MASSAGE</div>
+                    </div>
+                    <div className="col-sm-6">
+                      <p>
+                      Let your senses pick the right blend of infused oil. Feel grounded by nurturing your natural state with combination of Balinese, Reiki, and Aromatherapy techniques.
+                      </p>
+                      <p className="font-bold green">
+                        90 / 120 min
+                        <br />
+                        500 / 570 IDR
                       </p>
                     </div>
                   </div>
@@ -181,17 +155,29 @@ export default function Home() {
                     </div>
                     <div className="col-sm-6">
                       <p>
-                        Deep and relaxing massage therapy that focuses on realigning deeper layers of muscles and
-                        connective tissue.
-                      </p>
-                      <p>
-                        With the uplifting effects of the fresh and potent Clove and Ginger infused blended oil, the
-                        result is an overall grounding effect on the body and mind
+                        Deep and energizing massage therapy that focuses on realigning deeper layer of muscles and connective tissue.
                       </p>
                       <p className="font-bold green">
-                        90mins - 430K
+                        90 / 120 min
                         <br />
-                        120mins - 520k
+                        520 / 590 IDR
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="treatment-item" data-aos="fade-up">
+                  <div className="row">
+                    <div className="col-sm-6">
+                      <div className="sm-heading">DRY MASSAGE</div>
+                    </div>
+                    <div className="col-sm-6">
+                      <p>
+                        Oil-free massage with finger pressure technique to massage the body at specific points to focus on the meridian lines or nerve flow from head to toe.
+                      </p>
+                      <p className="font-bold green">
+                        90 / 120 min
+                        <br />
+                        520 / 590 IDR
                       </p>
                     </div>
                   </div>
@@ -202,9 +188,12 @@ export default function Home() {
                       <div className="sm-heading">ADDITIONAL BODY SCRUB</div>
                     </div>
                     <div className="col-sm-6">
-                      <p>You can choose our selection of scrubs: coconut vanila / coffee / lulur.</p>
-
-                      <p className="font-bold green">30mins - 150K</p>
+                      <p>You can choose our selection of scrubs: Coconut vanila / Coffee / Lulur.</p>
+                      <p className="font-bold green">
+                        30 min
+                        <br />
+                        200 IDR
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -222,8 +211,11 @@ export default function Home() {
                     </div>
                     <div className="col-sm-6">
                       <p>Hand, shoulder, neck massage and foot relaxing massage.</p>
-
-                      <p className="font-bold green">90mins - 300k</p>
+                      <p className="font-bold green">
+                        90 min
+                        <br />
+                        380 IDR
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -234,7 +226,11 @@ export default function Home() {
                     </div>
                     <div className="col-sm-6">
                       <p>Head massage, neck & shoulder, hand, and foot massage. Not include body massage.</p>
-                      <p className="font-bold green">120mins - 400k</p>
+                      <p className="font-bold green">
+                        120 min
+                        <br />
+                        520 IDR
+                      </p>
                     </div>
                   </div>
                 </div>
