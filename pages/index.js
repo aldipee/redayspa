@@ -8,32 +8,32 @@ import Link from "next/link";
 import clsx from "clsx";
 
 export default function Home() {
-  //const [showContact, setShowContact] = useState(false);
+  const [showContact, setShowContact] = useState(false);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [loading, setLoading] = useState(false);
-  // const formikRef = useRef(null);
+  const formikRef = useRef(null);
 
-  // const contactUsSchema = Yup.object().shape({
-  //   customer_firstName: Yup.string().required("Firstname is required!"),
-  //   customer_lastName: Yup.string().required("Lastname is required!"),
-  //   customer_message: Yup.string().required("Message is required!"),
-  //   customer_email: Yup.string().email("Invalid email").required("Email is required!"),
-  //   customer_subject: Yup.string().required("Subject is required!"),
-  // });
+  const contactUsSchema = Yup.object().shape({
+    customer_firstName: Yup.string().required("Firstname is required!"),
+    customer_lastName: Yup.string().required("Lastname is required!"),
+    customer_message: Yup.string().required("Message is required!"),
+    customer_email: Yup.string().email("Invalid email").required("Email is required!"),
+    customer_subject: Yup.string().required("Subject is required!"),
+  });
 
-  // const handleSubmitContactUs = async (data) => {
-  //   try {
-  //     console.log(data, "templateParams");
-  //     const response = await emailjs.send("service_4ruek8a", "template_geb5qtm", data, "user_jqilAXqo3WGAJA44b2E2h");
-  //     if (response.status === 200) {
-  //       setShowContact(false);
-  //       formikRef.current?.resetForm();
-  //       alert("Message sent successfully");
-  //     }
-  //     console.log(response, "response");
-  //   } catch (error) {
-  //     alert(error);
-  //   }
+  const handleSubmitContactUs = async (data) => {
+    try {
+      console.log(data, "templateParams");
+      const response = await emailjs.send("service_4ruek8a", "template_geb5qtm", data, "user_jqilAXqo3WGAJA44b2E2h");
+      if (response.status === 200) {
+        setShowContact(false);
+        formikRef.current?.resetForm();
+        alert("Message sent successfully");
+      }
+      console.log(response, "response");
+    } catch (error) {
+      alert(error);
+    }
   };
   return (
     <>
@@ -322,7 +322,6 @@ export default function Home() {
                 </a>{" "}
                 or book online by filling the form.
               </p>
-              {/*
               <div className="ttl-contact mb30">CONTACT US</div>
               <button
                 className="btn btn-green open-form mb40"
@@ -333,14 +332,6 @@ export default function Home() {
               >
                 Open Form
               </button>
-              */}
-              <a
-                href="https://widget.zenwel.com/234592772/re-day-spa?lang=id&lid=2879"
-                target="_blank"
-                className="btn btn-green mb40"
-              >
-                Book Online
-              </a>
 
               <div className="map">
                 <iframe
@@ -476,7 +467,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/*}
         <div className={clsx("overlay", showContact && "overlayshow")}></div>
         <div className={clsx("popup-wrapper", showContact && "showing")}>
           <div className="popup-card">
@@ -594,7 +584,6 @@ export default function Home() {
             </Formik>
           </div>
         </div>
-        */}
 
         <script src="js/vendor/jquery-3.5.1.min.js"></script>
         <script src="js/vendor/bootstrap.bundle.min.js"></script>
