@@ -392,15 +392,16 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>MANICURE</div>
                         <p className='font-bold green'>
-                          Basic
+                          Basic 45 min / 180 IDR
                         </p>
                         <p>
                           Nails trim and shape, buffing, hand massage, and polish (no cuticle work & exfoliation)
                         </p>
                         <p className='font-bold green'>
-                          45 min
-                          <br />
-                          180 IDR
+                          Complete 60 min / 200 IDR
+                        </p>
+                        <p>
+                          Nails trim and shape, Cuticle cleaning, buffing, hand massage & exfoliation, and polish.
                         </p>
                       </div>
                       <div className='text-center mb30'>
