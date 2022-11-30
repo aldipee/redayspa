@@ -35,7 +35,7 @@ export default function Home() {
       </Head>
 
       <body>
-        <section id='top' className='inner-hero' style={{ backgroundImage: 'url(img/inner-hero.jpg)' }}>
+        <section id='top' className='inner-hero' style={{ backgroundImage: 'url(https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781314/Re%20Day%20Spa%20Website/inner-hero_oq399k.jpg)' }}>
           <div className='container'>
             <div className='main-nav'>
               <div className='left-side'>
