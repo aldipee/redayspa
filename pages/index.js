@@ -277,10 +277,10 @@ export default function Home() {
                   <img src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781313/Re%20Day%20Spa%20Website/treatment-1_xnrder.jpg" className="img-fluid mb30" />
                 </div>
                 <div className="col-sm-4">
-                  <img src="img/treatment-2.jpeg" className="img-fluid mb30" />
+                  <img src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781311/Re%20Day%20Spa%20Website/treatment-2_mo1s1l.jpg" className="img-fluid mb30" />
                 </div>
                 <div className="col-sm-4">
-                  <img src="img/treatment-3.jpeg" className="img-fluid mb30" />
+                  <img src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781314/Re%20Day%20Spa%20Website/treatment-3_udtzje.jpg" className="img-fluid mb30" />
                 </div>
               </div>
               <div className="row">
