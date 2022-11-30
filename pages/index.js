@@ -100,7 +100,7 @@ export default function Home() {
           id="top"
           className="main-hero"
           data-aos="fade-up"
-          style={{ backgroundImage: "url(img/main-hero.jpg)" }}
+          style={{ backgroundImage: "https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781311/Re%20Day%20Spa%20Website/main-hero_gimvo6.jpg" }}
         >
           <div className="container">
             <div className="main-nav">
