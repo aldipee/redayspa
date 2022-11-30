@@ -204,7 +204,7 @@ export default function Home() {
         <section id="main-slider" className="swiper-container" data-aos="fade-up">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <div className="slider-item" style={{ backgroundImage: "url(img/slider-3.jpeg)" }}>
+              <div className="slider-item" style={{ backgroundImage: "url(https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781319/Re%20Day%20Spa%20Website/slider-3_qcy7aj.jpg)" }}>
                 <div className="inner-slider-item">
                   <div className="ttl-journey">Journey</div>
                   <p>
@@ -274,7 +274,7 @@ export default function Home() {
 
               <div className="row">
                 <div className="col-sm-4">
-                  <img src="img/treatment-1.jpeg" className="img-fluid mb30" />
+                  <img src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781313/Re%20Day%20Spa%20Website/treatment-1_xnrder.jpg" className="img-fluid mb30" />
                 </div>
                 <div className="col-sm-4">
                   <img src="img/treatment-2.jpeg" className="img-fluid mb30" />
