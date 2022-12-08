@@ -353,11 +353,9 @@ export default function Home() {
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>INTENSELY NOURISHING HAIR WITH HOT OIL</div>
+                        <div className='sm-heading'>INTENSIVELY NOURISHING HAIR</div>
                         <p>
-                          Rich warm olive oil infused with fresh pandanus leaves, is massaged into the hair, releasing
-                          tension, conditioning the scalp, and leaving hair shiny and nourished. It also comes with a
-                          deeply relaxing hand, neck and shoulder massage.
+                          Rich warm nourishing signature hair oil blend is massaged into the hair, conditioning the scalp and leaving your hair silky and shiny. The ingredients includes leaves extract called Mangkokan leaf and Waru leaf are Indonesian heritage recipe for healthy new hair and will strengthen hair roots.
                         </p>
                         <p className='font-bold green'>
                           60 min
