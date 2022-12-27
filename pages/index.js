@@ -217,7 +217,7 @@ export default function Home() {
               </div>
             </div>
             <div className="swiper-slide">
-              <div className="slider-item" style={{ backgroundImage: "url(img/slider-2.jpeg)" }}>
+              <div className="slider-item" style={/*{ backgroundImage: "url(img/slider-2.jpeg)" }*/}>
                 <div className="inner-slider-item">
                   <p>
                     The therapist will take you to the treatment room and that is the time for you to step into cocoon
@@ -228,7 +228,7 @@ export default function Home() {
               </div>
             </div>
             <div className="swiper-slide">
-              <div className="slider-item" style={{ backgroundImage: "url(img/slider-1.jpeg)" }}>
+              <div className="slider-item" style={/*{ backgroundImage: "url(img/slider-1.jpeg)" }*/}>
                 <div className="inner-slider-item">
                   <p>
                     A complementary drink and a scented cold towel will welcome you upon your arrival. Re Day Spa ensure
