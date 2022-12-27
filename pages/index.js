@@ -306,7 +306,7 @@ export default function Home() {
         <section id="contact" className="contact-section">
           <div className="container" data-aos="fade-up">
             <div className="inner-ts">
-              <div className="sm-heading">LET US KNOW</div>
+              <div className="sm-heading">BOOK A PAMPERING TIME</div>
               <p className="mb50">
                 <a href="tel:+6281237375791" className="link-telephone" target="_blank" rel="noreferrer">
                   Call
@@ -320,13 +320,15 @@ export default function Home() {
                 >
                   WhatsApp us on +62 812 3737 5791
                 </a>{" "}
-                or book online by filling the form.
+                {/*or book online by filling the form.*/}
               </p>
+              {/* BOOKING ONLINE BUTTON
               <div>
                 <a href="https://widget.zenwel.com/234592772/re-day-spa?lang=id&lid=2879" className="btn btn-green mb40" target="_blank" rel="noreferrer">
                   Book Online
                 </a>
               </div>
+              */}
               {/*
               <div className="ttl-contact mb30">CONTACT US</div>
               <button
