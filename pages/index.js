@@ -100,7 +100,7 @@ export default function Home() {
           id="top"
           className="main-hero"
           data-aos="fade-up"
-          style={{ backgroundImage: "url(https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781311/Re%20Day%20Spa%20Website/main-hero_gimvo6.jpg)" }}
+          style={{ backgroundImage: "url(https://res.cloudinary.com/dnnrll6sl/image/upload/v1672125532/Re%20Day%20Spa%20Website/main-hero_etj9ir.jpg)" }}
         >
           <div className="container">
             <div className="main-nav">
@@ -204,7 +204,7 @@ export default function Home() {
         <section id="main-slider" className="swiper-container" data-aos="fade-up">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <div className="slider-item" style={{ backgroundImage: "url(https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781319/Re%20Day%20Spa%20Website/slider-3_qcy7aj.jpg)" }}>
+              <div className="slider-item" style={{ backgroundImage: "url(https://res.cloudinary.com/dnnrll6sl/image/upload/v1672125532/Re%20Day%20Spa%20Website/slider-3_zdptvp.jpg)" }}>
                 <div className="inner-slider-item">
                   <div className="ttl-journey">Journey</div>
                   <p>
@@ -274,13 +274,13 @@ export default function Home() {
 
               <div className="row">
                 <div className="col-sm-4">
-                  <img src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781313/Re%20Day%20Spa%20Website/treatment-1_xnrder.jpg" className="img-fluid mb30" />
+                  <img src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1672125532/Re%20Day%20Spa%20Website/treatment-1_p3qujf.jpg" className="img-fluid mb30" />
                 </div>
                 <div className="col-sm-4">
-                  <img src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781311/Re%20Day%20Spa%20Website/treatment-2_mo1s1l.jpg" className="img-fluid mb30" />
+                  <img src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1672125532/Re%20Day%20Spa%20Website/treatment-2_x9qcyk.jpg" className="img-fluid mb30" />
                 </div>
                 <div className="col-sm-4">
-                  <img src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1669781314/Re%20Day%20Spa%20Website/treatment-3_udtzje.jpg" className="img-fluid mb30" />
+                  <img src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1672125532/Re%20Day%20Spa%20Website/treatment-3_dbnv9p.jpg" className="img-fluid mb30" />
                 </div>
               </div>
               <div className="row">
