@@ -260,7 +260,7 @@ export default function Home() {
                     Aromatherapy massages based on your necessity.
                   </p>
                   <Link href="treatment-menu">
-                    <a className="btn btn-dark">SEE TREATMENT MENU</a>
+                    <a className="btn btn-dark mb50">SEE TREATMENT MENU</a>
                   </Link>
                   {/*
                   <div className="row mb40">
