@@ -138,11 +138,13 @@ export default function Home() {
               <p className="mb24">
                 We are bringing total relaxation experience of spa at comfort of your home, when you want it.
               </p>
+              {/*
               <Link href="home-treatment">
                 <a className="btn btn-white mx-2">SEE HOME TREATMENT</a>
               </Link>
+              */}
               <Link href="treatment-menu">
-                <a className="btn btn-white mx-2">SEE IN-SPA TREATMENT</a>
+                <a className="btn btn-white mx-2">SEE TREATMENT MENU</a>
               </Link>
             </div>
           </div>
@@ -186,15 +188,15 @@ export default function Home() {
                 <div className="mb10">
                   <div className="sm-heading">HOURS</div>
                   <p>
-                    In-Spa
-                    <br />
                     <strong>10am - 10pm</strong>
                   </p>
+                  {/*
                   <p>
                     Home Pampering
                     <br />
                     <strong>Last booking 7pm</strong>
                   </p>
+                  */}
                 </div>
               </div>
             </div>
@@ -257,6 +259,10 @@ export default function Home() {
                     and pedicure, solacing facial for specific type of skin as well as traditional and various signature
                     Aromatherapy massages based on your necessity.
                   </p>
+                  <Link href="treatment-menu">
+                    <a className="btn btn-dark">SEE TREATMENT MENU</a>
+                  </Link>
+                  {/*
                   <div className="row mb40">
                     <div className="col-sm-6">
                       <Link href="home-treatment">
@@ -269,6 +275,7 @@ export default function Home() {
                       </Link>
                     </div>
                   </div>
+                  */}
                 </div>
               </div>
 
