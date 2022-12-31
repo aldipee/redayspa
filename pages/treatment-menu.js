@@ -77,86 +77,168 @@ export default function Home() {
               <div className='col-lg-12'>
                 <div className='treatment-item' data-aos='fade-up'>
                   <div className='row g-5'>
-                    <div className='col-sm-12'>
+                    <div className='col-sm-6'>
                       <div className='treatment-heading mb24'>REWELLNESS MASSAGE</div>
-                    </div>
-                    <div className="col-sm-6 mb30 mt-0 text-center">
-                      <div className="sm-heading">BALINESE MASSAGE</div>
-                      <p>Our take on traditional Balinese techniques applies combination of acupressure, kneading and invigorating hand movements using our unique blended oil to stimulate blood circulation, increase flexibility and ultimately relax your entire body.</p>
-                      <p className="font-bold green">
-                        60 / 90 / 120 min
-                        <br />
-                        300 / 430 / 550 IDR</p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <div className='sm-heading'>RE SIGNATURE MASSAGE</div>
-                      <p>
-                        Let us transport you to a blissful relaxation with our signature massage technique. Starting with warm aromatherapy oil of your choice, our therapists will expertly work out the magic touch. Afterward, we'll apply a warm towel compress to soothe and relax your body even further.
-                      </p>
-                      <p className='italic green'>
-                        Essential oil options:
-                      </p>
-                      <p>Energize / Detox / Wellbeing / Tranquility</p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        350 / 490 / 640 IDR
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>BALINESE MASSAGE</div>
+                        <p>
+                          Our take on traditional Balinese techniques applies a combination of acupressure, kneading, and invigorating hand movements using our signature oil to stimulate blood circulation, increase flexibility and ultimately relax your entire body.
                         </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          300 / 430 / 550 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>RE SIGNATURE MASSAGE</div>
+                        <p>
+                          Let us transport you to a blissful relaxation with our signature massage technique. Starting with warm aromatherapy oil of your choice, our therapists will expertly work out the magic touch. Afterward, we'll apply a warm towel compress to soothe and relax your body even further.
+                        </p>
+                        <p className='italic green'>
+                          Essential oil options:
+                        </p>
+                        <p>Energize / Detox / Wellbeing / Tranquility</p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          350 / 490 / 640 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>DEEP TISSUE RUBDOWN</div>
+                        <p>
+                          A massage session is designed to restore the deep muscle layers and connective tissue to release tension, reduce stress and re-align the body as a whole. Gentle stretching also be incorporated into the massage to help loosen tight muscles and improve flexibility.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          330 / 470 / 600 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>DRY MASSAGE</div>
+                        <p>
+                          Oil-free massage with finger pressure technique to massage the body at specific points to focus on the meridian lines or nerve flow from head to toe.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          330 / 470 / 600 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>PRENATAL MASSAGE</div>
+                        <p>
+                          Gentle, side-lying massage with aromatherapy technique for mom-to-be after their first trimester. Helps to reduce swelling, nausea, and muscle tension with a unique blend of pregnancy-safe aromatic massage oil.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 min
+                          <br />
+                          330 / 470 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>HOT STONE MASSAGE</div>
+                        <p>
+                          Warm volcanic stone from Mt. Batur in Kitamani, placed at body relaxation points. This accompanied by gentle to firm massage using the stones to reach deeper muscle layers. Experience relieve of stress, eases muscle tension and increase in blood circulation.
+                        </p>
+                        <p className='font-bold green'>
+                          90 / 120 min
+                          <br />
+                          500 / 700 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>FOUR HANDS MASSAGE</div>
+                        <p>
+                          A perfectly choreographed Balinese massage technique performed by two therapists at the same time, and in perfect harmony creating a unique and unforgettable massage therapy for you.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          500 / 650 / 850 IDR
+                        </p>
+                      </div>
                     </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <div className='sm-heading'>DEEP TISSUE RUBDOWN</div>
-                      <p>
-                        A massage session is designed to restore the deep muscle layers and connective tissue to release tension, reduce stress and re-align the body as a whole. Gentle stretching also be incorporated into the massage to help loosen tight muscles and improve flexibility.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        330 / 470 / 600 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <div className='sm-heading'>DRY MASSAGE</div>
-                      <p>
-                        Oil-free massage with finger pressure technique to massage the body at specific points to focus on the meridian lines or nerve flow from head to toe.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        330 / 470 / 600 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <div className='sm-heading'>PRENATAL MASSAGE</div>
-                      <p>
-                        Gentle, side-lying massage with aromatherapy technique for mom-to-be after their first trimester. Helps to reduce swelling, nausea, and muscle tension with a unique blend of pregnancy-safe aromatic massage oil.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 min
-                        <br />
-                        330 / 470 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <div className='sm-heading'>HOT STONE MASSAGE</div>
-                      <p>
-                        Warm volcanic stone from Mt. Batur in Kitamani, placed at body relaxation points. This accompanied by gentle to firm massage using the stones to reach deeper muscle layers. Experience relieve of stress, eases muscle tension and increase in blood circulation.
-                      </p>
-                      <p className='font-bold green'>
-                        90 / 120 min
-                        <br />
-                        500 / 700 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <div className='sm-heading'>FOUR HANDS MASSAGE</div>
-                      <p>
-                        A perfectly choreographed Balinese massage technique performed by two therapists at the same time, and in perfect harmony creating a unique and unforgettable massage therapy for you.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        500 / 650 / 850 IDR
-                      </p>
+
+                    <div className='col-sm-6'>
+                      <div className='treatment-heading mb24'>REVITALIZE RITUAL</div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>THE BALI SPLENDOR</div>
+                        <p>
+                          Experience the authentic Balinese beauty regime in our spa. Enjoy an invigorating Balinese massage continues with our traditional Lulur blend to eliminate the dead skin cells and leave your skin feeling soft and radiant.
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing Foot Bath + Balinese Massage + Lulur + Shower & Body Lotion
+                        </p>
+                        <p className='font-bold green'>
+                          1 hr 45 min
+                          <br />
+                          430 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>TRANQUIL HAVEN</div>
+                        <p>
+                          Our signature Detox massage oil blend, combined with our signature massage technique will stimulate the release and elimination of toxins from your body. Topped-off with our Coffee Scrub to resurface your skin, you will feel refreshed, revived, and toned as your journey is concluded.
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing Foot Bath + Aromasense Massage + Coffee Scrub + Shower & Body Lotion
+                        </p>
+                        <p className='font-bold green'>
+                          1 hr 45 min
+                          <br />
+                          430 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>THE BODY LUSTER</div>
+                        <p>
+                          The perfect package to bring back your skin luster, great for dry-flaky skin. Start the treatment with energizing Aromasense massage and then slush out the dull skin with our Coconut & Vanilla Scrub. Say hello to supple radiant skin afterward.
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing Foot Bath + Aromasense Massage + Coconut & Vanilla Scrub + Shower & Body Lotion
+                        </p>
+                        <p className='font-bold green'>
+                          1 hr 45 min
+                          <br />
+                          430 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>SUN RELIEVER</div>
+                        <p>
+                          Out and about all day in the sun is not only physically exhausting for your body, but also for your skin. Come and get some after-sun/relaxation and take care of your body and let it heal to enjoy the rest of your stay in this sunshine island of Bali.
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing Foot Bath + Aromasense Massage + Aloe Body Mask + Sun S.O.S. Mini Facial
+                        </p>
+                        <p className='font-bold green'>
+                          1 hr 45 min
+                          <br />
+                          650 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>THE ROYAL</div>
+                        <p>
+                          The ultimate care package to make you feel like royalty! Pamper yourself from head to toe and feel luxurious authentic Balinese Royal ritual yourself. Guaranteed you will leave refreshed and looking absolutely perfect.
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing Foot Bath + Balinese Massage + Lulur + Regenerating Facial + Sport Manicure & Pedicure
+                        </p>
+                        <p className='font-bold green'>
+                          3 hr 45 min
+                          <br />
+                          1000 IDR
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
