@@ -83,6 +83,21 @@ export default function Home() {
                   <li className='nav-item'>
                     <button className='nav-link' id='pills-hair-tab' data-bs-toggle='pill' data-bs-target='#pills-hair'>HAIR</button>
                   </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-facial-tab' data-bs-toggle='pill' data-bs-target='#pills-facial'>FACIAL</button>
+                  </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-scrub-tab' data-bs-toggle='pill' data-bs-target='#pills-scrub'>SCRUB</button>
+                  </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-nail-tab' data-bs-toggle='pill' data-bs-target='#pills-nail'>NAIL</button>
+                  </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-ritual-tab' data-bs-toggle='pill' data-bs-target='#pills-ritual'>RITUAL</button>
+                  </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-kiddie-tab' data-bs-toggle='pill' data-bs-target='#pills-kiddie'>KIDDIE</button>
+                  </li>
                 </ul>
               </div>
               <div className='col-lg-12'>
@@ -92,6 +107,21 @@ export default function Home() {
                   </div>
                   <div className='tab-pane fade' id='pills-hair'>
                     <p>HAIR</p>
+                  </div>
+                  <div className='tab-pane fade' id='pills-facial'>
+                    <p>FACIAL</p>
+                  </div>
+                  <div className='tab-pane fade' id='pills-scrub'>
+                    <p>SCRUB</p>
+                  </div>
+                  <div className='tab-pane fade' id='pills-nail'>
+                    <p>NAIL</p>
+                  </div>
+                  <div className='tab-pane fade' id='pills-ritual'>
+                    <p>RITUAL</p>
+                  </div>
+                  <div className='tab-pane fade' id='pills-kiddie'>
+                    <p>KIDDIE</p>
                   </div>
                 </div>
               </div>
