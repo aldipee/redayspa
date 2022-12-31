@@ -77,10 +77,10 @@ export default function Home() {
 
               <div className='col-sm-8 mx-auto'>
                 <div className='tab-content' id='pills-tabContent'>
-                  <div className='tab-pane fade show active' id='pills-massage' role='tabpanel' aria-labelledby='pills-massage-tab' tabindex='0'>
+                  <div className='tab-pane fade show active' id='pills-massage'>
                     <p>REWELLNESS MASSAGE</p>
                   </div>
-                  <div className='tab-pane fade' id='pills-hair' role='tabpanel' aria-labelledby='pills-hair-tab' tabindex='0'>
+                  <div className='tab-pane fade' id='pills-hair'>
                     <p>HAIR</p>
                   </div>
                 </div>
