@@ -93,7 +93,7 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>RE SIGNATURE MASSAGE</div>
                         <p>
-                          Let us transport you to a blissful relaxation with our signature massage technique. Starting with warm aromatherapy oil of your choice, our therapists will expertly work out the magic touch. Afterward, we'll apply a warm towel compress to soothe and relax your body even further.
+                          Let us transport you to a blissful relaxation with our signature massage technique. Starting with warm aromatherapy oil of your choice, our therapists will expertly work out the magic touch. Afterward, {`we'll`} apply a warm towel compress to soothe and relax your body even further.
                         </p>
                         <p className='italic green'>
                           Essential oil options:
