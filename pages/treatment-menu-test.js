@@ -103,7 +103,123 @@ export default function Home() {
               <div className='col-lg-12'>
                 <div className='tab-content' id='pills-tabContent'>
                   <div className='tab-pane fade show active' id='pills-massage'>
-                    <p>REWELLNESS MASSAGE</p>
+                    <div className='row'>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">BALINESE MASSAGE</p>
+                        <p>Our take on traditional Balinese techniques applies combination of acupressure, kneading and invigorating hand movements using our unique blended oil to stimulate blood circulation, increase flexibility and ultimately relax your entire body.</p>
+                        <p className="font-bold green">
+                          60 / 90 / 120 min
+                          <br />
+                          300 / 430 / 550 IDR</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>RĒ SIGNATURE MASSAGE</p>
+                        <p>
+                          Let us transport you to a blissful relaxation with our signature massage technique. Starting with warm aromatherapy oil of your choice, our therapists will expertly work out the magic touch. Afterward, {`we'll`} apply a warm towel compress to soothe and relax your body even further.
+                        </p>
+                        <p className='ft-12 lh-base'>
+                          <strong>Essential oil options:</strong>
+                          <br />
+                          Energize / Detox / Wellbeing / Tranquility
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          350 / 490 / 640 IDR
+                          </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>DEEP TISSUE RUBDOWN</p>
+                        <p>
+                          A massage session is designed to restore the deep muscle layers and connective tissue to release tension, reduce stress and re-align the body as a whole. Gentle stretching also be incorporated into the massage to help loosen tight muscles and improve flexibility.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          330 / 470 / 600 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>DRY MASSAGE</p>
+                        <p>
+                          Oil-free massage with finger pressure technique to massage the body at specific points to focus on the meridian lines or nerve flow from head to toe.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          330 / 470 / 600 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>PRENATAL MASSAGE</p>
+                        <p>
+                          Gentle, side-lying massage with aromatherapy technique for mom-to-be after their first trimester. Helps to reduce swelling, nausea, and muscle tension with a unique blend of pregnancy-safe aromatic massage oil.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 min
+                          <br />
+                          330 / 470 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>HOT STONE MASSAGE</p>
+                        <p>
+                          Warm volcanic stone from Mt. Batur in Kitamani, placed at body relaxation points. This accompanied by gentle to firm massage using the stones to reach deeper muscle layers. Experience relieve of stress, eases muscle tension and increase in blood circulation.
+                        </p>
+                        <p className='font-bold green'>
+                          90 / 120 min
+                          <br />
+                          500 / 700 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>FOUR HANDS MASSAGE</p>
+                        <p>
+                          A perfectly choreographed Balinese massage technique performed by two therapists at the same time, and in perfect harmony creating a unique and unforgettable massage therapy for you.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          500 / 650 / 850 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>ACHING FOOT RELAXER</p>
+                        <p>
+                          Our holistic foot massage is performed with firm stroke to help you release fatigue and combined with reflexology technique to helps with the circulation of blood and heal the corresponding certain area of the body.
+                        </p>
+                        <p className='font-bold green'>
+                          30** / 60 / 90 min
+                          <br />
+                          135 / 230 / 300 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>INTUITIVE HEAD PAMPER</p>
+                        <p>
+                          A calming yet energizing head massage focusing upon vital energy points. Helps to reduce tension and increase circulation. Great for headaches and hangover.
+                        </p>
+                        <p className='font-bold green'>
+                          30** / 60 min
+                          <br />
+                          135 / 230 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>HAND, NECK AND SHOULDER MASSAGE</p>
+                        <p>
+                          Alleviate stiffness from you neck & shoulder areas after long journey on a plane or maybe sitting to long while working on your laptop.
+                        </p>
+                        <p className='font-bold green'>
+                          30** / 60 / 90 min
+                          <br />
+                          135 / 230 / 300 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-12'>
+                        <p className='italic small'>** 30 minutes treatments can only be taken with other treatments as an addition / cannot be taken alone</p>
+                      </div>
+                    </div>
                   </div>
                   <div className='tab-pane fade' id='pills-hair'>
                     <p>HAIR</p>
@@ -131,121 +247,6 @@ export default function Home() {
                   <div className='row g-5'>
                     <div className='col-sm-12'>
                       <p className='treatment-heading mb24'>REWELLNESS MASSAGE</p>
-                    </div>
-                    <div className="col-sm-6 mb30 mt-0 text-center">
-                      <p className="sm-heading">BALINESE MASSAGE</p>
-                      <p>Our take on traditional Balinese techniques applies combination of acupressure, kneading and invigorating hand movements using our unique blended oil to stimulate blood circulation, increase flexibility and ultimately relax your entire body.</p>
-                      <p className="font-bold green">
-                        60 / 90 / 120 min
-                        <br />
-                        300 / 430 / 550 IDR</p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>RĒ SIGNATURE MASSAGE</p>
-                      <p>
-                        Let us transport you to a blissful relaxation with our signature massage technique. Starting with warm aromatherapy oil of your choice, our therapists will expertly work out the magic touch. Afterward, {`we'll`} apply a warm towel compress to soothe and relax your body even further.
-                      </p>
-                      <p className='ft-12 lh-base'>
-                        <strong>Essential oil options:</strong>
-                        <br />
-                        Energize / Detox / Wellbeing / Tranquility
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        350 / 490 / 640 IDR
-                        </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>DEEP TISSUE RUBDOWN</p>
-                      <p>
-                        A massage session is designed to restore the deep muscle layers and connective tissue to release tension, reduce stress and re-align the body as a whole. Gentle stretching also be incorporated into the massage to help loosen tight muscles and improve flexibility.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        330 / 470 / 600 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>DRY MASSAGE</p>
-                      <p>
-                        Oil-free massage with finger pressure technique to massage the body at specific points to focus on the meridian lines or nerve flow from head to toe.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        330 / 470 / 600 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>PRENATAL MASSAGE</p>
-                      <p>
-                        Gentle, side-lying massage with aromatherapy technique for mom-to-be after their first trimester. Helps to reduce swelling, nausea, and muscle tension with a unique blend of pregnancy-safe aromatic massage oil.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 min
-                        <br />
-                        330 / 470 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>HOT STONE MASSAGE</p>
-                      <p>
-                        Warm volcanic stone from Mt. Batur in Kitamani, placed at body relaxation points. This accompanied by gentle to firm massage using the stones to reach deeper muscle layers. Experience relieve of stress, eases muscle tension and increase in blood circulation.
-                      </p>
-                      <p className='font-bold green'>
-                        90 / 120 min
-                        <br />
-                        500 / 700 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>FOUR HANDS MASSAGE</p>
-                      <p>
-                        A perfectly choreographed Balinese massage technique performed by two therapists at the same time, and in perfect harmony creating a unique and unforgettable massage therapy for you.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        500 / 650 / 850 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>ACHING FOOT RELAXER</p>
-                      <p>
-                        Our holistic foot massage is performed with firm stroke to help you release fatigue and combined with reflexology technique to helps with the circulation of blood and heal the corresponding certain area of the body.
-                      </p>
-                      <p className='font-bold green'>
-                        30** / 60 / 90 min
-                        <br />
-                        135 / 230 / 300 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>INTUITIVE HEAD PAMPER</p>
-                      <p>
-                        A calming yet energizing head massage focusing upon vital energy points. Helps to reduce tension and increase circulation. Great for headaches and hangover.
-                      </p>
-                      <p className='font-bold green'>
-                        30** / 60 min
-                        <br />
-                        135 / 230 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>HAND, NECK AND SHOULDER MASSAGE</p>
-                      <p>
-                        Alleviate stiffness from you neck & shoulder areas after long journey on a plane or maybe sitting to long while working on your laptop.
-                      </p>
-                      <p className='font-bold green'>
-                        30** / 60 / 90 min
-                        <br />
-                        135 / 230 / 300 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-12'>
-                      <p className='italic small'>** 30 minutes treatments can only be taken with other treatments as an addition / cannot be taken alone</p>
                     </div>
                   </div>
                 </div>
