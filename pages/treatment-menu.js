@@ -581,7 +581,29 @@ export default function Home() {
                     </div>
 
                     <div className='col-sm-6'>
-                      <div className='treatment-heading mb24'>KIDDIE MASSAGE</div>
+                      <p className='treatment-heading mb24'>KIDDIE</p>
+
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>KIDDIE MASSAGE</div>
+                        <p className='font-bold green'>BODY MASSAGE</p>
+                        <p>
+                          Immune boosting massage for the little one. Relaxes and make them easier to sleep soundly at night.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 min
+                          <br />
+                          250 / 360 IDR
+                        </p>
+                        <p className='font-bold green'>FOOT MASSAGE</p>
+                        <p>
+                          When they walk around all day after family fun activities and need some pampering too. You can have perfect bonding time together with this massage.
+                        </p>
+                        <p className='font-bold green'>
+                          30 / 60 min
+                          <br />
+                          100 / 180 IDR
+                        </p>
+                      </div>
 
                     </div>
                   </div>
