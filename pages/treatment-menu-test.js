@@ -80,6 +80,9 @@ export default function Home() {
                   <li className='nav-item'>
                     <button className='nav-link active' id='pills-massage-tab' data-bs-toggle='pill' data-bs-target='#pills-massage'>MASSAGE</button>
                   </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-hair-tab' data-bs-toggle='pill' data-bs-target='#pills-hair'>HAIR</button>
+                  </li>
                 </ul>
                 <div className='tab-content' id='pills-tabContent'>
                   <div className='tab-pane fade show active' id='pills-massage'>
