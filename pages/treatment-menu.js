@@ -273,20 +273,20 @@ export default function Home() {
                           Cream options:
                         </p>
                         <p>
-                          Dark Chocolate: deep moisturizing/dry hair
+                          Dark Chocolate: deep moisturizing / dry hair
                           <br />
-                          Strawberry Yogurt: shine boosting/dull hair
+                          Strawberry Yogurt: shine boosting / dull hair
                           <br />
-                          Mint Sorbet: itchy scalp/dandruff
+                          Mint Sorbet: itchy scalp / dandruff
                           <br />
-                          Green Tea Butter: intensive repair/damaged hair
+                          Green Tea Butter: intensive repair / damaged hair
                           <br />
-                          Vanilla Milk: nourishing/frizzy hair
+                          Vanilla Milk: nourishing / frizzy hair
                         </p>
                         <p className='font-bold green'>
                           60 min
                           <br />
-                          300 IDR
+                          350 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
@@ -297,26 +297,29 @@ export default function Home() {
                         <p className='font-bold green'>
                           90 min
                           <br />
-                          450 IDR
+                          500 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>INTENSIVELY NOURISHING HAIR</div>
+                        <div className='sm-heading'>INTENSELY NOURISHING HAIR</div>
                         <p>
                           Rich warm nourishing signature hair oil blend is massaged into the hair, conditioning the scalp and leaving your hair silky and shiny. The ingredients includes leaves extract called Mangkokan leaf and Waru leaf are Indonesian heritage recipe for healthy new hair and will strengthen hair roots.
                         </p>
                         <p className='font-bold green'>
                           60 min
                           <br />
-                          300 IDR
+                          350 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
                         <div className='sm-heading'>BASIC HAIR WASH</div>
+                        <p>
+                          Shampoo + conditioner, include mini scalp massage and quick hair drying.
+                        </p>
                         <p className='font-bold green'>
-                          Short Hair 30 min / 175 IDR
+                          Short Hair 30 min / 200 IDR
                           <br />
-                          Long Hair 45 min / 200 IDR
+                          Long Hair 45 min / 225 IDR
                         </p>
                       </div>
                     </div>
