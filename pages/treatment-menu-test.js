@@ -78,25 +78,53 @@ export default function Home() {
               <div className='col-sm-8 mx-auto'>
                 <ul className='nav nav-lg nav-icon-lg flex-nowrap overflow-auto mb-5' id='pills-tab'>
                   <li className='nav-item'>
-                    <button className='nav-link active' id='pills-massage-tab' data-bs-toggle='pill' data-bs-target='#pills-massage'>MASSAGE</button>
+                    <button className='nav-link active' id='pills-massage-tab' data-bs-toggle='pill' data-bs-target='#pills-massage'>
+                      <img src="img/massage.svg" />
+                      <br />
+                      MASSAGE
+                    </button>
                   </li>
                   <li className='nav-item'>
-                    <button className='nav-link' id='pills-hair-tab' data-bs-toggle='pill' data-bs-target='#pills-hair'>HAIR</button>
+                    <button className='nav-link' id='pills-hair-tab' data-bs-toggle='pill' data-bs-target='#pills-hair'>
+                      <img src="img/hair.svg" />
+                      <br />
+                      HAIR
+                    </button>
                   </li>
                   <li className='nav-item'>
-                    <button className='nav-link' id='pills-facial-tab' data-bs-toggle='pill' data-bs-target='#pills-facial'>FACIAL</button>
+                    <button className='nav-link' id='pills-facial-tab' data-bs-toggle='pill' data-bs-target='#pills-facial'>
+                      <img src="img/facial.svg" />
+                      <br />
+                      FACIAL
+                      </button>
                   </li>
                   <li className='nav-item'>
-                    <button className='nav-link' id='pills-scrub-tab' data-bs-toggle='pill' data-bs-target='#pills-scrub'>SCRUB</button>
+                    <button className='nav-link' id='pills-scrub-tab' data-bs-toggle='pill' data-bs-target='#pills-scrub'>
+                      <img src="img/scrub.svg" />
+                      <br />
+                      SCRUB
+                      </button>
                   </li>
                   <li className='nav-item'>
-                    <button className='nav-link' id='pills-nail-tab' data-bs-toggle='pill' data-bs-target='#pills-nail'>NAIL</button>
+                    <button className='nav-link' id='pills-nail-tab' data-bs-toggle='pill' data-bs-target='#pills-nail'>
+                      <img src="img/nail.svg" />
+                      <br />
+                      NAIL
+                      </button>
                   </li>
                   <li className='nav-item'>
-                    <button className='nav-link' id='pills-ritual-tab' data-bs-toggle='pill' data-bs-target='#pills-ritual'>RITUAL</button>
+                    <button className='nav-link' id='pills-ritual-tab' data-bs-toggle='pill' data-bs-target='#pills-ritual'>
+                      <img src="img/facial.svg" />
+                      <br />
+                      RITUAL
+                      </button>
                   </li>
                   <li className='nav-item'>
-                    <button className='nav-link' id='pills-kiddie-tab' data-bs-toggle='pill' data-bs-target='#pills-kiddie'>KIDDIE</button>
+                    <button className='nav-link' id='pills-kiddie-tab' data-bs-toggle='pill' data-bs-target='#pills-kiddie'>
+                      <img src="img/kiddie.svg" />
+                      <br />
+                      KIDDIE
+                      </button>
                   </li>
                 </ul>
               </div>
