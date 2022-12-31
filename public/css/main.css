@@ -614,6 +614,11 @@ body {
 }
 
 /* Nav Button */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
 .nav-lg {
   border-radius: 60px;
   border: 2px solid #48c3b1;

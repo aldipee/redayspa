@@ -114,7 +114,7 @@ export default function Home() {
                   </li>
                   <li className='nav-item'>
                     <button className='nav-link' id='pills-ritual-tab' data-bs-toggle='pill' data-bs-target='#pills-ritual'>
-                      <img src="img/facial.svg" />
+                      <img src="img/ritual.svg" />
                       <br />
                       RITUAL
                       </button>
