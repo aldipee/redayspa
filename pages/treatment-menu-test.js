@@ -76,6 +76,11 @@ export default function Home() {
             <div className='row'>
 
               <div className='col-sm-8 mx-auto'>
+                <ul className='nav nav-pills nav-justified mb-3' id='pills-tab'>
+                  <li className='nav-item'>
+                    <button className='nav-link active' id='pills-massage-tab' data-bs-toggle='pill' data-bs-target='#pills-massage'>MASSAGE</button>
+                  </li>
+                </ul>
                 <div className='tab-content' id='pills-tabContent'>
                   <div className='tab-pane fade show active' id='pills-massage'>
                     <p>REWELLNESS MASSAGE</p>
