@@ -613,6 +613,25 @@ body {
   background: #48c3b1;
 }
 
+/* Nav Button */
+.nav-item .nav-link.active {
+  background-color: #205F54;
+  font-weight: 600;
+}
+
+.nav-item .nav-link {
+  background-color: #48c3b1;
+  border: 0;
+  color: #fff;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+.nav-link img {
+  margin-bottom: 1rem;
+  width: 3rem;
+}
+
 /* ==========================================================================
    Responsive Design
    =========================================================================== */

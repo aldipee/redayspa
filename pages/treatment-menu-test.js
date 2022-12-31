@@ -76,7 +76,7 @@ export default function Home() {
             <div className='row'>
 
               <div className='col-sm-8 mx-auto'>
-                <ul className='nav flex-nowrap overflow-auto mb-5' id='pills-tab'>
+                <ul className='nav nav-lg nav-icon-lg flex-nowrap overflow-auto mb-5' id='pills-tab'>
                   <li className='nav-item'>
                     <button className='nav-link active' id='pills-massage-tab' data-bs-toggle='pill' data-bs-target='#pills-massage'>MASSAGE</button>
                   </li>
