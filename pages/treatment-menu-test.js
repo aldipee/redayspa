@@ -76,7 +76,7 @@ export default function Home() {
             <div className='row'>
 
               <div className='col-sm-8 mx-auto'>
-                <ul className='nav nav-pills nav-justified mb-3' id='pills-tab'>
+                <ul className='nav nav-pills nav-fill mb-3' id='pills-tab'>
                   <li className='nav-item'>
                     <button className='nav-link active' id='pills-massage-tab' data-bs-toggle='pill' data-bs-target='#pills-massage'>MASSAGE</button>
                   </li>
@@ -100,8 +100,10 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
+
               <div className='col-lg-12'>
                 <div className='tab-content' id='pills-tabContent'>
+
                   <div className='tab-pane fade show active' id='pills-massage'>
                     <div className='row'>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -221,9 +223,69 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+
                   <div className='tab-pane fade' id='pills-hair'>
-                    <p>HAIR</p>
+                    <div className='row'>
+                    <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>HERITAGE HAIR CARE</p>
+                        <p>
+                          This famous traditional treatment includes hair shampooing, scalp massage with intensive hair treatment cream, and nourishing hair tonic. It also comes with a deeply relaxing hand, neck, and shoulder massage.
+                        </p>
+                        <p className='ft-12 lh-base'>
+                          <strong>Cream options:</strong>
+                          <br />
+                          Dark Chocolate: deep moisturizing / dry hair
+                          <br />
+                          Strawberry Yogurt: shine boosting / dull hair
+                          <br />
+                          Mint Sorbet: itchy scalp / dandruff
+                          <br />
+                          Green Tea Butter: intensive repair / damaged hair
+                          <br />
+                          Vanilla Milk: nourishing / frizzy hair
+                        </p>
+                        <p className='font-bold green'>
+                          60 min
+                          <br />
+                          350 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>Luxurious Keratin Mask</p>
+                        <p>
+                          {`You'll`} be pampered with this luxurious treatment. Start the treatment with hair wash, and then continues with a scalp massage while the ultra-rich keratin cream is applied to your hair. The Keratin Mask is infused with argan oil to increase hair softness and also reduce hair breakage and split ends. {`You'll`} also get hand, neck, and shoulder massage included in this treatment. Fabulous shinny and soft hair awaits.
+                        </p>
+                        <p className='font-bold green'>
+                          90 min
+                          <br />
+                          500 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>INTENSELY NOURISHING HAIR</p>
+                        <p>
+                          Rich warm nourishing signature hair oil blend is massaged into the hair, conditioning the scalp and leaving your hair silky and shiny. The ingredients includes leaves extract called Mangkokan leaf and Waru leaf are Indonesian heritage recipe for healthy new hair and will strengthen hair roots.
+                        </p>
+                        <p className='font-bold green'>
+                          60 min
+                          <br />
+                          350 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>BASIC HAIR WASH</p>
+                        <p>
+                          Shampoo + conditioner, include mini scalp massage and quick hair drying.
+                        </p>
+                        <p className='font-bold green'>
+                          Short Hair 30 min / 200 IDR
+                          <br />
+                          Long Hair 45 min / 225 IDR
+                        </p>
+                      </div>
+                    </div>
                   </div>
+
                   <div className='tab-pane fade' id='pills-facial'>
                     <p>FACIAL</p>
                   </div>
