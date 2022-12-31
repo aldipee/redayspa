@@ -76,20 +76,8 @@ export default function Home() {
             <div className='row'>
 
               <div className='col-sm-8 mx-auto'>
-              <ul className="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
-                
-              </ul>
+              </div>
               
-              <div className="tab-content" id="pills-tabContent">
-                <div className="tab-pane fade show active" id="pills-massage" role="tabpanel" aria-labelledby="pills-massage-tab" tabindex="0">
-                  <p>REWELLNESS MASSAGE</p>
-                </div>
-                <div className="tab-pane fade" id="pills-hair" role="tabpanel" aria-labelledby="pills-hair-tab" tabindex="0">
-                  <p>HAIR</p>
-                </div>
-              </div>
-
-              </div>
               <div className='col-lg-12'>
                 <div className='treatment-item' data-aos='fade-up'>
                   <div className='row g-5'>
