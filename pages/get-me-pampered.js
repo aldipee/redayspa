@@ -34,7 +34,7 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
-              <div className="inner-wrapper-link">
+              <div className="inner-wrapper-link mb60">
                 <p className="mb30">
                   <Link href="/">
                     <a className="w-100">
@@ -52,9 +52,9 @@ export default function Home() {
                     @REDAYSPA
                   </a>
                 </p>
-                <div className="mb30">
+                <div className="mb30 p-3 ft-12 italic text-justify bg-main text-white">
                   <p>
-                    We carry out the High Season Policy for bookings in all treatments
+                    We carry out the <strong>High Season Policy</strong> for bookings in all treatments
                   </p>
                   <p>
                     Please contact us for available time and pay down payment to ensure you get the time and space.
@@ -63,7 +63,7 @@ export default function Home() {
                     We do this to ensure guests who are committed to taking their time to relax really get what they want.
                   </p>
                   <p>
-                    We hope you understand and respect the time of everyone involved.
+                    We hope you understand and respect the time of everyone involved. 🙏
                   </p>
                 </div>
                 

@@ -755,6 +755,9 @@ body {
 .mt30 {
   margin-top: 30px;
 }
+.bg-main {
+  background-color: #48c3b1;
+}
 .green {
   color: #48c3b1;
 }
@@ -802,6 +805,9 @@ body {
 }
 .text-right {
   text-align: right;
+}
+.text-justify {
+  text-align: justify;
 }
 .hidden,
 [hidden] {
