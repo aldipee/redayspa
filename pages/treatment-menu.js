@@ -89,14 +89,15 @@ export default function Home() {
                         300 / 430 / 550 IDR</p>
                     </div>
                     <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>RE SIGNATURE MASSAGE</p>
+                      <p className='sm-heading'>RĒ SIGNATURE MASSAGE</p>
                       <p>
                         Let us transport you to a blissful relaxation with our signature massage technique. Starting with warm aromatherapy oil of your choice, our therapists will expertly work out the magic touch. Afterward, {`we'll`} apply a warm towel compress to soothe and relax your body even further.
                       </p>
-                      <p className='italic green'>
-                        Essential oil options:
+                      <p className='ft-12 lh-base'>
+                        <strong>Essential oil options:</strong>
+                        <br />
+                        Energize / Detox / Wellbeing / Tranquility
                       </p>
-                      <p>Energize / Detox / Wellbeing / Tranquility</p>
                       <p className='font-bold green'>
                         60 / 90 / 120 min
                         <br />
@@ -206,10 +207,9 @@ export default function Home() {
                         <p>
                           This famous traditional treatment includes hair shampooing, scalp massage with intensive hair treatment cream, and nourishing hair tonic. It also comes with a deeply relaxing hand, neck, and shoulder massage.
                         </p>
-                        <p className='italic green'>
-                          Cream options:
-                        </p>
-                        <p>
+                        <p className='ft-12 lh-base'>
+                          <strong>Cream options:</strong>
+                          <br />
                           Dark Chocolate: deep moisturizing / dry hair
                           <br />
                           Strawberry Yogurt: shine boosting / dull hair
@@ -269,7 +269,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <p className='sm-heading'>RE SIGNATURE FACIAL</p>
+                        <p className='sm-heading'>RĒ SIGNATURE FACIAL</p>
                         <p className='font-bold green'>REHYDRATING</p>
                         <p>
                           Gentle deep cleansing and exfoliation help the skin to improve the absorption of a nourishing moisturizing mask. Focuses on replenishing dry skin by providing vital nutrients that will restore skin hydration so that skin becomes more supple and healthy.
@@ -503,10 +503,13 @@ export default function Home() {
                         <p>
                           A staple ritual for spa-goers. A classic combination of full body massage and body scrub for a quick-fix; ease body soreness plus exfoliation for glowing skin.
                         </p>
-                        <p>
-                        Full body massage choice: Balinese Massage (+IDR 30 for deep / dry / signature massage)
+                        <p className='ft-12 lh-base'>
+                        <strong>Full body massage choice:</strong>
                         <br />
-                        Scrub choice: Lulur / Coffee / Coconut Vanilla
+                        Balinese Massage (+IDR 30 for Deep / Dry / RĒ Signature massage)
+                        <br />
+                        <strong>Scrub choice:</strong>
+                        <br />Lulur / Coffee / Coconut Vanilla
                         </p>
                         <p className='italic green'>Treatment Steps</p>
                         <p>
