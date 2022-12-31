@@ -361,8 +361,44 @@ export default function Home() {
                   </div>
 
                   <div className='tab-pane fade' id='pills-scrub'>
-                    <p>SCRUB</p>
+                    <div className='row'>
+                      <div className='text-center mb30'>
+                        <p className='sm-heading'>DETOXIFYING BODY EXFOLIATION</p>
+                        <p>
+                          Made from coffee beans grown at Kintamani, Bali, our coffee scrub is a great way to scrub away dead skin to reveal the new, healthy skin underneath. Also, this will reduce the visibility of cellulites and will leave you with smooth, glowing skin.
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <p className='sm-heading'>COCO CONTOURING SCRUB</p>
+                        <p>
+                          This exfoliating, contouring and nourishing body scrub will awaken your senses with its sweet vanilla and coconut aromas. Specifically formulated to leave your skin feeling hydrated, soft, and silky.
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <p className='sm-heading'>LULUR</p>
+                        <p>
+                          Inspired by ancient Indonesian royalty tradition. Made from a blend of finely ground Balinese native herbs and spices such as turmeric, sandalwood, and rice powder. Besides being useful for exfoliating, lulur is also good for evening out skin tone and contains high antioxidants. Enjoy its exotic aroma while having its benefits.
+                        </p>
+                        <p className='font-bold green'>
+                          45 min
+                          <br />
+                          250 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <p className='sm-heading'>ALOE VERA BODY MASK</p>
+                        <p>
+                          {`it's`} no secret that aloe vera, the original natural sunburn soother, has a variety of skin-healthy benefits. Target whatever skin issue {`you've`} got (be it irritated, discolored, or sun-damaged skin) and gentle enough to prevent dryness.
+                        </p>
+                        <p className='font-bold green'>
+                          15 min
+                          <br />
+                          180 IDR
+                        </p>
+                      </div>
+                    </div>
                   </div>
+                  
                   <div className='tab-pane fade' id='pills-nail'>
                     <p>NAIL</p>
                   </div>
@@ -401,40 +437,6 @@ export default function Home() {
                   <div className='row g-5'>
                     <div className='col-sm-6'>
                       <p className='treatment-heading mb24'>REVIVE BODY SCRUB</p>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>DETOXIFYING BODY EXFOLIATION</p>
-                        <p>
-                          Made from coffee beans grown at Kintamani, Bali, our coffee scrub is a great way to scrub away dead skin to reveal the new, healthy skin underneath. Also, this will reduce the visibility of cellulites and will leave you with smooth, glowing skin.
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>COCO CONTOURING SCRUB</p>
-                        <p>
-                          This exfoliating, contouring and nourishing body scrub will awaken your senses with its sweet vanilla and coconut aromas. Specifically formulated to leave your skin feeling hydrated, soft, and silky.
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>LULUR</p>
-                        <p>
-                          Inspired by ancient Indonesian royalty tradition. Made from a blend of finely ground Balinese native herbs and spices such as turmeric, sandalwood, and rice powder. Besides being useful for exfoliating, lulur is also good for evening out skin tone and contains high antioxidants. Enjoy its exotic aroma while having its benefits.
-                        </p>
-                        <p className='font-bold green'>
-                          45 min
-                          <br />
-                          250 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>ALOE VERA BODY MASK</p>
-                        <p>
-                          {`it's`} no secret that aloe vera, the original natural sunburn soother, has a variety of skin-healthy benefits. Target whatever skin issue {`you've`} got (be it irritated, discolored, or sun-damaged skin) and gentle enough to prevent dryness.
-                        </p>
-                        <p className='font-bold green'>
-                          15 min
-                          <br />
-                          180 IDR
-                        </p>
-                      </div>
                     </div>
                     <div className='col-sm-6'>
                       <p className='treatment-heading mb24'>RESHINE AND BUFF</p>
