@@ -639,19 +639,19 @@ body {
   border: 0;
   color: #205F54;
   padding: 1rem;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 .nav-icon-lg img {
   filter: brightness(0) saturate(100%) invert(27%) sepia(11%) saturate(2457%) hue-rotate(120deg) brightness(99%) contrast(82%);
-  width: 2rem;
+  width: 4rem;
 }
 .nav-item:first-child .nav-link {
-  padding-left: 1rem;
+  padding-left: 3rem;
 }
 
 .nav-item:last-child .nav-link {
-  padding-right: 1rem;
+  padding-right: 3rem;
 }
 
 /* ==========================================================================
@@ -718,17 +718,17 @@ body {
     margin-bottom: 15px;
   }
   .nav-lg .nav-link {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .nav-icon-lg img {
-    width: 4rem;
+    width: 2rem;
   }
   .nav-item:first-child .nav-link {
-    padding-left: 3rem;
+    padding-left: 2rem;
   }
   
   .nav-item:last-child .nav-link {
-    padding-right: 3rem;
+    padding-right: 2rem;
   }
 }
 
