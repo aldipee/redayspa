@@ -410,7 +410,7 @@ export default function Home() {
                         </div>
                         <div className='mb30'>
                           <p className='font-bold green'>
-                            Complete 75 min / 280 IDR
+                            Complete 60 min / 280 IDR
                           </p>
                           <p>
                             Foot scrub, toenails trimming & shaping, cuticle work, nail polish.
