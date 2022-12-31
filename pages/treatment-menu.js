@@ -511,7 +511,7 @@ export default function Home() {
                         <strong>Scrub choice:</strong>
                         <br />Lulur / Coffee / Coconut Vanilla
                         </p>
-                        <p className='italic green'>Treatment Steps</p>
+                        <p className='italic green mb-0'>Treatment Steps</p>
                         <p>
                           Refreshing foot bath + Full Body Massage of your choice + Body scrub of your choice + Shower + RĒ Signature body lotion
                         </p>
@@ -526,7 +526,7 @@ export default function Home() {
                         <p>
                           Out and about all day in the sun is not only physically exhausting for your body, but also for your skin. Come and get some after-sun/relaxation and take care of your body and let it heal to enjoy the rest of your stay in this sunshine island of Bali.
                         </p>
-                        <p className='italic green'>Treatment Steps</p>
+                        <p className='italic green mb-0'>Treatment Steps</p>
                         <p>
                           Refreshing Foot Bath + Balinese Massage + Aloe Body Mask + Sun S.O.S. Facial
                         </p>
@@ -541,7 +541,7 @@ export default function Home() {
                         <p>
                           A contemporary spin on Balinese spa tradition combined with our signature beauty recipes results in the perfect rejuvenation to the body and soul. Bringing curative benefits of fresh, natural and quality ingredients, indulge mind and soul in a heartfelt Balinese spa experience.
                         </p>
-                        <p className='italic green'>Treatment Steps</p>
+                        <p className='italic green mb-0'>Treatment Steps</p>
                         <p>
                           Refreshing foot bath + RĒ Signature Massage + Body scrub of your choice + Shower + RĒ Signature body lotion + RĒ Signature mini facial
                         </p>
@@ -556,7 +556,7 @@ export default function Home() {
                         <p>
                           The ultimate care package to make you feel like royalty! Pamper yourself from head to toe and feel luxurious authentic Balinese Royal ritual yourself. Guaranteed you will leave refreshed and looking absolutely perfect.
                         </p>
-                        <p className='italic green'>Treatment Steps</p>
+                        <p className='italic green mb-0'>Treatment Steps</p>
                         <p>
                           Refreshing Foot Bath + Balinese Massage + Lulur + RĒ Signature Facial + Basic Manicure
                         </p>
@@ -571,7 +571,7 @@ export default function Home() {
                         <p>
                           The favorite party-goers treatment. Cure your hangover and tiredness from last night with our unique spa ritual. This treatment will help with your pounding head and body soreness immediately.
                         </p>
-                        <p className='italic green'>Treatment Steps</p>
+                        <p className='italic green mb-0'>Treatment Steps</p>
                         <p>
                           Refreshing Foot Bath + Balinese Massage + Intuitive Head Pamper + Collagen Face Mask
                         </p>
