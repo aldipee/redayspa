@@ -351,45 +351,10 @@ export default function Home() {
                         <div className='sm-heading'>MANICURE</div>
                         <div className='mb30'>
                           <p className='font-bold green'>
-                            Sport 45 min / 160 IDR
-                          </p>
-                          <p>
-                            Nails trim and shape, Cuticle cleaning, buffing, hand massage & exfoliation.
-                          </p>
-                        </div>
-                        <div className='mb30'>
-                          <p className='font-bold green'>
-                            Basic 45 min / 180 IDR
-                          </p>
-                          <p>
-                            Nails trim and shape, buffing, hand massage, and polish (no cuticle work & exfoliation)
-                          </p>
-                        </div>
-                        <div className='mb30'>
-                          <p className='font-bold green'>
-                            Complete 60 min / 200 IDR
-                          </p>
-                          <p>
-                            Nails trim and shape, Cuticle cleaning, buffing, hand massage & exfoliation, and polish.
-                          </p>
-                        </div>
-                        <div className='mb30'>
-                          <p className='font-bold green'>
-                            Gel / Shellac 90 min / 300 IDR
-                          </p>
-                          <p>
-                            Nails trim and shape, Cuticle cleaning, buffing, hand massage & exfoliation, and gel polish.
-                          </p>
-                        </div>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>PEDICURE</div>
-                        <div className='mb30'>
-                          <p className='font-bold green'>
                             Sport 45 min / 180 IDR
                           </p>
                           <p>
-                            Toenails trim and shape, cuticle cleaning, buffing, foot massage & exfoliation.
+                            Hands scrub, nail trimming & shaping, cuticle work.
                           </p>
                         </div>
                         <div className='mb30'>
@@ -397,23 +362,74 @@ export default function Home() {
                             Basic 45 min / 200 IDR
                           </p>
                           <p>
-                            Toenails trim and shape, buffing, foot massage, and polish (no cuticle work & exfoliation)
+                            Nail trimming & shaping, nail polish.
                           </p>
                         </div>
                         <div className='mb30'>
                           <p className='font-bold green'>
-                            Complete 75 min / 225 IDR
+                            Complete 60 min / 230 IDR
                           </p>
                           <p>
-                            Toenails trim and shape, Cuticle cleaning, buffing, foot massage & exfoliation, and polish.
+                            Hands, scrub, nail trimming & shaping, cuticle work, nail polish.
                           </p>
                         </div>
                         <div className='mb30'>
                           <p className='font-bold green'>
-                            Gel / Shellac 90 min / 300 IDR
+                            Luxe 90 min / 330 IDR
                           </p>
                           <p>
-                            Toenails trim and shape, Cuticle cleaning, buffing, foot massage & exfoliation, and gel polish.
+                            Hands scrub, hands massage,, nail trimming & shaping, cuticle work, nail polish, lotion.
+                          </p>
+                        </div>
+                        <div className='mb30'>
+                          <p className='font-bold green'>
+                            Gel / Shellac 90 min / 350 IDR
+                          </p>
+                          <p>
+                            Hands scrub, nail trimming & shaping, cuticle work, gel/shellac polish.
+                          </p>
+                        </div>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>PEDICURE</div>
+                        <div className='mb30'>
+                          <p className='font-bold green'>
+                            Sport 45 min / 200 IDR
+                          </p>
+                          <p>
+                            Foot scrub, toenails trimming & shaping, cuticle work.
+                          </p>
+                        </div>
+                        <div className='mb30'>
+                          <p className='font-bold green'>
+                            Basic 45 min / 230 IDR
+                          </p>
+                          <p>
+                            Toenails trimming & shaping, nail polish.
+                          </p>
+                        </div>
+                        <div className='mb30'>
+                          <p className='font-bold green'>
+                            Complete 75 min / 280 IDR
+                          </p>
+                          <p>
+                            Foot scrub, toenails trimming & shaping, cuticle work, nail polish.
+                          </p>
+                        </div>
+                        <div className='mb30'>
+                          <p className='font-bold green'>
+                            Luxe 90 min / 380 IDR
+                          </p>
+                          <p>
+                            Feet scrub, feet massage, toenails trimming & shaping, cuticle work, nail polish, lotion.
+                          </p>
+                        </div>
+                        <div className='mb30'>
+                          <p className='font-bold green'>
+                            Gel / Shellac 90 min / 350 IDR
+                          </p>
+                          <p>
+                            Toenails trimming & shaping, cuticle work, feet scrub, gel/shellac polish.
                           </p>
                         </div>
                       </div>
@@ -421,11 +437,17 @@ export default function Home() {
                         <div className='sm-heading'>OTHER</div>
                         <div className='mb30'>
                           <p className='font-bold green'>
-                            Nail Polish only (hands/feet) 30 min / 120 IDR
+                            Nail Polish only (hands/feet)
                             <br />
-                            Gel Polish only (hands/feet) 30 min / 150 IDR
+                            30 min / 120 IDR
                             <br />
-                            Gel Polish removal (hands/feet) 15 min / 60 IDR
+                            Gel Polish only (hands/feet)
+                            <br />
+                            30 min / 150 IDR
+                            <br />
+                            Gel Polish removal (hands/feet)
+                            <br />
+                            15 min / 60 IDR
                           </p>
                         </div>
                       </div>
