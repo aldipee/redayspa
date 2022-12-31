@@ -614,22 +614,39 @@ body {
 }
 
 /* Nav Button */
-.nav-item .nav-link.active {
-  background-color: #205F54;
-  font-weight: 600;
+.nav-lg {
+  border-radius: 60px;
+  border: 2px solid #48c3b1;
 }
 
-.nav-item .nav-link {
+.nav-lg .nav-link.active {
   background-color: #48c3b1;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.nav-lg .nav-link.active img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.nav-lg .nav-link {
+  background-color: #FFF;
   border: 0;
-  color: #fff;
-  padding: 1rem;
+  color: #205F54;
+  padding: 1rem 1rem 1rem 1rem;
   font-size: 0.8rem;
 }
 
-.nav-link img {
-  margin-bottom: 1rem;
-  width: 3rem;
+.nav-icon-lg img {
+  filter: brightness(0) saturate(100%) invert(27%) sepia(11%) saturate(2457%) hue-rotate(120deg) brightness(99%) contrast(82%);
+  width: 4rem;
+}
+.nav-item:first-child .nav-link {
+  padding-left: 3rem;
+}
+
+.nav-item:last-child .nav-link {
+  padding-right: 3rem;
 }
 
 /* ==========================================================================
