@@ -84,6 +84,8 @@ export default function Home() {
                     <button className='nav-link' id='pills-hair-tab' data-bs-toggle='pill' data-bs-target='#pills-hair'>HAIR</button>
                   </li>
                 </ul>
+              </div>
+              <div className='col-lg-12'>
                 <div className='tab-content' id='pills-tabContent'>
                   <div className='tab-pane fade show active' id='pills-massage'>
                     <p>REWELLNESS MASSAGE</p>
