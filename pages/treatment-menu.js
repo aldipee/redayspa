@@ -198,6 +198,69 @@ export default function Home() {
                 </div>
                 <div className='treatment-item' data-aos='fade-up'>
                   <div className='row g-5'>
+
+                    <div className='col-sm-6'>
+                      <div className='treatment-heading mb24'>REPLENISH TREATMENT</div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>HERITAGE HAIR CARE</div>
+                        <p>
+                          This famous traditional treatment includes hair shampooing, scalp massage with intensive hair treatment cream, and nourishing hair tonic. It also comes with a deeply relaxing hand, neck, and shoulder massage.
+                        </p>
+                        <p className='italic green'>
+                          Cream options:
+                        </p>
+                        <p>
+                          Dark Chocolate: deep moisturizing / dry hair
+                          <br />
+                          Strawberry Yogurt: shine boosting / dull hair
+                          <br />
+                          Mint Sorbet: itchy scalp / dandruff
+                          <br />
+                          Green Tea Butter: intensive repair / damaged hair
+                          <br />
+                          Vanilla Milk: nourishing / frizzy hair
+                        </p>
+                        <p className='font-bold green'>
+                          60 min
+                          <br />
+                          350 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>Luxurious Keratin Mask</div>
+                        <p>
+                          {`You'll`} be pampered with this luxurious treatment. Start the treatment with hair wash, and then continues with a scalp massage while the ultra-rich keratin cream is applied to your hair. The Keratin Mask is infused with argan oil to increase hair softness and also reduce hair breakage and split ends. {`You'll`} also get hand, neck, and shoulder massage included in this treatment. Fabulous shinny and soft hair awaits.
+                        </p>
+                        <p className='font-bold green'>
+                          90 min
+                          <br />
+                          500 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>INTENSELY NOURISHING HAIR</div>
+                        <p>
+                          Rich warm nourishing signature hair oil blend is massaged into the hair, conditioning the scalp and leaving your hair silky and shiny. The ingredients includes leaves extract called Mangkokan leaf and Waru leaf are Indonesian heritage recipe for healthy new hair and will strengthen hair roots.
+                        </p>
+                        <p className='font-bold green'>
+                          60 min
+                          <br />
+                          350 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>BASIC HAIR WASH</div>
+                        <p>
+                          Shampoo + conditioner, include mini scalp massage and quick hair drying.
+                        </p>
+                        <p className='font-bold green'>
+                          Short Hair 30 min / 200 IDR
+                          <br />
+                          Long Hair 45 min / 225 IDR
+                        </p>
+                      </div>
+                    </div>
+
                     <div className='col-sm-6'>
                       <div className='treatment-heading mb24'>REJUVENATE FACIAL</div>
                       <div className='text-center mb30'>
@@ -271,71 +334,47 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className='col-sm-6'>
-                      <div className='treatment-heading mb24'>REPLENISH TREATMENT</div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>HERITAGE HAIR CARE</div>
-                        <p>
-                          A famous Indonesian {`"creambath"`} for hair, includes hair wash, and relaxing scalp massage with intensive hair treatment cream from Makarizo. Finished with another round of hair wash and conditioner, plus hair tonic to strengthen hair and healthy scalp.
-                        </p>
-                        <p className='italic green'>
-                          Cream options:
-                        </p>
-                        <p>
-                          Dark Chocolate: deep moisturizing / dry hair
-                          <br />
-                          Strawberry Yogurt: shine boosting / dull hair
-                          <br />
-                          Mint Sorbet: itchy scalp / dandruff
-                          <br />
-                          Green Tea Butter: intensive repair / damaged hair
-                          <br />
-                          Vanilla Milk: nourishing / frizzy hair
-                        </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          350 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>Luxurious Keratin Mask</div>
-                        <p>
-                          {`You'll`} be pampered with this luxurious treatment. Start the treatment with hair wash, and then continues with a scalp massage while the ultra-rich keratin cream is applied to your hair. The Keratin Mask is infused with argan oil to increase hair softness and also reduce hair breakage and split ends. {`You'll`} also get hand, neck, and shoulder massage included in this treatment. Fabulous shinny and soft hair awaits.
-                        </p>
-                        <p className='font-bold green'>
-                          90 min
-                          <br />
-                          500 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>INTENSELY NOURISHING HAIR</div>
-                        <p>
-                          Rich warm nourishing signature hair oil blend is massaged into the hair, conditioning the scalp and leaving your hair silky and shiny. The ingredients includes leaves extract called Mangkokan leaf and Waru leaf are Indonesian heritage recipe for healthy new hair and will strengthen hair roots.
-                        </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          350 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>BASIC HAIR WASH</div>
-                        <p>
-                          Shampoo + conditioner, include mini scalp massage and quick hair drying.
-                        </p>
-                        <p className='font-bold green'>
-                          Short Hair 30 min / 200 IDR
-                          <br />
-                          Long Hair 45 min / 225 IDR
-                        </p>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 <div className='treatment-item' data-aos='fade-up'>
                   <div className='row g-5'>
+                    <div className='col-sm-6'>
+                      <div className='treatment-heading mb24'>REVIVE BODY SCRUB</div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>DETOXIFYING BODY EXFOLIATION</div>
+                        <p>
+                          Made from coffee beans grown at Kintamani, Bali, our coffee scrub is a great way to scrub away dead skin to reveal the new, healthy skin underneath. Also, this will reduce the visibility of cellulites and will leave you with smooth, glowing skin.
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>COCO CONTOURING SCRUB</div>
+                        <p>
+                          This exfoliating, contouring and nourishing body scrub will awaken your senses with its sweet vanilla and coconut aromas. Specifically formulated to leave your skin feeling hydrated, soft, and silky.
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>LULUR</div>
+                        <p>
+                          Inspired by ancient Indonesian royalty tradition. Made from a blend of finely ground Balinese native herbs and spices such as turmeric, sandalwood, and rice powder. Besides being useful for exfoliating, lulur is also good for evening out skin tone and contains high antioxidants. Enjoy its exotic aroma while having its benefits.
+                        </p>
+                        <p className='font-bold green'>
+                          45 min
+                          <br />
+                          250 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>ALOE VERA BODY MASK</div>
+                        <p>
+                          {`it's`} no secret that aloe vera, the original natural sunburn soother, has a variety of skin-healthy benefits. Target whatever skin issue {`you've`} got (be it irritated, discolored, or sun-damaged skin) and gentle enough to prevent dryness.
+                        </p>
+                        <p className='font-bold green'>
+                          15 min
+                          <br />
+                          180 IDR
+                        </p>
+                      </div>
+                    </div>
                     <div className='col-sm-6'>
                       <div className='treatment-heading mb24'>RESHINE AND BUFF</div>
                       <div className='text-center mb30'>
@@ -452,6 +491,11 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+                <div className='treatment-item border-0' data-aos='fade-up'>
+                  <div className='row g-5'>
+                    
 
                     <div className='col-sm-6'>
                       <div className='treatment-heading mb24'>ADD ON</div>
@@ -480,47 +524,6 @@ export default function Home() {
                           30 min
                           <br />
                           120 IDR
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className='treatment-item border-0' data-aos='fade-up'>
-                  <div className='row g-5'>
-                    <div className='col-sm-6'>
-                      <div className='treatment-heading mb24'>REVIVE BODY SCRUB</div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>DETOXIFYING BODY EXFOLIATION</div>
-                        <p>
-                          Made from coffee beans grown at Kintamani, Bali, our coffee scrub is a great way to scrub away dead skin to reveal the new, healthy skin underneath. Also, this will reduce the visibility of cellulites and will leave you with smooth, glowing skin.
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>COCO CONTOURING SCRUB</div>
-                        <p>
-                          This exfoliating, contouring and nourishing body scrub will awaken your senses with its sweet vanilla and coconut aromas. Specifically formulated to leave your skin feeling hydrated, soft, and silky.
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>LULUR</div>
-                        <p>
-                          Inspired by ancient Indonesian royalty tradition. Made from a blend of finely ground Balinese native herbs and spices such as turmeric, sandalwood, and rice powder. Besides being useful for exfoliating, lulur is also good for evening out skin tone and contains high antioxidants. Enjoy its exotic aroma while having its benefits.
-                        </p>
-                        <p className='font-bold green'>
-                          45 min
-                          <br />
-                          250 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>ALOE VERA BODY MASK</div>
-                        <p>
-                          {`it's`} no secret that aloe vera, the original natural sunburn soother, has a variety of skin-healthy benefits. Target whatever skin issue {`you've`} got (be it irritated, discolored, or sun-damaged skin) and gentle enough to prevent dryness.
-                        </p>
-                        <p className='font-bold green'>
-                          15 min
-                          <br />
-                          180 IDR
                         </p>
                       </div>
                     </div>
