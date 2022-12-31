@@ -605,6 +605,23 @@ export default function Home() {
                         </p>
                       </div>
 
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>KIDDIE NAIL CARE</div>
+                        <p className='font-bold green'>Mini Manicure 45 min / 135 IDR</p>
+                        <p>
+                          Nails trimming & nail polish
+                        </p>
+                        <p className='font-bold green'>Mini Pedicure 45 min / 180 IDR</p>
+                        <p>
+                          Toenails trimming & nail polis
+                        </p>
+                        <p className='font-bold green'>Mini Polish 15 min / 100 IDR</p>
+                        <p className='font-bold green'>Mini Nail Art 10 min / 10 IDR
+                        <br />
+                        *price per finger
+                        </p>
+                      </div>
+
                     </div>
                   </div>
                 </div>
