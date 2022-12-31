@@ -77,7 +77,7 @@ export default function Home() {
 
               <div className='col-sm-8 mx-auto'>
                 <p className='sm-heading text-center'>TREATMENT CATEGORY</p>
-                <ul className='nav nav-lg nav-icon-lg flex-nowrap justify-content-lg-center overflow-auto mb-5' id='pills-tab'>
+                <ul className='nav nav-lg nav-icon-lg flex-nowrap overflow-auto mb-5' id='pills-tab'>
                   <li className='nav-item'>
                     <button className='nav-link active' id='pills-massage-tab' data-bs-toggle='pill' data-bs-target='#pills-massage'>
                       <img src="img/massage.svg" />
