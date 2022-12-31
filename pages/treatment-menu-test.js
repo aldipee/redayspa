@@ -398,48 +398,9 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className='tab-pane fade' id='pills-nail'>
-                    <p>NAIL</p>
-                  </div>
-                  <div className='tab-pane fade' id='pills-ritual'>
-                    <p>RITUAL</p>
-                  </div>
-                  <div className='tab-pane fade' id='pills-kiddie'>
-                    <p>KIDDIE</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className='col-lg-12'>
-                <div className='treatment-item' data-aos='fade-up'>
-                  <div className='row g-5'>
-                    <div className='col-sm-12'>
-                      <p className='treatment-heading mb24'>REWELLNESS MASSAGE</p>
-                    </div>
-                  </div>
-                </div>
-                <div className='treatment-item' data-aos='fade-up'>
-                  <div className='row g-5'>
-
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REPLENISH TREATMENT</p>
-                    </div>
-
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REJUVENATE FACIAL</p>
-
-                    </div>
-
-                  </div>
-                </div>
-                <div className='treatment-item' data-aos='fade-up'>
-                  <div className='row g-5'>
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REVIVE BODY SCRUB</p>
-                    </div>
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>RESHINE AND BUFF</p>
+                    <div className='row'>
                       <div className='text-center mb30'>
                         <p>
                           We use O.P.I, Essie, Orly, and China Glaze nail polishes.
@@ -555,12 +516,9 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className='treatment-item border-0' data-aos='fade-up'>
-                  <div className='row g-5'>
 
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REVITALIZE RITUAL</p>
+                  <div className='tab-pane fade' id='pills-ritual'>
+                    <div className='row'>
                       <div className='text-center mb30'>
                         <p className='sm-heading'>BODY REVIVE</p>
                         <p>
@@ -645,10 +603,10 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
+                  </div>
 
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>KIDDIE</p>
-
+                  <div className='tab-pane fade' id='pills-kiddie'>
+                    <div className='row'>
                       <div className='text-center mb30'>
                         <p className='sm-heading'>KIDDIE MASSAGE</p>
                         <p className='font-bold green'>BODY MASSAGE</p>
@@ -687,6 +645,54 @@ export default function Home() {
                         *price per finger
                         </p>
                       </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className='col-lg-12'>
+                <div className='treatment-item' data-aos='fade-up'>
+                  <div className='row g-5'>
+                    <div className='col-sm-12'>
+                      <p className='treatment-heading mb24'>REWELLNESS MASSAGE</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='treatment-item' data-aos='fade-up'>
+                  <div className='row g-5'>
+
+                    <div className='col-sm-6'>
+                      <p className='treatment-heading mb24'>REPLENISH TREATMENT</p>
+                    </div>
+
+                    <div className='col-sm-6'>
+                      <p className='treatment-heading mb24'>REJUVENATE FACIAL</p>
+
+                    </div>
+
+                  </div>
+                </div>
+                <div className='treatment-item' data-aos='fade-up'>
+                  <div className='row g-5'>
+                    <div className='col-sm-6'>
+                      <p className='treatment-heading mb24'>REVIVE BODY SCRUB</p>
+                    </div>
+                    <div className='col-sm-6'>
+                      <p className='treatment-heading mb24'>RESHINE AND BUFF</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='treatment-item border-0' data-aos='fade-up'>
+                  <div className='row g-5'>
+
+                    <div className='col-sm-6'>
+                      <p className='treatment-heading mb24'>REVITALIZE RITUAL</p>
+
+                    </div>
+
+                    <div className='col-sm-6'>
+                      <p className='treatment-heading mb24'>KIDDIE</p>
+
 
                     </div>
                   </div>
