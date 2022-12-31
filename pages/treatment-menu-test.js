@@ -288,7 +288,7 @@ export default function Home() {
 
                   <div className='tab-pane fade' id='pills-facial'>
                     <div className='row'>
-                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                      <div className='col-sm-12 mb30 mt-0 text-center'>
                         <p>
                           All facial treatments include a relaxing scalp massage, and full facial massage to reduce muscle tension and firm facial contours.
                         </p>
