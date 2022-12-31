@@ -106,7 +106,10 @@ export default function Home() {
 
                   <div className='tab-pane fade show active' id='pills-massage'>
                     <div className='row'>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>REWELLNESS MASSAGE</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className="sm-heading">BALINESE MASSAGE</p>
                         <p>Our take on traditional Balinese techniques applies combination of acupressure, kneading and invigorating hand movements using our unique blended oil to stimulate blood circulation, increase flexibility and ultimately relax your entire body.</p>
                         <p className="font-bold green">
@@ -226,6 +229,9 @@ export default function Home() {
 
                   <div className='tab-pane fade' id='pills-hair'>
                     <div className='row'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>REPLENISH TREATMENT</p>
+                      </div>
                       <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>HERITAGE HAIR CARE</p>
                         <p>
@@ -288,6 +294,9 @@ export default function Home() {
 
                   <div className='tab-pane fade' id='pills-facial'>
                     <div className='row'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>REJUVENATE FACIAL</p>
+                      </div>
                       <div className='col-sm-12 mb30 mt-0 text-center'>
                         <p>
                           All facial treatments include a relaxing scalp massage, and full facial massage to reduce muscle tension and firm facial contours.
@@ -362,19 +371,22 @@ export default function Home() {
 
                   <div className='tab-pane fade' id='pills-scrub'>
                     <div className='row'>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>REVIVE BODY SCRUB</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>DETOXIFYING BODY EXFOLIATION</p>
                         <p>
                           Made from coffee beans grown at Kintamani, Bali, our coffee scrub is a great way to scrub away dead skin to reveal the new, healthy skin underneath. Also, this will reduce the visibility of cellulites and will leave you with smooth, glowing skin.
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>COCO CONTOURING SCRUB</p>
                         <p>
                           This exfoliating, contouring and nourishing body scrub will awaken your senses with its sweet vanilla and coconut aromas. Specifically formulated to leave your skin feeling hydrated, soft, and silky.
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>LULUR</p>
                         <p>
                           Inspired by ancient Indonesian royalty tradition. Made from a blend of finely ground Balinese native herbs and spices such as turmeric, sandalwood, and rice powder. Besides being useful for exfoliating, lulur is also good for evening out skin tone and contains high antioxidants. Enjoy its exotic aroma while having its benefits.
@@ -385,7 +397,7 @@ export default function Home() {
                           250 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>ALOE VERA BODY MASK</p>
                         <p>
                           {`it's`} no secret that aloe vera, the original natural sunburn soother, has a variety of skin-healthy benefits. Target whatever skin issue {`you've`} got (be it irritated, discolored, or sun-damaged skin) and gentle enough to prevent dryness.
@@ -401,7 +413,10 @@ export default function Home() {
 
                   <div className='tab-pane fade' id='pills-nail'>
                     <div className='row'>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>RESHINE AND BUFF</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p>
                           We use O.P.I, Essie, Orly, and China Glaze nail polishes.
                           <br />
@@ -410,7 +425,7 @@ export default function Home() {
                           Feel free to browse our extensive color collection in spa.
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>MANICURE</p>
                         <div className='mb30'>
                           <p className='font-bold green'>
@@ -453,7 +468,7 @@ export default function Home() {
                           </p>
                         </div>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>PEDICURE</p>
                         <div className='mb30'>
                           <p className='font-bold green'>
@@ -496,7 +511,7 @@ export default function Home() {
                           </p>
                         </div>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>OTHER</p>
                         <div className='mb30'>
                           <p className='font-bold green'>
@@ -519,7 +534,10 @@ export default function Home() {
 
                   <div className='tab-pane fade' id='pills-ritual'>
                     <div className='row'>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>REVITALIZE RITUAL</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>BODY REVIVE</p>
                         <p>
                           A staple ritual for spa-goers. A classic combination of full body massage and body scrub for a quick-fix; ease body soreness plus exfoliation for glowing skin.
@@ -542,7 +560,7 @@ export default function Home() {
                           500 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>SUN RELIEVER</p>
                         <p>
                           Out and about all day in the sun is not only physically exhausting for your body, but also for your skin. Come and get some after-sun/relaxation and take care of your body and let it heal to enjoy the rest of your stay in this sunshine island of Bali.
@@ -557,7 +575,7 @@ export default function Home() {
                           700 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <div className='sm-heading'>URBAN REWIND</div>
                         <p>
                           A contemporary spin on Balinese spa tradition combined with our signature beauty recipes results in the perfect rejuvenation to the body and soul. Bringing curative benefits of fresh, natural and quality ingredients, indulge mind and soul in a heartfelt Balinese spa experience.
@@ -572,7 +590,7 @@ export default function Home() {
                           800 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>THE ROYAL</p>
                         <p>
                           The ultimate care package to make you feel like royalty! Pamper yourself from head to toe and feel luxurious authentic Balinese Royal ritual yourself. Guaranteed you will leave refreshed and looking absolutely perfect.
@@ -587,7 +605,7 @@ export default function Home() {
                           1000 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>TOTALY PAMPERED</p>
                         <p>
                           The favorite party-goers treatment. Cure your hangover and tiredness from last night with our unique spa ritual. This treatment will help with your pounding head and body soreness immediately.
@@ -607,7 +625,10 @@ export default function Home() {
 
                   <div className='tab-pane fade' id='pills-kiddie'>
                     <div className='row'>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>KIDDIE</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>KIDDIE MASSAGE</p>
                         <p className='font-bold green'>BODY MASSAGE</p>
                         <p>
@@ -628,8 +649,7 @@ export default function Home() {
                           100 / 180 IDR
                         </p>
                       </div>
-
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>KIDDIE NAIL CARE</p>
                         <p className='font-bold green'>Mini Manicure 45 min / 135 IDR</p>
                         <p>
@@ -652,50 +672,12 @@ export default function Home() {
 
               <div className='col-lg-12'>
                 <div className='treatment-item' data-aos='fade-up'>
-                  <div className='row g-5'>
-                    <div className='col-sm-12'>
-                      <p className='treatment-heading mb24'>REWELLNESS MASSAGE</p>
-                    </div>
-                  </div>
                 </div>
                 <div className='treatment-item' data-aos='fade-up'>
-                  <div className='row g-5'>
-
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REPLENISH TREATMENT</p>
-                    </div>
-
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REJUVENATE FACIAL</p>
-
-                    </div>
-
-                  </div>
                 </div>
                 <div className='treatment-item' data-aos='fade-up'>
-                  <div className='row g-5'>
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REVIVE BODY SCRUB</p>
-                    </div>
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>RESHINE AND BUFF</p>
-                    </div>
-                  </div>
                 </div>
                 <div className='treatment-item border-0' data-aos='fade-up'>
-                  <div className='row g-5'>
-
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REVITALIZE RITUAL</p>
-
-                    </div>
-
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>KIDDIE</p>
-
-
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
