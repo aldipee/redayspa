@@ -638,7 +638,7 @@ body {
   background-color: #FFF;
   border: 0;
   color: #205F54;
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   font-size: 0.8rem;
 }
 
@@ -716,19 +716,6 @@ body {
     font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 15px;
-  }
-  .nav-lg .nav-link {
-    font-size: 0.6rem;
-  }
-  .nav-icon-lg img {
-    width: 2rem;
-  }
-  .nav-item:first-child .nav-link {
-    padding-left: 2rem;
-  }
-  
-  .nav-item:last-child .nav-link {
-    padding-right: 2rem;
   }
 }
 
