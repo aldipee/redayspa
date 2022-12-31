@@ -226,7 +226,7 @@ export default function Home() {
 
                   <div className='tab-pane fade' id='pills-hair'>
                     <div className='row'>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>HERITAGE HAIR CARE</p>
                         <p>
                           This famous traditional treatment includes hair shampooing, scalp massage with intensive hair treatment cream, and nourishing hair tonic. It also comes with a deeply relaxing hand, neck, and shoulder massage.
@@ -287,8 +287,79 @@ export default function Home() {
                   </div>
 
                   <div className='tab-pane fade' id='pills-facial'>
-                    <p>FACIAL</p>
+                    <div className='row'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p>
+                          All facial treatments include a relaxing scalp massage, and full facial massage to reduce muscle tension and firm facial contours.
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>RĒ SIGNATURE FACIAL</p>
+                        <p className='font-bold green'>REHYDRATING</p>
+                        <p>
+                          Gentle deep cleansing and exfoliation help the skin to improve the absorption of a nourishing moisturizing mask. Focuses on replenishing dry skin by providing vital nutrients that will restore skin hydration so that skin becomes more supple and healthy.
+                        </p>
+                        <p className='font-bold green'>REBALANCING</p>
+                        <p>
+                          An intensive clarifying treatment specifically for oily/acne-prone skin. Incorporates steams, alongside facial massage and calming facial mask, this facial treatment aims to help repair the skin barrier to achieving balance and a clearer complexion.
+                        </p>
+                        <p className='font-bold green'>REGENERATING</p>
+                        <p>
+                          Intensive boost for dull/distressed skin, with a facial massage to help stimulate new collagen formation. This will help with skin regeneration, improve dark-spots/hyperpigmentation, and leaves the skin radiant and plump after treatment.
+                        </p>
+                        <p className='font-bold green'>
+                          60 min
+                          <br />
+                          480 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>ANTI-AGING FACIAL</p>
+                        <p>
+                          A facial treatment that is devoted to dealing with mature skin with problem of wrinkles and facial elasticity. By using skincare products specificly rich in antioxidants and enriched by silk protein and gold extract. Also combined with a 3-in-1 advanced photofacial treatment device that can stimulate collagen formation for plumper and smoother skin, and accelerate skin healing.
+                        </p>
+                        <p className='font-bold green'>
+                          60 min
+                          <br />
+                          550 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>SUN S.O.S FACIAL</p>
+                        <p>
+                          Give your sun-soaked face some extra TLC with a cooling mini-facial treatment. Aloe Vera - a cherished ingredient used for centuries will help to reduce redness, restore luminosity after {`it's`} been dehydrated and weather-worn, also relieve heat/stinging after being overexposed to UV rays.
+                        </p>
+                        <p className='font-bold green'>
+                          30 min
+                          <br />
+                          350 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>BEAUTY FACE ACCUPRESSURE</p>
+                        <p>
+                          Activate your glow with accupressure! Addresses the face from within to create a glowing exterior. This includes helping to tone the facial muscles and stimulation circulation.
+                        </p>
+                        <p className='font-bold green'>
+                          30 min
+                          <br />
+                          180 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>HUFF THE PUFF</p>
+                        <p>
+                          Goodbye Panda eyes! Have a blissfully firming and hydrating treatment to target the under-eye area and achieve brighten and well-rested eyes.
+                        </p>
+                        <p className='font-bold green'>
+                          30 min
+                          <br />
+                          350 IDR
+                        </p>
+                      </div>
+                    </div>
                   </div>
+
                   <div className='tab-pane fade' id='pills-scrub'>
                     <p>SCRUB</p>
                   </div>
@@ -317,136 +388,11 @@ export default function Home() {
 
                     <div className='col-sm-6'>
                       <p className='treatment-heading mb24'>REPLENISH TREATMENT</p>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>HERITAGE HAIR CARE</p>
-                        <p>
-                          This famous traditional treatment includes hair shampooing, scalp massage with intensive hair treatment cream, and nourishing hair tonic. It also comes with a deeply relaxing hand, neck, and shoulder massage.
-                        </p>
-                        <p className='ft-12 lh-base'>
-                          <strong>Cream options:</strong>
-                          <br />
-                          Dark Chocolate: deep moisturizing / dry hair
-                          <br />
-                          Strawberry Yogurt: shine boosting / dull hair
-                          <br />
-                          Mint Sorbet: itchy scalp / dandruff
-                          <br />
-                          Green Tea Butter: intensive repair / damaged hair
-                          <br />
-                          Vanilla Milk: nourishing / frizzy hair
-                        </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          350 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>Luxurious Keratin Mask</p>
-                        <p>
-                          {`You'll`} be pampered with this luxurious treatment. Start the treatment with hair wash, and then continues with a scalp massage while the ultra-rich keratin cream is applied to your hair. The Keratin Mask is infused with argan oil to increase hair softness and also reduce hair breakage and split ends. {`You'll`} also get hand, neck, and shoulder massage included in this treatment. Fabulous shinny and soft hair awaits.
-                        </p>
-                        <p className='font-bold green'>
-                          90 min
-                          <br />
-                          500 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>INTENSELY NOURISHING HAIR</p>
-                        <p>
-                          Rich warm nourishing signature hair oil blend is massaged into the hair, conditioning the scalp and leaving your hair silky and shiny. The ingredients includes leaves extract called Mangkokan leaf and Waru leaf are Indonesian heritage recipe for healthy new hair and will strengthen hair roots.
-                        </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          350 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>BASIC HAIR WASH</p>
-                        <p>
-                          Shampoo + conditioner, include mini scalp massage and quick hair drying.
-                        </p>
-                        <p className='font-bold green'>
-                          Short Hair 30 min / 200 IDR
-                          <br />
-                          Long Hair 45 min / 225 IDR
-                        </p>
-                      </div>
                     </div>
 
                     <div className='col-sm-6'>
                       <p className='treatment-heading mb24'>REJUVENATE FACIAL</p>
-                      <div className='text-center mb30'>
-                        <p>
-                          All facial treatments include a relaxing scalp massage, and full facial massage to reduce muscle tension and firm facial contours.
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>RĒ SIGNATURE FACIAL</p>
-                        <p className='font-bold green'>REHYDRATING</p>
-                        <p>
-                          Gentle deep cleansing and exfoliation help the skin to improve the absorption of a nourishing moisturizing mask. Focuses on replenishing dry skin by providing vital nutrients that will restore skin hydration so that skin becomes more supple and healthy.
-                        </p>
-                        <p className='font-bold green'>REBALANCING</p>
-                        <p>
-                          An intensive clarifying treatment specifically for oily/acne-prone skin. Incorporates steams, alongside facial massage and calming facial mask, this facial treatment aims to help repair the skin barrier to achieving balance and a clearer complexion.
-                        </p>
-                        <p className='font-bold green'>REGENERATING</p>
-                        <p>
-                          Intensive boost for dull/distressed skin, with a facial massage to help stimulate new collagen formation. This will help with skin regeneration, improve dark-spots/hyperpigmentation, and leaves the skin radiant and plump after treatment.
-                        </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          480 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>ANTI-AGING FACIAL</p>
-                        <p>
-                          A facial treatment that is devoted to dealing with mature skin with problem of wrinkles and facial elasticity. By using skincare products specificly rich in antioxidants and enriched by silk protein and gold extract. Also combined with a 3-in-1 advanced photofacial treatment device that can stimulate collagen formation for plumper and smoother skin, and accelerate skin healing.
-                        </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          550 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>SUN S.O.S FACIAL</p>
-                        <p>
-                          Give your sun-soaked face some extra TLC with a cooling mini-facial treatment. Aloe Vera - a cherished ingredient used for centuries will help to reduce redness, restore luminosity after {`it's`} been dehydrated and weather-worn, also relieve heat/stinging after being overexposed to UV rays.
-                        </p>
-                        <p className='font-bold green'>
-                          30 min
-                          <br />
-                          350 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>BEAUTY FACE ACCUPRESSURE</p>
-                        <p>
-                          Activate your glow with accupressure! Addresses the face from within to create a glowing exterior. This includes helping to tone the facial muscles and stimulation circulation.
-                        </p>
-                        <p className='font-bold green'>
-                          30 min
-                          <br />
-                          180 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <p className='sm-heading'>HUFF THE PUFF</p>
-                        <p>
-                          Goodbye Panda eyes! Have a blissfully firming and hydrating treatment to target the under-eye area and achieve brighten and well-rested eyes.
-                        </p>
-                        <p className='font-bold green'>
-                          30 min
-                          <br />
-                          350 IDR
-                        </p>
-                      </div>
+
                     </div>
 
                   </div>
