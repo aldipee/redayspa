@@ -504,7 +504,7 @@ export default function Home() {
                           A staple ritual for spa-goers. A classic combination of full body massage and body scrub for a quick-fix; ease body soreness plus exfoliation for glowing skin.
                         </p>
                         <p>
-                        Full body massage choice: Balinese Massage (+IDR 30 for deep/dry/signature massage)
+                        Full body massage choice: Balinese Massage (+IDR 30 for deep / dry / signature massage)
                         <br />
                         Scrub choice: Lulur / Coffee / Coconut Vanilla
                         </p>
@@ -525,12 +525,27 @@ export default function Home() {
                         </p>
                         <p className='italic green'>Treatment Steps</p>
                         <p>
-                          Refreshing Foot Bath + Aromasense Massage + Aloe Body Mask + Sun S.O.S. Mini Facial
+                          Refreshing Foot Bath + Balinese Massage + Aloe Body Mask + Sun S.O.S. Facial
                         </p>
                         <p className='font-bold green'>
                           1 hr 45 min
                           <br />
-                          650 IDR
+                          700 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>URBAN REWIND</div>
+                        <p>
+                          A contemporary spin on Balinese spa tradition combined with our signature beauty recipes results in the perfect rejuvenation to the body and soul. Bringing curative benefits of fresh, natural and quality ingredients, indulge mind and soul in a heartfelt Balinese spa experience.
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing foot bath + RĒ Signature Massage + Body scrub of your choice + Shower + RĒ Signature body lotion + RĒ Signature mini facial
+                        </p>
+                        <p className='font-bold green'>
+                          1 hr 45 min
+                          <br />
+                          800 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
@@ -540,12 +555,27 @@ export default function Home() {
                         </p>
                         <p className='italic green'>Treatment Steps</p>
                         <p>
-                          Refreshing Foot Bath + Balinese Massage + Lulur + Regenerating Facial + Sport Manicure & Pedicure
+                          Refreshing Foot Bath + Balinese Massage + Lulur + RĒ Signature Facial + Basic Manicure
                         </p>
                         <p className='font-bold green'>
-                          3 hr 45 min
+                          3 hr 30 min
                           <br />
                           1000 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>TOTALY PAMPERED</div>
+                        <p>
+                          The favorite party-goers treatment. Cure your hangover and tiredness from last night with our unique spa ritual. This treatment will help with your pounding head and body soreness immediately.
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing Foot Bath + Balinese Massage + Intuitive Head Pamper + Collagen Face Mask
+                        </p>
+                        <p className='font-bold green'>
+                          90 min
+                          <br />
+                          650 IDR
                         </p>
                       </div>
                     </div>
