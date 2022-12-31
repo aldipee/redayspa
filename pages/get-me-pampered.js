@@ -52,16 +52,35 @@ export default function Home() {
                     @REDAYSPA
                   </a>
                 </p>
+                <div className="mb30">
+                  <p>
+                    We carry out the High Season Policy for bookings in all treatments
+                  </p>
+                  <p>
+                    Please contact us for available time and pay down payment to ensure you get the time and space.
+                  </p>
+                  <p>
+                    We do this to ensure guests who are committed to taking their time to relax really get what they want.
+                  </p>
+                  <p>
+                    We hope you understand and respect the time of everyone involved.
+                  </p>
+                </div>
+                
 
-                <a href="https://wa.me/6281237375791" className="btn btn-bordered">
+                <a href="https://wa.me/6281237375791?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20spa%20treatment%20you%20offer." className="btn btn-bordered">
                   REACH OUR WHATSAPP
                 </a>
-                {/* <Link href="spa-promotion">
-                  <a className="btn btn-bordered">IN SPA PROMOTION</a>
-                </Link> */}
+                
+                <Link href="treatment-menu">
+                  <a className="btn btn-bordered">SEE ALL TREATMENTS</a>
+                </Link>
+                {/*
                 <Link href="home-treatment">
                   <a className="btn btn-bordered">SEE HOME TREATMENT MENU</a>
                 </Link>
+                */}
+                
                 <Link href="cleanlines-guidelines">
                   <a className="btn btn-bordered">SEE CLEANLINES GUIDELINES</a>
                 </Link>
