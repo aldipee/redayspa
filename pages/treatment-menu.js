@@ -158,6 +158,42 @@ export default function Home() {
                         500 / 650 / 850 IDR
                       </p>
                     </div>
+                    <div className='col-sm-6 mb30 mt-0 text-center'>
+                      <div className='sm-heading'>ACHING FOOT RELAXER</div>
+                      <p>
+                        Our holistic foot massage is performed with firm stroke to help you release fatigue and combined with reflexology technique to helps with the circulation of blood and heal the corresponding certain area of the body.
+                      </p>
+                      <p className='font-bold green'>
+                        30** / 60 / 90 min
+                        <br />
+                        135 / 230 / 300 IDR
+                      </p>
+                    </div>
+                    <div className='col-sm-6 mb30 mt-0 text-center'>
+                      <div className='sm-heading'>INTUITIVE HEAD PAMPER</div>
+                      <p>
+                        A calming yet energizing head massage focusing upon vital energy points. Helps to reduce tension and increase circulation. Great for headaches and hangover.
+                      </p>
+                      <p className='font-bold green'>
+                        30** / 60 min
+                        <br />
+                        135 / 230 IDR
+                      </p>
+                    </div>
+                    <div className='col-sm-6 mb30 mt-0 text-center'>
+                      <div className='sm-heading'>HAND, NECK AND SHOULDER MASSAGE</div>
+                      <p>
+                        Alleviate stiffness from you neck & shoulder areas after long journey on a plane or maybe sitting to long while working on your laptop.
+                      </p>
+                      <p className='font-bold green'>
+                        30** / 60 / 90 min
+                        <br />
+                        135 / 230 / 300 IDR
+                      </p>
+                    </div>
+                    <div className='col-sm-12'>
+                      <p className='italic small'>** 30 minutes treatments can only be taken with other treatments as an addition / cannot be taken alone</p>
+                    </div>
                   </div>
                 </div>
                 <div className='treatment-item' data-aos='fade-up'>
@@ -478,30 +514,7 @@ export default function Home() {
 
                     <div className='col-sm-6'>
                       <div className='treatment-heading mb24'>REFRESHING STEPS</div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>ACHING FOOT RELAXER</div>
-                        <p>
-                          Our holistic foot massage is performed with firm stroke to help you release fatigue and leave
-                          leg muscles feel lighten.
-                        </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          200 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>FOOT REFLEXOLOGY</div>
-                        <p>
-                          A combination of thumb-and-finger technique delivers an invigorating and relaxing massage.
-                          Leaves you feeling totally relaxed and restores your body’s natural state of equilibrium.
-                        </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          200 IDR
-                        </p>
-                      </div>
+
                     </div>
                   </div>
                 </div>
