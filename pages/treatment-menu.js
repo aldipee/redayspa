@@ -213,7 +213,7 @@ export default function Home() {
                         </p>
                         <div className='font-bold green'>REBALANCING</div>
                         <p>
-                          An intensive clarifying treatment specifically for oily/acne-prone skin. Incorporates steams, alongside facial massage and calming facial mask, this facial treatment aims to help repair the skin barrier to achieve balance and a clearer complexion.
+                          An intensive clarifying treatment specifically for oily/acne-prone skin. Incorporates steams, alongside facial massage and calming facial mask, this facial treatment aims to help repair the skin barrier to achieving balance and a clearer complexion.
                         </p>
                         <div className='font-bold green'>REGENERATING</div>
                         <p>
@@ -228,23 +228,45 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>ANTI-AGING FACIAL</div>
                         <p>
-                          This facial treatment targets maturing skin and will help to bring back the {`skin's`} elasticity, glow, and youthful appearance. Enriched with silk protein and gold extract which is high in antioxidant and helps to fight wrinkles and hyperpigmentation.
+                          A facial treatment that is devoted to dealing with mature skin with problem of wrinkles and facial elasticity. By using skincare products specificly rich in antioxidants and enriched by silk protein and gold extract. Also combined with a 3-in-1 advanced photofacial treatment device that can stimulate collagen formation for plumper and smoother skin, and accelerate skin healing.
                         </p>
                         <p className='font-bold green'>
                           60 min
                           <br />
-                          500 IDR
+                          550 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>SUN S.O.S MINI FACIAL</div>
+                        <div className='sm-heading'>SUN S.O.S FACIAL</div>
                         <p>
                           Give your sun-soaked face some extra TLC with a cooling mini-facial treatment. Aloe Vera - a cherished ingredient used for centuries will help to reduce redness, restore luminosity after {`it's`} been dehydrated and weather-worn, also relieve heat/stinging after being overexposed to UV rays.
                         </p>
                         <p className='font-bold green'>
                           30 min
                           <br />
-                          300 IDR
+                          350 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>BEAUTY FACE ACCUPRESSURE</div>
+                        <p>
+                          Activate your glow with accupressure! Addresses the face from within to create a glowing exterior. This includes helping to tone the facial muscles and stimulation circulation.
+                        </p>
+                        <p className='font-bold green'>
+                          30 min
+                          <br />
+                          180 IDR
+                        </p>
+                      </div>
+                      <div className='text-center mb30'>
+                        <div className='sm-heading'>HUFF THE PUFF</div>
+                        <p>
+                          Goodbye Panda eyes! Have a blissfully firming and hydrating treatment to target the under-eye area and achieve brighten and well-rested eyes.
+                        </p>
+                        <p className='font-bold green'>
+                          30 min
+                          <br />
+                          350 IDR
                         </p>
                       </div>
                     </div>
@@ -417,17 +439,6 @@ export default function Home() {
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>HUFF THE PUFF</div>
-                        <p>
-                          Goodbye Panda eyes! Have a blissfully firming and hydrating treatment to target the under-eye area and achieve brighten and well-rested eyes.
-                        </p>
-                        <p className='font-bold green'>
-                          30 min
-                          <br />
-                          300 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
                         <div className='sm-heading'>HAND, NECK AND SHOULDER MASSAGE</div>
                         <p>
                           Yes, our magic hands are addicting! Add some additional time to caress your stiff areas.
@@ -447,17 +458,6 @@ export default function Home() {
                           30 min
                           <br />
                           120 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>BEAUTY FACE ACCUPRESSURE</div>
-                        <p>
-                          Activate your glow with accupressure! Addresses the face from within to create a glowing exterior. This includes helping to tone the facial muscles and stimulation circulation.
-                        </p>
-                        <p className='font-bold green'>
-                          30 min
-                          <br />
-                          150 IDR
                         </p>
                       </div>
                     </div>
