@@ -202,40 +202,27 @@ export default function Home() {
                       <div className='treatment-heading mb24'>REJUVENATE FACIAL</div>
                       <div className='text-center mb30'>
                         <p>
-                        All facial treatments include a relaxing scalp massage and full facial massage to stimulate blood circulation, firm facial contour, and address each individual facial concern.
+                          All facial treatments include a relaxing scalp massage, and full facial massage to reduce muscle tension and firm facial contours.
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>REHYDRATING FACIAL</div>
+                        <p className='sm-heading'>RE SIGNATURE FACIAL</p>
+                        <div className='font-bold green'>REHYDRATING</div>
                         <p>
                           Gentle deep cleansing and exfoliation help the skin to improve the absorption of a nourishing moisturizing mask. Focuses on replenishing dry skin by providing vital nutrients that will restore skin hydration so that skin becomes more supple and healthy.
                         </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          425 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>REBALANCING FACIAL</div>
+                        <div className='font-bold green'>REBALANCING</div>
                         <p>
                           An intensive clarifying treatment specifically for oily/acne-prone skin. Incorporates steams, alongside facial massage and calming facial mask, this facial treatment aims to help repair the skin barrier to achieve balance and a clearer complexion.
                         </p>
-                        <p className='font-bold green'>
-                          60 min
-                          <br />
-                          425 IDR
-                        </p>
-                      </div>
-                      <div className='text-center mb30'>
-                        <div className='sm-heading'>REGENERATING FACIAL</div>
+                        <div className='font-bold green'>REGENERATING</div>
                         <p>
                           Intensive boost for dull/distressed skin, with a facial massage to help stimulate new collagen formation. This will help with skin regeneration, improve dark-spots/hyperpigmentation, and leaves the skin radiant and plump after treatment.
                         </p>
                         <p className='font-bold green'>
                           60 min
                           <br />
-                          450 IDR
+                          480 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
