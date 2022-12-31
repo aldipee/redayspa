@@ -495,41 +495,63 @@ export default function Home() {
                 </div>
                 <div className='treatment-item border-0' data-aos='fade-up'>
                   <div className='row g-5'>
-                    
 
                     <div className='col-sm-6'>
-                      <div className='treatment-heading mb24'>ADD ON</div>
+                      <div className='treatment-heading mb24'>REVITALIZE RITUAL</div>
                       <div className='text-center mb30'>
+                        <div className='sm-heading'>BODY REVIVE</div>
                         <p>
-                          Have some extra care to your treatment. The treatments below can only be done on top of other treatments as an addition / cannot be taken alone.
+                          A staple ritual for spa-goers. A classic combination of full body massage and body scrub for a quick-fix; ease body soreness plus exfoliation for glowing skin.
+                        </p>
+                        <p>
+                        Full body massage choice: Balinese Massage (+IDR 30 for deep/dry/signature massage)
+                        <br />
+                        Scrub choice: Lulur / Coffee / Coconut Vanilla
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing foot bath + Full Body Massage of your choice + Body scrub of your choice + Shower + RĒ Signature body lotion
+                        </p>
+                        <p className='font-bold green'>
+                          1 hr 45 min
+                          <br />
+                          500 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>HAND, NECK AND SHOULDER MASSAGE</div>
+                        <div className='sm-heading'>SUN RELIEVER</div>
                         <p>
-                          Yes, our magic hands are addicting! Add some additional time to caress your stiff areas.
+                          Out and about all day in the sun is not only physically exhausting for your body, but also for your skin. Come and get some after-sun/relaxation and take care of your body and let it heal to enjoy the rest of your stay in this sunshine island of Bali.
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing Foot Bath + Aromasense Massage + Aloe Body Mask + Sun S.O.S. Mini Facial
                         </p>
                         <p className='font-bold green'>
-                          30 min
+                          1 hr 45 min
                           <br />
-                          120 IDR
+                          650 IDR
                         </p>
                       </div>
                       <div className='text-center mb30'>
-                        <div className='sm-heading'>INTUITIVE HEAD PAMPER</div>
+                        <div className='sm-heading'>THE ROYAL</div>
                         <p>
-                          A calming yet energizing head massage focusing upon vital energy points. Helps to reduce tension and increase circulation. Great for headaches and hangover.
+                          The ultimate care package to make you feel like royalty! Pamper yourself from head to toe and feel luxurious authentic Balinese Royal ritual yourself. Guaranteed you will leave refreshed and looking absolutely perfect.
+                        </p>
+                        <p className='italic green'>Treatment Steps</p>
+                        <p>
+                          Refreshing Foot Bath + Balinese Massage + Lulur + Regenerating Facial + Sport Manicure & Pedicure
                         </p>
                         <p className='font-bold green'>
-                          30 min
+                          3 hr 45 min
                           <br />
-                          120 IDR
+                          1000 IDR
                         </p>
                       </div>
                     </div>
 
                     <div className='col-sm-6'>
-                      <div className='treatment-heading mb24'>REFRESHING STEPS</div>
+                      <div className='treatment-heading mb24'>KIDDIE MASSAGE</div>
 
                     </div>
                   </div>
