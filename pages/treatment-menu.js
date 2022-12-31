@@ -493,7 +493,7 @@ export default function Home() {
                       <div className='text-center mb30'>
                         <div className='sm-heading'>ALOE VERA BODY MASK</div>
                         <p>
-                          
+                          {`it's`} no secret that aloe vera, the original natural sunburn soother, has a variety of skin-healthy benefits. Target whatever skin issue {`you've`} got (be it irritated, discolored, or sun-damaged skin) and gentle enough to prevent dryness.
                         </p>
                         <p className='font-bold green'>
                           15 min
