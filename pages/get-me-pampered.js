@@ -52,6 +52,7 @@ export default function Home() {
                     @REDAYSPA
                   </a>
                 </p>
+                {/*
                 <div className="mb30 p-3 ft-12 italic text-justify bg-main text-white">
                   <p>
                     We carry out the <strong>High Season Policy</strong> for bookings in all treatments
@@ -66,7 +67,7 @@ export default function Home() {
                     We hope you understand and respect the time of everyone involved. 🙏
                   </p>
                 </div>
-                
+                */}
 
                 <a href="https://wa.me/6281237375791?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20spa%20treatment%20you%20offer." className="btn btn-bordered">
                   REACH OUR WHATSAPP
