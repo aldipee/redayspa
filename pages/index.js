@@ -327,15 +327,17 @@ export default function Home() {
                 >
                   WhatsApp us on +62 812 3737 5791
                 </a>{" "}
-                {/*or book online by filling the form.*/}
+                or book online by filling the form.
               </p>
-              {/* BOOKING ONLINE BUTTON
+              
+              {/* BOOKING ONLINE BUTTON */}
+
               <div>
                 <a href="https://widget.zenwel.com/234592772/re-day-spa?lang=id&lid=2879" className="btn btn-green mb40" target="_blank" rel="noreferrer">
                   Book Online
                 </a>
               </div>
-              */}
+              
               {/*
               <div className="ttl-contact mb30">CONTACT US</div>
               <button

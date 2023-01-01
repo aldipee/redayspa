@@ -68,6 +68,10 @@ export default function Home() {
                   </p>
                 </div>
                 */}
+                
+                <a href="https://widget.zenwel.com/234592772/re-day-spa?lang=en" className="btn btn-bordered">
+                  BOOK ONLINE
+                </a>
 
                 <a href="https://wa.me/6281237375791?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20spa%20treatment%20you%20offer." className="btn btn-bordered">
                   REACH OUR WHATSAPP
