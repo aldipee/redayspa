@@ -94,7 +94,7 @@ export default function Home() {
                         Let us transport you to a blissful relaxation with our signature massage technique. Starting with warm aromatherapy oil of your choice, our therapists will expertly work out the magic touch. Afterward, {`we'll`} apply a warm towel compress to soothe and relax your body even further.
                       </p>
                       <p className='ft-12 lh-base'>
-                        <strong>Essential oil options:</strong>
+                        <strong>Massage oil options:</strong>
                         <br />
                         Energize / Detox / Wellbeing / Tranquility
                       </p>
