@@ -80,61 +80,61 @@ export default function Home() {
                 <ul className='nav nav-lg nav-icon-lg flex-nowrap overflow-auto' id='pills-tab'>
                   <li className='nav-item'>
                     <button className='nav-link active' id='pills-massage-tab' data-bs-toggle='pill' data-bs-target='#pills-massage'>
-                      <img src="img/massage.svg" />
+                      <img src='img/massage.svg' />
                       <br />
                       MASSAGE
                     </button>
                   </li>
                   <li className='nav-item'>
                     <button className='nav-link' id='pills-hair-tab' data-bs-toggle='pill' data-bs-target='#pills-hair'>
-                      <img src="img/hair.svg" />
+                      <img src='img/hair.svg' />
                       <br />
                       HAIR
                     </button>
                   </li>
                   <li className='nav-item'>
                     <button className='nav-link' id='pills-facial-tab' data-bs-toggle='pill' data-bs-target='#pills-facial'>
-                      <img src="img/facial.svg" />
+                      <img src='img/facial.svg' />
                       <br />
                       FACIAL
                       </button>
                   </li>
                   <li className='nav-item'>
                     <button className='nav-link' id='pills-scrub-tab' data-bs-toggle='pill' data-bs-target='#pills-scrub'>
-                      <img src="img/scrub.svg" />
+                      <img src='img/scrub.svg' />
                       <br />
                       SCRUB
                       </button>
                   </li>
                   <li className='nav-item'>
                     <button className='nav-link' id='pills-nail-tab' data-bs-toggle='pill' data-bs-target='#pills-nail'>
-                      <img src="img/nail.svg" />
+                      <img src='img/nail.svg' />
                       <br />
                       NAIL
                       </button>
                   </li>
                   <li className='nav-item'>
                     <button className='nav-link' id='pills-ritual-tab' data-bs-toggle='pill' data-bs-target='#pills-ritual'>
-                      <img src="img/ritual.svg" />
+                      <img src='img/ritual.svg' />
                       <br />
                       RITUAL
                       </button>
                   </li>
                   <li className='nav-item'>
                     <button className='nav-link' id='pills-kiddie-tab' data-bs-toggle='pill' data-bs-target='#pills-kiddie'>
-                      <img src="img/kiddie.svg" />
+                      <img src='img/kiddie.svg' />
                       <br />
                       KIDDIE
                       </button>
                   </li>
                 </ul>
-                <p class="dark-green mb-5 text-center nav-info">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16" style="font-size: 1rem;">
-                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path>
+                <p className='dark-green mb-5 text-center nav-info'>
+                  <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='currentColor' className='bi bi-arrow-left' viewBox='0 0 16 16'>
+                    <path fill-rule='evenodd' d='M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z'></path>
                   </svg>
-                  <span class="mx-2 mx-md-4">Swipe left and right to see all category</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                  <span className='mx-2 mx-md-4'>Swipe left and right to see all category</span>
+                  <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' fill='currentColor' className='bi bi-arrow-right' viewBox='0 0 16 16'>
+                    <path fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z'></path>
                   </svg>
                 </p>
               </div>
@@ -148,9 +148,9 @@ export default function Home() {
                         <p className='treatment-heading mb24'>REWELLNESS MASSAGE</p>
                       </div>
                       <div className='col-sm-6 mb30 mt-0 text-center'>
-                        <p className="sm-heading">BALINESE MASSAGE</p>
+                        <p className='sm-heading'>BALINESE MASSAGE</p>
                         <p>Our take on traditional Balinese techniques applies combination of acupressure, kneading and invigorating hand movements using our unique blended oil to stimulate blood circulation, increase flexibility and ultimately relax your entire body.</p>
-                        <p className="font-bold green">
+                        <p className='font-bold green'>
                           60 / 90 / 120 min
                           <br />
                           300 / 430 / 550 IDR</p>
