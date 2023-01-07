@@ -71,7 +71,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='about-section'>
+        <section className='treatment-menu'>
           <div className='container'>
             <div className='row'>
 
@@ -141,7 +141,7 @@ export default function Home() {
               </div>
 
               <div className='col-lg-12'>
-                <div className='tab-content' id='pills-tabContent'>
+                <div className='tab-content treatment-item' id='pills-tabContent'>
 
                   <div className='tab-pane fade show active' id='pills-massage'>
                     <div className='row'>
@@ -707,6 +707,37 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="contact-section">
+          <div className="container" data-aos="fade-up">
+            <div className="inner-ts">
+              <div className="sm-heading">BOOK A PAMPERING TIME</div>
+              <p className="mb50">
+                <a href="tel:+6281237375791" className="link-telephone" target="_blank" rel="noreferrer">
+                  Call
+                </a>{" "}
+                or{" "}
+                <a
+                  href="https://wa.me/6281237375791?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20spa%20treatment%20you%20offer."
+                  target="_blank"
+                  className="link-telephone"
+                  rel="noreferrer"
+                >
+                  WhatsApp us on +62 812 3737 5791
+                </a>{" "}
+                or book online by filling the form.
+              </p>
+              
+              {/* BOOKING ONLINE BUTTON */}
+
+              <div>
+                <a href="https://widget.zenwel.com/234592772/re-day-spa?lang=id&lid=2879" className="btn btn-green mb40" target="_blank" rel="noreferrer">
+                  Book Online
+                </a>
               </div>
 
             </div>
