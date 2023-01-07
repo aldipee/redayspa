@@ -77,7 +77,7 @@ export default function Home() {
 
               <div className='col-md-8 mx-auto'>
                 <p className='sm-heading text-center'>TREATMENT CATEGORY</p>
-                <ul className='nav nav-lg nav-icon-lg flex-nowrap overflow-auto mb-5' id='pills-tab'>
+                <ul className='nav nav-lg nav-icon-lg flex-nowrap overflow-auto' id='pills-tab'>
                   <li className='nav-item'>
                     <button className='nav-link active' id='pills-massage-tab' data-bs-toggle='pill' data-bs-target='#pills-massage'>
                       <img src="img/massage.svg" />
@@ -128,6 +128,15 @@ export default function Home() {
                       </button>
                   </li>
                 </ul>
+                <p class="dark-green mb-5 text-center nav-info">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16" style="font-size: 1rem;">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path>
+                  </svg>
+                  <span class="mx-2 mx-md-4">Swipe left and right to see all category</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                  </svg>
+                </p>
               </div>
 
               <div className='col-lg-12'>

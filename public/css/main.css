@@ -631,9 +631,9 @@ body {
   background-color: #FFF;
   border: 0;
   color: #205F54;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1rem 0.75rem;
   font-size: 0.8rem;
-  border-radius: 15px;
+  border-radius: 100px;
 }
 
 .nav-lg .nav-link.active {
@@ -651,6 +651,14 @@ body {
   filter: brightness(0) saturate(100%) invert(27%) sepia(11%) saturate(2457%) hue-rotate(120deg) brightness(99%) contrast(82%);
   width: 4rem;
 }
+
+.nav-info {
+  font-size: 12px;
+  border-top: 1px solid;
+  margin-top: 0.5rem;
+  padding-top: 1rem;
+}
+
 
 /* ==========================================================================
    Responsive Design
@@ -714,6 +722,9 @@ body {
     font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 15px;
+  }
+  .nav-info {
+    font-size: 10px;
   }
 }
 
