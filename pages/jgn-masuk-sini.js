@@ -75,7 +75,7 @@ export default function Home() {
           <div className='container'>
             <div className='row'>
 
-              <div className='col-sm-8 mx-auto'>
+              <div className='col-md-8 mx-auto'>
                 <p className='sm-heading text-center'>TREATMENT CATEGORY</p>
                 <ul className='nav nav-lg nav-icon-lg flex-nowrap overflow-auto mb-5' id='pills-tab'>
                   <li className='nav-item'>
@@ -699,16 +699,6 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className='col-lg-12'>
-                <div className='treatment-item' data-aos='fade-up'>
-                </div>
-                <div className='treatment-item' data-aos='fade-up'>
-                </div>
-                <div className='treatment-item' data-aos='fade-up'>
-                </div>
-                <div className='treatment-item border-0' data-aos='fade-up'>
-                </div>
-              </div>
             </div>
           </div>
         </section>
