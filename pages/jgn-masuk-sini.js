@@ -141,7 +141,7 @@ export default function Home() {
               </div>
 
               <div className='col-lg-12'>
-                <div className='tab-content treatment-item' id='pills-tabContent'>
+                <div className='tab-content' id='pills-tabContent'>
 
                   <div className='tab-pane fade show active' id='pills-massage'>
                     <div className='row'>
