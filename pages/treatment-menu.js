@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         <meta charset='utf-8' />
-        <title>Treatment - RE DAY SPA - Rejuvenation in Tranquility</title>
+        <title> Home Treatment - RE DAY SPA - Rejuvenation in Tranquility</title>
         <meta name='description' content='' />
         <meta name='keywords' content='' />
         <meta name='author' content='' />
@@ -71,138 +71,207 @@ export default function Home() {
           </div>
         </section>
 
-        <section className='about-section'>
+        <section className='treatment-menu'>
           <div className='container'>
             <div className='row'>
+
+              <div className='col-md-8 mx-auto'>
+                <p className='sm-heading text-center'>TREATMENT CATEGORY</p>
+                <ul className='nav nav-lg nav-icon-lg flex-nowrap overflow-auto' id='pills-tab'>
+                  <li className='nav-item'>
+                    <button className='nav-link active' id='pills-massage-tab' data-bs-toggle='pill' data-bs-target='#pills-massage'>
+                      <img src='img/massage.svg' />
+                      <br />
+                      MASSAGE
+                    </button>
+                  </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-hair-tab' data-bs-toggle='pill' data-bs-target='#pills-hair'>
+                      <img src='img/hair.svg' />
+                      <br />
+                      HAIR
+                    </button>
+                  </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-facial-tab' data-bs-toggle='pill' data-bs-target='#pills-facial'>
+                      <img src='img/facial.svg' />
+                      <br />
+                      FACIAL
+                      </button>
+                  </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-scrub-tab' data-bs-toggle='pill' data-bs-target='#pills-scrub'>
+                      <img src='img/scrub.svg' />
+                      <br />
+                      SCRUB
+                      </button>
+                  </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-nail-tab' data-bs-toggle='pill' data-bs-target='#pills-nail'>
+                      <img src='img/nail.svg' />
+                      <br />
+                      NAIL
+                      </button>
+                  </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-ritual-tab' data-bs-toggle='pill' data-bs-target='#pills-ritual'>
+                      <img src='img/ritual.svg' />
+                      <br />
+                      RITUAL
+                      </button>
+                  </li>
+                  <li className='nav-item'>
+                    <button className='nav-link' id='pills-kiddie-tab' data-bs-toggle='pill' data-bs-target='#pills-kiddie'>
+                      <img src='img/kiddie.svg' />
+                      <br />
+                      KIDDIE
+                      </button>
+                  </li>
+                </ul>
+                
+                <p className='dark-green mb-5 text-center nav-info'>
+                  <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' className='bi bi-arrow-left' viewBox='0 0 16 16'>
+                    <path fill='#248072' d='M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z'></path>
+                  </svg>
+                  <span className='mx-2 mx-md-4'>Swipe left and right to see all category</span>
+                  <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' className='bi bi-arrow-right' viewBox='0 0 16 16'>
+                    <path fill='#248072' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z'></path>
+                  </svg>
+                </p>
+              </div>
+
               <div className='col-lg-12'>
-                <div className='treatment-item' data-aos='fade-up'>
-                  <div className='row g-5'>
-                    <div className='col-sm-12'>
-                      <p className='treatment-heading mb24'>REWELLNESS MASSAGE</p>
-                    </div>
-                    <div className="col-sm-6 mb30 mt-0 text-center">
-                      <p className="sm-heading">BALINESE MASSAGE</p>
-                      <p>Our take on traditional Balinese techniques applies combination of acupressure, kneading and invigorating hand movements using our unique blended oil to stimulate blood circulation, increase flexibility and ultimately relax your entire body.</p>
-                      <p className="font-bold green">
-                        60 / 90 / 120 min
-                        <br />
-                        300 / 430 / 550 IDR</p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>RĒ SIGNATURE MASSAGE</p>
-                      <p>
-                        Let us transport you to a blissful relaxation with our signature massage technique. Starting with warm aromatherapy oil of your choice, our therapists will expertly work out the magic touch. Afterward, {`we'll`} apply a warm towel compress to soothe and relax your body even further.
-                      </p>
-                      <p className='ft-12 lh-base'>
-                        <strong>Massage oil options:</strong>
-                        <br />
-                        Energize / Detox / Wellbeing / Tranquility
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        350 / 490 / 640 IDR
+                <div className='tab-content' id='pills-tabContent'>
+
+                  <div className='tab-pane fade show active' id='pills-massage'>
+                    <div className='row'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>REWELLNESS MASSAGE</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>BALINESE MASSAGE</p>
+                        <p>Our take on traditional Balinese techniques applies combination of acupressure, kneading and invigorating hand movements using our unique blended oil to stimulate blood circulation, increase flexibility and ultimately relax your entire body.</p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          300 / 430 / 550 IDR</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>RĒ SIGNATURE MASSAGE</p>
+                        <p>
+                          Let us transport you to a blissful relaxation with our signature massage technique. Starting with warm aromatherapy oil of your choice, our therapists will expertly work out the magic touch. Afterward, {`we'll`} apply a warm towel compress to soothe and relax your body even further.
                         </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>DEEP TISSUE RUBDOWN</p>
-                      <p>
-                        A massage session is designed to restore the deep muscle layers and connective tissue to release tension, reduce stress and re-align the body as a whole. Gentle stretching also be incorporated into the massage to help loosen tight muscles and improve flexibility.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        330 / 470 / 600 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>DRY MASSAGE</p>
-                      <p>
-                        Oil-free massage with finger pressure technique to massage the body at specific points to focus on the meridian lines or nerve flow from head to toe.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        330 / 470 / 600 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>PRENATAL MASSAGE</p>
-                      <p>
-                        Gentle, side-lying massage with aromatherapy technique for mom-to-be after their first trimester. Helps to reduce swelling, nausea, and muscle tension with a unique blend of pregnancy-safe aromatic massage oil.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 min
-                        <br />
-                        330 / 470 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>HOT STONE MASSAGE</p>
-                      <p>
-                        Warm volcanic stone from Mt. Batur in Kitamani, placed at body relaxation points. This accompanied by gentle to firm massage using the stones to reach deeper muscle layers. Experience relieve of stress, eases muscle tension and increase in blood circulation.
-                      </p>
-                      <p className='font-bold green'>
-                        90 / 120 min
-                        <br />
-                        500 / 700 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>FOUR HANDS MASSAGE</p>
-                      <p>
-                        A perfectly choreographed Balinese massage technique performed by two therapists at the same time, and in perfect harmony creating a unique and unforgettable massage therapy for you.
-                      </p>
-                      <p className='font-bold green'>
-                        60 / 90 / 120 min
-                        <br />
-                        500 / 650 / 850 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>ACHING FOOT RELAXER</p>
-                      <p>
-                        Our holistic foot massage is performed with firm stroke to help you release fatigue and combined with reflexology technique to helps with the circulation of blood and heal the corresponding certain area of the body.
-                      </p>
-                      <p className='font-bold green'>
-                        30** / 60 / 90 min
-                        <br />
-                        135 / 230 / 300 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>INTUITIVE HEAD PAMPER</p>
-                      <p>
-                        A calming yet energizing head massage focusing upon vital energy points. Helps to reduce tension and increase circulation. Great for headaches and hangover.
-                      </p>
-                      <p className='font-bold green'>
-                        30** / 60 min
-                        <br />
-                        135 / 230 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-6 mb30 mt-0 text-center'>
-                      <p className='sm-heading'>HAND, NECK AND SHOULDER MASSAGE</p>
-                      <p>
-                        Alleviate stiffness from you neck & shoulder areas after long journey on a plane or maybe sitting to long while working on your laptop.
-                      </p>
-                      <p className='font-bold green'>
-                        30** / 60 / 90 min
-                        <br />
-                        135 / 230 / 300 IDR
-                      </p>
-                    </div>
-                    <div className='col-sm-12'>
-                      <p className='italic small'>** 30 minutes treatments can only be taken with other treatments as an addition / cannot be taken alone</p>
+                        <p className='ft-12 lh-base'>
+                          <strong>Massage oil options:</strong>
+                          <br />
+                          Energize / Detox / Wellbeing / Tranquility
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          350 / 490 / 640 IDR
+                          </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>DEEP TISSUE RUBDOWN</p>
+                        <p>
+                          A massage session is designed to restore the deep muscle layers and connective tissue to release tension, reduce stress and re-align the body as a whole. Gentle stretching also be incorporated into the massage to help loosen tight muscles and improve flexibility.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          330 / 470 / 600 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>DRY MASSAGE</p>
+                        <p>
+                          Oil-free massage with finger pressure technique to massage the body at specific points to focus on the meridian lines or nerve flow from head to toe.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          330 / 470 / 600 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>PRENATAL MASSAGE</p>
+                        <p>
+                          Gentle, side-lying massage with aromatherapy technique for mom-to-be after their first trimester. Helps to reduce swelling, nausea, and muscle tension with a unique blend of pregnancy-safe aromatic massage oil.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 min
+                          <br />
+                          330 / 470 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>HOT STONE MASSAGE</p>
+                        <p>
+                          Warm volcanic stone from Mt. Batur in Kitamani, placed at body relaxation points. This accompanied by gentle to firm massage using the stones to reach deeper muscle layers. Experience relieve of stress, eases muscle tension and increase in blood circulation.
+                        </p>
+                        <p className='font-bold green'>
+                          90 / 120 min
+                          <br />
+                          500 / 700 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>FOUR HANDS MASSAGE</p>
+                        <p>
+                          A perfectly choreographed Balinese massage technique performed by two therapists at the same time, and in perfect harmony creating a unique and unforgettable massage therapy for you.
+                        </p>
+                        <p className='font-bold green'>
+                          60 / 90 / 120 min
+                          <br />
+                          500 / 650 / 850 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>ACHING FOOT RELAXER</p>
+                        <p>
+                          Our holistic foot massage is performed with firm stroke to help you release fatigue and combined with reflexology technique to helps with the circulation of blood and heal the corresponding certain area of the body.
+                        </p>
+                        <p className='font-bold green'>
+                          30** / 60 / 90 min
+                          <br />
+                          135 / 230 / 300 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>INTUITIVE HEAD PAMPER</p>
+                        <p>
+                          A calming yet energizing head massage focusing upon vital energy points. Helps to reduce tension and increase circulation. Great for headaches and hangover.
+                        </p>
+                        <p className='font-bold green'>
+                          30** / 60 min
+                          <br />
+                          135 / 230 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
+                        <p className='sm-heading'>HAND, NECK AND SHOULDER MASSAGE</p>
+                        <p>
+                          Alleviate stiffness from you neck & shoulder areas after long journey on a plane or maybe sitting to long while working on your laptop.
+                        </p>
+                        <p className='font-bold green'>
+                          30** / 60 / 90 min
+                          <br />
+                          135 / 230 / 300 IDR
+                        </p>
+                      </div>
+                      <div className='col-sm-12'>
+                        <p className='italic small'>** 30 minutes treatments can only be taken with other treatments as an addition / cannot be taken alone</p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className='treatment-item' data-aos='fade-up'>
-                  <div className='row g-5'>
 
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REPLENISH TREATMENT</p>
-                      <div className='text-center mb30'>
+                  <div className='tab-pane fade' id='pills-hair'>
+                    <div className='row'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>REPLENISH TREATMENT</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>HERITAGE HAIR CARE</p>
                         <p>
                           This famous traditional treatment includes hair shampooing, scalp massage with intensive hair treatment cream, and nourishing hair tonic. It also comes with a deeply relaxing hand, neck, and shoulder massage.
@@ -226,7 +295,7 @@ export default function Home() {
                           350 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>Luxurious Keratin Mask</p>
                         <p>
                           {`You'll`} be pampered with this luxurious treatment. Start the treatment with hair wash, and then continues with a scalp massage while the ultra-rich keratin cream is applied to your hair. The Keratin Mask is infused with argan oil to increase hair softness and also reduce hair breakage and split ends. {`You'll`} also get hand, neck, and shoulder massage included in this treatment. Fabulous shinny and soft hair awaits.
@@ -237,7 +306,7 @@ export default function Home() {
                           500 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>INTENSELY NOURISHING HAIR</p>
                         <p>
                           Rich warm nourishing signature hair oil blend is massaged into the hair, conditioning the scalp and leaving your hair silky and shiny. The ingredients includes leaves extract called Mangkokan leaf and Waru leaf are Indonesian heritage recipe for healthy new hair and will strengthen hair roots.
@@ -248,7 +317,7 @@ export default function Home() {
                           350 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>BASIC HAIR WASH</p>
                         <p>
                           Shampoo + conditioner, include mini scalp massage and quick hair drying.
@@ -260,15 +329,19 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
+                  </div>
 
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REJUVENATE FACIAL</p>
-                      <div className='text-center mb30'>
+                  <div className='tab-pane fade' id='pills-facial'>
+                    <div className='row'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>REJUVENATE FACIAL</p>
+                      </div>
+                      <div className='col-md-8 mb30 mt-0 mx-auto text-center'>
                         <p>
                           All facial treatments include a relaxing scalp massage, and full facial massage to reduce muscle tension and firm facial contours.
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>RĒ SIGNATURE FACIAL</p>
                         <p className='font-bold green'>REHYDRATING</p>
                         <p>
@@ -288,7 +361,7 @@ export default function Home() {
                           480 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>ANTI-AGING FACIAL</p>
                         <p>
                           A facial treatment that is devoted to dealing with mature skin with problem of wrinkles and facial elasticity. By using skincare products specificly rich in antioxidants and enriched by silk protein and gold extract. Also combined with a 3-in-1 advanced photofacial treatment device that can stimulate collagen formation for plumper and smoother skin, and accelerate skin healing.
@@ -299,7 +372,7 @@ export default function Home() {
                           550 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>SUN S.O.S FACIAL</p>
                         <p>
                           Give your sun-soaked face some extra TLC with a cooling mini-facial treatment. Aloe Vera - a cherished ingredient used for centuries will help to reduce redness, restore luminosity after {`it's`} been dehydrated and weather-worn, also relieve heat/stinging after being overexposed to UV rays.
@@ -310,7 +383,7 @@ export default function Home() {
                           350 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>BEAUTY FACE ACCUPRESSURE</p>
                         <p>
                           Activate your glow with accupressure! Addresses the face from within to create a glowing exterior. This includes helping to tone the facial muscles and stimulation circulation.
@@ -321,7 +394,7 @@ export default function Home() {
                           180 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>HUFF THE PUFF</p>
                         <p>
                           Goodbye Panda eyes! Have a blissfully firming and hydrating treatment to target the under-eye area and achieve brighten and well-rested eyes.
@@ -333,26 +406,26 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-
                   </div>
-                </div>
-                <div className='treatment-item' data-aos='fade-up'>
-                  <div className='row g-5'>
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REVIVE BODY SCRUB</p>
-                      <div className='text-center mb30'>
+
+                  <div className='tab-pane fade' id='pills-scrub'>
+                    <div className='row'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>REVIVE BODY SCRUB</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>DETOXIFYING BODY EXFOLIATION</p>
                         <p>
                           Made from coffee beans grown at Kintamani, Bali, our coffee scrub is a great way to scrub away dead skin to reveal the new, healthy skin underneath. Also, this will reduce the visibility of cellulites and will leave you with smooth, glowing skin.
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>COCO CONTOURING SCRUB</p>
                         <p>
                           This exfoliating, contouring and nourishing body scrub will awaken your senses with its sweet vanilla and coconut aromas. Specifically formulated to leave your skin feeling hydrated, soft, and silky.
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>LULUR</p>
                         <p>
                           Inspired by ancient Indonesian royalty tradition. Made from a blend of finely ground Balinese native herbs and spices such as turmeric, sandalwood, and rice powder. Besides being useful for exfoliating, lulur is also good for evening out skin tone and contains high antioxidants. Enjoy its exotic aroma while having its benefits.
@@ -363,7 +436,7 @@ export default function Home() {
                           250 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>ALOE VERA BODY MASK</p>
                         <p>
                           {`it's`} no secret that aloe vera, the original natural sunburn soother, has a variety of skin-healthy benefits. Target whatever skin issue {`you've`} got (be it irritated, discolored, or sun-damaged skin) and gentle enough to prevent dryness.
@@ -375,9 +448,14 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>RESHINE AND BUFF</p>
-                      <div className='text-center mb30'>
+                  </div>
+
+                  <div className='tab-pane fade' id='pills-nail'>
+                    <div className='row'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>RESHINE AND BUFF</p>
+                      </div>
+                      <div className='col-md-8 mb30 mt-0 mx-auto text-center'>
                         <p>
                           We use O.P.I, Essie, Orly, and China Glaze nail polishes.
                           <br />
@@ -386,7 +464,7 @@ export default function Home() {
                           Feel free to browse our extensive color collection in spa.
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>MANICURE</p>
                         <div className='mb30'>
                           <p className='font-bold green'>
@@ -429,7 +507,7 @@ export default function Home() {
                           </p>
                         </div>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>PEDICURE</p>
                         <div className='mb30'>
                           <p className='font-bold green'>
@@ -472,7 +550,7 @@ export default function Home() {
                           </p>
                         </div>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>OTHER</p>
                         <div className='mb30'>
                           <p className='font-bold green'>
@@ -492,13 +570,13 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className='treatment-item border-0' data-aos='fade-up'>
-                  <div className='row g-5'>
 
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>REVITALIZE RITUAL</p>
-                      <div className='text-center mb30'>
+                  <div className='tab-pane fade' id='pills-ritual'>
+                    <div className='row'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>REVITALIZE RITUAL</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>BODY REVIVE</p>
                         <p>
                           A staple ritual for spa-goers. A classic combination of full body massage and body scrub for a quick-fix; ease body soreness plus exfoliation for glowing skin.
@@ -521,7 +599,7 @@ export default function Home() {
                           500 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>SUN RELIEVER</p>
                         <p>
                           Out and about all day in the sun is not only physically exhausting for your body, but also for your skin. Come and get some after-sun/relaxation and take care of your body and let it heal to enjoy the rest of your stay in this sunshine island of Bali.
@@ -536,7 +614,7 @@ export default function Home() {
                           700 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <div className='sm-heading'>URBAN REWIND</div>
                         <p>
                           A contemporary spin on Balinese spa tradition combined with our signature beauty recipes results in the perfect rejuvenation to the body and soul. Bringing curative benefits of fresh, natural and quality ingredients, indulge mind and soul in a heartfelt Balinese spa experience.
@@ -551,7 +629,7 @@ export default function Home() {
                           800 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>THE ROYAL</p>
                         <p>
                           The ultimate care package to make you feel like royalty! Pamper yourself from head to toe and feel luxurious authentic Balinese Royal ritual yourself. Guaranteed you will leave refreshed and looking absolutely perfect.
@@ -566,7 +644,7 @@ export default function Home() {
                           1000 IDR
                         </p>
                       </div>
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>TOTALY PAMPERED</p>
                         <p>
                           The favorite party-goers treatment. Cure your hangover and tiredness from last night with our unique spa ritual. This treatment will help with your pounding head and body soreness immediately.
@@ -582,11 +660,14 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
+                  </div>
 
-                    <div className='col-sm-6'>
-                      <p className='treatment-heading mb24'>KIDDIE</p>
-
-                      <div className='text-center mb30'>
+                  <div className='tab-pane fade' id='pills-kiddie'>
+                    <div className='row'>
+                      <div className='col-sm-12'>
+                        <p className='treatment-heading mb24'>KIDDIE</p>
+                      </div>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>KIDDIE MASSAGE</p>
                         <p className='font-bold green'>BODY MASSAGE</p>
                         <p>
@@ -607,8 +688,7 @@ export default function Home() {
                           100 / 180 IDR
                         </p>
                       </div>
-
-                      <div className='text-center mb30'>
+                      <div className='col-sm-6 mb30 mt-0 text-center'>
                         <p className='sm-heading'>KIDDIE NAIL CARE</p>
                         <p className='font-bold green'>Mini Manicure 45 min / 135 IDR</p>
                         <p>
@@ -624,11 +704,42 @@ export default function Home() {
                         *price per finger
                         </p>
                       </div>
-
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="contact-section">
+          <div className="container" data-aos="fade-up">
+            <div className="inner-ts">
+              <div className="sm-heading">BOOK A PAMPERING TIME</div>
+              <p className="mb50">
+                <a href="tel:+6281237375791" className="link-telephone" target="_blank" rel="noreferrer">
+                  Call
+                </a>{" "}
+                or{" "}
+                <a
+                  href="https://wa.me/6281237375791?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20spa%20treatment%20you%20offer."
+                  target="_blank"
+                  className="link-telephone"
+                  rel="noreferrer"
+                >
+                  WhatsApp us on +62 812 3737 5791
+                </a>{" "}
+                or book online by filling the form.
+              </p>
+              
+              {/* BOOKING ONLINE BUTTON */}
+
+              <div>
+                <a href="https://widget.zenwel.com/234592772/re-day-spa?lang=id&lid=2879" className="btn btn-green mb40" target="_blank" rel="noreferrer">
+                  Book Online
+                </a>
+              </div>
+
             </div>
           </div>
         </section>
