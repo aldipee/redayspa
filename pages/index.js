@@ -6,6 +6,7 @@ import emailjs from "emailjs-com";
 import Head from "next/head";
 import Link from "next/link";
 import clsx from "clsx";
+import Script from "next/script";
 
 export default function Home() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -44,7 +45,10 @@ export default function Home() {
         <meta name="description" content="" />
         <meta name="keywords" content="" />
         <meta name="author" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no"
+        />
 
         <meta property="og:title" content="" />
         <meta property="og:type" content="" />
@@ -100,7 +104,10 @@ export default function Home() {
           id="top"
           className="main-hero"
           data-aos="fade-up"
-          style={{ backgroundImage: "url(https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/main-hero_isqxgz.jpg)" }}
+          style={{
+            backgroundImage:
+              "url(https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/main-hero_isqxgz.jpg)",
+          }}
         >
           <div className="container">
             <div className="main-nav">
@@ -134,9 +141,12 @@ export default function Home() {
 
             <div className="hero-desc">
               <div className="title-hero mb24">Rejuvenation in Tranquility</div>
-              <div className="re-desc mb24">LOCALLY SOURCED - CRAFTED FOR YOU</div>
+              <div className="re-desc mb24">
+                LOCALLY SOURCED - CRAFTED FOR YOU
+              </div>
               <p className="mb24">
-                We are bringing total relaxation experience of spa at comfort of your home, when you want it.
+                We are bringing total relaxation experience of spa at comfort of
+                your home, when you want it.
               </p>
               {/*
               <Link href="home-treatment">
@@ -155,28 +165,39 @@ export default function Home() {
             <div className="row align-items-center justify-content-between">
               <div className="col-xl-8 col-sm-8 col-md-8">
                 <div className="about-title mb30">
-                  Located in Seminyak, Re Day Spa is established to nurture comfort in the middle of our hectic lives.
+                  Located in Seminyak, Re Day Spa is established to nurture
+                  comfort in the middle of our hectic lives.
                 </div>
                 <p>
-                  Re Day Spa has been serving both quality interpretations of traditional balinese treatments and proven
-                  contemporary rejuvenation. We invite you to leave the busy streets, shops and bars behind you for a
-                  moment to feel the peaceful and tranquil ambience of our spa that will help you to relax, unwind and
-                  enjoy.{" "}
+                  Re Day Spa has been serving both quality interpretations of
+                  traditional balinese treatments and proven contemporary
+                  rejuvenation. We invite you to leave the busy streets, shops
+                  and bars behind you for a moment to feel the peaceful and
+                  tranquil ambience of our spa that will help you to relax,
+                  unwind and enjoy.{" "}
                 </p>
                 <p>
-                  At Re Day Spa, the focus are to deliver genuine and friendly treatments that are personally crafted
-                  for each individual needs through holistic approach. Our utmost goal is to accommodate you in a
-                  comfortable atmosphere and bring you to the ultimate state of rejuvenation and relaxation.
+                  At Re Day Spa, the focus are to deliver genuine and friendly
+                  treatments that are personally crafted for each individual
+                  needs through holistic approach. Our utmost goal is to
+                  accommodate you in a comfortable atmosphere and bring you to
+                  the ultimate state of rejuvenation and relaxation.
                 </p>
                 <p>
-                  We look forward to welcoming you at Re Day Spa and helping you to feel refreshed and to experience
-                  genuine Balinese hospitality.{" "}
+                  We look forward to welcoming you at Re Day Spa and helping you
+                  to feel refreshed and to experience genuine Balinese
+                  hospitality.{" "}
                 </p>
               </div>
               <div className="col-xl-2 col-sm-4 col-md-3">
                 <div className="mb50">
                   <div className="sm-heading">PHONE</div>
-                  <a href="tel:+6281237375791" target="_blank" className="link-telephone" rel="noreferrer">
+                  <a
+                    href="tel:+6281237375791"
+                    target="_blank"
+                    className="link-telephone"
+                    rel="noreferrer"
+                  >
                     {" "}
                     +62 812 3737 5791
                   </a>
@@ -203,17 +224,29 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="main-slider" className="swiper-container" data-aos="fade-up">
+        <section
+          id="main-slider"
+          className="swiper-container"
+          data-aos="fade-up"
+        >
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <div className="slider-item" style={{ backgroundImage: "url(https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/slider-3_w0ybke.jpg)" }}>
+              <div
+                className="slider-item"
+                style={{
+                  backgroundImage:
+                    "url(https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/slider-3_w0ybke.jpg)",
+                }}
+              >
                 <div className="inner-slider-item">
                   <div className="ttl-journey">Journey</div>
                   <p>
-                    The spa journey has been specifically designed with you in mind and in order to provide you with the
-                    best spa experience, we strongly recommend you to book your spa treatment in advance. We also
-                    suggest that you arrive at least 15 minutes before the start of your treatment to have your spa
-                    experience as carefree as possible.
+                    The spa journey has been specifically designed with you in
+                    mind and in order to provide you with the best spa
+                    experience, we strongly recommend you to book your spa
+                    treatment in advance. We also suggest that you arrive at
+                    least 15 minutes before the start of your treatment to have
+                    your spa experience as carefree as possible.
                   </p>
                 </div>
               </div>
@@ -222,9 +255,11 @@ export default function Home() {
               <div className="slider-item">
                 <div className="inner-slider-item">
                   <p>
-                    The therapist will take you to the treatment room and that is the time for you to step into cocoon
-                    of well-being and experience the world of Balinese charm. Most treatments will start with a lime and
-                    Himalayan salt refreshing foot ritual and end with a complimentary hot ginger tea.
+                    The therapist will take you to the treatment room and that
+                    is the time for you to step into cocoon of well-being and
+                    experience the world of Balinese charm. Most treatments will
+                    start with a lime and Himalayan salt refreshing foot ritual
+                    and end with a complimentary hot ginger tea.
                   </p>
                 </div>
               </div>
@@ -233,9 +268,11 @@ export default function Home() {
               <div className="slider-item">
                 <div className="inner-slider-item">
                   <p>
-                    A complementary drink and a scented cold towel will welcome you upon your arrival. Re Day Spa ensure
-                    the quality for each individual with a consultation prior to your treatment that will help us to
-                    craft the treatment to your needs and guide you towards the luxury experience.
+                    A complementary drink and a scented cold towel will welcome
+                    you upon your arrival. Re Day Spa ensure the quality for
+                    each individual with a consultation prior to your treatment
+                    that will help us to craft the treatment to your needs and
+                    guide you towards the luxury experience.
                   </p>
                 </div>
               </div>
@@ -252,12 +289,16 @@ export default function Home() {
               <div className="row">
                 <div className="col-lg-8 offset-lg-2">
                   <div className="sm-heading">LET US INDULGE YOU</div>
-                  <p className="mb50">For every service is crafted to your needs.</p>
+                  <p className="mb50">
+                    For every service is crafted to your needs.
+                  </p>
                   <div className="ttl-treatment mb30">TREATMENT</div>
                   <p className="mb30">
-                    At Re Day Spa, we offer you range of indulging treatments from head to toe, starting with manicure
-                    and pedicure, solacing facial for specific type of skin as well as traditional and various signature
-                    Aromatherapy massages based on your necessity.
+                    At Re Day Spa, we offer you range of indulging treatments
+                    from head to toe, starting with manicure and pedicure,
+                    solacing facial for specific type of skin as well as
+                    traditional and various signature Aromatherapy massages
+                    based on your necessity.
                   </p>
                   <Link href="treatment-menu">
                     <a className="btn btn-dark mb50">SEE TREATMENT MENU</a>
@@ -281,28 +322,41 @@ export default function Home() {
 
               <div className="row">
                 <div className="col-sm-4">
-                  <img src="https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/treatment-1_bucbix.jpg" className="img-fluid mb30" />
+                  <img
+                    src="https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/treatment-1_bucbix.jpg"
+                    className="img-fluid mb30"
+                  />
                 </div>
                 <div className="col-sm-4">
-                  <img src="https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/treatment-2_m7lzkg.jpg" className="img-fluid mb30" />
+                  <img
+                    src="https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/treatment-2_m7lzkg.jpg"
+                    className="img-fluid mb30"
+                  />
                 </div>
                 <div className="col-sm-4">
-                  <img src="https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385243/Re%20Day%20Spa/treatment-3_ukbxp0.jpg" className="img-fluid mb30" />
+                  <img
+                    src="https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385243/Re%20Day%20Spa/treatment-3_ukbxp0.jpg"
+                    className="img-fluid mb30"
+                  />
                 </div>
               </div>
               <div className="row">
                 <div className="col-lg-8 offset-lg-2">
                   <p className="mb30">
-                    Wide variety of individually crafted treatments are inspired by local ingredients and based on
-                    authentic, age-old Balinese traditions. For all treatments we use high quality spa products that are
-                    composed of natural ingredients and produced in Bali to ensure freshness, purity and efficacy. The
-                    product compositions have been carefully selected to suit the different treatment purposes and for
-                    their beauty benefits and effectiveness.
+                    Wide variety of individually crafted treatments are inspired
+                    by local ingredients and based on authentic, age-old
+                    Balinese traditions. For all treatments we use high quality
+                    spa products that are composed of natural ingredients and
+                    produced in Bali to ensure freshness, purity and efficacy.
+                    The product compositions have been carefully selected to
+                    suit the different treatment purposes and for their beauty
+                    benefits and effectiveness.
                   </p>
                   <p>
-                    Our therapists have undergone intensive and advanced training to ensure a high quality standard of
-                    treatment experience. They are here to make you feel comfortable and to provide you with a tranquil
-                    tailored spa experience.
+                    Our therapists have undergone intensive and advanced
+                    training to ensure a high quality standard of treatment
+                    experience. They are here to make you feel comfortable and
+                    to provide you with a tranquil tailored spa experience.
                   </p>
                 </div>
               </div>
@@ -315,7 +369,12 @@ export default function Home() {
             <div className="inner-ts">
               <div className="sm-heading">BOOK A PAMPERING TIME</div>
               <p className="mb50">
-                <a href="tel:+6281237375791" className="link-telephone" target="_blank" rel="noreferrer">
+                <a
+                  href="tel:+6281237375791"
+                  className="link-telephone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Call
                 </a>{" "}
                 or{" "}
@@ -329,15 +388,20 @@ export default function Home() {
                 </a>{" "}
                 or book online by filling the form.
               </p>
-              
+
               {/* BOOKING ONLINE BUTTON */}
 
               <div>
-                <a href="https://widget.zenwel.com/234592772/re-day-spa?lang=id&lid=2879" className="btn btn-green mb40" target="_blank" rel="noreferrer">
+                <a
+                  href="https://widget.zenwel.com/234592772/re-day-spa?lang=id&lid=2879"
+                  className="btn btn-green mb40"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Book Online
                 </a>
               </div>
-              
+
               {/*
               <div className="ttl-contact mb30">CONTACT US</div>
               <button
@@ -389,12 +453,22 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/ReDaySpa" className="social-link" target="_blank" rel="noreferrer">
+                <a
+                  href="https://twitter.com/ReDaySpa"
+                  className="social-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src="img/ico-twitter.svg" className="img-fluid" />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/redayspa/" className="social-link" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.instagram.com/redayspa/"
+                  className="social-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src="img/ico-instagram.svg" className="img-fluid" />
                 </a>
               </li>
@@ -403,7 +477,10 @@ export default function Home() {
         </section>
 
         <div className="button-toggle">
-          <button className="btn btn-toggle" onClick={() => setShowMobileMenu(true)}>
+          <button
+            className="btn btn-toggle"
+            onClick={() => setShowMobileMenu(true)}
+          >
             <img src="img/toggle.svg" className="img-fluid" />
           </button>
         </div>
@@ -416,7 +493,10 @@ export default function Home() {
               </a>
             </Link>
             <div className="btn-close-menu">
-              <button className="btn btn-for-close" onClick={() => setShowMobileMenu(false)}>
+              <button
+                className="btn btn-for-close"
+                onClick={() => setShowMobileMenu(false)}
+              >
                 <img src="img/close.svg" className="img-fluid" />
               </button>
             </div>
@@ -445,7 +525,9 @@ export default function Home() {
               </li>
               <li>
                 <Link href="/cleanlines-guidelines">
-                  <a className="link-menu-mobile-last">CLEANLINESS GUIDELINES</a>
+                  <a className="link-menu-mobile-last">
+                    CLEANLINESS GUIDELINES
+                  </a>
                 </Link>
               </li>
             </ul>
@@ -472,12 +554,22 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/ReDaySpa" className="social-link" target="_blank" rel="noreferrer">
+                <a
+                  href="https://twitter.com/ReDaySpa"
+                  className="social-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src="img/ico-twitter.svg" className="img-fluid" />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/redayspa/" className="social-link" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.instagram.com/redayspa/"
+                  className="social-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src="img/ico-instagram.svg" className="img-fluid" />
                 </a>
               </li>
@@ -604,6 +696,23 @@ export default function Home() {
           </div>
         </div>
         */}
+
+        <div className="container">
+          {/** <!-- Global site tag (gtag.js) - Google Analytics --> */}
+          <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-R4VTT4WEGS"
+            strategy="afterInteractive"
+          />
+          <Script id="google-analytics" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){window.dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-R4VTT4WEGS');
+            `}
+          </Script>
+        </div>
 
         <script src="js/vendor/jquery-3.5.1.min.js"></script>
         <script src="js/vendor/bootstrap.bundle.min.js"></script>
