@@ -12,7 +12,7 @@ export default function Home() {
         <meta charset="utf-8" />
         <title>
           {" "}
-          Home Treatment - RE DAY SPA - Rejuvenation in Tranquility
+          Treatment Menu - RE DAY SPA - Rejuvenation in Tranquility
         </title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />

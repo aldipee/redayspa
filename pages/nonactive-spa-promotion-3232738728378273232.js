@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <meta charset='utf-8' />
-        <title> In Spa Promotion - RE DAY SPA - Rejuvenation in Tranquility</title>
+        <title>In Spa Promotion - RE DAY SPA - Rejuvenation in Tranquility</title>
         <meta name='description' content='' />
         <meta name='description' content='' />
         <meta name='keywords' content='' />
