@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
-import Script from "next/script";
+import TagManager from "react-gtm-module";
+
 
 import "aos/dist/aos.css";
 function MyApp({ Component, pageProps }) {
