@@ -7,11 +7,8 @@ import "aos/dist/aos.css";
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init();
-    TagManager.initialize({ gtmId: "GTM-T869TFS" });
   }, []);
-  return (
-    <Component {...pageProps} />
-  );
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;
