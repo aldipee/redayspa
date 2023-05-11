@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import AOS from "aos";
-import Script from "next/script";
 
 import "aos/dist/aos.css";
 function MyApp({ Component, pageProps }) {
