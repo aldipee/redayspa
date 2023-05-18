@@ -769,7 +769,7 @@ export default function Home() {
                             <br />
                             Gel Polish removal (hands/feet)
                             <br />
-                            15 min / 60 IDR
+                            30 min / 90 IDR
                           </p>
                         </div>
                       </div>
