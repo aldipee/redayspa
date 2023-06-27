@@ -279,9 +279,9 @@ export default function Home() {
                           meridian lines or nerve flow from head to toe.
                         </p>
                         <p className="font-bold green">
-                          60 / 90 / 120 min
+                          60 / 90 min
                           <br />
-                          330 / 470 / 600 IDR
+                          330 / 470 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -761,15 +761,15 @@ export default function Home() {
                           <p className="font-bold green">
                             Nail Polish only (hands/feet)
                             <br />
-                            30 min / 120 IDR
+                            30 min / 130 IDR
                             <br />
                             Gel Polish only (hands/feet)
                             <br />
-                            30 min / 150 IDR
+                            30 min / 180 IDR
                             <br />
                             Gel Polish removal (hands/feet)
                             <br />
-                            15 min / 60 IDR
+                            30 min / 90 IDR
                           </p>
                         </div>
                       </div>
