@@ -144,11 +144,12 @@ export default function Home() {
               <div className="re-desc mb24">
                 LOCALLY SOURCED - CRAFTED FOR YOU
               </div>
+              {/*
               <p className="mb24">
                 We are bringing total relaxation experience of spa at comfort of
                 your home, when you want it.
               </p>
-              {/*
+              
               <Link href="home-treatment">
                 <a className="btn btn-white mx-2">SEE HOME TREATMENT</a>
               </Link>
