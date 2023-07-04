@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         <meta charset="utf-8" />
-        <title>RE DAY SPA - Rejuvenation in Tranquility</title>
+        <title>FAQ - RE DAY SPA - Rejuvenation in Tranquility</title>
         <meta name="description" content="" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -72,7 +72,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
               <div className="treatment-item" data-aos="fade-up">
-                <div className="ttl-treatment text-center mb50">Cleanliness Guidelines</div>
+                <div className="ttl-treatment text-center mb50">Frequently Asked Questions</div>
                 <div className="sm-heading">IT’S ALL START WITH HONESTY…</div>
                 <p>
                   We would like you to relax during your visit and immerse yourself into the Spa Experience. For this
