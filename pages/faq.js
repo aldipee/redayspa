@@ -83,7 +83,7 @@ export default function Home() {
                     </h2>
                     <div className="accordion-collapse collapse show">
                       <div className="accordion-body">
-                        Test
+                        Test 1
                       </div>
                     </div>
                   </div>
@@ -95,7 +95,7 @@ export default function Home() {
                     </h2>
                     <div className="accordion-collapse collapse">
                       <div className="accordion-body">
-                        Test
+                        Test 2
                       </div>
                     </div>
                   </div>
@@ -107,7 +107,7 @@ export default function Home() {
                     </h2>
                     <div className="accordion-collapse collapse">
                       <div className="accordion-body">
-                        Test
+                        Test 3
                       </div>
                     </div>
                   </div>
