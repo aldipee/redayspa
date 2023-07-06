@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         <meta charset="utf-8" />
-        <title>RE DAY SPA - Rejuvenation in Tranquility</title>
+        <title>FAQ - RE DAY SPA - Rejuvenation in Tranquility</title>
         <meta name="description" content="" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -72,8 +72,46 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
               <div className="treatment-item" data-aos="fade-up">
-                <div className="ttl-treatment text-center mb50">Cleanliness Guidelines</div>
+                <div className="ttl-treatment text-center mb50">Frequently Asked Questions</div>
                 <div className="sm-heading">IT’S ALL START WITH HONESTY…</div>
+                <div className="accordion" id="accordionExample">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button className="accordion-button">
+                        Accordion Item 1
+                      </button>
+                    </h2>
+                    <div className="accordion-collapse collapse show">
+                      <div className="accordion-body">
+                        Test
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button className="accordion-button collapsed">
+                        Accordion Item 2
+                      </button>
+                    </h2>
+                    <div className="accordion-collapse collapse">
+                      <div className="accordion-body">
+                        Test
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header">
+                      <button className="accordion-button collapsed">
+                        Accordion Item 3
+                      </button>
+                    </h2>
+                    <div className="accordion-collapse collapse">
+                      <div className="accordion-body">
+                        Test
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <p>
                   We would like you to relax during your visit and immerse yourself into the Spa Experience. For this
                   reason, we have taken extra measures to safeguard our guests prior to arrival.
