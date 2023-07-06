@@ -83,11 +83,11 @@ export default function Home() {
                   Frequently Asked Questions
                 </div>
                 <div className="sm-heading">IT’S ALL START WITH HONESTY…</div>
-                <div className="accordion" id="accordionExample">
-                  <div className="accordion-item">
-                    <h2 className="accordion-header">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
                       <button
-                        className="accordion-button"
+                        class="accordion-button"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseOne"
@@ -99,17 +99,18 @@ export default function Home() {
                     </h2>
                     <div
                       id="collapseOne"
-                      className="accordion-collapse collapse show"
+                      class="accordion-collapse collapse show"
                       data-bs-parent="#accordionExample"
                     >
-                      <div className="accordion-body">
-                        Test 1
+                      <div class="accordion-body">
+                        asdasdasd
+                      </div>
                     </div>
                   </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        class="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo"
@@ -121,18 +122,18 @@ export default function Home() {
                     </h2>
                     <div
                       id="collapseTwo"
-                      className="accordion-collapse collapse"
+                      class="accordion-collapse collapse"
                       data-bs-parent="#accordionExample"
                     >
-                      <div className="accordion-body">
-                        Test 2
+                      <div class="accordion-body">
+                        asdadasdasd
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
                       <button
-                        className="accordion-button collapsed"
+                        class="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseThree"
@@ -144,11 +145,11 @@ export default function Home() {
                     </h2>
                     <div
                       id="collapseThree"
-                      className="accordion-collapse collapse"
+                      class="accordion-collapse collapse"
                       data-bs-parent="#accordionExample"
                     >
-                      <div className="accordion-body">
-                        Test 3
+                      <div class="accordion-body">
+                        asdasdasdad
                       </div>
                     </div>
                   </div>
