@@ -76,8 +76,8 @@ export default function Home() {
         </section>
 
         <section className="about-section">
-          <div className="row">
-            <div className="col-lg-8 offset-lg-2">
+          <div className="row justify-content-center">
+            <div className="col col-lg-8 px-4 px-lg-0">
               <div className="treatment-item" data-aos="fade-up">
                 <div className="ttl-treatment text-center mb50">
                   Frequently Asked Questions
@@ -822,9 +822,7 @@ export default function Home() {
               </li>
               <li>
                 <Link href="faq">
-                  <a className="link-menu-mobile-last">
-                    FAQ
-                  </a>
+                  <a className="link-menu-mobile-last">FAQ</a>
                 </Link>
               </li>
             </ul>
