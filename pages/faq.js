@@ -48,7 +48,7 @@ export default function Home() {
                 <Link href="/#about">
                   <a className="item-main-nav">ABOUT</a>
                 </Link>
-                <Link href="/treatment">
+                <Link href="/treatment-menu">
                   <a className="item-main-nav">TREATMENT</a>
                 </Link>
               </div>
@@ -811,7 +811,7 @@ export default function Home() {
                 </Link>
               </li>
               <li onClick={() => setShowMobileMenu(false)}>
-                <Link href="/treatment">
+                <Link href="/treatment-menu">
                   <a className="link-menu-mobile">TREATMENT</a>
                 </Link>
               </li>
