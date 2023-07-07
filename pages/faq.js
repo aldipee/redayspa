@@ -83,39 +83,40 @@ export default function Home() {
                   Frequently Asked Questions
                 </div>
                 <p className="sm-heading">Booking & Cancellation</p>
-                <div className="accordion" id="accordionExample">
+                <div className="accordion" id="accordionBooking">
                   <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingOne">
+                    <h2 className="accordion-header" id="bookingOne">
                       <button
                         className="accordion-button"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne"
+                        data-bs-target="#collapseBookingOne"
                         aria-expanded="true"
-                        aria-controls="collapseOne"
+                        aria-controls="collapseBookingOne"
                       >
                         1. Do we need to book in advance?
                       </button>
                     </h2>
                     <div
-                      id="collapseOne"
+                      id="collapseBookingOne"
                       className="accordion-collapse collapse show"
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="bookingOne"
+                      data-bs-parent="#accordionBooking"
                     >
                       <div className="accordion-body">
                         <p>
                           To ensure you receive all the spa treatments you want,
                           not only is advance booking suggested, it is highly
                           recommended. Customers may book up to one month in
-                          advance of their arrival. You can book via our web
-                          app, or you can contact our reservation team via
-                          WhatsApp at this number:{" "}
+                          advance of their arrival.
+                          <br />
+                          You can book via our web app, or you can contact our
+                          reservation team via WhatsApp at this number:{" "}
                           <a
                             href="tel:+6281248788391"
                             className="link-telephone"
                           >
-                            +62812 3737 5791
+                            +62 812 3737 5791
                           </a>
                           . Other alternative for booking is via email:{" "}
                           <a
@@ -137,24 +138,24 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingTwo">
+                    <h2 className="accordion-header" id="bookingTwo">
                       <button
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo"
+                        data-bs-target="#collapseBookingTwo"
                         aria-expanded="false"
-                        aria-controls="collapseTwo"
+                        aria-controls="collapseBookingTwo"
                       >
                         2. What type of payments do you accept? And it is safe
                         to pay online?
                       </button>
                     </h2>
                     <div
-                      id="collapseTwo"
+                      id="collapseBookingTwo"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="bookingTwo"
+                      data-bs-parent="#accordionBooking"
                     >
                       <div className="accordion-body">
                         <p>
@@ -170,140 +171,151 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingThree">
+                    <h2 className="accordion-header" id="bookingThree">
                       <button
                         className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree"
+                        data-bs-target="#collapseBookingThree"
                         aria-expanded="false"
-                        aria-controls="collapseThree"
+                        aria-controls="collapseBookingThree"
                       >
-                        Accordion Item #3
+                        3. Why should I pay Deposit Payment?
                       </button>
                     </h2>
                     <div
-                      id="collapseThree"
+                      id="collapseBookingThree"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingThree"
-                      data-bs-parent="#accordionExample"
+                      aria-labelledby="bookingThree"
+                      data-bs-parent="#accordionBooking"
                     >
-                      <div className="accordion-body">adasdq</div>
+                      <div className="accordion-body">
+                        <p>
+                          Deposit payment is needed to secure your booking.This
+                          way we can confidently allocate the necessary
+                          resources and staff members to our committed
+                          customers.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <p>Actions require before entering our premise:</p>
-                <ul>
-                  <li>
-                    Upon arrival, please throughly wash your hands. We will also
-                    be taking temperatures.
-                  </li>
-                  <li> Re staff and clients will be required to wear masks.</li>
-                  <li>
-                    Please reschedule if you or anyone have been in contact with
-                    is sick.
-                  </li>
-                </ul>
               </div>
-              <div className="treatment-item border-0" data-aos="fade-up">
-                <div className="about-title mb24">Our staffs</div>
-                <p>
-                  We ensure all of our staffs are healthy before arriving at the
-                  premise. We monitor their body temperature and assess symptoms
-                  prior entering our office location before they visit our spa
-                  location. With such measure we create extra layer of
-                  protection to all staffs and Res client.
-                </p>
-                <p>
-                  Our staff keep a spare clean uniform at work, so they can
-                  change during their shift if they feel it is required. We
-                  provide clean attire from head to toe only to be wear in the
-                  premise to minimise the chance of contamination{" "}
-                </p>
 
-                <div className="about-title mb24">Area Maintenance</div>
-                <p>
-                  <strong>General Area</strong>
-                </p>
-                <ul>
-                  <li>
-                    All door handles and doors must be sanitized on a regular
-                    basis.
-                  </li>
-                  <li>Remove all testers from Spa boutique</li>
-                  <li>
-                    Hands should be sanitized before coming into contact with
-                    guests/staffs
-                  </li>
-                </ul>
-                <p>
-                  <strong>Locker</strong>
-                </p>
-                <ul>
-                  <li>
-                    Lockers are assigned to each guest in consideration of
-                    social distancing guidelines.
-                  </li>
-                  <li>
-                    All lockers are pre-locked to avoid guests from changing
-                    assigned lockers or from touching contents inside lockers.
-                  </li>
-                  <li>
-                    Lockers are sanitized after each use by the attendants.
-                  </li>
-                </ul>
-                <p>
-                  <strong>Treatment Area</strong>
-                </p>
-                <ul>
-                  <li>
-                    Our staffs must wear a mask during a treatment the guest
-                    must be advised during the consultation.
-                  </li>
-                  <li>
-                    In between each service to allow for treatment room cleaning
-                    and sanitation. We always wipe down counters, bottles,
-                    cabbies, jewellery box, head rests and treatment tables.
-                  </li>
-                  <li>
-                    Remove from treatment rooms: bed skirts, duvets, pillows,
-                    runners, table warmers and mattress pads. All linen in the
-                    treatment bed must be used and washed after each guest.
-                  </li>
-                  <li>
-                    Providers must spray and sanitize all skincare bottles and
-                    products used after each treatment.
-                  </li>
-                </ul>
-                <p>
-                  <strong>Tools and Supplies</strong>
-                </p>
-                <ul>
-                  <li>
-                    Everything that can be touch will be clean throughly with
-                    disinfectant and clean cloth frequently.
-                  </li>
-                  <li>
-                    All inventory deliveries will not be opened immediately
-                    after receiving, and items are immediately wiped down.
-                  </li>
-                  <li>
-                    We working closely with our local suppliers to ensure
-                    highest quality ingredients, process, package and delivered
-                    in cleanest manner.
-                  </li>
-                </ul>
-                <p>
-                  If you have any inquiry regarding how we handling COVID-19 in
-                  our premises, you are welcome to contact us through email{" "}
-                  <a
-                    href="mailto:care@redayspabali.com"
-                    className="link-telephone"
-                  >
-                    care@redayspabali.com
-                  </a>
-                  .
-                </p>
+              <div className="treatment-item border-0" data-aos="fade-up">
+                <p className="sm-heading">Spa Etiquette & Info</p>
+                <div className="accordion" id="accordionEtiquette">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="etiquetteOne">
+                      <button
+                        className="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEtiquetteOne"
+                        aria-expanded="true"
+                        aria-controls="collapseEtiquetteOne"
+                      >
+                        1. Do you offer spa treatment for men?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEtiquetteOne"
+                      className="accordion-collapse collapse show"
+                      aria-labelledby="etiquetteOne"
+                      data-bs-parent="#accordionEtiquette"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, men also can come and have treatment at our spa.
+                          We pride ourselves on offering a wide range of
+                          professional treatments for both men and women. Our
+                          dedicated team of trained therapists is committed to
+                          providing a relaxing and therapeutic professional spa
+                          experience.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="etiquetteTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEtiquetteTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseEtiquetteTwo"
+                      >
+                        2. I am pregnant. Can I come to RE Day Spa?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEtiquetteTwo"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="etiquetteTwo"
+                      data-bs-parent="#accordionEtiquette"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You certainly can. We do offer treatments for
+                          expecting moms after their first trimester to enjoy a
+                          much needed pampering session. We use pregnancy safe
+                          products to ensure you can enjoy your treatments while
+                          having its benefits. We do not recommend any type of
+                          massage treatments using deep pressure, heat and foot
+                          massage at any time during pregnancy. Please consult
+                          with your physician for the best advice on which
+                          treatments are safe for your individual condition
+                          before making an appointment.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="etiquetteThree">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEtiquetteThree"
+                        aria-expanded="false"
+                        aria-controls="collapseEtiquetteThree"
+                      >
+                        3. Do you have a private treatment room or gender
+                        segregated room?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEtiquetteThree"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="etiquetteThree"
+                      data-bs-parent="#accordionEtiquette"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          We understand and respect the privacy concerns of all
+                          our customers, including those with specific cultural
+                          or religious preference. We strive to create a
+                          comfortable and inclusive environment for everyone to
+                          enjoy their spa experience.
+                          <br />
+                          While we currently only have one VIP room with two
+                          beds, and the rest of the massage beds upstair are
+                          separated by thick curtains that provide a high level
+                          of privacy. When curtains are drawn, they effectively
+                          shield the massage area from view, preventing anyone
+                          from peeking inside.
+                          <br />
+                          If you have any specific concerns or requests
+                          regarding privacy, please feel free to communicate
+                          them to our staff when making your appointment. We’ll
+                          do our best to accommodate your needs and provide an
+                          experience that aligns with your preferences.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
