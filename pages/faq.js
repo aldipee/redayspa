@@ -94,7 +94,7 @@ export default function Home() {
                         aria-expanded="true"
                         aria-controls="collapseOne"
                       >
-                        Accordion Item #1
+                        Do we need to book in advance?
                       </button>
                     </h2>
                     <div
@@ -104,7 +104,30 @@ export default function Home() {
                       data-bs-parent="#accordionExample"
                     >
                       <div className="accordion-body">
-                        dasdasd
+                        To ensure you receive all the spa treatments you want,
+                        not only is advance booking suggested, it is highly
+                        recommended. Customers may book up to one month in
+                        advance of their arrival. You can book via our web app,
+                        or you can contact our reservation team via WhatsApp at
+                        this number:{" "}
+                        <a href="tel:+6281248788391" className="link-telephone">
+                          +62812 3737 5791
+                        </a>
+                        . Other alternative for booking is via email:{" "}
+                        <a
+                          href="mailto:care@redayspabali.com"
+                          className="link-telephone"
+                        >
+                          care@redayspabali.com
+                        </a>{" "}
+                        or simply send us DM on Instagram{" "}
+                        <a
+                          href="https://www.instagram.com/redayspa/"
+                          className="link-telephone"
+                        >
+                          @redayspabali
+                        </a>
+                        .
                       </div>
                     </div>
                   </div>
@@ -127,9 +150,7 @@ export default function Home() {
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accordionExample"
                     >
-                      <div className="accordion-body">
-                        adasdq
-                      </div>
+                      <div className="accordion-body">adasdq</div>
                     </div>
                   </div>
                   <div className="accordion-item">
@@ -151,9 +172,7 @@ export default function Home() {
                       aria-labelledby="headingThree"
                       data-bs-parent="#accordionExample"
                     >
-                      <div className="accordion-body">
-                        adasdq
-                      </div>
+                      <div className="accordion-body">adasdq</div>
                     </div>
                   </div>
                 </div>
