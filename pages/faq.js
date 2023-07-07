@@ -82,7 +82,7 @@ export default function Home() {
                 <div className="ttl-treatment text-center mb50">
                   Frequently Asked Questions
                 </div>
-                <div className="sm-heading">ITS ALL START WITH HONESTY…</div>
+                <p className="sm-heading">Booking & Cancellation</p>
                 <div className="accordion" id="accordionExample">
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingOne">
@@ -94,7 +94,7 @@ export default function Home() {
                         aria-expanded="true"
                         aria-controls="collapseOne"
                       >
-                        Do we need to book in advance?
+                        1. Do we need to book in advance?
                       </button>
                     </h2>
                     <div
@@ -104,30 +104,35 @@ export default function Home() {
                       data-bs-parent="#accordionExample"
                     >
                       <div className="accordion-body">
-                        To ensure you receive all the spa treatments you want,
-                        not only is advance booking suggested, it is highly
-                        recommended. Customers may book up to one month in
-                        advance of their arrival. You can book via our web app,
-                        or you can contact our reservation team via WhatsApp at
-                        this number:{" "}
-                        <a href="tel:+6281248788391" className="link-telephone">
-                          +62812 3737 5791
-                        </a>
-                        . Other alternative for booking is via email:{" "}
-                        <a
-                          href="mailto:care@redayspabali.com"
-                          className="link-telephone"
-                        >
-                          care@redayspabali.com
-                        </a>{" "}
-                        or simply send us DM on Instagram{" "}
-                        <a
-                          href="https://www.instagram.com/redayspa/"
-                          className="link-telephone"
-                        >
-                          @redayspabali
-                        </a>
-                        .
+                        <p>
+                          To ensure you receive all the spa treatments you want,
+                          not only is advance booking suggested, it is highly
+                          recommended. Customers may book up to one month in
+                          advance of their arrival. You can book via our web
+                          app, or you can contact our reservation team via
+                          WhatsApp at this number:{" "}
+                          <a
+                            href="tel:+6281248788391"
+                            className="link-telephone"
+                          >
+                            +62812 3737 5791
+                          </a>
+                          . Other alternative for booking is via email:{" "}
+                          <a
+                            href="mailto:care@redayspabali.com"
+                            className="link-telephone"
+                          >
+                            care@redayspabali.com
+                          </a>{" "}
+                          or simply send us DM on Instagram{" "}
+                          <a
+                            href="https://www.instagram.com/redayspa/"
+                            className="link-telephone"
+                          >
+                            @redayspabali
+                          </a>
+                          .
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -141,7 +146,8 @@ export default function Home() {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                        Accordion Item #2
+                        2. What type of payments do you accept? And it is safe
+                        to pay online?
                       </button>
                     </h2>
                     <div
@@ -150,7 +156,17 @@ export default function Home() {
                       aria-labelledby="headingTwo"
                       data-bs-parent="#accordionExample"
                     >
-                      <div className="accordion-body">adasdq</div>
+                      <div className="accordion-body">
+                        <p>
+                          We accept all major credit card and cash. We also
+                          accept local Indonesian bank debit cards and bank
+                          transfer.
+                          <br /> We do not hold or share you credit card
+                          information. All online payment are made through a
+                          trustworthy booking system and payment gateway
+                          provider
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <div className="accordion-item">
