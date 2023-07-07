@@ -89,7 +89,6 @@ export default function Home() {
                       <button
                         class="accordion-button"
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne"
                       >
                         Accordion Item #1
                       </button>
@@ -97,7 +96,6 @@ export default function Home() {
                     <div
                       id="collapseOne"
                       class="accordion-collapse collapse show"
-                      data-bs-parent="#accordionExample"
                     >
                       <div class="accordion-body">
                         asdasdasd
@@ -109,7 +107,6 @@ export default function Home() {
                       <button
                         class="accordion-button collapsed"
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo"
                       >
                         Accordion Item #2
                       </button>
@@ -117,7 +114,6 @@ export default function Home() {
                     <div
                       id="collapseTwo"
                       class="accordion-collapse collapse"
-                      data-bs-parent="#accordionExample"
                     >
                       <div class="accordion-body">
                         asdadasdasd
@@ -129,7 +125,6 @@ export default function Home() {
                       <button
                         class="accordion-button collapsed"
                         data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree"
                       >
                         Accordion Item #3
                       </button>
@@ -137,7 +132,6 @@ export default function Home() {
                     <div
                       id="collapseThree"
                       class="accordion-collapse collapse"
-                      data-bs-parent="#accordionExample"
                     >
                       <div class="accordion-body">
                         asdasdasdad
