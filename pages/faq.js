@@ -199,6 +199,186 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="bookingFour">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseBookingFour"
+                        aria-expanded="false"
+                        aria-controls="collapseBookingFour"
+                      >
+                        4. What is your cancellation policy?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseBookingFour"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="bookingFour"
+                      data-bs-parent="#accordionBooking"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          <b>
+                            <u>
+                              All payments made are strictly non-refundable.
+                            </u>
+                          </b>{" "}
+                          Please make sure you allocate/choose your time wisely
+                          and fully committed before making an appointment with
+                          us.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="bookingFive">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseBookingFive"
+                        aria-expanded="false"
+                        aria-controls="collapseBookingFive"
+                      >
+                        5. When do I need to arrive before my appointment?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseBookingFive"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="bookingFive"
+                      data-bs-parent="#accordionBooking"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You need to come at least 15 minutes before your
+                          scheduled appointment. It is because you need to
+                          fill-in a consultation form to better serve and
+                          personalise your treatment. If you are late for your
+                          appointment, you will only receive the remainder of
+                          what is left of your service.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="bookingSix">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseBookingSix"
+                        aria-expanded="false"
+                        aria-controls="collapseBookingSix"
+                      >
+                        6. What if I am coming late to my appointment?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseBookingSix"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="bookingSix"
+                      data-bs-parent="#accordionBooking"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Arriving late will mean that your treatment time is
+                          shortened. Your treatment will end on time, so the
+                          next guest will not be delayed. The full value of your
+                          treatment will be charged. Please plan your travel
+                          time wisely to get to our spa location.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="bookingSeven">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseBookingSeven"
+                        aria-expanded="false"
+                        aria-controls="collapseBookingSeven"
+                      >
+                        7. Can I reschedule my appointment?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseBookingSeven"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="bookingSeven"
+                      data-bs-parent="#accordionBooking"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, you can reschedule your appointment. But you need
+                          to notify us at least 3 hours prior to your treatment.
+                          Reschedule is based on the time slot and therapist
+                          availability. Rescheduling less than 3 hours notice is
+                          not allowed.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="bookingEight">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseBookingEight"
+                        aria-expanded="false"
+                        aria-controls="collapseBookingEight"
+                      >
+                        8. Do you sell gift vouchers?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseBookingEight"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="bookingEight"
+                      data-bs-parent="#accordionBooking"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, we do sell gift voucher. You can contact our
+                          reservation team for more detail information
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="bookingNine">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseBookingNine"
+                        aria-expanded="false"
+                        aria-controls="collapseBookingNine"
+                      >
+                        9. Does RE Day Spa have a Membership program?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseBookingNine"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="bookingNine"
+                      data-bs-parent="#accordionBooking"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, we do have a Membership Program for our loyal
+                          customers. You can contact our reservation team for
+                          more details on the Membership Program price list and
+                          benefits.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
