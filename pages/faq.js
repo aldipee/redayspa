@@ -75,7 +75,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="about-section">
+        <section className="about-section container">
           <div className="row justify-content-center">
             <div className="col col-md-10 col-lg-8 px-4 px-md-0">
               <div className="treatment-item" data-aos="fade-up">
