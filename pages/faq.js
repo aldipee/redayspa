@@ -77,7 +77,7 @@ export default function Home() {
 
         <section className="about-section">
           <div className="row justify-content-center">
-            <div className="col col-lg-8 px-4 px-lg-0">
+            <div className="col col-md-10 col-lg-8 px-4 px-md-0">
               <div className="treatment-item" data-aos="fade-up">
                 <div className="ttl-treatment text-center mb50">
                   Frequently Asked Questions
