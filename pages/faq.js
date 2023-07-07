@@ -712,6 +712,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <p className="about-title mb24">Have more questions? Don’t hesitate to message us</p>
               </div>
             </div>
           </div>
