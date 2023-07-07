@@ -716,9 +716,11 @@ export default function Home() {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 offset-lg-4">
-              <p className="text-center mt24">
-                Have more questions? Don’t hesitate to message us
+            <div className="col-lg-6 offset-lg-3">
+              <p className="text-center">
+                <strong>
+                  Have more questions? Don’t hesitate to message us
+                </strong>
               </p>
             </div>
           </div>
