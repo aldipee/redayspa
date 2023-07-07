@@ -712,8 +712,14 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <p className="about-title mb24">Have more questions? Don’t hesitate to message us</p>
               </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6 offset-lg-4">
+              <p className="text-center mt24">
+                Have more questions? Don’t hesitate to message us
+              </p>
             </div>
           </div>
         </section>
