@@ -92,8 +92,8 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <Link href="/cleanlines-guidelines">
-                  <a className="item-nav-last">CLEANLINESS GUIDELINES</a>
+                <Link href="/FAQ">
+                  <a className="item-nav-last">FAQ</a>
                 </Link>
               </li>
             </ul>
@@ -133,8 +133,8 @@ export default function Home() {
                 <a href="#contact" className="item-main-nav">
                   CONTACT US
                 </a>
-                <Link href="/cleanlines-guidelines">
-                  <a className="item-nav-last">CLEANLINESS GUIDELINES</a>
+                <Link href="/FAQ">
+                  <a className="item-nav-last">FAQ</a>
                 </Link>
               </div>
             </div>
@@ -525,9 +525,9 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <Link href="/cleanlines-guidelines">
+                <Link href="/FAQ">
                   <a className="link-menu-mobile-last">
-                    CLEANLINESS GUIDELINES
+                    FAQ
                   </a>
                 </Link>
               </li>

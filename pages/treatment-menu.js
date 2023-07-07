@@ -57,7 +57,7 @@ export default function Home() {
                 <Link href="/#about">
                   <a className="item-main-nav">ABOUT</a>
                 </Link>
-                <Link href="/#treatment">
+                <Link href="/treatment">
                   <a className="item-main-nav">TREATMENT</a>
                 </Link>
               </div>
@@ -72,8 +72,8 @@ export default function Home() {
                 <Link href="/#contact">
                   <a className="item-main-nav">CONTACT US</a>
                 </Link>
-                <Link href="cleanlines-guidelines">
-                  <a className="item-nav-last">CLEANLINESS GUIDELINES</a>
+                <Link href="faq">
+                  <a className="item-nav-last">FAQ</a>
                 </Link>
               </div>
             </div>
@@ -1079,7 +1079,7 @@ export default function Home() {
                 </Link>
               </li>
               <li onClick={() => setShowMobileMenu(false)}>
-                <Link href="/#treatment">
+                <Link href="/treatment">
                   <a className="link-menu-mobile">TREATMENT</a>
                 </Link>
               </li>
@@ -1089,9 +1089,9 @@ export default function Home() {
                 </Link>
               </li>
               <li>
-                <Link href="cleanlines-guidelines">
+                <Link href="faq">
                   <a className="link-menu-mobile-last">
-                    CLEANLINESS GUIDELINES
+                    FAQ
                   </a>
                 </Link>
               </li>
