@@ -92,7 +92,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <Link href="/FAQ">
+                <Link href="/faq">
                   <a className="item-nav-last">FAQ</a>
                 </Link>
               </li>
@@ -133,7 +133,7 @@ export default function Home() {
                 <a href="#contact" className="item-main-nav">
                   CONTACT US
                 </a>
-                <Link href="/FAQ">
+                <Link href="/faq">
                   <a className="item-nav-last">FAQ</a>
                 </Link>
               </div>
@@ -525,7 +525,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <Link href="/FAQ">
+                <Link href="/faq">
                   <a className="link-menu-mobile-last">
                     FAQ
                   </a>
