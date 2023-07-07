@@ -82,7 +82,7 @@ export default function Home() {
                 <div className="ttl-treatment text-center mb50">
                   Frequently Asked Questions
                 </div>
-                <div className="sm-heading">IT’S ALL START WITH HONESTY…</div>
+                <div className="sm-heading">ITS ALL START WITH HONESTY…</div>
                 <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
@@ -91,8 +91,6 @@ export default function Home() {
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
                       >
                         Accordion Item #1
                       </button>
@@ -114,8 +112,6 @@ export default function Home() {
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="collapseTwo"
                       >
                         Accordion Item #2
                       </button>
@@ -137,8 +133,6 @@ export default function Home() {
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseThree"
-                        aria-expanded="false"
-                        aria-controls="collapseThree"
                       >
                         Accordion Item #3
                       </button>
@@ -154,28 +148,6 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <p>
-                  We would like you to relax during your visit and immerse
-                  yourself into the Spa Experience. For this reason, we have
-                  taken extra measures to safeguard our guests prior to arrival.
-                </p>
-                <p>
-                  We kindly ask the following: For the safety of our guests and
-                  employees, if you or a member of your household has displayed
-                  the following symptoms a; Cough, Fever, Breathlessness, Sore
-                  Throat, Headaches within the last 14 days should be
-                  recommended to reschedule their appointment until they and
-                  their household members have been cleared of symptoms by 14
-                  days, unless these symptoms are due to preexisting medical
-                  conditions.
-                </p>
-                <p>
-                  As a gentle reminder, if you or any member of your household
-                  has recovered from any of these symptoms within the last 14
-                  days we recommend you call the spa prior to arrival. If you
-                  have any questions, please do not hesitate to contact us and
-                  we look forward to welcoming you (back) to the Spa.
-                </p>
                 <p>Actions require before entering our premise:</p>
                 <ul>
                   <li>
