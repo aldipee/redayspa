@@ -495,6 +495,222 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="etiquetteFour">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEtiquetteFour"
+                        aria-expanded="false"
+                        aria-controls="collapseEtiquetteFour"
+                      >
+                        4. Can I choose to have male or female therapist?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEtiquetteFour"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="etiquetteFour"
+                      data-bs-parent="#accordionEtiquette"
+                    >
+                      <div className="accordion-body">
+                        <p>We only have female therapists at our spa.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="etiquetteFive">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEtiquetteFive"
+                        aria-expanded="false"
+                        aria-controls="collapseEtiquetteFive"
+                      >
+                        5. Do I have to completely undress? What should I wear
+                        during a body massage?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEtiquetteFive"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="etiquetteFive"
+                      data-bs-parent="#accordionEtiquette"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          You may undress to your level of comfort. We do
+                          provide single use/disposable panties for customers.
+                          Your therapist will leave the room so you can undress
+                          and lie on the massage bed, and you will be asked to
+                          cover your body with sarong provided. The therapist
+                          will only uncover the parts they are working on, so
+                          you will have privacy.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="etiquetteSix">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEtiquetteSix"
+                        aria-expanded="false"
+                        aria-controls="collapseEtiquetteSix"
+                      >
+                        6. Should I shower after a massage?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEtiquetteSix"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="etiquetteSix"
+                      data-bs-parent="#accordionEtiquette"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          We recommend not to shower right after a massage
+                          session. The water temperature can cause your muscles
+                          to tense up, which counter the benefit of massage
+                          itself. Heat from hot shower also can also increase
+                          the risk of dehydration. And by taking a shower
+                          immediately, you will wash off the massage oils that
+                          are supposed to be very good for your skin and health.
+                          We recommend you wait at least one hour to take a
+                          shower after your massage session.
+                          <br />
+                          If you feel uncomfortable with the oil, instead of
+                          showering, you can ask our therapist to wipe some of
+                          the excess oil with damp cloth after your massage
+                          session.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="etiquetteSeven">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEtiquetteSeven"
+                        aria-expanded="false"
+                        aria-controls="collapseEtiquetteSeven"
+                      >
+                        7. Can I bring my kids to the spa?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEtiquetteSeven"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="etiquetteSeven"
+                      data-bs-parent="#accordionEtiquette"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes! Having a fun spa day with kids can be a bonding
+                          experience. We love to welcome you and your kids to
+                          our spa. We offer spa treatments for kids to also
+                          enjoy with their parents.
+                          <br />
+                          Kids from age 3+ can come and have treatments at our
+                          spa and an adult must be present in the room whilst
+                          the treatments are performed.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="etiquetteEight">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEtiquetteEight"
+                        aria-expanded="false"
+                        aria-controls="collapseEtiquetteEight"
+                      >
+                        8. Should I tip?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEtiquetteEight"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="etiquetteEight"
+                      data-bs-parent="#accordionEtiquette"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          In Bali, tipping your therapist is a nice gesture, but
+                          you do not have to do it if you do not want to.
+                          Tipping is optional, and you can adjust the amount
+                          based on how happy you are with the treatment. It is
+                          all up to you!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="etiquetteNine">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEtiquetteNine"
+                        aria-expanded="false"
+                        aria-controls="collapseEtiquetteNine"
+                      >
+                        9. Where can I store my belongings?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEtiquetteNine"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="etiquetteNine"
+                      data-bs-parent="#accordionEtiquette"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          We have lockers to store customers’ belongings, each
+                          locker has a key to lock the locker, and customers
+                          will bring the key with them during the treatment.
+                          However we recommend that you leave any valuable items
+                          at home/accomodation, as we are not held responsible
+                          for any loss incurred.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="etiquetteTen">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEtiquetteTen"
+                        aria-expanded="false"
+                        aria-controls="collapseEtiquetteTen"
+                      >
+                        10. Do you have parking space?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEtiquetteTen"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="etiquetteTen"
+                      data-bs-parent="#accordionEtiquette"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Yes, we do have parking space for car and motorbike.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
