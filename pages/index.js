@@ -540,12 +540,12 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <div class="text-center">
+          <div className="text-center">
             <a
               href="https://widget.zenwel.com/234592772/re-day-spa?lang=en&lid=2879"
+              className="btn btn-white"
               target="_blank"
               rel="noreferrer"
-              className="btn btn-white"
             >
               Book Online
             </a>
