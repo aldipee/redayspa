@@ -459,6 +459,71 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="accordion-item">
+                    <h2 className="accordion-header" id="etiquetteTen">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEtiquetteTen"
+                        aria-expanded="false"
+                        aria-controls="collapseEtiquetteTen"
+                      >
+                        3. What if I had a certain medical condition? Can I
+                        still come and have treatments?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEtiquetteTen"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="etiquetteTen"
+                      data-bs-parent="#accordionEtiquette"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          Upon arriving you'll be required to fill in our
+                          consultation. You <strong>MUST</strong> disclose all
+                          of your medical conditions in the form (injury, recent
+                          surgery, specific illness, chemotherapy, pregnancy,
+                          allergies, etc). Certain medical conditions can be
+                          affected by the spa experiences (particularly those
+                          involving extremes of temperature), may preclude you
+                          from having some of the treatments available, or may
+                          require us to adjust the treatment to accommodate any
+                          conditions. We use many essential oils within our
+                          treatments and spa experiences, please discuss any
+                          allergies you have with our staff prior to your
+                          treatment/spa entry.
+                          <br />
+                          All bookings made are subject to change, based on the
+                          information given on the Consultation Form being
+                          assessed prior to your appointment. We reserve the
+                          right <strong>to refuse treatments</strong>
+                          if we feel it is not in the best interest of the
+                          customer, especially if there has been surgery within
+                          the last 3-6 months or infectious disease. We will
+                          endeavor to offer an alternative treatment to the
+                          client if any risk is presented by the medical
+                          consultation feedback.
+                          <br />
+                          Please note that in accordance with our policy above,
+                          if a customer is found to have a certain medical
+                          condition that renders them unfit for the treatment or
+                          if they have any infectious disease that requires them
+                          to cancel their appointment,{" "}
+                          <strong>
+                            we will not be able to refund any payment that has
+                            been made
+                          </strong>
+                          . This is due to the cost associated with the
+                          preparation that has been made and the time that has
+                          been allocated specifically for the customer. Our
+                          primary concern is the well-being and safety of all of
+                          our customers and staff.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
                     <h2 className="accordion-header" id="etiquetteThree">
                       <button
                         className="accordion-button collapsed"
@@ -468,7 +533,7 @@ export default function Home() {
                         aria-expanded="false"
                         aria-controls="collapseEtiquetteThree"
                       >
-                        3. Do you have a private treatment room or gender
+                        4. Do you have a private treatment room or gender
                         segregated room?
                       </button>
                     </h2>
@@ -512,7 +577,7 @@ export default function Home() {
                         aria-expanded="false"
                         aria-controls="collapseEtiquetteFour"
                       >
-                        4. Can I choose to have male or female therapist?
+                        5. Can I choose to have male or female therapist?
                       </button>
                     </h2>
                     <div
@@ -536,7 +601,7 @@ export default function Home() {
                         aria-expanded="false"
                         aria-controls="collapseEtiquetteFive"
                       >
-                        5. Do I have to completely undress? What should I wear
+                        6. Do I have to completely undress? What should I wear
                         during a body massage?
                       </button>
                     </h2>
@@ -569,7 +634,7 @@ export default function Home() {
                         aria-expanded="false"
                         aria-controls="collapseEtiquetteSix"
                       >
-                        6. Should I shower after a massage?
+                        7. Should I shower after a massage?
                       </button>
                     </h2>
                     <div
@@ -608,7 +673,7 @@ export default function Home() {
                         aria-expanded="false"
                         aria-controls="collapseEtiquetteSeven"
                       >
-                        7. Can I bring my kids to the spa?
+                        8. Can I bring my kids to the spa?
                       </button>
                     </h2>
                     <div
@@ -641,7 +706,7 @@ export default function Home() {
                         aria-expanded="false"
                         aria-controls="collapseEtiquetteEight"
                       >
-                        8. Should I tip?
+                        9. Should I tip?
                       </button>
                     </h2>
                     <div
@@ -671,7 +736,7 @@ export default function Home() {
                         aria-expanded="false"
                         aria-controls="collapseEtiquetteNine"
                       >
-                        9. Where can I store my belongings?
+                        10. Where can I store my belongings?
                       </button>
                     </h2>
                     <div
@@ -702,7 +767,7 @@ export default function Home() {
                         aria-expanded="false"
                         aria-controls="collapseEtiquetteTen"
                       >
-                        10. Do you have parking space?
+                        11. Do you have parking space?
                       </button>
                     </h2>
                     <div
