@@ -71,11 +71,13 @@ export default function Home() {
         <header className="nav-fix">
           <div className="container">
             <ul className="top-nav">
+              {/*
               <li>
                 <a href="#top" className="item-main-nav">
                   HOME
                 </a>
               </li>
+              */}
               <li>
                 <a href="#about" className="item-main-nav">
                   ABOUT
@@ -112,9 +114,11 @@ export default function Home() {
           <div className="container">
             <div className="main-nav">
               <div className="left-side">
+                {/*
                 <a href="#top" className="item-main-nav">
                   HOME
                 </a>
+                */}
                 <a href="#about" className="item-main-nav">
                   ABOUT
                 </a>
