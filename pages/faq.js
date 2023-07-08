@@ -321,6 +321,11 @@ export default function Home() {
                           Reschedule is based on the time slot and therapist
                           availability. Rescheduling less than 3 hours notice is
                           not allowed.
+                          <br />
+                          Additionally, please be aware that rescheduling is
+                          allowed within a maximum period of 7 days after the
+                          payment or deposit was made. Any rescheduling requests
+                          made beyond this timeframe may not be accommodated.
                         </p>
                       </div>
                     </div>

@@ -403,7 +403,7 @@ export default function Home() {
 
               <div>
                 <a
-                  href="https://widget.zenwel.com/234592772/re-day-spa?lang=id&lid=2879"
+                  href="https://widget.zenwel.com/234592772/re-day-spa?lang=en&lid=2879"
                   className="btn btn-green mb40"
                   target="_blank"
                   rel="noreferrer"
