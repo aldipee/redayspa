@@ -294,11 +294,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12px 0;
 }
 .top-nav .item-main-nav:hover,
 .top-nav .item-nav-last:hover {
   color: #9af2e5;
+}
+.logo-placement {
+  width: 5rem;
 }
 .button-toggle {
   position: fixed;

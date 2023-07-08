@@ -88,6 +88,11 @@ export default function Home() {
                   TREATMENT
                 </a>
               </li>
+              <li className="logo-placement">
+                <a>
+                  <img src="img/logo-white.png" className="img-fluid logo" />
+                </a>
+              </li>
               <li>
                 <a href="#contact" className="item-main-nav">
                   CONTACT US
@@ -530,9 +535,7 @@ export default function Home() {
               </li>
               <li>
                 <Link href="/faq">
-                  <a className="link-menu-mobile-last">
-                    FAQ
-                  </a>
+                  <a className="link-menu-mobile-last">FAQ</a>
                 </Link>
               </li>
             </ul>
