@@ -482,13 +482,10 @@ export default function Home() {
                         <p>
                           Upon arriving you'll be required to fill in our
                           consultation. You <strong>MUST</strong> disclose all
-                          of your medical conditions in the form {"("}injury,
+                          of your medical conditions in the form {`(`}injury,
                           recent surgery, specific illness, chemotherapy,
-                          pregnancy, allergies, etc{")"}. Certain medical
-                          conditions can be affected by the spa experiences{" "}
-                          {"("}
-                          particularly those involving extremes of temperature
-                          {")"}, may preclude you from having some of the
+                          pregnancy, allergies, etc{`)`}. Certain medical
+                          conditions can be affected by the spa experiences {`(`}particularly those involving extremes of temperature {`)`}, may preclude you from having some of the
                           treatments available, or may require us to adjust the
                           treatment to accommodate any conditions. We use many
                           essential oils within our treatments and spa
