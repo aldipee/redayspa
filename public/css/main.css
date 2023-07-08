@@ -583,6 +583,15 @@ body {
   border-color: #32a090;
   color: #fff;
 }
+.btn-darkgreen {
+  background-color: #205F54;
+  border-color: #205F54;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 12px 45px;
+  display: inline-block;
+  text-transform: uppercase;
+}
 .btn-toggle {
   background-color: #48c3b1;
   border-color: #48c3b1;

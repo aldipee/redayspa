@@ -1100,7 +1100,7 @@ export default function Home() {
           <div className="text-center">
             <a
               href="https://widget.zenwel.com/234592772/re-day-spa?lang=en&lid=2879"
-              className="btn btn-green"
+              className="btn btn-darkgreen"
               target="_blank"
               rel="noreferrer"
             >
