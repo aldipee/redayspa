@@ -545,7 +545,7 @@ export default function Home() {
               href="https://widget.zenwel.com/234592772/re-day-spa?lang=en&lid=2879"
               target="_blank"
               rel="noreferrer"
-              class="btn btn-white"
+              className="btn btn-white"
             >
               Book Online
             </a>
