@@ -42,9 +42,11 @@ export default function Home() {
           <div className="container">
             <div className="main-nav">
               <div className="left-side">
+                {/*
                 <Link href="/">
                   <a className="item-main-nav">HOME</a>
                 </Link>
+                */}
                 <Link href="/#about">
                   <a className="item-main-nav">ABOUT</a>
                 </Link>
