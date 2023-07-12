@@ -484,24 +484,26 @@ export default function Home() {
                           consultation. You <strong>MUST</strong> disclose all
                           of your medical conditions in the form eq. injury,
                           recent surgery, specific illness, chemotherapy,
-                          pregnancy, allergies, etc. Certain medical
-                          conditions can be affected by the spa experiences - particularly those involving extremes of temperature - may preclude you from having some of the
-                          treatments available, or may require us to adjust the
-                          treatment to accommodate any conditions. We use many
-                          essential oils within our treatments and spa
-                          experiences, please discuss any allergies you have
-                          with our staff prior to your treatment/spa entry.
+                          pregnancy, allergies, etc. Certain medical conditions
+                          can be affected by the spa experiences - particularly
+                          those involving extremes of temperature - may preclude
+                          you from having some of the treatments available, or
+                          may require us to adjust the treatment to accommodate
+                          any conditions. We use many essential oils within our
+                          treatments and spa experiences, please discuss any
+                          allergies you have with our staff prior to your
+                          treatment/spa entry.
                           <br />
                           All bookings made are subject to change, based on the
                           information given on the Consultation Form being
                           assessed prior to your appointment. We reserve the
-                          right <strong>to refuse treatments</strong>
-                          if we feel it is not in the best interest of the
-                          customer, especially if there has been surgery within
-                          the last 3-6 months or infectious disease. We will
-                          endeavor to offer an alternative treatment to the
-                          client if any risk is presented by the medical
-                          consultation feedback.
+                          right <strong>to refuse treatments</strong> if we feel
+                          it is not in the best interest of the customer,
+                          especially if there has been surgery within the last
+                          3-6 months or infectious disease. We will endeavor to
+                          offer an alternative treatment to the client if any
+                          risk is presented by the medical consultation
+                          feedback.
                           <br />
                           Please note that in accordance with our policy above,
                           if a customer is found to have a certain medical
