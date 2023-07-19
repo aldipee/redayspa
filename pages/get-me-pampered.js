@@ -109,9 +109,7 @@ export default function Home() {
                   SEE OUR LOCATION
                 </a>
 
-                <div className="mb30 p-3 ft-12 italic text-justify bg-main text-white">
-                  <p>👇 Please read before you book 👇</p>
-                </div>
+                <p className="ft-12 mb-0">👇 Please read before you book 👇</p>
 
                 <Link href="faq">
                   <a className="btn btn-bordered">FAQ</a>
