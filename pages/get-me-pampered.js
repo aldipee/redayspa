@@ -89,7 +89,7 @@ export default function Home() {
                 <Link href="treatment-menu">
                   <a className="btn btn-bordered">SEE ALL TREATMENTS</a>
                 </Link>
-                
+
                 {/*
                 <Link href="home-treatment">
                   <a className="btn btn-bordered">SEE HOME TREATMENT MENU</a>
@@ -108,6 +108,14 @@ export default function Home() {
                 >
                   SEE OUR LOCATION
                 </a>
+
+                <div className="mb30 p-3 ft-12 italic text-justify bg-main text-white">
+                  <p>👇 Please read before you book 👇</p>
+                </div>
+
+                <Link href="faq">
+                  <a className="btn btn-bordered">FAQ</a>
+                </Link>
               </div>
             </div>
           </div>
