@@ -146,13 +146,13 @@ export default function Home() {
                   <li className="nav-item">
                     <button
                       className="nav-link"
-                      id="pills-nail-tab"
+                      id="pills-hand-tab"
                       data-bs-toggle="pill"
-                      data-bs-target="#pills-nail"
+                      data-bs-target="#pills-hand"
                     >
                       <img src="img/nail.svg" />
                       <br />
-                      NAIL
+                      HAND & FOOT
                     </button>
                   </li>
                   <li className="nav-item">
@@ -465,7 +465,8 @@ export default function Home() {
                       </div>
                       <div className="col-sm-12">
                         <p className="italic small text-center">
-                          All hair treatments time vary depending on hair length & thickness
+                          All hair treatments time vary depending on hair length
+                          & thickness
                         </p>
                       </div>
                     </div>
@@ -654,7 +655,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="tab-pane fade" id="pills-nail">
+                  <div className="tab-pane fade" id="pills-hand">
                     <div className="row">
                       <div className="col-sm-12">
                         <p className="treatment-heading mb24">
@@ -663,122 +664,85 @@ export default function Home() {
                       </div>
                       <div className="col-md-8 mb30 mt-0 mx-auto text-center">
                         <p>
-                          We use O.P.I, Essie, Orly, and China Glaze nail
-                          polishes.
-                          <br />
-                          For gel polishes we use CND Shellac, Gelish, and
-                          O.P.I.
-                          <br />
-                          Feel free to browse our extensive color collection in
-                          spa.
+                          Your hands and feet are the hardest working parts of
+                          your body, and they deserve more than just a basic
+                          manicure or pedicure. Here at RE Day Spa, we offer
+                          hand and foot spa treatments that focus on the health
+                          and well-being of these often neglected areas that
+                          goes beyond mere aesthetics.
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">MANICURE</p>
+                        <p className="sm-heading">HAND SPA</p>
                         <div className="mb30">
-                          <p className="font-bold green">
-                            Sport 45 min / 180 IDR
-                          </p>
+                          <p className="font-bold green">60 min / 300 IDR</p>
                           <p>
-                            Hands scrub, nail trimming & shaping, cuticle work.
+                            Indulge in our hand spa treatment that goes beyond
+                            skin-deep to give your hands a luxurious care and
+                            revitalization. Your hands deserve a touch of bliss
+                            and a "handful" of rejuvenation.
                           </p>
-                        </div>
-                        <div className="mb30">
-                          <p className="font-bold green">
-                            Basic 45 min / 200 IDR
-                          </p>
-                          <p>Nail trimming & shaping, nail polish.</p>
-                        </div>
-                        <div className="mb30">
-                          <p className="font-bold green">
-                            Complete 60 min / 230 IDR
-                          </p>
-                          <p>
-                            Hands, scrub, nail trimming & shaping, cuticle work,
-                            nail polish.
-                          </p>
-                        </div>
-                        <div className="mb30">
-                          <p className="font-bold green">
-                            Luxe 90 min / 330 IDR
-                          </p>
-                          <p>
-                            Hands scrub, hands massage,, nail trimming &
-                            shaping, cuticle work, nail polish, lotion.
-                          </p>
-                        </div>
-                        <div className="mb30">
-                          <p className="font-bold green">
-                            Gel / Shellac 90 min / 350 IDR
-                          </p>
-                          <p>
-                            Hands scrub, nail trimming & shaping, cuticle work,
-                            gel/shellac polish.
-                          </p>
+                          <p className="italic green mb-0">Treatment Steps</p>
+                          <ul>
+                            <li>
+                              Nail care (trimming, basic shaping, and cuticle
+                              care)
+                            </li>
+                            <li>Hand massage</li>
+                            <li>Hand exfoliation</li>
+                            <li>Milk hand soak</li>
+                            <li>Moisturizer</li>
+                          </ul>
                         </div>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">PEDICURE</p>
+                        <p className="sm-heading">FOOT SPA</p>
                         <div className="mb30">
-                          <p className="font-bold green">
-                            Sport 45 min / 200 IDR
-                          </p>
+                          <p className="font-bold green">75 min / 380 IDR</p>
                           <p>
-                            Foot scrub, toenails trimming & shaping, cuticle
-                            work.
+                            Step into a world of bliss and give your feet a
+                            treat with our foot spa experience. Designed to
+                            revitalize and restore tired feet, our specialized
+                            care will leave you feeling "toe"-tally pampered and
+                            take the day!
                           </p>
-                        </div>
-                        <div className="mb30">
-                          <p className="font-bold green">
-                            Basic 45 min / 230 IDR
-                          </p>
-                          <p>Toenails trimming & shaping, nail polish.</p>
-                        </div>
-                        <div className="mb30">
-                          <p className="font-bold green">
-                            Complete 60 min / 280 IDR
-                          </p>
-                          <p>
-                            Foot scrub, toenails trimming & shaping, cuticle
-                            work, nail polish.
-                          </p>
-                        </div>
-                        <div className="mb30">
-                          <p className="font-bold green">
-                            Luxe 90 min / 380 IDR
-                          </p>
-                          <p>
-                            Feet scrub, feet massage, toenails trimming &
-                            shaping, cuticle work, nail polish, lotion.
-                          </p>
-                        </div>
-                        <div className="mb30">
-                          <p className="font-bold green">
-                            Gel / Shellac 90 min / 350 IDR
-                          </p>
-                          <p>
-                            Toenails trimming & shaping, cuticle work, feet
-                            scrub, gel/shellac polish.
-                          </p>
+                          <p className="italic green mb-0">Treatment Steps</p>
+                          <ul>
+                            <li>
+                              Toenail care (trimming, basic shaping, and cuticle
+                              care)
+                            </li>
+                            <li>Callus treatment</li>
+                            <li>Foot massage</li>
+                            <li>Foot exfoliation</li>
+                            <li>Milk foot soak</li>
+                            <li>Moisturizer</li>
+                          </ul>
                         </div>
                       </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">OTHER</p>
+                      <div className="col-sm-12 mb30 mt-0 text-center">
+                        <p className="sm-heading">ADDITIONAL</p>
                         <div className="mb30">
                           <p className="font-bold green">
-                            Nail Polish only (hands/feet)
+                            Regular Nail Polish
                             <br />
-                            30 min / 130 IDR
+                            30 min / 100 IDR
                             <br />
-                            Gel Polish only (hands/feet)
+                            Gel Nail Polish
                             <br />
-                            30 min / 180 IDR
+                            30 min / 150 IDR
                             <br />
-                            Gel Polish removal (hands/feet)
+                            Gel Nail removal (hands/feet)
                             <br />
                             30 min / 90 IDR
                           </p>
                         </div>
+                      </div>
+                      <div className="col-sm-12">
+                        <p className="italic small text-center">
+                          All additional service can’t be taken individually, it
+                          must be taken either with hand spa or foot spa
+                        </p>
                       </div>
                     </div>
                   </div>
