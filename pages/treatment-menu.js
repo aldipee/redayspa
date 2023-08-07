@@ -374,7 +374,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-12">
-                        <p className="italic small">
+                        <p className="italic small text-center">
                           ** 30 minutes treatments can only be taken with other
                           treatments as an addition / cannot be taken alone
                         </p>
@@ -430,9 +430,9 @@ export default function Home() {
                           this treatment. Fabulous shinny and soft hair awaits.
                         </p>
                         <p className="font-bold green">
-                          90 min
+                          60 min
                           <br />
-                          500 IDR
+                          400 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -461,6 +461,11 @@ export default function Home() {
                           Short Hair 30 min / 200 IDR
                           <br />
                           Long Hair 45 min / 225 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-12">
+                        <p className="italic small text-center">
+                          All hair treatments time vary depending on hair length & thickness
                         </p>
                       </div>
                     </div>
@@ -913,7 +918,7 @@ export default function Home() {
                         <p className="font-bold green">
                           60 / 90 min
                           <br />
-                          250 / 360 IDR
+                          260 / 360 IDR
                         </p>
                         <p className="font-bold green">FOOT MASSAGE</p>
                         <p>
@@ -930,7 +935,7 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">KIDDIE NAIL CARE</p>
                         <p className="font-bold green">
-                          Mini Manicure 45 min / 135 IDR
+                          Mini Manicure 45 min / 150 IDR
                         </p>
                         <p>Nails trimming & nail polish</p>
                         <p className="font-bold green">
@@ -944,6 +949,12 @@ export default function Home() {
                           Mini Nail Art 10 min / 10 IDR
                           <br />
                           *price per finger
+                        </p>
+                      </div>
+                      <div className="col-sm-12">
+                        <p className="italic small text-center">
+                          These treatments are valid for kids age 2 - 10 years
+                          old
                         </p>
                       </div>
                     </div>
