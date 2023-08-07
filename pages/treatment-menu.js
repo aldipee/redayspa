@@ -153,7 +153,8 @@ export default function Home() {
                       <img src="img/nail.svg" />
                       <br />
                       HAND &
-                      <br />FOOT
+                      <br />
+                      FOOT
                     </button>
                   </li>
                   <li className="nav-item">
@@ -231,7 +232,7 @@ export default function Home() {
                           stimulate blood circulation, increase flexibility and
                           ultimately relax your entire body.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 / 90 / 120 min
                           <br />
                           300 / 430 / 550 IDR
@@ -252,7 +253,7 @@ export default function Home() {
                           <br />
                           Energize / Detox / Wellbeing / Tranquility
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 / 90 / 120 min
                           <br />
                           350 / 490 / 640 IDR
@@ -268,7 +269,7 @@ export default function Home() {
                           massage to help loosen tight muscles and improve
                           flexibility.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 / 90 / 120 min
                           <br />
                           330 / 470 / 600 IDR
@@ -281,7 +282,7 @@ export default function Home() {
                           massage the body at specific points to focus on the
                           meridian lines or nerve flow from head to toe.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 / 90 min
                           <br />
                           330 / 470 IDR
@@ -295,7 +296,7 @@ export default function Home() {
                           reduce swelling, nausea, and muscle tension with a
                           unique blend of pregnancy-safe aromatic massage oil.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 / 90 min
                           <br />
                           330 / 470 IDR
@@ -310,7 +311,7 @@ export default function Home() {
                           muscle layers. Experience relieve of stress, eases
                           muscle tension and increase in blood circulation.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           90 / 120 min
                           <br />
                           500 / 700 IDR
@@ -324,7 +325,7 @@ export default function Home() {
                           perfect harmony creating a unique and unforgettable
                           massage therapy for you.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 / 90 / 120 min
                           <br />
                           500 / 650 / 850 IDR
@@ -339,7 +340,7 @@ export default function Home() {
                           blood and heal the corresponding certain area of the
                           body.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           30** / 60 / 90 min
                           <br />
                           135 / 230 / 300 IDR
@@ -353,7 +354,7 @@ export default function Home() {
                           increase circulation. Great for headaches and
                           hangover.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           30** / 60 min
                           <br />
                           135 / 230 IDR
@@ -368,16 +369,20 @@ export default function Home() {
                           after long journey on a plane or maybe sitting to long
                           while working on your laptop.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           30** / 60 / 90 min
                           <br />
                           135 / 230 / 300 IDR
                         </p>
                       </div>
-                      <div className="col-sm-12">
-                        <p className="italic small text-center">
+                      <div className="col-sm-12 small italic text-center">
+                        <p className="mb-0">
                           ** 30 minutes treatments can only be taken with other
                           treatments as an addition / cannot be taken alone
+                        </p>
+                        <p className="green mb-0">
+                          All prices are in thousands of Rupiah and are
+                          inclusive of 15% Government Tax
                         </p>
                       </div>
                     </div>
@@ -412,7 +417,7 @@ export default function Home() {
                           <br />
                           Vanilla Milk: nourishing / frizzy hair
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 min
                           <br />
                           350 IDR
@@ -430,7 +435,7 @@ export default function Home() {
                           also get hand, neck, and shoulder massage included in
                           this treatment. Fabulous shinny and soft hair awaits.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 min
                           <br />
                           400 IDR
@@ -446,7 +451,7 @@ export default function Home() {
                           leaf are Indonesian heritage recipe for healthy new
                           hair and will strengthen hair roots.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 min
                           <br />
                           350 IDR
@@ -458,16 +463,16 @@ export default function Home() {
                           Shampoo + conditioner, include mini scalp massage and
                           quick hair drying.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           Short Hair 30 min / 200 IDR
                           <br />
                           Long Hair 45 min / 225 IDR
                         </p>
                       </div>
-                      <div className="col-sm-12">
-                        <p className="italic small text-center">
-                          All hair treatments time vary depending on hair length
-                          & thickness
+                      <div className="col-sm-12 small italic text-center">
+                        <p className="green mb-0">
+                          All prices are in thousands of Rupiah and are
+                          inclusive of 15% Government Tax
                         </p>
                       </div>
                     </div>
@@ -489,7 +494,7 @@ export default function Home() {
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">RĒ SIGNATURE FACIAL</p>
-                        <p className="font-bold green">REHYDRATING</p>
+                        <p className="font-medium green">REHYDRATING</p>
                         <p>
                           Gentle deep cleansing and exfoliation help the skin to
                           improve the absorption of a nourishing moisturizing
@@ -497,7 +502,7 @@ export default function Home() {
                           vital nutrients that will restore skin hydration so
                           that skin becomes more supple and healthy.
                         </p>
-                        <p className="font-bold green">REBALANCING</p>
+                        <p className="font-medium green">REBALANCING</p>
                         <p>
                           An intensive clarifying treatment specifically for
                           oily/acne-prone skin. Incorporates steams, alongside
@@ -505,7 +510,7 @@ export default function Home() {
                           treatment aims to help repair the skin barrier to
                           achieving balance and a clearer complexion.
                         </p>
-                        <p className="font-bold green">REGENERATING</p>
+                        <p className="font-medium green">REGENERATING</p>
                         <p>
                           Intensive boost for dull/distressed skin, with a
                           facial massage to help stimulate new collagen
@@ -513,7 +518,7 @@ export default function Home() {
                           improve dark-spots/hyperpigmentation, and leaves the
                           skin radiant and plump after treatment.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 min
                           <br />
                           480 IDR
@@ -531,7 +536,7 @@ export default function Home() {
                           collagen formation for plumper and smoother skin, and
                           accelerate skin healing.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 min
                           <br />
                           550 IDR
@@ -547,7 +552,7 @@ export default function Home() {
                           dehydrated and weather-worn, also relieve
                           heat/stinging after being overexposed to UV rays.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           30 min
                           <br />
                           350 IDR
@@ -561,7 +566,7 @@ export default function Home() {
                           includes helping to tone the facial muscles and
                           stimulation circulation.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           30 min
                           <br />
                           180 IDR
@@ -574,10 +579,16 @@ export default function Home() {
                           hydrating treatment to target the under-eye area and
                           achieve brighten and well-rested eyes.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           30 min
                           <br />
                           350 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-12 small italic text-center">
+                        <p className="green mb-0">
+                          All prices are in thousands of Rupiah and are
+                          inclusive of 15% Government Tax
                         </p>
                       </div>
                     </div>
@@ -601,7 +612,7 @@ export default function Home() {
                           will reduce the visibility of cellulites and will
                           leave you with smooth, glowing skin.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           45 min
                           <br />
                           250 IDR
@@ -615,7 +626,7 @@ export default function Home() {
                           coconut aromas. Specifically formulated to leave your
                           skin feeling hydrated, soft, and silky.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           45 min
                           <br />
                           250 IDR
@@ -632,7 +643,7 @@ export default function Home() {
                           antioxidants. Enjoy its exotic aroma while having its
                           benefits.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           45 min
                           <br />
                           250 IDR
@@ -647,10 +658,16 @@ export default function Home() {
                           (be it irritated, discolored, or sun-damaged skin) and
                           gentle enough to prevent dryness.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           15 min
                           <br />
                           180 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-12 small italic text-center">
+                        <p className="green mb-0">
+                          All prices are in thousands of Rupiah and are
+                          inclusive of 15% Government Tax
                         </p>
                       </div>
                     </div>
@@ -676,7 +693,7 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">HAND SPA</p>
                         <div className="mb30">
-                          <p className="font-bold green">60 min / 300 IDR</p>
+                          <p className="font-medium green">60 min / 300 IDR</p>
                           <p>
                             Indulge in our hand spa treatment that goes beyond
                             skin-deep to give your hands a luxurious care and
@@ -694,7 +711,7 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">FOOT SPA</p>
                         <div className="mb30">
-                          <p className="font-bold green">75 min / 380 IDR</p>
+                          <p className="font-medium green">75 min / 380 IDR</p>
                           <p>
                             Step into a world of bliss and give your feet a
                             treat with our foot spa experience. Designed to
@@ -713,7 +730,7 @@ export default function Home() {
                       <div className="col-sm-12 mb30 mt-0 text-center">
                         <p className="sm-heading">ADDITIONAL</p>
                         <div className="mb30">
-                          <p className="font-bold green">
+                          <p className="font-medium green">
                             Regular Nail Polish
                             <br />
                             30 min / 100 IDR
@@ -728,11 +745,15 @@ export default function Home() {
                           </p>
                         </div>
                       </div>
-                      <div className="col-sm-12">
-                        <p className="italic small text-center">
+                      <div className="col-sm-12 small italic text-center">
+                        <p className="mb-0">
                           All additional service {`can't`} be taken
                           individually, it must be taken either with hand spa or
                           foot spa
+                        </p>
+                        <p className="green mb-0">
+                          All prices are in thousands of Rupiah and are
+                          inclusive of 15% Government Tax
                         </p>
                       </div>
                     </div>
@@ -768,7 +789,7 @@ export default function Home() {
                           choice + Body scrub of your choice + Shower + RĒ
                           Signature body lotion
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           1 hr 45 min
                           <br />
                           500 IDR
@@ -788,7 +809,7 @@ export default function Home() {
                           Refreshing Foot Bath + Balinese Massage + Aloe Body
                           Mask + Sun S.O.S. Facial
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           1 hr 45 min
                           <br />
                           700 IDR
@@ -810,7 +831,7 @@ export default function Home() {
                           scrub of your choice + Shower + RĒ Signature body
                           lotion + RĒ Signature mini facial
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           1 hr 45 min
                           <br />
                           800 IDR
@@ -830,13 +851,13 @@ export default function Home() {
                           Refreshing Foot Bath + Balinese Massage + Lulur + RĒ
                           Signature Facial + Basic Manicure
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           3 hr 30 min
                           <br />
                           1000 IDR
                         </p>
                       </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
+                      <div className="col-sm-12 mb30 mt-0 text-center">
                         <p className="sm-heading">TOTALY PAMPERED</p>
                         <p>
                           The favorite party-goers treatment. Cure your hangover
@@ -849,10 +870,16 @@ export default function Home() {
                           Refreshing Foot Bath + Balinese Massage + Intuitive
                           Head Pamper + Collagen Face Mask
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           90 min
                           <br />
                           650 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-12 small italic text-center">
+                        <p className="green mb-0">
+                          All prices are in thousands of Rupiah and are
+                          inclusive of 15% Government Tax
                         </p>
                       </div>
                     </div>
@@ -870,7 +897,7 @@ export default function Home() {
                           Immune boosting massage for the little one. Relaxes
                           and make them easier to sleep soundly at night.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           60 / 90 min
                           <br />
                           260 / 360 IDR
@@ -881,7 +908,7 @@ export default function Home() {
                           activities and need some pampering too. You can have
                           perfect bonding time together with this massage.
                         </p>
-                        <p className="font-bold green">
+                        <p className="font-medium green">
                           30 / 60 min
                           <br />
                           100 / 180 IDR
@@ -890,26 +917,36 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">KIDDIE NAIL CARE</p>
                         <p className="font-bold green">
-                          Mini Manicure 45 min / 150 IDR
+                          Mini Manicure{" "}
+                          <span className="font-medium">45 min / 150 IDR</span>
                         </p>
                         <p>Nails trimming & nail polish</p>
                         <p className="font-bold green">
-                          Mini Pedicure 45 min / 180 IDR
+                          Mini Pedicure{" "}
+                          <span className="font-medium">45 min / 180 IDR</span>
                         </p>
                         <p>Toenails trimming & nail polis</p>
                         <p className="font-bold green">
-                          Mini Polish 15 min / 100 IDR
+                          Mini Polish{" "}
+                          <span className="font-medium">15 min / 100 IDR</span>
                         </p>
                         <p className="font-bold green">
-                          Mini Nail Art 10 min / 10 IDR
-                          <br />
-                          *price per finger
+                          Mini Nail Art{" "}
+                          <span className="font-medium">
+                            10 min / 10 IDR
+                            <br />
+                            *price per finger
+                          </span>
                         </p>
                       </div>
-                      <div className="col-sm-12">
-                        <p className="italic small text-center">
+                      <div className="col-sm-12 small italic text-center">
+                        <p className="mb-0">
                           These treatments are valid for kids age 2 - 10 years
                           old
+                        </p>
+                        <p className="green mb-0">
+                          All prices are in thousands of Rupiah and are
+                          inclusive of 15% Government Tax
                         </p>
                       </div>
                     </div>
