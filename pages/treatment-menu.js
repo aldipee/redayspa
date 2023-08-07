@@ -696,6 +696,7 @@ export default function Home() {
                           </ul>
                         </div>
                       </div>
+                      */}
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">FOOT SPA</p>
                         <div className="mb30">
@@ -721,7 +722,6 @@ export default function Home() {
                           </ul>
                         </div>
                       </div>
-                       */}
                       <div className="col-sm-12 mb30 mt-0 text-center">
                         <p className="sm-heading">ADDITIONAL</p>
                         <div className="mb30">
