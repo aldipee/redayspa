@@ -657,7 +657,6 @@ export default function Home() {
 
                   <div className="tab-pane fade" id="pills-hand">
                     <div className="row">
-                      {/**
                       <div className="col-sm-12">
                         <p className="treatment-heading mb24">
                           RESHINE AND BUFF
@@ -673,6 +672,7 @@ export default function Home() {
                           goes beyond mere aesthetics.
                         </p>
                       </div>
+                      {/**
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">HAND SPA</p>
                         <div className="mb30">
@@ -721,6 +721,7 @@ export default function Home() {
                           </ul>
                         </div>
                       </div>
+                       */}
                       <div className="col-sm-12 mb30 mt-0 text-center">
                         <p className="sm-heading">ADDITIONAL</p>
                         <div className="mb30">
@@ -745,7 +746,6 @@ export default function Home() {
                           must be taken either with hand spa or foot spa
                         </p>
                       </div>
-                       */}
                     </div>
                   </div>
 
