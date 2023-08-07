@@ -657,6 +657,7 @@ export default function Home() {
 
                   <div className="tab-pane fade" id="pills-hand">
                     <div className="row">
+                      {/**
                       <div className="col-sm-12">
                         <p className="treatment-heading mb24">
                           RESHINE AND BUFF
@@ -744,6 +745,7 @@ export default function Home() {
                           must be taken either with hand spa or foot spa
                         </p>
                       </div>
+                       */}
                     </div>
                   </div>
 
