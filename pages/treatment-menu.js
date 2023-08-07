@@ -740,7 +740,7 @@ export default function Home() {
                       </div>
                       <div className="col-sm-12">
                         <p className="italic small text-center">
-                          All additional service can’t be taken individually, it
+                          All additional service cant be taken individually, it
                           must be taken either with hand spa or foot spa
                         </p>
                       </div>
