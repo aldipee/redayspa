@@ -672,7 +672,6 @@ export default function Home() {
                           goes beyond mere aesthetics.
                         </p>
                       </div>
-                      {/**
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">HAND SPA</p>
                         <div className="mb30">
@@ -681,7 +680,7 @@ export default function Home() {
                             Indulge in our hand spa treatment that goes beyond
                             skin-deep to give your hands a luxurious care and
                             revitalization. Your hands deserve a touch of bliss
-                            and a "handful" of rejuvenation.
+                            and a {`"handful"`} of rejuvenation.
                           </p>
                           <p className="italic green mb-0">Treatment Steps</p>
                           <ul>
@@ -696,7 +695,6 @@ export default function Home() {
                           </ul>
                         </div>
                       </div>
-                      */}
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">FOOT SPA</p>
                         <div className="mb30">
@@ -705,8 +703,8 @@ export default function Home() {
                             Step into a world of bliss and give your feet a
                             treat with our foot spa experience. Designed to
                             revitalize and restore tired feet, our specialized
-                            care will leave you feeling "toe"-tally pampered and
-                            take the day!
+                            care will leave you feeling {`"toe"-tally`}
+                            pampered and take the day!
                           </p>
                           <p className="italic green mb-0">Treatment Steps</p>
                           <ul>
@@ -742,8 +740,9 @@ export default function Home() {
                       </div>
                       <div className="col-sm-12">
                         <p className="italic small text-center">
-                          All additional service cant be taken individually, it
-                          must be taken either with hand spa or foot spa
+                          All additional service {`can't`} be taken
+                          individually, it must be taken either with hand spa or
+                          foot spa
                         </p>
                       </div>
                     </div>
