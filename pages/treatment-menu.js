@@ -152,7 +152,8 @@ export default function Home() {
                     >
                       <img src="img/nail.svg" />
                       <br />
-                      HAND & FOOT
+                      HAND &
+                      <br />FOOT
                     </button>
                   </li>
                   <li className="nav-item">
@@ -683,16 +684,11 @@ export default function Home() {
                             and a {`"handful"`} of rejuvenation.
                           </p>
                           <p className="italic green mb-0">Treatment Steps</p>
-                          <ul>
-                            <li>
-                              Nail care (trimming, basic shaping, and cuticle
-                              care)
-                            </li>
-                            <li>Hand massage</li>
-                            <li>Hand exfoliation</li>
-                            <li>Milk hand soak</li>
-                            <li>Moisturizer</li>
-                          </ul>
+                          <p>
+                            Nail care (trimming, basic shaping, and cuticle
+                            care) + Hand massage + Hand exfoliation + Milk hand
+                            soak + Moisturizer
+                          </p>
                         </div>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -707,17 +703,11 @@ export default function Home() {
                             pampered and take the day!
                           </p>
                           <p className="italic green mb-0">Treatment Steps</p>
-                          <ul>
-                            <li>
-                              Toenail care (trimming, basic shaping, and cuticle
-                              care)
-                            </li>
-                            <li>Callus treatment</li>
-                            <li>Foot massage</li>
-                            <li>Foot exfoliation</li>
-                            <li>Milk foot soak</li>
-                            <li>Moisturizer</li>
-                          </ul>
+                          <p>
+                            Nail care (trimming, basic shaping, and cuticle
+                            care) + Hand massage + Hand exfoliation + Milk hand
+                            soak + Moisturizer
+                          </p>
                         </div>
                       </div>
                       <div className="col-sm-12 mb30 mt-0 text-center">
