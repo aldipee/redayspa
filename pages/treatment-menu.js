@@ -697,7 +697,7 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">HAND SPA</p>
                         <div className="mb30">
-                          <p className="font-medium green">60 min / 300 IDR</p>
+                          <p className="font-medium green">60 min / 330 IDR</p>
                           <p>
                             Indulge in our hand spa treatment that goes beyond
                             skin-deep to give your hands a luxurious care and
