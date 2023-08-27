@@ -176,7 +176,7 @@ export default function Home() {
               <div className="col-xl-8 col-sm-8 col-md-8">
                 <div className="about-title mb30">
                   Located in Seminyak, Re Day Spa is established to nurture
-                  comfort in the middle of our hectic lives.
+                  comfort in the middle of our hectic  lives.
                 </div>
                 <p>
                   Re Day Spa has been serving both quality interpretations of
