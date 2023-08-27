@@ -245,7 +245,7 @@ export default function Home() {
                           signature massage technique. Starting with warm
                           aromatherapy oil of your choice, our therapists will
                           expertly work out the magic touch. Afterward,{" "}
-                          we will apply a warm towel compress to soothe and
+                          {`we'll`} apply a warm towel compress to soothe and
                           relax your body even further.
                         </p>
                         <p className="ft-12 lh-base">
@@ -426,12 +426,12 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">Luxurious Keratin Mask</p>
                         <p>
-                          You will be pampered with this luxurious treatment.
+                          {`You'll`} be pampered with this luxurious treatment.
                           Start the treatment with hair wash, and then continues
                           with a scalp massage while the ultra-rich keratin
                           cream is applied to your hair. The Keratin Mask is
                           infused with argan oil to increase hair softness and
-                          also reduce hair breakage and split ends. You will{" "}
+                          also reduce hair breakage and split ends. {`You'll`}{" "}
                           also get hand, neck, and shoulder massage included in
                           this treatment. Fabulous shinny and soft hair awaits.
                         </p>
@@ -470,6 +470,10 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-12 small italic text-center">
+                        <p className="mb-0">
+                          All hair treatments time vary depending on hair length
+                          & thickness
+                        </p>
                         <p className="green mb-0">
                           All prices are in thousands of Rupiah and are
                           inclusive of 15% Government Tax
@@ -548,7 +552,7 @@ export default function Home() {
                           Give your sun-soaked face some extra TLC with a
                           cooling mini-facial treatment. Aloe Vera - a cherished
                           ingredient used for centuries will help to reduce
-                          redness, restore luminosity after it is been
+                          redness, restore luminosity after {`it's`} been
                           dehydrated and weather-worn, also relieve
                           heat/stinging after being overexposed to UV rays.
                         </p>
@@ -652,9 +656,9 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">ALOE VERA BODY MASK</p>
                         <p>
-                          it is no secret that aloe vera, the original
+                          {`it's`} no secret that aloe vera, the original
                           natural sunburn soother, has a variety of skin-healthy
-                          benefits. Target whatever skin issue you have got
+                          benefits. Target whatever skin issue {`you've`} got
                           (be it irritated, discolored, or sun-damaged skin) and
                           gentle enough to prevent dryness.
                         </p>
@@ -697,7 +701,7 @@ export default function Home() {
                             Indulge in our hand spa treatment that goes beyond
                             skin-deep to give your hands a luxurious care and
                             revitalization. Your hands deserve a touch of bliss
-                            and a handful of rejuvenation.
+                            and a {`"handful"`} of rejuvenation.
                           </p>
                           <p className="italic green mb-0">Treatment Steps</p>
                           <p>
@@ -715,7 +719,7 @@ export default function Home() {
                             Step into a world of bliss and give your feet a
                             treat with our foot spa experience. Designed to
                             revitalize and restore tired feet, our specialized
-                            care will leave you feeling toe-tally
+                            care will leave you feeling {`"toe"-tally`}
                             pampered and take the day!
                           </p>
                           <p className="italic green mb-0">Treatment Steps</p>
@@ -747,7 +751,7 @@ export default function Home() {
                       </div>
                       <div className="col-sm-12 small italic text-center">
                         <p className="mb-0">
-                          All additional service cannot be taken
+                          All additional service {`can't`} be taken
                           individually, it must be taken either with hand spa or
                           foot spa
                         </p>

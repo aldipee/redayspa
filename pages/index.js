@@ -18,14 +18,21 @@ export default function Home() {
     customer_firstName: Yup.string().required("Firstname is required!"),
     customer_lastName: Yup.string().required("Lastname is required!"),
     customer_message: Yup.string().required("Message is required!"),
-    customer_email: Yup.string().email("Invalid email").required("Email is required!"),
+    customer_email: Yup.string()
+      .email("Invalid email")
+      .required("Email is required!"),
     customer_subject: Yup.string().required("Subject is required!"),
   });
 
   const handleSubmitContactUs = async (data) => {
     try {
       console.log(data, "templateParams");
-      const response = await emailjs.send("service_4ruek8a", "template_geb5qtm", data, "user_jqilAXqo3WGAJA44b2E2h");
+      const response = await emailjs.send(
+        "service_4ruek8a",
+        "template_geb5qtm",
+        data,
+        "user_jqilAXqo3WGAJA44b2E2h"
+      );
       if (response.status === 200) {
         setShowContact(false);
         formikRef.current?.resetForm();
