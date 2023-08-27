@@ -18,14 +18,21 @@ export default function Home() {
     customer_firstName: Yup.string().required("Firstname is required!"),
     customer_lastName: Yup.string().required("Lastname is required!"),
     customer_message: Yup.string().required("Message is required!"),
-    customer_email: Yup.string().email("Invalid email").required("Email is required!"),
+    customer_email: Yup.string()
+      .email("Invalid email")
+      .required("Email is required!"),
     customer_subject: Yup.string().required("Subject is required!"),
   });
 
   const handleSubmitContactUs = async (data) => {
     try {
       console.log(data, "templateParams");
-      const response = await emailjs.send("service_4ruek8a", "template_geb5qtm", data, "user_jqilAXqo3WGAJA44b2E2h");
+      const response = await emailjs.send(
+        "service_4ruek8a",
+        "template_geb5qtm",
+        data,
+        "user_jqilAXqo3WGAJA44b2E2h"
+      );
       if (response.status === 200) {
         setShowContact(false);
         formikRef.current?.resetForm();
@@ -176,7 +183,7 @@ export default function Home() {
               <div className="col-xl-8 col-sm-8 col-md-8">
                 <div className="about-title mb30">
                   Located in Seminyak, Re Day Spa is established to nurture
-                  comfort in the middle of our hectic  lives.
+                  comfort in the middle of our hectic lives.
                 </div>
                 <p>
                   Re Day Spa has been serving both quality interpretations of

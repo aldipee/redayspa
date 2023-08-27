@@ -471,7 +471,8 @@ export default function Home() {
                       </div>
                       <div className="col-sm-12 small italic text-center">
                         <p className="mb-0">
-                          All hair treatments time vary depending on hair length & thickness
+                          All hair treatments time vary depending on hair length
+                          & thickness
                         </p>
                         <p className="green mb-0">
                           All prices are in thousands of Rupiah and are
