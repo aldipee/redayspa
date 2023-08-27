@@ -700,7 +700,7 @@ export default function Home() {
                             Indulge in our hand spa treatment that goes beyond
                             skin-deep to give your hands a luxurious care and
                             revitalization. Your hands deserve a touch of bliss
-                            and a {`"handful"`} of rejuvenation.
+                            and a handful of rejuvenation.
                           </p>
                           <p className="italic green mb-0">Treatment Steps</p>
                           <p>
