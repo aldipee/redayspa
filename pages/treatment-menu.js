@@ -697,6 +697,7 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">HAND SPA</p>
                         <div className="mb30">
+                          <p className="font-medium green">60 min / 300 IDR</p>
                           <p>
                             Indulge in our hand spa treatment that goes beyond
                             skin-deep to give your hands a luxurious care and
@@ -709,12 +710,12 @@ export default function Home() {
                             care) + Hand massage + Hand exfoliation + Milk hand
                             soak + Moisturizer
                           </p>
-                          <p className="font-medium green">60 min / 300 IDR</p>
                         </div>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">FOOT SPA</p>
                         <div className="mb30">
+                          <p className="font-medium green">75 min / 380 IDR</p>
                           <p>
                             Step into a world of bliss and give your feet a
                             treat with our foot spa experience. Designed to
@@ -728,7 +729,6 @@ export default function Home() {
                             care) + Hand massage + Hand exfoliation + Milk hand
                             soak + Moisturizer
                           </p>
-                          <p className="font-medium green">75 min / 380 IDR</p>
                         </div>
                       </div>
                       <div className="col-sm-12 mb30 mt-0 text-center">
