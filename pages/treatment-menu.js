@@ -709,7 +709,7 @@ export default function Home() {
                             care) + Hand massage + Hand exfoliation + Milk hand
                             soak + Moisturizer
                           </p>
-                          <p className="font-medium green">60 min / 300 IDR</p>
+                          <p className="font-medium green">60 min / 330 IDR</p>
                         </div>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
