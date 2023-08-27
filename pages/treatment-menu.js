@@ -857,7 +857,7 @@ export default function Home() {
                           1000 IDR
                         </p>
                       </div>
-                      <div className="col-md-8 mx-auto mb30 mt-0 text-center">
+                      <div className="col-sm-12 mb30 mt-0 text-center">
                         <p className="sm-heading">TOTALY PAMPERED</p>
                         <p>
                           The favorite party-goers treatment. Cure your hangover
@@ -892,7 +892,7 @@ export default function Home() {
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">KIDDIE MASSAGE</p>
-                        <p className="font-medium green">BODY MASSAGE</p>
+                        <p className="font-bold green">BODY MASSAGE</p>
                         <p>
                           Immune boosting massage for the little one. Relaxes
                           and make them easier to sleep soundly at night.
@@ -902,7 +902,7 @@ export default function Home() {
                           <br />
                           260 / 360 IDR
                         </p>
-                        <p className="font-medium green">FOOT MASSAGE</p>
+                        <p className="font-bold green">FOOT MASSAGE</p>
                         <p>
                           When they walk around all day after family fun
                           activities and need some pampering too. You can have
@@ -916,21 +916,21 @@ export default function Home() {
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">KIDDIE NAIL CARE</p>
-                        <p className="font-medium green">
+                        <p className="font-bold green">
                           Mini Manicure{" "}
                           <span className="font-medium">45 min / 150 IDR</span>
                         </p>
                         <p>Nails trimming & nail polish</p>
-                        <p className="font-medium green">
+                        <p className="font-bold green">
                           Mini Pedicure{" "}
                           <span className="font-medium">45 min / 180 IDR</span>
                         </p>
                         <p>Toenails trimming & nail polis</p>
-                        <p className="font-medium green">
+                        <p className="font-bold green">
                           Mini Polish{" "}
                           <span className="font-medium">15 min / 100 IDR</span>
                         </p>
-                        <p className="font-medium green">
+                        <p className="font-bold green">
                           Mini Nail Art{" "}
                           <span className="font-medium">
                             10 min / 10 IDR
