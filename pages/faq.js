@@ -794,6 +794,13 @@ export default function Home() {
                   Have more questions? Don’t hesitate to message us
                 </strong>
               </p>
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1703992956/Logo_mzsome.svg"
+                  className="img-fluid mb30"
+                  alt="Logo secondary"
+                />
+              </div>
             </div>
           </div>
         </section>
