@@ -120,7 +120,7 @@ export default function Home() {
           data-aos="fade-up"
           style={{
             backgroundImage:
-              "url(https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/main-hero_isqxgz.jpg)",
+              "url(https://res.cloudinary.com/dnnrll6sl/image/upload/v1703994196/main-hero_quxs5t.jpg)",
           }}
         >
           <div className="container">
@@ -346,13 +346,13 @@ export default function Home() {
                 </div>
                 <div className="col-sm-4">
                   <img
-                    src="https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/treatment-2_m7lzkg.jpg"
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1703994203/treatment-2_tksktm.png"
                     className="img-fluid mb30"
                   />
                 </div>
                 <div className="col-sm-4">
                   <img
-                    src="https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385243/Re%20Day%20Spa/treatment-3_ukbxp0.jpg"
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1703994195/treatment-3_epooct.png"
                     className="img-fluid mb30"
                   />
                 </div>
