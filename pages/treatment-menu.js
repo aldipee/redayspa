@@ -696,7 +696,6 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">HAND SPA</p>
                         <div className="mb30">
-                          <p className="font-medium green">60 min / 350 IDR</p>
                           <p>
                             Indulge in our hand spa treatment that goes beyond
                             skin-deep to give your hands a luxurious care and
@@ -709,12 +708,12 @@ export default function Home() {
                             care) + Hand massage + Hand exfoliation + Milk hand
                             soak + Moisturizer
                           </p>
+                          <p className="font-medium green">60 min / 350 IDR</p>
                         </div>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">FOOT SPA</p>
                         <div className="mb30">
-                          <p className="font-medium green">75 min / 400 IDR</p>
                           <p>
                             Step into a world of bliss and give your feet a
                             treat with our foot spa experience. Designed to
@@ -728,10 +727,43 @@ export default function Home() {
                             care) + Hand massage + Hand exfoliation + Milk hand
                             soak + Moisturizer
                           </p>
+                          <p className="font-medium green">75 min / 400 IDR</p>
                         </div>
                       </div>
+
+                      <div className="col-sm-12 mt-0 text-center">
+                        <p className="sm-heading">QUICK FIX</p>
+                      </div>
+
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="font-bold green">
+                          Sport Manicure{" "}
+                          <span className="font-medium">45 min / 250 IDR</span>
+                        </p>
+                        <p>Nail trimming, basic shaping, cuticle care</p>
+                        <p className="font-bold green">
+                          Sport Pedicure{" "}
+                          <span className="font-medium">45 min / 250 IDR</span>
+                        </p>
+                        <p>Toenail trimming, basic shaping, nail polis</p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="font-bold green">
+                          Express Manicure{" "}
+                          <span className="font-medium">45 min / 250 IDR</span>
+                        </p>
+                        <p>Nail trimming, basic shaping, cuticle care</p>
+                        <p className="font-bold green">
+                          Express Pedicure{" "}
+                          <span className="font-medium">45 min / 250 IDR</span>
+                        </p>
+                        <p>Toenail trimming, basic shaping, nail polis</p>
+                      </div>
+
                       <div className="col-sm-12 mb30 mt-0 text-center">
-                        <p className="sm-heading">ADDITIONAL</p>
+                        <p className="border-top pt-4 sm-heading">
+                          ADDITIONAL SERVICE
+                        </p>
                         <div className="mb30">
                           <p className="font-medium green">
                             Regular Nail Polish
