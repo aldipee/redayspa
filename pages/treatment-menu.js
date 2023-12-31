@@ -745,7 +745,7 @@ export default function Home() {
                           Sport Pedicure{" "}
                           <span className="font-medium">45 min / 250 IDR</span>
                         </p>
-                        <p>Toenail trimming, basic shaping, nail polis</p>
+                        <p>Nail trimming, basic shaping, regular polish</p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="font-bold green">
@@ -757,7 +757,7 @@ export default function Home() {
                           Express Pedicure{" "}
                           <span className="font-medium">45 min / 250 IDR</span>
                         </p>
-                        <p>Toenail trimming, basic shaping, nail polis</p>
+                        <p>Nail trimming, basic shaping, regular polish</p>
                       </div>
 
                       <div className="col-sm-12 mb30 mt-0 text-center">
@@ -811,7 +811,7 @@ export default function Home() {
                         <p className="ft-12 lh-base">
                           <strong>Full body massage choice:</strong>
                           <br />
-                          Balinese Massage (+IDR 30 for Deep / Dry / RĒ
+                          Balinese Massage (+IDR 50 for Deep / Dry / RĒ
                           Signature massage)
                           <br />
                           <strong>Scrub choice:</strong>
@@ -960,7 +960,7 @@ export default function Home() {
                           Mini Pedicure{" "}
                           <span className="font-medium">45 min / 200 IDR</span>
                         </p>
-                        <p>Toenails trimming & nail polis</p>
+                        <p>Toenails trimming & nail polish</p>
                         <p className="font-bold green">
                           Mini Polish{" "}
                           <span className="font-medium">15 min / 120 IDR</span>
