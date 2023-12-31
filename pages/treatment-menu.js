@@ -745,14 +745,14 @@ export default function Home() {
                           Sport Pedicure{" "}
                           <span className="font-medium">45 min / 250 IDR</span>
                         </p>
-                        <p>Nail trimming, basic shaping, regular polish</p>
+                        <p>Nail trimming, basic shaping, cuticle care</p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="font-bold green">
                           Express Manicure{" "}
                           <span className="font-medium">45 min / 250 IDR</span>
                         </p>
-                        <p>Nail trimming, basic shaping, cuticle care</p>
+                        <p>Nail trimming, basic shaping, regular polish</p>
                         <p className="font-bold green">
                           Express Pedicure{" "}
                           <span className="font-medium">45 min / 250 IDR</span>
