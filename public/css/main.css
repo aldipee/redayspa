@@ -100,7 +100,7 @@ body {
 }
 .item-main-nav,
 .item-nav-last {
-  color: #fff;
+  color: #FBF7F2;
   font-size: 15px;
   font-weight: 600;
   margin: 0 15px;
@@ -110,16 +110,16 @@ body {
 .hero-desc {
   text-align: center;
   padding: 150px 0 300px 0;
-  color: #fff;
+  color: #FBF7F2;
 }
 .inner-hero .hero-desc {
   text-align: center;
   padding: 100px 0 200px 0;
-  color: #fff;
+  color: #FBF7F2;
 }
 .title-hero {
   font-size: 65px;
-  color: #fff;
+  color: #FBF7F2;
   font-family: "Times Sans Serif";
   line-height: 60px;
 }
@@ -178,7 +178,7 @@ body {
   margin-bottom: 10px;
 }
 .inner-slider-item {
-  color: #fff;
+  color: #FBF7F2;
   max-width: 620px;
   width: 100%;
   line-height: 30px;
@@ -188,7 +188,7 @@ body {
 }
 .swiper-button-next,
 .swiper-button-prev {
-  color: #fff;
+  color: #FBF7F2;
 }
 .swiper-button-next:focus,
 .swiper-button-prev:focus {
@@ -197,7 +197,7 @@ body {
 }
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #fff;
+  background: #FBF7F2;
 }
 .treatment-section {
   padding: 100px 0;
@@ -235,11 +235,11 @@ body {
 .footer {
   background-color: #6D9A83;
   padding: 70px 0;
-  color: #fff;
+  color: #FBF7F2;
   text-align: center;
 }
 .link-footer {
-  color: #fff;
+  color: #FBF7F2;
   margin: 0 15px;
 }
 .link-footer:hover {
@@ -263,11 +263,11 @@ body {
   line-height: 35px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #fff;
+  border: 1px solid #FBF7F2;
   background: transparent;
 }
 .social-link:hover {
-  background: #fff;
+  background: #FBF7F2;
 }
 .social-link:hover img {
   filter: invert(77%) sepia(20%) saturate(1092%) hue-rotate(120deg) brightness(85%) contrast(90%);
@@ -297,7 +297,7 @@ body {
 }
 .top-nav .item-main-nav:hover,
 .top-nav .item-nav-last:hover {
-  color: #9af2e5;
+  color: #205F54;
 }
 .logo-placement {
   width: 4.5rem;
@@ -361,7 +361,7 @@ body {
 }
 .link-menu-mobile,
 .link-menu-mobile-last {
-  color: #fff;
+  color: #FBF7F2;
   font-size: 18px;
   font-weight: 600;
   padding: 10px 0;
@@ -376,7 +376,7 @@ body {
 }
 .header-inner .item-main-nav:hover,
 .header-inner .item-nav-last:hover {
-  color: #9af2e5;
+  color: #205F54;
 }
 .inner-section {
   padding-bottom: 50px;
@@ -399,7 +399,7 @@ body {
   font-family: "Times Sans Serif";
   font-size: 30px;
   line-height: 35px;
-  color: #fff;
+  color: #FBF7F2;
   padding: 15px 10px;
   text-align: center;
 }
@@ -447,7 +447,7 @@ body {
 .popup-card {
   max-width: 750px;
   width: 100%;
-  background: #ffffff;
+  background: #FBF7F2;
   border-radius: 5px;
   padding: 30px;
   position: relative;
@@ -553,12 +553,12 @@ body {
 }
 .btn-white {
   background: rgba(255, 255, 255, 0.9);
-  border-color: #fff;
+  border-color: #FBF7F2;
   letter-spacing: 2px;
 }
 .btn-white:hover {
   background: rgba(255, 255, 255, 0.7);
-  border-color: #fff;
+  border-color: #FBF7F2;
 }
 .btn-dark {
   background-color: rgba(28, 21, 19, 0.86);
@@ -574,7 +574,7 @@ body {
   background-color: #6D9A83;
   border-color: #6D9A83;
   letter-spacing: 2px;
-  color: #fff;
+  color: #FBF7F2;
   padding: 12px 45px;
   display: inline-block;
   text-transform: uppercase;
@@ -582,13 +582,13 @@ body {
 .btn-green:hover {
   background-color: #32a090;
   border-color: #32a090;
-  color: #fff;
+  color: #FBF7F2;
 }
 .btn-darkgreen {
   background-color: #205F54;
   border-color: #205F54;
   letter-spacing: 2px;
-  color: #fff;
+  color: #FBF7F2;
   padding: 12px 45px;
   display: inline-block;
   text-transform: uppercase;
@@ -596,7 +596,7 @@ body {
 .btn-toggle {
   background-color: #6D9A83;
   border-color: #6D9A83;
-  color: #fff;
+  color: #FBF7F2;
   padding: 10px 15px;
   border-radius: 5px;
   display: inline-block;
@@ -625,7 +625,7 @@ body {
 }
 .btn-bordered:hover {
   border: 2px solid #6D9A83;
-  color: #fff;
+  color: #FBF7F2;
   background: #6D9A83;
 }
 
@@ -644,7 +644,7 @@ body {
 }
 
 .nav-lg .nav-link {
-  background-color: #FFF;
+  background-color: #FBF7F2;
   border: 0;
   color: #205F54;
   padding: 1rem 0.75rem;
@@ -655,7 +655,7 @@ body {
 .nav-lg .nav-link.active {
   background-color: #6D9A83;
   font-weight: 600;
-  color: #FFF;
+  color: #FBF7F2;
   border: 1px solid #6D9A83;
 }
 
@@ -834,7 +834,7 @@ body {
   color: #a9a9a9;
 }
 .text-white {
-  color: #fff;
+  color: #FBF7F2;
 }
 .text-black {
   color: #434343;
@@ -921,7 +921,7 @@ body {
   *,
   *::before,
   *::after {
-    background: #fff !important;
+    background: #FBF7F2 !important;
     color: #000 !important;
     /* Black prints faster */
     box-shadow: none !important;
