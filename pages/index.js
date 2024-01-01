@@ -98,7 +98,7 @@ export default function Home() {
               <li className="logo-placement">
                 <a>
                   <img
-                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704075699/logo-cream_zwqmhr.svg"
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076781/logo-cream_x9jrj5.svg"
                     className="img-fluid logo"
                   />
                 </a>
@@ -145,7 +145,7 @@ export default function Home() {
                 <Link href="/">
                   <a>
                     <img
-                      src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1703992956/Logo_mzsome.svg"
+                      src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076860/logo-green_ertfou.svg"
                       className="img-fluid logo"
                     />
                   </a>
@@ -513,7 +513,7 @@ export default function Home() {
             <Link href="/">
               <a>
                 <img
-                  src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704075699/logo-cream_zwqmhr.svg"
+                  src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076781/logo-cream_x9jrj5.svg"
                   className="logo-menu"
                 />
               </a>
