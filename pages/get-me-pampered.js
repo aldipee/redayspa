@@ -44,7 +44,11 @@ export default function Home() {
                 <p className="mb30">
                   <Link href="/">
                     <a className="w-100">
-                      <img src="img/logo2.png" className="img-fluid" />
+                      <img
+                        src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076860/logo-green_ertfou.svg"
+                        className="img-fluid"
+                        alt="re day spa logo"
+                      />
                     </a>
                   </Link>
                 </p>

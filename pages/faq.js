@@ -853,7 +853,10 @@ export default function Home() {
           <div className="mm-header">
             <Link href="/">
               <a>
-                <img src="img/logo.png" className="logo-menu" />
+                <img
+                  src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076781/logo-cream_x9jrj5.svg"
+                  className="logo-menu"
+                />
               </a>
             </Link>
             <div className="btn-close-menu">
