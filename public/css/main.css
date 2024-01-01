@@ -94,7 +94,7 @@ body {
 .right-side {
   width: 45%;
 }
-.center-side {
+.main-nav__logo {
   width: 60px;
   margin: 0 15px;
 }
@@ -279,7 +279,7 @@ body {
   width: 100%;
   position: fixed;
   background: #48c3b1;
-  top: -80px;
+  top: -81px;
   left: 0;
   z-index: 20;
   transition: all 200ms ease;
@@ -336,7 +336,7 @@ body {
   position: relative;
 }
 .logo-menu {
-  max-width: 70px;
+  max-width: 60px;
 }
 .btn-close-menu {
   position: absolute;

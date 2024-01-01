@@ -128,37 +128,31 @@ export default function Home() {
         >
           <div className="container">
             <div className="main-nav">
-              <div className="left-side">
-                {/*
-                <a href="#top" className="item-main-nav">
-                  HOME
+              {/*
+              <a href="#top" className="item-main-nav">
+                HOME
+              </a>
+              */}
+              <a href="#about" className="item-main-nav">
+                ABOUT
+              </a>
+              <a href="#treatment" className="item-main-nav">
+                TREATMENT
+              </a>
+              <Link href="/">
+                <a className="main-nav__logo">
+                  <img
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076860/logo-green_ertfou.svg"
+                    className="img-fluid logo"
+                  />
                 </a>
-                */}
-                <a href="#about" className="item-main-nav">
-                  ABOUT
-                </a>
-                <a href="#treatment" className="item-main-nav">
-                  TREATMENT
-                </a>
-              </div>
-              <div className="center-side">
-                <Link href="/">
-                  <a>
-                    <img
-                      src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076860/logo-green_ertfou.svg"
-                      className="img-fluid logo"
-                    />
-                  </a>
-                </Link>
-              </div>
-              <div className="right-side">
-                <a href="#contact" className="item-main-nav">
-                  CONTACT US
-                </a>
-                <Link href="/faq">
-                  <a className="item-nav-last">FAQ</a>
-                </Link>
-              </div>
+              </Link>
+              <a href="#contact" className="item-main-nav">
+                CONTACT US
+              </a>
+              <Link href="/faq">
+                <a className="item-nav-last">FAQ</a>
+              </Link>
             </div>
 
             <div className="hero-desc">
