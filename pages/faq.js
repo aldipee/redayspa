@@ -46,24 +46,24 @@ export default function Home() {
                 HOME
               </a>
               */}
-              <a href="#about" className="item-main-nav">
+              <a href="/#about" className="item-main-nav">
                 ABOUT
               </a>
-              <a href="#treatment" className="item-main-nav">
+              <a href="/treatment-menu" className="item-main-nav">
                 TREATMENT
               </a>
               <Link href="/">
                 <a className="main-nav__logo">
                   <img
-                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076860/logo-green_ertfou.svg"
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076781/logo-cream_x9jrj5.svg"
                     className="img-fluid logo"
                   />
                 </a>
               </Link>
-              <a href="#contact" className="item-main-nav">
+              <a href="/#contact" className="item-main-nav">
                 CONTACT US
               </a>
-              <Link href="/faq">
+              <Link href="faq">
                 <a className="item-nav-last">FAQ</a>
               </Link>
             </div>
