@@ -150,7 +150,7 @@ body {
   color: #6D9A83;
 }
 .link-telephone:hover {
-  color: #3db1a0;
+  color: #205F54;
 }
 .slider-item {
   background-size: cover;
@@ -243,7 +243,7 @@ body {
   margin: 0 15px;
 }
 .link-footer:hover {
-  color: #a1e9de;
+  color: #205F54;
 }
 .social {
   display: flex;
@@ -369,7 +369,7 @@ body {
 }
 .link-menu-mobile:hover,
 .link-menu-mobile-last:hover {
-  color: #aff7ec;
+  color: #205F54;
 }
 .header-inner {
   background-color: #6D9A83;
@@ -580,8 +580,8 @@ body {
   text-transform: uppercase;
 }
 .btn-green:hover {
-  background-color: #32a090;
-  border-color: #32a090;
+  background-color: #205F54;
+  border-color: #205F54;
   color: #FBF7F2;
 }
 .btn-darkgreen {
