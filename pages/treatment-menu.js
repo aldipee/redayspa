@@ -72,7 +72,7 @@ export default function Home() {
               <a href="/#contact" className="item-main-nav">
                 CONTACT US
               </a>
-              <Link href="faq">
+              <Link href="/faq">
                 <a className="item-nav-last">FAQ</a>
               </Link>
             </div>
