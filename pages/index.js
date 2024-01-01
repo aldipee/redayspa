@@ -97,7 +97,10 @@ export default function Home() {
               </li>
               <li className="logo-placement">
                 <a>
-                  <img src="img/logo-white.png" className="img-fluid logo" />
+                  <img
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704075699/logo-cream_zwqmhr.svg"
+                    className="img-fluid logo"
+                  />
                 </a>
               </li>
               <li>
@@ -141,7 +144,10 @@ export default function Home() {
               <div className="center-side">
                 <Link href="/">
                   <a>
-                    <img src="img/logo.png" className="img-fluid logo" />
+                    <img
+                      src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1703992956/Logo_mzsome.svg"
+                      className="img-fluid logo"
+                    />
                   </a>
                 </Link>
               </div>
@@ -506,7 +512,10 @@ export default function Home() {
           <div className="mm-header">
             <Link href="/">
               <a>
-                <img src="img/logo.png" className="logo-menu" />
+                <img
+                  src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704075699/logo-cream_zwqmhr.svg"
+                  className="logo-menu"
+                />
               </a>
             </Link>
             <div className="btn-close-menu">
