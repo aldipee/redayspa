@@ -41,38 +41,33 @@ export default function Home() {
         <section className="header-inner">
           <div className="container">
             <div className="main-nav">
-              <div className="left-side">
-                {/*
-                <Link href="/">
-                  <a className="item-main-nav">HOME</a>
-                </Link>
-                */}
-                <Link href="/#about">
-                  <a className="item-main-nav">ABOUT</a>
-                </Link>
-                <Link href="/treatment-menu">
-                  <a className="item-main-nav">TREATMENT</a>
-                </Link>
-              </div>
-              <div className="center-side">
-                <Link href="/">
-                  <a>
-                    <img
-                      src="img/logo.png"
-                      className="img-fluid logo"
-                      alt="Logo"
-                    />
-                  </a>
-                </Link>
-              </div>
-              <div className="right-side">
-                <Link href="/#contact">
-                  <a className="item-main-nav">CONTACT US</a>
-                </Link>
-                <Link href="/faq">
-                  <a className="item-nav-last">FAQ</a>
-                </Link>
-              </div>
+              {/*
+              <a href="#top" className="item-main-nav">
+                HOME
+              </a>
+              */}
+              <Link href="/#about">
+                <a className="item-main-nav">ABOUT</a>
+              </Link>
+
+              <Link href="/treatment-menu">
+                <a className="item-main-nav">TREATMENT</a>
+              </Link>
+              <Link href="/">
+                <a className="main-nav__logo">
+                  <img
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076781/logo-cream_x9jrj5.svg"
+                    className="img-fluid logo"
+                    alt="re day spa logo"
+                  />
+                </a>
+              </Link>
+              <Link href="/#contact">
+                <a className="item-main-nav">CONTACT US</a>
+              </Link>
+              <Link href="/faq">
+                <a className="item-nav-last">FAQ</a>
+              </Link>
             </div>
           </div>
         </section>
