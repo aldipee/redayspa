@@ -697,8 +697,8 @@ body {
   }
 }
 @media (max-width: 991px) {
-  .left-side,
-  .right-side {
+  .main-nav .item-main-nav,
+  .main-nav .item-nav-last {
     display: none;
   }
   header {
