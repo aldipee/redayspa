@@ -12,7 +12,7 @@ export default function Home() {
         <meta charset="utf-8" />
         <title>
           {" "}
-          Treatment Menu - RE DAY SPA - Rejuvenation in Tranquility
+          Treatment Menu - Re Massage Studio - Rejuvenation in Tranquility
         </title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -65,9 +65,9 @@ export default function Home() {
               <Link href="/">
                 <a className="main-nav__logo">
                   <img
-                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076781/logo-cream_x9jrj5.svg"
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704902543/logo-cream_o8xrc1.svg"
                     className="img-fluid logo"
-                    alt="re day spa logo"
+                    alt="Re Massage Studio logo"
                   />
                 </a>
               </Link>
@@ -242,10 +242,11 @@ export default function Home() {
                         <p>
                           Let us transport you to a blissful relaxation with our
                           signature massage technique. Starting with warm
-                          aromatherapy oil of your choice, our therapists will
-                          expertly work out the magic touch. Afterward,{" "}
-                          {`we'll`} apply a warm towel compress to soothe and
-                          relax your body even further.
+                          massage oil of your choice, our therapists will
+                          expertly work out the magic touch. Afterward,
+                          {`we'll`}
+                          apply a warm towel compress to soothe and relax your
+                          body even further.
                         </p>
                         <p className="ft-12 lh-base">
                           <strong>Massage oil options:</strong>
@@ -290,10 +291,11 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">PRENATAL MASSAGE</p>
                         <p>
-                          Gentle, side-lying massage with aromatherapy technique
-                          for mom-to-be after their first trimester. Helps to
-                          reduce swelling, nausea, and muscle tension with a
-                          unique blend of pregnancy-safe aromatic massage oil.
+                          Gentle, side-lying massage with massage technique that
+                          is safe for mom-to-be after their first trimester.
+                          Helps to reduce swelling, nausea, and muscle tension
+                          with a unique blend of pregnancy-safe aromatic massage
+                          oil.
                         </p>
                         <p className="font-medium green">
                           60 / 90 min
@@ -686,18 +688,18 @@ export default function Home() {
                         <p>
                           Your hands and feet are the hardest working parts of
                           your body, and they deserve more than just a basic
-                          manicure or pedicure. Here at RE Day Spa, we offer
-                          hand and foot spa treatments that focus on the health
-                          and well-being of these often neglected areas that
-                          goes beyond mere aesthetics.
+                          manicure or pedicure. Here at Re Massage Studio, we
+                          offer hands and feet care treatments that focus on the
+                          health and well-being of these often neglected areas
+                          that go beyond mere aesthetics.
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">HAND SPA</p>
                         <div className="mb30">
                           <p>
-                            Indulge in our hand spa treatment that goes beyond
-                            skin-deep to give your hands a luxurious care and
+                            Indulge in our hand treatment that goes beyond
+                            skin-deep to give your hands luxurious care and
                             revitalization. Your hands deserve a touch of bliss
                             and a {`"handful"`} of rejuvenation.
                           </p>
@@ -715,10 +717,10 @@ export default function Home() {
                         <div className="mb30">
                           <p>
                             Step into a world of bliss and give your feet a
-                            treat with our foot spa experience. Designed to
-                            revitalize and restore tired feet, our specialized
-                            care will leave you feeling {`"toe"-tally`}
-                            pampered and take the day!
+                            treat with our feet treatment experience. Designed
+                            to revitalize and restore tired feet, our
+                            specialized care will leave you feeling
+                            {`"toe"-tally`} pampered and take the day!
                           </p>
                           <p className="italic green mb-0">Treatment Steps</p>
                           <p>
@@ -782,8 +784,8 @@ export default function Home() {
                       <div className="col-sm-12 small italic text-center">
                         <p className="mb-0">
                           All additional service {`can't`} be taken
-                          individually, it must be taken either with hand spa or
-                          foot spa
+                          individually, it must be taken either with hands or
+                          feet care
                         </p>
                         <p className="green mb-0">
                           All prices are in thousands of Rupiah and are
@@ -803,9 +805,10 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">BODY REVIVE</p>
                         <p>
-                          A staple ritual for spa-goers. A classic combination
-                          of full body massage and body scrub for a quick-fix;
-                          ease body soreness plus exfoliation for glowing skin.
+                          A staple ritual for pampering day. A classic
+                          combination of full body massage and body scrub for a
+                          quick fix; ease body soreness plus exfoliation for
+                          glowing skin.
                         </p>
                         <p className="ft-12 lh-base">
                           <strong>Full body massage choice:</strong>
@@ -852,12 +855,12 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <div className="sm-heading">URBAN REWIND</div>
                         <p>
-                          A contemporary spin on Balinese spa tradition combined
-                          with our signature beauty recipes results in the
-                          perfect rejuvenation to the body and soul. Bringing
-                          curative benefits of fresh, natural and quality
-                          ingredients, indulge mind and soul in a heartfelt
-                          Balinese spa experience.
+                          A contemporary spin on Balinese body care tradition
+                          combined with our signature beauty recipes results in
+                          the perfect rejuvenation of the body and soul.
+                          Bringing curative benefits of fresh, natural, and
+                          quality ingredients, indulge mind and soul in a
+                          heartfelt Balinese treatment experience.
                         </p>
                         <p className="italic green mb-0">Treatment Steps</p>
                         <p>
@@ -895,7 +898,7 @@ export default function Home() {
                         <p className="sm-heading">TOTALY PAMPERED</p>
                         <p>
                           The favorite party-goers treatment. Cure your hangover
-                          and tiredness from last night with our unique spa
+                          and tiredness from last night with our treatment spa
                           ritual. This treatment will help with your pounding
                           head and body soreness immediately.
                         </p>
@@ -1038,14 +1041,14 @@ export default function Home() {
 
         <section className="footer">
           <div className="container">
-            <p>RE DAY SPA, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
+            <p>Re Massage Studio, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
             <p className="mb30">
               {" "}
               <a href="tel:+6281237375791" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href="mailto:care@redayaspabali.com" className="link-footer">
-                CARE@REDAYSPABALI.COM
+              <a href="mailto:care@remassagestudio.com" className="link-footer">
+                CARE@REMASSAGESTUDIO.COM
               </a>
             </p>
             <ul className="social">
@@ -1071,7 +1074,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/redayspa/"
+                  href="https://www.instagram.com/remassagestudio/"
                   className="social-link"
                   target="_blank"
                   rel="noreferrer"
@@ -1097,7 +1100,7 @@ export default function Home() {
             <Link href="/">
               <a>
                 <img
-                  src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076781/logo-cream_x9jrj5.svg"
+                  src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704902543/logo-cream_o8xrc1.svg"
                   className="logo-menu"
                 />
               </a>
@@ -1157,8 +1160,8 @@ export default function Home() {
               <a href="tel:+6281248788391" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href="mailto:care@redayaspabali.com" className="link-footer">
-                CARE@REDAYSPABALI.COM
+              <a href="mailto:care@remassagestudio.com" className="link-footer">
+                CARE@REMASSAGESTUDIO.COM
               </a>
             </p>
             <ul className="social">
@@ -1184,7 +1187,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/redayspa/"
+                  href="https://www.instagram.com/remassagestudio/"
                   className="social-link"
                   target="_blank"
                   rel="noreferrer"

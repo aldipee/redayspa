@@ -45,7 +45,7 @@ export default function Home() {
                   <Link href="/">
                     <a className="w-100">
                       <img
-                        src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076860/logo-green_ertfou.svg"
+                        src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704902543/logo-green_rfi8ls.svg"
                         className="img-fluid"
                         alt="re day spa logo"
                       />
@@ -54,12 +54,12 @@ export default function Home() {
                 </p>
                 <p className="mb30">
                   <a
-                    href="https://www.instagram.com/redayspa/"
+                    href="https://www.instagram.com/remassagestudio/"
                     target="_blank"
                     className="link-telephone"
                     rel="noreferrer"
                   >
-                    @REDAYSPA
+                    @REMASSAGESTUDIO
                   </a>
                 </p>
                 {/*

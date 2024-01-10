@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         <meta charset="utf-8" />
-        <title>RE DAY SPA - Rejuvenation in Tranquility</title>
+        <title>Re Massage Studio - Rejuvenation in Tranquility</title>
         <meta name="description" content="" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -168,8 +168,8 @@ export default function Home() {
                 <p>
                   If you have any inquiry regarding how we handling COVID-19 in our premises, you are welcome to contact
                   us through email{" "}
-                  <a href="mailto:care@redayspabali.com" className="link-telephone">
-                    care@redayspabali.com
+                  <a href="mailto:care@remassagestudio.com" className="link-telephone">
+                    care@REMASSAGESTUDIO.com
                   </a>
                   .
                 </p>
@@ -180,14 +180,14 @@ export default function Home() {
 
         <section className="footer">
           <div className="container">
-            <p>RE DAY SPA, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
+            <p>Re Massage Studio, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
             <p className="mb30">
               {" "}
               <a href="tel:+6281248788391" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href="mailto:care@redayaspabali.com" className="link-footer">
-                CARE@REDAYSPABALI.COM
+              <a href="mailto:care@remassagestudio.com" className="link-footer">
+                CARE@REMASSAGESTUDIO.COM
               </a>
             </p>
             <ul className="social">
@@ -207,7 +207,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/redayspa/" className="social-link" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/remassagestudio/" className="social-link" target="_blank" rel="noreferrer">
                   <img src="img/ico-instagram.svg" className="img-fluid" />
                 </a>
               </li>
@@ -269,8 +269,8 @@ export default function Home() {
               <a href="tel:+6281237375791" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href="mailto:care@redayaspabali.com" className="link-footer">
-                CARE@REDAYSPABALI.COM
+              <a href="mailto:care@remassagestudio.com" className="link-footer">
+                CARE@REMASSAGESTUDIO.COM
               </a>
             </p>
             <ul className="social">
@@ -290,7 +290,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/redayspa/" className="social-link" target="_blank" rel="noreferrer">
+                <a href="https://www.instagram.com/remassagestudio/" className="social-link" target="_blank" rel="noreferrer">
                   <img src="img/ico-instagram.svg" className="img-fluid" />
                 </a>
               </li>

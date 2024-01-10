@@ -47,7 +47,7 @@ export default function Home() {
     <>
       <Head>
         <meta charset="utf-8" />
-        <title>RE DAY SPA - Rejuvenation in Tranquility</title>
+        <title>Re Massage Studio - Rejuvenation in Tranquility</title>
         <meta name="description" content="" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -98,7 +98,7 @@ export default function Home() {
               <li className="logo-placement">
                 <a>
                   <img
-                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076781/logo-cream_x9jrj5.svg"
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704902543/logo-cream_o8xrc1.svg"
                     className="img-fluid logo"
                   />
                 </a>
@@ -142,7 +142,7 @@ export default function Home() {
               <Link href="/">
                 <a className="main-nav__logo">
                   <img
-                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076860/logo-green_ertfou.svg"
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704902543/logo-green_rfi8ls.svg"
                     className="img-fluid logo"
                   />
                 </a>
@@ -182,28 +182,28 @@ export default function Home() {
             <div className="row align-items-center justify-content-between">
               <div className="col-xl-8 col-sm-8 col-md-8">
                 <div className="about-title mb30">
-                  Located in Seminyak, Re Day Spa is established to nurture
-                  comfort in the middle of our hectic lives.
+                  Located in Seminyak, Re Massage Studio is established to
+                  nurture comfort in the middle of our hectic lives.
                 </div>
                 <p>
-                  Re Day Spa has been serving both quality interpretations of
-                  traditional balinese treatments and proven contemporary
-                  rejuvenation. We invite you to leave the busy streets, shops
-                  and bars behind you for a moment to feel the peaceful and
-                  tranquil ambience of our spa that will help you to relax,
-                  unwind and enjoy.{" "}
+                  Re Massage Studio has been serving both quality
+                  interpretations of traditional balinese treatments and proven
+                  contemporary rejuvenation. We invite you to leave the busy
+                  streets, shops and bars behind you for a moment to feel the
+                  peaceful and tranquil ambience of our spa that will help you
+                  to relax, unwind and enjoy.{" "}
                 </p>
                 <p>
-                  At Re Day Spa, the focus are to deliver genuine and friendly
-                  treatments that are personally crafted for each individual
-                  needs through holistic approach. Our utmost goal is to
-                  accommodate you in a comfortable atmosphere and bring you to
-                  the ultimate state of rejuvenation and relaxation.
+                  At Re Massage Studio, the focus are to deliver genuine and
+                  friendly treatments that are personally crafted for each
+                  individual needs through holistic approach. Our utmost goal is
+                  to accommodate you in a comfortable atmosphere and bring you
+                  to the ultimate state of rejuvenation and relaxation.
                 </p>
                 <p>
-                  We look forward to welcoming you at Re Day Spa and helping you
-                  to feel refreshed and to experience genuine Balinese
-                  hospitality.{" "}
+                  We look forward to welcoming you at Re Massage Studio and
+                  helping you to feel refreshed and to experience genuine
+                  Balinese hospitality.{" "}
                 </p>
               </div>
               <div className="col-xl-2 col-sm-4 col-md-3">
@@ -258,12 +258,11 @@ export default function Home() {
                 <div className="inner-slider-item">
                   <div className="ttl-journey">Journey</div>
                   <p>
-                    The spa journey has been specifically designed with you in
-                    mind and in order to provide you with the best spa
-                    experience, we strongly recommend you to book your spa
-                    treatment in advance. We also suggest that you arrive at
-                    least 15 minutes before the start of your treatment to have
-                    your spa experience as carefree as possible.
+                    The relaxation journey has been specifically designed with
+                    you in mind, and to provide you with the best experience, we
+                    recommend you book your session in advance. We also suggest
+                    that you arrive at least 15 minutes before the scheduled
+                    session to enjoy the treatments as carefree as possible
                   </p>
                 </div>
               </div>
@@ -286,10 +285,10 @@ export default function Home() {
                 <div className="inner-slider-item">
                   <p>
                     A complementary drink and a scented cold towel will welcome
-                    you upon your arrival. Re Day Spa ensure the quality for
-                    each individual with a consultation prior to your treatment
-                    that will help us to craft the treatment to your needs and
-                    guide you towards the luxury experience.
+                    you upon your arrival. Re Massage Studio ensure the quality
+                    for each individual with a consultation prior to your
+                    treatment that will help us to craft the treatment to your
+                    needs and guide you towards the luxury experience.
                   </p>
                 </div>
               </div>
@@ -311,11 +310,11 @@ export default function Home() {
                   </p>
                   <div className="ttl-treatment mb30">TREATMENT</div>
                   <p className="mb30">
-                    At Re Day Spa, we offer you range of indulging treatments
-                    from head to toe, starting with manicure and pedicure,
-                    solacing facial for specific type of skin as well as
-                    traditional and various signature Aromatherapy massages
-                    based on your necessity.
+                    At Re Massage Studio, enjoy a wide range of treatment
+                    selections from head to toe! Soothing body massages,
+                    luxurious hair nourishment, tailored facial massages for
+                    each skin type, or mani-pedis. Unwind, rejuvenate, and
+                    pamper yourself with us.
                   </p>
                   <Link href="treatment-menu">
                     <a className="btn btn-green mb50">SEE TREATMENT MENU</a>
@@ -448,14 +447,14 @@ export default function Home() {
 
         <section className="footer">
           <div className="container">
-            <p>RE DAY SPA, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
+            <p>Re Massage Studio, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
             <p className="mb30">
               {" "}
               <a href="tel:+6281237375791" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href="mailto:care@redayaspabali.com" className="link-footer">
-                CARE@REDAYSPABALI.COM
+              <a href="mailto:care@remassagestudio.com" className="link-footer">
+                CARE@REMASSAGESTUDIO.COM
               </a>
             </p>
             <ul className="social">
@@ -481,7 +480,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/redayspa/"
+                  href="https://www.instagram.com/remassagestudio/"
                   className="social-link"
                   target="_blank"
                   rel="noreferrer"
@@ -507,7 +506,7 @@ export default function Home() {
             <Link href="/">
               <a>
                 <img
-                  src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076781/logo-cream_x9jrj5.svg"
+                  src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704902543/logo-cream_o8xrc1.svg"
                   className="logo-menu"
                 />
               </a>
@@ -566,8 +565,8 @@ export default function Home() {
               <a href="tel:+6281237375791" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href="mailto:care@redayaspabali.com" className="link-footer">
-                CARE@REDAYSPABALI.COM
+              <a href="mailto:care@remassagestudio.com" className="link-footer">
+                CARE@REMASSAGESTUDIO.COM
               </a>
             </p>
             <ul className="social">
@@ -593,7 +592,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/redayspa/"
+                  href="https://www.instagram.com/remassagestudio/"
                   className="social-link"
                   target="_blank"
                   rel="noreferrer"

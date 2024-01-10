@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         <meta charset="utf-8" />
-        <title>FAQ - RE DAY SPA - Rejuvenation in Tranquility</title>
+        <title>FAQ - Re Massage Studio - Rejuvenation in Tranquility</title>
         <meta name="description" content="" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -56,9 +56,9 @@ export default function Home() {
               <Link href="/">
                 <a className="main-nav__logo">
                   <img
-                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076781/logo-cream_x9jrj5.svg"
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704902543/logo-cream_o8xrc1.svg"
                     className="img-fluid logo"
-                    alt="re day spa logo"
+                    alt="Re Massage Studio logo"
                   />
                 </a>
               </Link>
@@ -117,17 +117,17 @@ export default function Home() {
                           </a>
                           . Other alternative for booking is via email:{" "}
                           <a
-                            href="mailto:care@redayspabali.com"
+                            href="mailto:care@remassagestudio.com"
                             className="link-telephone"
                           >
-                            care@redayspabali.com
+                            care@REMASSAGESTUDIO.com
                           </a>{" "}
                           or simply send us DM on Instagram{" "}
                           <a
-                            href="https://www.instagram.com/redayspa/"
+                            href="https://www.instagram.com/remassagestudio/"
                             className="link-telephone"
                           >
-                            @redayspabali
+                            @remassagestudio
                           </a>
                           .
                         </p>
@@ -362,7 +362,7 @@ export default function Home() {
                         aria-expanded="false"
                         aria-controls="collapseBookingNine"
                       >
-                        9. Does RE Day Spa have a Membership program?
+                        9. Does Re Massage Studio have a Membership program?
                       </button>
                     </h2>
                     <div
@@ -428,7 +428,7 @@ export default function Home() {
                         aria-expanded="false"
                         aria-controls="collapseEtiquetteTwo"
                       >
-                        2. I am pregnant. Can I come to RE Day Spa?
+                        2. I am pregnant. Can I come to Re Massage Studio?
                       </button>
                     </h2>
                     <div
@@ -795,14 +795,14 @@ export default function Home() {
 
         <section className="footer">
           <div className="container">
-            <p>RE DAY SPA, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
+            <p>Re Massage Studio, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
             <p className="mb30">
               {" "}
               <a href="tel:+6281248788391" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href="mailto:care@redayaspabali.com" className="link-footer">
-                CARE@REDAYSPABALI.COM
+              <a href="mailto:care@remassagestudio.com" className="link-footer">
+                CARE@REMASSAGESTUDIO.COM
               </a>
             </p>
             <ul className="social">
@@ -828,7 +828,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/redayspa/"
+                  href="https://www.instagram.com/remassagestudio/"
                   className="social-link"
                   target="_blank"
                   rel="noreferrer"
@@ -854,7 +854,7 @@ export default function Home() {
             <Link href="/">
               <a>
                 <img
-                  src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704076781/logo-cream_x9jrj5.svg"
+                  src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704902543/logo-cream_o8xrc1.svg"
                   className="logo-menu"
                 />
               </a>
@@ -913,8 +913,8 @@ export default function Home() {
               <a href="tel:+6281237375791" className="link-footer">
                 +62812 3737 5791
               </a>
-              <a href="mailto:care@redayaspabali.com" className="link-footer">
-                CARE@REDAYSPABALI.COM
+              <a href="mailto:care@remassagestudio.com" className="link-footer">
+                CARE@REMASSAGESTUDIO.COM
               </a>
             </p>
             <ul className="social">
@@ -940,7 +940,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/redayspa/"
+                  href="https://www.instagram.com/remassagestudio/"
                   className="social-link"
                   target="_blank"
                   rel="noreferrer"
