@@ -695,7 +695,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">HAND SPA</p>
+                        <p className="sm-heading">HAND CARE</p>
                         <div className="mb30">
                           <p>
                             Indulge in our hand treatment that goes beyond
@@ -713,7 +713,7 @@ export default function Home() {
                         </div>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">FOOT SPA</p>
+                        <p className="sm-heading">FOOT CARE</p>
                         <div className="mb30">
                           <p>
                             Step into a world of bliss and give your feet a
