@@ -979,7 +979,7 @@ export default function Home() {
                       <div className="col-sm-12 small italic text-center">
                         <p className="mb-0">
                           These treatments are valid for kids age 2 - 10 years
-                          old
+                          old and height under 150cm
                         </p>
                         <p className="mb-10">
                           ** 30 minutes treatments can only be taken with other
