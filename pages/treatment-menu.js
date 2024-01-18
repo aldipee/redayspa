@@ -725,8 +725,8 @@ export default function Home() {
                           <p className="italic green mb-0">Treatment Steps</p>
                           <p>
                             Nail care (trimming, basic shaping, and cuticle
-                            care) + Hand massage + Hand exfoliation + Milk hand
-                            soak + Moisturizer
+                            care) + Callus Removal + Feet massage + Feet
+                            exfoliation + Milk foot soak + Moisturizer
                           </p>
                           <p className="font-medium green">75 min / 400 IDR</p>
                         </div>
