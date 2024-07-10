@@ -110,10 +110,10 @@ export default function Home() {
                           You can book via our web app, or you can contact our
                           reservation team via WhatsApp at this number:{" "}
                           <a
-                            href="tel:+6281248788391"
+                            href="tel:+6282266698020"
                             className="link-telephone"
                           >
-                            +62 812 3737 5791
+                            +62 822 6669 8020
                           </a>
                           . Other alternative for booking is via email:{" "}
                           <a
@@ -798,8 +798,8 @@ export default function Home() {
             <p>Re Massage Studio, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
             <p className="mb30">
               {" "}
-              <a href="tel:+6281248788391" className="link-footer">
-                +62812 3737 5791
+              <a href="tel:+6282266698020" className="link-footer">
+                +62 822 6669 8020
               </a>
               <a href="mailto:care@remassagestudio.com" className="link-footer">
                 CARE@REMASSAGESTUDIO.COM
@@ -910,8 +910,8 @@ export default function Home() {
           <div className="mm-footer">
             <p className="mb30">
               {" "}
-              <a href="tel:+6281237375791" className="link-footer">
-                +62812 3737 5791
+              <a href="tel:+6282266698020" className="link-footer">
+                +62 822 6669 8020
               </a>
               <a href="mailto:care@remassagestudio.com" className="link-footer">
                 CARE@REMASSAGESTUDIO.COM

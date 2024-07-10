@@ -210,13 +210,14 @@ export default function Home() {
                 <div className="mb50">
                   <div className="sm-heading">PHONE</div>
                   <a
-                    href="tel:+6281237375791"
+                    href="tel:+6282266698020"
                     target="_blank"
                     className="link-telephone"
                     rel="noreferrer"
                   >
                     {" "}
-                    +62 812 3737 5791
+                    +62 822 6669 8020
+                    {/* +62 812 3737 5791 */}
                   </a>
                 </div>
                 <div className="mb50">
@@ -386,7 +387,7 @@ export default function Home() {
               <div className="sm-heading">BOOK A PAMPERING TIME</div>
               <p className="mb50">
                 <a
-                  href="tel:+6281237375791"
+                  href="tel:+6282266698020"
                   className="link-telephone"
                   target="_blank"
                   rel="noreferrer"
@@ -395,12 +396,12 @@ export default function Home() {
                 </a>{" "}
                 or{" "}
                 <a
-                  href="https://wa.me/6281237375791?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20spa%20treatment%20you%20offer."
+                  href="https://wa.me/+6282266698020?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20spa%20treatment%20you%20offer."
                   target="_blank"
                   className="link-telephone"
                   rel="noreferrer"
                 >
-                  WhatsApp us on +62 812 3737 5791
+                  WhatsApp us on +62 822 6669 8020
                 </a>{" "}
                 or book online by filling the form.
               </p>
@@ -450,8 +451,8 @@ export default function Home() {
             <p>Re Massage Studio, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
             <p className="mb30">
               {" "}
-              <a href="tel:+6281237375791" className="link-footer">
-                +62812 3737 5791
+              <a href="tel:+6282266698020" className="link-footer">
+                +62 822 6669 8020
               </a>
               <a href="mailto:care@remassagestudio.com" className="link-footer">
                 CARE@REMASSAGESTUDIO.COM
@@ -562,8 +563,8 @@ export default function Home() {
           <div className="mm-footer">
             <p className="mb30">
               {" "}
-              <a href="tel:+6281237375791" className="link-footer">
-                +62812 3737 5791
+              <a href="tel:+6282266698020" className="link-footer">
+                +62 822 6669 8020
               </a>
               <a href="mailto:care@remassagestudio.com" className="link-footer">
                 CARE@REMASSAGESTUDIO.COM
