@@ -1018,7 +1018,7 @@ export default function Home() {
                   className="link-telephone"
                   rel="noreferrer"
                 >
-                  WhatsApp us on +62 812 3737 5791
+                  WhatsApp us on +62 822 6669 8020
                 </a>{" "}
                 or book online by filling the form.
               </p>
