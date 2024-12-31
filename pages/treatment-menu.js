@@ -421,7 +421,7 @@ export default function Home() {
                         <p className="font-medium green">
                           60 min
                           <br />
-                          380 IDR
+                          450 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -439,7 +439,7 @@ export default function Home() {
                         <p className="font-medium green">
                           60 min
                           <br />
-                          420 IDR
+                          450 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -455,7 +455,7 @@ export default function Home() {
                         <p className="font-medium green">
                           60 min
                           <br />
-                          380 IDR
+                          450 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -465,9 +465,9 @@ export default function Home() {
                           quick hair drying.
                         </p>
                         <p className="font-medium green">
-                          Short Hair 30 min / 210 IDR
+                          Short Hair 30 min / 220 IDR
                           <br />
-                          Long Hair 45 min / 240 IDR
+                          Long Hair 45 min / 250 IDR
                         </p>
                       </div>
                       <div className="col-sm-12 small italic text-center">
@@ -616,7 +616,7 @@ export default function Home() {
                         <p className="font-medium green">
                           45 min**
                           <br />
-                          280 IDR
+                          300 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -630,7 +630,7 @@ export default function Home() {
                         <p className="font-medium green">
                           45 min**
                           <br />
-                          280 IDR
+                          300 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -647,7 +647,7 @@ export default function Home() {
                         <p className="font-medium green">
                           45 min**
                           <br />
-                          280 IDR
+                          300 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -769,11 +769,11 @@ export default function Home() {
                           <p className="font-medium green">
                             Regular Nail Polish
                             <br />
-                            30 min / 100 IDR
+                            30 min / 120 IDR
                             <br />
                             Gel Nail Polish
                             <br />
-                            30 min / 150 IDR
+                            30 min / 180 IDR
                             <br />
                             Gel Nail removal (hands/feet)
                             <br />
@@ -829,7 +829,7 @@ export default function Home() {
                         <p className="font-medium green">
                           1 hr 45 min
                           <br />
-                          550 IDR
+                          600 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -937,7 +937,7 @@ export default function Home() {
                         <p className="font-medium green">
                           60 / 90 min
                           <br />
-                          280 / 400 IDR
+                          290 / 400 IDR
                         </p>
                         <p className="font-bold green">FOOT MASSAGE</p>
                         <p>
@@ -948,14 +948,14 @@ export default function Home() {
                         <p className="font-medium green">
                           30** / 60 min
                           <br />
-                          130 / 240 IDR
+                          150 / 250 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">KIDDIE NAIL CARE</p>
                         <p className="font-bold green">
                           Mini Manicure{" "}
-                          <span className="font-medium">45 min / 180 IDR</span>
+                          <span className="font-medium">45 min / 200 IDR</span>
                         </p>
                         <p>Nails trimming & nail polish</p>
                         <p className="font-bold green">
@@ -965,7 +965,7 @@ export default function Home() {
                         <p>Toenails trimming & nail polish</p>
                         <p className="font-bold green">
                           Mini Polish{" "}
-                          <span className="font-medium">15 min / 120 IDR</span>
+                          <span className="font-medium">30 min / 120 IDR</span>
                         </p>
                         <p className="font-bold green">
                           Mini Nail Art{" "}
