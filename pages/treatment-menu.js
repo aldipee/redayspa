@@ -333,6 +333,33 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">INTUITIVE HEAD PAMPER</p>
+                        <p>
+                          A calming yet energizing head massage focusing upon
+                          vital energy points. Helps to reduce tension and
+                          increase circulation. Great for headaches and
+                          hangover.
+                        </p>
+                        <p className="font-medium green">
+                          30** / 60 min
+                          <br />
+                          150 / 280 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">WARM FOOT REVIVAL</p>
+                        <p>
+                          A revitalizing combination of our signature foot
+                          massage & soothing warm stones. Enhances circulation,
+                          and relieves soreness. So good!
+                        </p>
+                        <p className="font-medium green">
+                          60 / 90 min
+                          <br />
+                          310 / 450 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">ACHING FOOT RELAXER</p>
                         <p>
                           Our holistic foot massage is performed with firm
@@ -345,20 +372,6 @@ export default function Home() {
                           30** / 60 / 90 min
                           <br />
                           150 / 280 / 400 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">INTUITIVE HEAD PAMPER</p>
-                        <p>
-                          A calming yet energizing head massage focusing upon
-                          vital energy points. Helps to reduce tension and
-                          increase circulation. Great for headaches and
-                          hangover.
-                        </p>
-                        <p className="font-medium green">
-                          30** / 60 min
-                          <br />
-                          150 / 280 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -394,6 +407,23 @@ export default function Home() {
                       <div className="col-sm-12">
                         <p className="treatment-heading mb24">
                           REPLENISH TREATMENT
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">SCALP PURITY RITUAL</p>
+                        <p>
+                          Treat your scalp and hair to the ultimate refresh with
+                          the perfect mix of cooling and warming sensations. A
+                          purifying scrub cleanses away buildup, followed by a
+                          cooling hair mask wrapped in a warm towel. While it
+                          works its magic, enjoy a soothing hand, neck, and
+                          shoulder massage with warm stones. Finish with a rinse
+                          and quick-dry, leaving you refreshed and rejuvenated!
+                        </p>
+                        <p className="font-medium green">
+                          90 min
+                          <br />
+                          650 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
