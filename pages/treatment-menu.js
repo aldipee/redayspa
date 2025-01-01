@@ -633,9 +633,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">
-                          DETOXIFYING BODY EXFOLIATION
-                        </p>
+                        <p className="sm-heading">BALI COFFEE BODY SCRUB</p>
                         <p>
                           Made from coffee beans grown at Kintamani, Bali, our
                           coffee scrub is a great way to scrub away dead skin to
@@ -650,7 +648,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">COCO CONTOURING SCRUB</p>
+                        <p className="sm-heading">COCO & VANILLA BODY SCRUB</p>
                         <p>
                           This exfoliating, contouring and nourishing body scrub
                           will awaken your senses with its sweet vanilla and
@@ -678,6 +676,20 @@ export default function Home() {
                           45 min**
                           <br />
                           300 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">PURE MILK BODY MASK</p>
+                        <p>
+                          Nourish your skin! Made from real milk powder, rich in
+                          antioxidants. Enhances elasticity, boosts suppleness,
+                          and helps combat back acne for smoother, healthier
+                          skin.
+                        </p>
+                        <p className="font-medium green">
+                          30 min
+                          <br />
+                          250 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -768,27 +780,17 @@ export default function Home() {
 
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="font-bold green">
-                          Sport Manicure{" "}
-                          <span className="font-medium">45 min / 250 IDR</span>
+                          Sport Manicure / Pedicure
                         </p>
                         <p>Nail trimming, basic shaping, cuticle care</p>
-                        <p className="font-bold green">
-                          Sport Pedicure{" "}
-                          <span className="font-medium">45 min / 250 IDR</span>
-                        </p>
-                        <p>Nail trimming, basic shaping, cuticle care</p>
+                        <p className="font-medium green">45 min / 250 IDR</p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="font-bold green">
-                          Express Manicure{" "}
-                          <span className="font-medium">45 min / 250 IDR</span>
+                          Express Manicure / Pedicure
                         </p>
                         <p>Nail trimming, basic shaping, regular polish</p>
-                        <p className="font-bold green">
-                          Express Pedicure{" "}
-                          <span className="font-medium">45 min / 250 IDR</span>
-                        </p>
-                        <p>Nail trimming, basic shaping, regular polish</p>
+                        <p className="font-medium green">45 min / 250 IDR</p>
                       </div>
 
                       <div className="col-sm-12 mb30 mt-0 text-center">
@@ -808,6 +810,14 @@ export default function Home() {
                             Gel Nail removal (hands/feet)
                             <br />
                             30 min / 100 IDR
+                            <br />
+                            Callus Removal
+                            <br />
+                            15 min / 180 IDR
+                            <br />
+                            Feet Scrub
+                            <br />
+                            15 min / 150 IDR
                           </p>
                         </div>
                       </div>
@@ -845,6 +855,8 @@ export default function Home() {
                           <br />
                           Balinese Massage (+IDR 50 for Deep / Dry / RĒ
                           Signature massage)
+                          <br />
+                          Upgrade to 90m Balinese Massage +IDR 120
                           <br />
                           <strong>Scrub choice:</strong>
                           <br />
@@ -998,18 +1010,14 @@ export default function Home() {
                           <span className="font-medium">30 min / 120 IDR</span>
                         </p>
                         <p className="font-bold green">
-                          Mini Nail Art{" "}
-                          <span className="font-medium">
-                            10 min / 10 IDR
-                            <br />
-                            *price per finger
-                          </span>
+                          Mini Trimming{" "}
+                          <span className="font-medium">15 min / 100 IDR</span>
                         </p>
                       </div>
                       <div className="col-sm-12 small italic text-center">
                         <p className="mb-0">
                           These treatments are valid for kids age 2 - 10 years
-                          old and height under 150cm
+                          old and height under 150cm (4.9 Ft)
                         </p>
                         <p className="mb-10">
                           ** 30 minutes treatments can only be taken with other
