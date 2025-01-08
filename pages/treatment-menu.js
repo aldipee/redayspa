@@ -922,20 +922,13 @@ export default function Home() {
                         <p className="sm-heading">BODY NOURISH</p>
                         <p>
                           Indulge in the ultimate self-care experience with this
-                          package, designed to pamper your body, mind, and soul.
-                          Begin with a 60-minute Balinese massage, crafted to
-                          melt away tension and promote deep relaxation. Next, a
-                          luxurious body scrub exfoliates your skin, leaving it
-                          smooth and radiant. Finally, a nourishing body mask
-                          for hydration, restoring balance and vitality. This
-                          holistic ritual is perfect for anyone seeking total
-                          rejuvenation and a moment of pure bliss. Rediscover
-                          harmony and let your inner glow shine!
+                          package. Crafted to melt away tension and promote deep relaxation. Exfoliates your skin, leaving it
+                          smooth and radiant. Finish with skin nourishment for hydration, restoring balance and vitality.
                         </p>
                         <p className="italic green mb-0">Treatment Steps</p>
                         <p>
                           Refreshing Foot Bath + 60min Balinese Massage + Body
-                          Scrub + Body Mask
+                          Scrub of your choice + Pure Milk Body Mask + Shower + RĒ Signature body lotion
                         </p>
                         <p className="ft-12 lh-base">
                           Upgrade to 90m Balinese Massage +IDR 120
