@@ -966,7 +966,7 @@ export default function Home() {
                           1200 IDR
                         </p>
                       </div>
-                      <div className="col-sm-12 mb30 mt-0 text-center">
+                      <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">TOTALLY PAMPERED</p>
                         <p>
                           The favorite party-goers treatment. Cure your hangover
