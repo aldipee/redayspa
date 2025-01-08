@@ -919,6 +919,34 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">BODY NOURISH</p>
+                        <p>
+                          Indulge in the ultimate self-care experience with this
+                          package, designed to pamper your body, mind, and soul.
+                          Begin with a 60-minute Balinese massage, crafted to
+                          melt away tension and promote deep relaxation. Next, a
+                          luxurious body scrub exfoliates your skin, leaving it
+                          smooth and radiant. Finally, a nourishing body mask
+                          for hydration, restoring balance and vitality. This
+                          holistic ritual is perfect for anyone seeking total
+                          rejuvenation and a moment of pure bliss. Rediscover
+                          harmony and let your inner glow shine!
+                        </p>
+                        <p className="italic green mb-0">Treatment Steps</p>
+                        <p>
+                          Refreshing Foot Bath + 60min Balinese Massage + Body
+                          Scrub + Body Mask
+                        </p>
+                        <p>
+                          Upgrade to 90m Balinese Massage +IDR 120
+                        </p>
+                        <p className="font-medium green">
+                          120 min
+                          <br />
+                          700 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">THE ROYAL</p>
                         <p>
                           The ultimate care package to make you feel like
@@ -939,7 +967,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-12 mb30 mt-0 text-center">
-                        <p className="sm-heading">TOTALY PAMPERED</p>
+                        <p className="sm-heading">TOTALLY PAMPERED</p>
                         <p>
                           The favorite party-goers treatment. Cure your hangover
                           and tiredness from last night with our treatment spa
