@@ -933,7 +933,7 @@ export default function Home() {
                           harmony and let your inner glow shine!
                         </p>
                         <p className="italic green mb-0">Treatment Steps</p>
-                        <p>
+                        <p className="ft-12 lh-base">
                           Refreshing Foot Bath + 60min Balinese Massage + Body
                           Scrub + Body Mask
                         </p>
