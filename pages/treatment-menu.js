@@ -139,7 +139,9 @@ export default function Home() {
                     >
                       <img src="img/scrub.svg" />
                       <br />
-                      SCRUB
+                      SCRUB &
+                      <br />
+                      WRAP
                     </button>
                   </li>
                   <li className="nav-item">
@@ -629,7 +631,7 @@ export default function Home() {
                     <div className="row">
                       <div className="col-sm-12">
                         <p className="treatment-heading mb24">
-                          REVIVE BODY SCRUB
+                          REVIVE BODY SCRUB & WRAP
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
