@@ -648,17 +648,18 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">COCO & VANILLA BODY SCRUB</p>
+                        <p className="sm-heading">ALOE VERA BODY MASK</p>
                         <p>
-                          This exfoliating, contouring and nourishing body scrub
-                          will awaken your senses with its sweet vanilla and
-                          coconut aromas. Specifically formulated to leave your
-                          skin feeling hydrated, soft, and silky.
+                          {`it's`} no secret that aloe vera, the original
+                          natural sunburn soother, has a variety of skin-healthy
+                          benefits. Target whatever skin issue {`you've`} got
+                          (be it irritated, discolored, or sun-damaged skin) and
+                          gentle enough to prevent dryness.
                         </p>
                         <p className="font-medium green">
-                          45 min**
+                          15 min
                           <br />
-                          300 IDR
+                          200 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -693,18 +694,17 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">ALOE VERA BODY MASK</p>
+                        <p className="sm-heading">COCO & VANILLA BODY SCRUB</p>
                         <p>
-                          {`it's`} no secret that aloe vera, the original
-                          natural sunburn soother, has a variety of skin-healthy
-                          benefits. Target whatever skin issue {`you've`} got
-                          (be it irritated, discolored, or sun-damaged skin) and
-                          gentle enough to prevent dryness.
+                          This exfoliating, contouring and nourishing body scrub
+                          will awaken your senses with its sweet vanilla and
+                          coconut aromas. Specifically formulated to leave your
+                          skin feeling hydrated, soft, and silky.
                         </p>
                         <p className="font-medium green">
-                          15 min
+                          45 min**
                           <br />
-                          200 IDR
+                          300 IDR
                         </p>
                       </div>
                       <div className="col-sm-12 small italic text-center">
