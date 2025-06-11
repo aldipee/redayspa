@@ -8,7 +8,6 @@ import clsx from "clsx";
 import Script from "next/script";
 import Footer from "../components/Footer";
 import SEOHead from "../components/SEOHead";
-import StructuredData from "../components/StructuredData";
 
 export default function Home() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -57,7 +56,6 @@ export default function Home() {
         ogUrl="https://remassagestudio.com"
         canonicalUrl="https://remassagestudio.com"
       />
-      <StructuredData type="LocalBusiness" />
       <body>
         <header className="nav-fix">
           <div className="container">

@@ -4,7 +4,6 @@ import { useState } from "react";
 import Link from "next/link";
 import Footer from "../components/Footer";
 import SEOHead from "../components/SEOHead";
-import StructuredData from "../components/StructuredData";
 
 export default function Home() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -20,7 +19,6 @@ export default function Home() {
         ogUrl="https://remassagestudio.com/faq"
         canonicalUrl="https://remassagestudio.com/faq"
       />
-      <StructuredData type="FAQPage" />
       <body>
         <section className="header-inner">
           <div className="container">
