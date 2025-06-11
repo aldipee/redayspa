@@ -1,40 +1,23 @@
 /* eslint-disable @next/next/no-sync-scripts */
-import Head from "next/head";
-import Script from "next/script";
 import Link from "next/link";
+import SEOHead from "../components/SEOHead";
+
 export default function Home() {
   return (
     <>
-      <Head>
-        <meta charset="utf-8" />
-        <title>
-          {" "}
-          GET ME PAMPERED - RE DAY SPA - Rejuvenation in Tranquility
-        </title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, user-scalable=no"
-        />
-
-        <meta property="og:title" content="" />
-        <meta property="og:type" content="" />
-        <meta property="og:url" content="" />
-        <meta property="og:image" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:site_name" content="" />
-
-        <link rel="icon" type="image/png" href="favicon.png" />
-        <link rel="apple-touch-icon" href="icon.png" />
-
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/swiper.min.css" />
-        <link rel="stylesheet" href="css/aos.css" />
-        <link rel="stylesheet" href="css/main.css" />
-      </Head>
+      <SEOHead
+        title="Get Me Pampered - Re Day Spa Bali | Luxury Spa Treatments in Seminyak"
+        description="Experience ultimate relaxation at Re Day Spa Bali. Book your luxury spa treatments in Seminyak. Professional Balinese massage, facials, and body treatments for complete rejuvenation."
+        keywords="spa bali, massage seminyak, balinese massage, spa treatment bali, re day spa, luxury spa bali, spa seminyak, massage treatment bali"
+        author="Re Day Spa"
+        ogTitle="Get Me Pampered - Re Day Spa Bali | Luxury Spa Treatments in Seminyak"
+        ogType="website"
+        ogUrl="https://remassagestudio.com/get-me-pampered"
+        ogImage="https://res.cloudinary.com/dnnrll6sl/image/upload/v1703994196/main-hero_quxs5t.jpg"
+        ogDescription="Experience ultimate relaxation at Re Day Spa Bali. Book your luxury spa treatments in Seminyak. Professional Balinese massage, facials, and body treatments for complete rejuvenation."
+        ogSiteName="Re Day Spa"
+        canonicalUrl="https://remassagestudio.com/get-me-pampered"
+      />
 
       <body>
         <div className="container">
@@ -62,22 +45,6 @@ export default function Home() {
                     @REMASSAGESTUDIO
                   </a>
                 </p>
-                {/*
-                <div className="mb30 p-3 ft-12 italic text-justify bg-main text-white">
-                  <p>
-                    We carry out the <strong>High Season Policy</strong> for bookings in all treatments
-                  </p>
-                  <p>
-                    Please contact us for available time and pay down payment to ensure you get the time and space.
-                  </p>
-                  <p>
-                    We do this to ensure guests who are committed to taking their time to relax really get what they want.
-                  </p>
-                  <p>
-                    We hope you understand and respect the time of everyone involved. 🙏
-                  </p>
-                </div>
-                */}
                 <a
                   href="https://widget.zenwel.com/234592772/re-day-spa?lang=en"
                   className="btn btn-bordered"
@@ -93,17 +60,6 @@ export default function Home() {
                 <Link href="treatment-menu">
                   <a className="btn btn-bordered">SEE ALL TREATMENTS</a>
                 </Link>
-
-                {/*
-                <Link href="home-treatment">
-                  <a className="btn btn-bordered">SEE HOME TREATMENT MENU</a>
-                </Link>
-                
-                <Link href="cleanlines-guidelines">
-                  <a className="btn btn-bordered">SEE CLEANLINES GUIDELINES</a>
-                </Link>
-                */}
-
                 <a
                   href="https://www.google.com/maps/place/Re+Day+Spa/@-8.676539,115.155384,15z/data=!4m2!3m1!1s0x0:0x51dfa61729bee047?sa=X&ved=2ahUKEwiInvnnl9zqAhUv6nMBHSxnBWMQ_BIwDHoECBgQCA"
                   className="btn btn-bordered"
