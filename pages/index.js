@@ -3,10 +3,11 @@ import { Formik, ErrorMessage } from "formik";
 import { useState, useRef } from "react";
 import * as Yup from "yup";
 import emailjs from "emailjs-com";
-import Head from "next/head";
 import Link from "next/link";
 import clsx from "clsx";
 import Script from "next/script";
+import Footer from "../components/Footer";
+import SEOHead from "../components/SEOHead";
 
 export default function Home() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -45,34 +46,16 @@ export default function Home() {
   };
   return (
     <>
-      <Head>
-        <meta charset="utf-8" />
-        <title>Re Massage Studio - Rejuvenation in Tranquility</title>
-        <meta name="description" content="" />
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, user-scalable=no"
-        />
-
-        <meta property="og:title" content="" />
-        <meta property="og:type" content="" />
-        <meta property="og:url" content="" />
-        <meta property="og:image" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:site_name" content="" />
-
-        <link rel="icon" type="image/png" href="favicon.png" />
-        <link rel="apple-touch-icon" href="icon.png" />
-
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/swiper.min.css" />
-        <link rel="stylesheet" href="css/aos.css" />
-        <link rel="stylesheet" href="css/main.css" />
-      </Head>
+      <SEOHead
+        title="Re Massage Studio - Rejuvenation in Tranquility"
+        description="Experience authentic Balinese spa treatments in Seminyak, Bali. Re Massage Studio offers traditional and contemporary treatments for ultimate relaxation and rejuvenation."
+        keywords="spa bali, massage seminyak, balinese massage, spa treatment bali, massage studio, relaxation bali, wellness spa, traditional massage, spa seminyak"
+        ogTitle="Re Massage Studio - Authentic Balinese Spa in Seminyak"
+        ogDescription="Discover authentic Balinese spa treatments in the heart of Seminyak. Experience traditional and contemporary treatments for ultimate relaxation and rejuvenation."
+        ogImage="https://res.cloudinary.com/dnnrll6sl/image/upload/v1703994196/main-hero_quxs5t.jpg"
+        ogUrl="https://remassagestudio.com"
+        canonicalUrl="https://remassagestudio.com"
+      />
 
       <body>
         <header className="nav-fix">
@@ -446,52 +429,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="footer">
-          <div className="container">
-            <p>Re Massage Studio, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
-            <p className="mb30">
-              {" "}
-              <a href="tel:+6282266698020" className="link-footer">
-                +62 822 6669 8020
-              </a>
-              <a href="mailto:care@remassagestudio.com" className="link-footer">
-                CARE@REMASSAGESTUDIO.COM
-              </a>
-            </p>
-            <ul className="social">
-              <li>
-                <a
-                  href="https://www.facebook.com/pages/Re-Day-Spa/821996157852429"
-                  target="_blank"
-                  className="social-link"
-                  rel="noreferrer"
-                >
-                  <img src="img/ico-facebook.svg" className="img-fluid" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/ReDaySpa"
-                  className="social-link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src="img/ico-twitter.svg" className="img-fluid" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/remassagestudio/"
-                  className="social-link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src="img/ico-instagram.svg" className="img-fluid" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </section>
+        <Footer />
 
         <div className="button-toggle">
           <button
