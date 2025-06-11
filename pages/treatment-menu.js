@@ -1,43 +1,25 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import clsx from "clsx";
 import { useState } from "react";
-import Head from "next/head";
+import Footer from "../components/Footer";
+import SEOHead from "../components/SEOHead";
 import Link from "next/link";
+
 export default function Home() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   return (
     <>
-      <Head>
-        <meta charset="utf-8" />
-        <title>
-          {" "}
-          Treatment Menu - Re Massage Studio - Rejuvenation in Tranquility
-        </title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, user-scalable=no"
-        />
-
-        <meta property="og:title" content="" />
-        <meta property="og:type" content="" />
-        <meta property="og:url" content="" />
-        <meta property="og:image" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:site_name" content="" />
-
-        <link rel="icon" type="image/png" href="favicon.png" />
-        <link rel="apple-touch-icon" href="icon.png" />
-
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/swiper.min.css" />
-        <link rel="stylesheet" href="css/aos.css" />
-        <link rel="stylesheet" href="css/main.css" />
-      </Head>
+      <SEOHead
+        title="Treatment Menu - Re Massage Studio - Rejuvenation in Tranquility"
+        description="Explore our comprehensive spa treatment menu featuring traditional Balinese massages, facials, body scrubs, and more. Book your rejuvenating experience at Re Massage Studio in Seminyak."
+        keywords="spa treatments bali, massage menu, balinese massage, facial treatment, body scrub, spa packages, wellness treatments, massage seminyak, spa services bali"
+        ogTitle="Spa Treatment Menu - Re Massage Studio Bali"
+        ogDescription="Discover our range of authentic Balinese spa treatments. From traditional massages to luxurious facials and body scrubs, find your perfect wellness experience."
+        ogImage="https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/inner-hero_fpwat5.jpg"
+        ogUrl="https://remassagestudio.com/treatment-menu"
+        canonicalUrl="https://remassagestudio.com/treatment-menu"
+      />
 
       <body>
         <section
@@ -50,11 +32,6 @@ export default function Home() {
         >
           <div className="container">
             <div className="main-nav">
-              {/*
-              <a href="#top" className="item-main-nav">
-                HOME
-              </a>
-              */}
               <Link href="/#about">
                 <a className="item-main-nav">ABOUT</a>
               </Link>
@@ -922,13 +899,16 @@ export default function Home() {
                         <p className="sm-heading">BODY NOURISH</p>
                         <p>
                           Indulge in the ultimate self-care experience with this
-                          package. Crafted to melt away tension and promote deep relaxation. Exfoliates your skin, leaving it
-                          smooth and radiant. Finish with skin nourishment for hydration, restoring balance and vitality.
+                          package. Crafted to melt away tension and promote deep
+                          relaxation. Exfoliates your skin, leaving it smooth
+                          and radiant. Finish with skin nourishment for
+                          hydration, restoring balance and vitality.
                         </p>
                         <p className="italic green mb-0">Treatment Steps</p>
                         <p>
                           Refreshing Foot Bath + 60min Balinese Massage + Body
-                          Scrub of your choice + Pure Milk Body Mask + Shower + RĒ Signature body lotion
+                          Scrub of your choice + Pure Milk Body Mask + Shower +
+                          RĒ Signature body lotion
                         </p>
                         <p className="ft-12 lh-base">
                           Upgrade to 90m Balinese Massage +IDR 120
@@ -1100,52 +1080,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="footer">
-          <div className="container">
-            <p>Re Massage Studio, JL. PETITENGET 88D, BALI, 80361, INDONESIA</p>
-            <p className="mb30">
-              {" "}
-              <a href="tel:+6282266698020" className="link-footer">
-                +62 822 6669 8020
-              </a>
-              <a href="mailto:care@remassagestudio.com" className="link-footer">
-                CARE@REMASSAGESTUDIO.COM
-              </a>
-            </p>
-            <ul className="social">
-              <li>
-                <a
-                  href="https://www.facebook.com/pages/Re-Day-Spa/821996157852429"
-                  target="_blank"
-                  className="social-link"
-                  rel="noreferrer"
-                >
-                  <img src="img/ico-facebook.svg" className="img-fluid" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/ReDaySpa"
-                  className="social-link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src="img/ico-twitter.svg" className="img-fluid" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/remassagestudio/"
-                  className="social-link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src="img/ico-instagram.svg" className="img-fluid" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </section>
+        <Footer />
 
         <div className="button-toggle">
           <button
