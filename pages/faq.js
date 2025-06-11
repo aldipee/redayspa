@@ -1,52 +1,29 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import clsx from "clsx";
 import { useState } from "react";
-import Head from "next/head";
 import Link from "next/link";
 import Footer from "../components/Footer";
+import SEOHead from "../components/SEOHead";
 
 export default function Home() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
     <>
-      <Head>
-        <meta charset="utf-8" />
-        <title>FAQ - Re Massage Studio - Rejuvenation in Tranquility</title>
-        <meta name="description" content="" />
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, user-scalable=no"
-        />
-
-        <meta property="og:title" content="" />
-        <meta property="og:type" content="" />
-        <meta property="og:url" content="" />
-        <meta property="og:image" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:site_name" content="" />
-
-        <link rel="icon" type="image/png" href="favicon.png" />
-        <link rel="apple-touch-icon" href="icon.png" />
-
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/swiper.min.css" />
-        <link rel="stylesheet" href="css/aos.css" />
-        <link rel="stylesheet" href="css/main.css" />
-      </Head>
+      <SEOHead
+        title="FAQ - Re Massage Studio - Rejuvenation in Tranquility"
+        description="Find answers to frequently asked questions about Re Massage Studio's spa services, booking process, treatments, and more. Your guide to the perfect spa experience in Seminyak, Bali."
+        keywords="spa faq, massage questions, spa booking, treatment information, spa policies, massage studio faq, wellness questions, spa seminyak, bali spa information"
+        ogTitle="Frequently Asked Questions - Re Massage Studio Bali"
+        ogDescription="Get answers to common questions about our spa services, booking process, and treatments. Everything you need to know for your perfect spa experience in Seminyak."
+        ogImage="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704902543/logo-cream_o8xrc1.svg"
+        ogUrl="https://remassagestudio.com/faq"
+        canonicalUrl="https://remassagestudio.com/faq"
+      />
 
       <body>
         <section className="header-inner">
           <div className="container">
             <div className="main-nav">
-              {/*
-              <a href="#top" className="item-main-nav">
-                HOME
-              </a>
-              */}
               <Link href="/#about">
                 <a className="item-main-nav">ABOUT</a>
               </Link>
