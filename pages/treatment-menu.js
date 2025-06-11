@@ -19,6 +19,7 @@ export default function Home() {
         ogImage="https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/inner-hero_fpwat5.jpg"
         ogUrl="https://remassagestudio.com/treatment-menu"
         canonicalUrl="https://remassagestudio.com/treatment-menu"
+        structuredDataType="LocalBusiness"
       />
       <body>
         <section

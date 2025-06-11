@@ -1,4 +1,5 @@
 import Head from "next/head";
+import StructuredData from "./seo/StructuredData";
 
 export default function SEOHead({
   title,
@@ -14,6 +15,7 @@ export default function SEOHead({
   canonicalUrl,
   noindex = false,
   nofollow = false,
+  ...props
 }) {
   const robots = `${noindex ? "noindex" : "index"},${
     nofollow ? "nofollow" : "follow"
@@ -55,6 +57,10 @@ export default function SEOHead({
       <meta name="geo.placename" content="Seminyak, Bali" />
       <meta name="geo.position" content="-8.676446;115.153198" />
       <meta name="ICBM" content="-8.676446, 115.153198" />
+
+      {props.structuredDataType && (
+        <StructuredData type={props.structuredDataType} />
+      )}
 
       {/* Favicon */}
       <link rel="icon" type="image/png" href="/favicon.png" />

@@ -55,6 +55,7 @@ export default function Home() {
         ogImage="https://res.cloudinary.com/dnnrll6sl/image/upload/v1703994196/main-hero_quxs5t.jpg"
         ogUrl="https://remassagestudio.com"
         canonicalUrl="https://remassagestudio.com"
+        structuredDataType="LocalBusiness"
       />
       <body>
         <header className="nav-fix">

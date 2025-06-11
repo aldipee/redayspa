@@ -18,6 +18,7 @@ export default function Home() {
         ogImage="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704902543/logo-cream_o8xrc1.svg"
         ogUrl="https://remassagestudio.com/faq"
         canonicalUrl="https://remassagestudio.com/faq"
+        structuredDataType="FAQPage"
       />
       <body>
         <section className="header-inner">
