@@ -11,10 +11,12 @@ import SEOHead from "../components/SEOHead";
 
 export default function Home() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+  {
+    /*
   const [loading, setLoading] = useState(false);
   const [showContact, setShowContact] = useState(false);
   const formikRef = useRef(null);
-
+  
   const contactUsSchema = Yup.object().shape({
     customer_firstName: Yup.string().required("Firstname is required!"),
     customer_lastName: Yup.string().required("Lastname is required!"),
@@ -44,6 +46,8 @@ export default function Home() {
       alert(error);
     }
   };
+  */
+  }
   return (
     <>
       <SEOHead
@@ -61,13 +65,6 @@ export default function Home() {
         <header className="nav-fix">
           <div className="container">
             <ul className="top-nav">
-              {/*
-              <li>
-                <a href="#top" className="item-main-nav">
-                  HOME
-                </a>
-              </li>
-              */}
               <li>
                 <a href="#about" className="item-main-nav">
                   ABOUT
@@ -111,11 +108,6 @@ export default function Home() {
         >
           <div className="container">
             <div className="main-nav">
-              {/*
-              <a href="#top" className="item-main-nav">
-                HOME
-              </a>
-              */}
               <a href="#about" className="item-main-nav">
                 ABOUT
               </a>
@@ -139,20 +131,10 @@ export default function Home() {
             </div>
 
             <div className="hero-desc">
-              <div className="title-hero mb24">Rejuvenation in Tranquility</div>
+              <h1 className="title-hero mb24">Rejuvenation in Tranquility</h1>
               <div className="re-desc mb24">
                 LOCALLY SOURCED - CRAFTED FOR YOU
               </div>
-              {/*
-              <p className="mb24">
-                We are bringing total relaxation experience of spa at comfort of
-                your home, when you want it.
-              </p>
-              
-              <Link href="home-treatment">
-                <a className="btn btn-white mx-2">SEE HOME TREATMENT</a>
-              </Link>
-              */}
               <Link href="treatment-menu">
                 <a className="btn btn-white mx-2">SEE TREATMENT MENU</a>
               </Link>
@@ -164,10 +146,10 @@ export default function Home() {
           <div className="container">
             <div className="row align-items-center justify-content-between">
               <div className="col-xl-8 col-sm-8 col-md-8">
-                <div className="about-title mb30">
+                <h2 className="about-title mb30">
                   Located in Seminyak, Re Massage Studio is established to
                   nurture comfort in the middle of our hectic lives.
-                </div>
+                </h2>
                 <p>
                   Re Massage Studio has been serving both quality
                   interpretations of traditional balinese treatments and proven
@@ -240,7 +222,7 @@ export default function Home() {
                 }}
               >
                 <div className="inner-slider-item">
-                  <div className="ttl-journey">Journey</div>
+                  <h3 className="ttl-journey">Journey</h3>
                   <p>
                     The relaxation journey has been specifically designed with
                     you in mind, and to provide you with the best experience, we
@@ -292,7 +274,7 @@ export default function Home() {
                   <p className="mb50">
                     For every service is crafted to your needs.
                   </p>
-                  <div className="ttl-treatment mb30">TREATMENT</div>
+                  <h3 className="ttl-treatment mb30">TREATMENT</h3>
                   <p className="mb30">
                     At Re Massage Studio, enjoy a wide range of treatment
                     selections from head to toe! Soothing body massages,
