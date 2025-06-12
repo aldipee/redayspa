@@ -35,7 +35,7 @@ export default function Home() {
                     </a>
                   </Link>
                 </p>
-                <p className="mb30">
+                <h1 className="mb30">
                   <a
                     href="https://www.instagram.com/remassagestudio/"
                     target="_blank"
@@ -44,7 +44,7 @@ export default function Home() {
                   >
                     @REMASSAGESTUDIO
                   </a>
-                </p>
+                </h1>
                 <a
                   href="https://widget.zenwel.com/234592772/re-day-spa?lang=en"
                   className="btn btn-bordered"
