@@ -7,7 +7,7 @@ export default function StructuredData({ type }) {
       case "LocalBusiness":
         return {
           "@context": "https://schema.org",
-          "@type": "SPA",
+          "@type": "DaySpa",
           name: "Re Massage Studio",
           description:
             "Authentic Balinese spa treatments in Seminyak, Bali. Traditional and contemporary wellness treatments for ultimate relaxation and rejuvenation.",
@@ -682,8 +682,8 @@ export default function StructuredData({ type }) {
           },
           aggregateRating: {
             "@type": "AggregateRating",
-            ratingValue: "4.8",
-            reviewCount: "150",
+            ratingValue: "4.5",
+            reviewCount: "615",
           },
         };
 
