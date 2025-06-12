@@ -57,7 +57,7 @@ export default function Home() {
             </div>
 
             <div className="hero-desc">
-              <div className="title-hero mb24">Treatment Menu</div>
+              <h1 className="title-hero mb24">Treatment Menu</h1>
             </div>
           </div>
         </section>
@@ -197,9 +197,9 @@ export default function Home() {
                   <div className="tab-pane fade show active" id="pills-massage">
                     <div className="row">
                       <div className="col-sm-12">
-                        <p className="treatment-heading mb24">
+                        <h2 className="treatment-heading mb24">
                           REWELLNESS MASSAGE
-                        </p>
+                        </h2>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">BALINESE MASSAGE</p>
@@ -384,9 +384,9 @@ export default function Home() {
                   <div className="tab-pane fade" id="pills-hair">
                     <div className="row">
                       <div className="col-sm-12">
-                        <p className="treatment-heading mb24">
+                        <h2 className="treatment-heading mb24">
                           REPLENISH TREATMENT
-                        </p>
+                        </h2>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">SCALP PURITY RITUAL</p>
@@ -491,9 +491,9 @@ export default function Home() {
                   <div className="tab-pane fade" id="pills-facial">
                     <div className="row">
                       <div className="col-sm-12">
-                        <p className="treatment-heading mb24">
+                        <h2 className="treatment-heading mb24">
                           REJUVENATE FACIAL
-                        </p>
+                        </h2>
                       </div>
                       <div className="col-md-8 mb30 mt-0 mx-auto text-center">
                         <p>
@@ -607,9 +607,9 @@ export default function Home() {
                   <div className="tab-pane fade" id="pills-scrub">
                     <div className="row">
                       <div className="col-sm-12">
-                        <p className="treatment-heading mb24">
+                        <h2 className="treatment-heading mb24">
                           REVIVE BODY SCRUB & WRAP
-                        </p>
+                        </h2>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">BALI COFFEE BODY SCRUB</p>
@@ -701,9 +701,9 @@ export default function Home() {
                   <div className="tab-pane fade" id="pills-hand">
                     <div className="row">
                       <div className="col-sm-12">
-                        <p className="treatment-heading mb24">
+                        <h2 className="treatment-heading mb24">
                           RESHINE AND BUFF
-                        </p>
+                        </h2>
                       </div>
                       <div className="col-md-8 mb30 mt-0 mx-auto text-center">
                         <p>
@@ -817,9 +817,9 @@ export default function Home() {
                   <div className="tab-pane fade" id="pills-ritual">
                     <div className="row">
                       <div className="col-sm-12">
-                        <p className="treatment-heading mb24">
+                        <h2 className="treatment-heading mb24">
                           REVITALIZE RITUAL
-                        </p>
+                        </h2>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">BODY REVIVE</p>
@@ -970,7 +970,7 @@ export default function Home() {
                   <div className="tab-pane fade" id="pills-kiddie">
                     <div className="row">
                       <div className="col-sm-12">
-                        <p className="treatment-heading mb24">KIDDIE</p>
+                        <h2 className="treatment-heading mb24">KIDDIE</h2>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">KIDDIE MASSAGE</p>
