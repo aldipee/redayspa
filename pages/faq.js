@@ -54,9 +54,9 @@ export default function Home() {
           <div className="row justify-content-center">
             <div className="col col-md-10 col-lg-8 px-4 px-md-0">
               <div className="treatment-item" data-aos="fade-up">
-                <div className="ttl-treatment text-center mb50">
+                <h1 className="ttl-treatment text-center mb50">
                   Frequently Asked Questions
-                </div>
+                </h1>
                 <p className="sm-heading">Booking & Cancellation</p>
                 <div className="accordion" id="accordionBooking">
                   <div className="accordion-item">
