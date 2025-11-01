@@ -766,11 +766,20 @@ export default function Home() {
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="font-bold green">
+                          Sport Pedicure
+                        </p>
+                        <p>Nail trimming, basic shaping, cuticle care, callus removal</p>
+                        <p className="font-medium green">45 min / 275 IDR</p>
+                      </div>
+                      {/*
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="font-bold green">
                           Express Manicure / Pedicure
                         </p>
                         <p>Nail trimming, basic shaping, regular polish</p>
                         <p className="font-medium green">45 min / 250 IDR</p>
                       </div>
+                      */}
 
                       <div className="col-sm-12 mb30 mt-0 text-center">
                         <p className="border-top pt-4 sm-heading">
@@ -789,14 +798,6 @@ export default function Home() {
                             Gel Nail removal (hands/feet)
                             <br />
                             30 min / 100 IDR
-                            <br />
-                            Callus Removal
-                            <br />
-                            15 min / 180 IDR
-                            <br />
-                            Feet Scrub
-                            <br />
-                            15 min / 150 IDR
                           </p>
                         </div>
                       </div>
@@ -931,7 +932,7 @@ export default function Home() {
                         <p className="italic green mb-0">Treatment Steps</p>
                         <p>
                           Refreshing Foot Bath + Balinese Massage + Lulur + RĒ
-                          Signature Facial + Express Manicure / Pedicure
+                          Signature Facial + Sport Manicure / Pedicure
                         </p>
                         <p className="font-medium green">
                           3 hr 30 min
