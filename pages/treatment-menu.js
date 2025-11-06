@@ -759,7 +759,7 @@ export default function Home() {
 
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="font-bold green">
-                          Sport Manicure / Pedicure
+                          Sport Manicure
                         </p>
                         <p>Nail trimming, basic shaping, cuticle care</p>
                         <p className="font-medium green">45 min / 250 IDR</p>
