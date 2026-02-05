@@ -192,7 +192,7 @@ export default function Home() {
                 <div className="mb10">
                   <div className="sm-heading">HOURS</div>
                   <p>
-                    <strong>10am - 10pm</strong>
+                    <strong>10am - 11pm</strong>
                   </p>
                   {/*
                   <p>
