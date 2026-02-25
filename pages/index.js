@@ -56,7 +56,7 @@ export default function Home() {
         keywords="spa bali, massage seminyak, balinese massage, spa treatment bali, massage studio, relaxation bali, wellness spa, traditional massage, spa seminyak"
         ogTitle="Re Massage Studio - Authentic Balinese Spa in Seminyak"
         ogDescription="Discover authentic Balinese spa treatments in the heart of Seminyak. Experience traditional and contemporary treatments for ultimate relaxation and rejuvenation."
-        ogImage="https://res.cloudinary.com/dnnrll6sl/image/upload/v1703994196/main-hero_quxs5t.jpg"
+        ogImage="https://res.cloudinary.com/dnnrll6sl/image/upload/v1771991780/Re%20Day%20Spa%20Website/back-massage_zaazym.jpg"
         ogUrl="https://remassagestudio.com"
         canonicalUrl="https://remassagestudio.com"
         structuredDataType="LocalBusiness"
@@ -103,7 +103,7 @@ export default function Home() {
           data-aos="fade-up"
           style={{
             backgroundImage:
-              "url(https://res.cloudinary.com/dnnrll6sl/image/upload/v1703994196/main-hero_quxs5t.jpg)",
+              "url(https://res.cloudinary.com/dnnrll6sl/image/upload/v1771991780/Re%20Day%20Spa%20Website/back-massage_zaazym.jpg)",
           }}
         >
           <div className="container">
