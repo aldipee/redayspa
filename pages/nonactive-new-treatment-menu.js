@@ -333,29 +333,31 @@ export default function Home() {
                           330 / 470 IDR
                         </p>
                       </div>
-                      <div className="col-sm-8 mb30 mt-0 mx-autotext-center">
+                      <div className="col-sm-8 mb30 p20 mt-0 r-5 mx-auto text-center bg-main">
                         <p className="sm-heading">CUSTOMIZE YOUR OWN MASSAGE</p>
-                        <div className="col-md-8 mb30 mt-0 text-center">
-                          <p>
-                            Choose any combination of our sofa massages — Tech
-                            Neck Relief, Happy Feet Massage, or Intuitive Head
-                            Massage — and create your perfect session.
-                          </p>
-                        </div>
-                        <p className="font-medium green">TECH NECK RELIEF</p>
+
+                        <p>
+                          Choose any combination of our sofa massages — Tech
+                          Neck Relief, Happy Feet Massage, or Intuitive Head
+                          Massage — and create your perfect session.
+                        </p>
+
+                        <p className="font-bold text-white">TECH NECK RELIEF</p>
                         <p>
                           Relieves stiffness in the neck and shoulders caused by
                           long flights or hours at the computer, this targeted
                           massage also includes a soothing hand massage to
                           release built-up tension and restore comfort.
                         </p>
-                        <p className="font-medium green">HAPPY FEET MASSAGE</p>
+                        <p className="font-bold text-white">
+                          HAPPY FEET MASSAGE
+                        </p>
                         <p>
                           Ease foot fatigue with a combination of soothing
                           strokes and reflexology, which enhances circulation
                           and restores comfort from calf to toe.
                         </p>
-                        <p className="font-medium green">
+                        <p className="font-bold text-white">
                           INTUITIVE HEAD PAMPER
                         </p>
                         <p>
@@ -363,12 +365,121 @@ export default function Home() {
                           points to ease tension and boost circulation. Perfect
                           for relieving headaches and hangovers.
                         </p>
-                        <p className="font-medium green">
-                          30 min / 170 IDR **single treatment only, cannot be split
+                        <p className="font-medium text-white">
+                          30 min / 170 IDR **single treatment only, cannot be
+                          split
                           <br />
                           60 min / 300 IDR
                           <br />
                           90 min / 430 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-12 small italic text-center">
+                        <p className="green mb-0">
+                          All prices are in thousands of Rupiah and are
+                          inclusive of 15% Government Tax
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="tab-pane fade" id="pills-facial">
+                    <div className="row">
+                      <div className="col-sm-12">
+                        <h2 className="treatment-heading mb24">
+                          REJUVENATE FACIAL
+                        </h2>
+                      </div>
+                      <div className="col-md-8 mb30 mt-0 mx-auto text-center">
+                        <p>
+                          We use European facial massage techniques — a{" "}
+                          {`“workout for the face“`} that gently activates
+                          deeper muscles, supports lymphatic flow, and helps
+                          lift, tone, and sculpt for a naturally refreshed and
+                          defined appearance.
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">RĒ SIGNATURE FACIAL</p>
+                        <p>
+                          A customized facial designed to tone, sculpt, and lift
+                          using focused facial massage techniques that support
+                          firmer, more defined skin. Combined with targeted
+                          skincare tailored to your skin{`'`}s needs, this
+                          treatment helps restore radiance, improve elasticity,
+                          and leave the complexion refreshed and visibly
+                          revitalized.
+                        </p>
+                        <p className="font-medium green">
+                          60 min
+                          <br />
+                          650 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">AGE REVERSAL FACIAL</p>
+                        <p>
+                          A comprehensive anti-aging facial massage technique
+                          treating the décolleté, neck, and face, combined with
+                          photo dynamic light therapy to support firmer, more
+                          youthful skin.
+                        </p>
+                        <p>
+                          Rehydrating: Quench dry, thirsty skin
+                          <br />
+                          Recalming: Calm and nurture sensitive skin
+                          <br />
+                          Regenerating: Brighten dull skin and reduce sunspots
+                        </p>
+                        <p className="font-medium green">
+                          90 min
+                          <br />
+                          950 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">SUN S.O.S FACIAL</p>
+                        <p>
+                          Soothe sun-kissed face with this cooling facial. With
+                          real Aloe Vera and ice globe rollers, calm redness,
+                          restores hydration, & relieves UV-induced heat
+                          discomfort.
+                        </p>
+                        <p className="font-medium green">
+                          30 min
+                          <br />
+                          400 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">
+                          GUASHA & ACCUPRESSURE FACIAL
+                        </p>
+                        <p>
+                          A holistic facial using traditional gua sha and
+                          acupressure techniques to tone the face. This
+                          treatment promotes circulation, relieves tension,
+                          enhances lymphatic drainage, and restores a natural
+                          glow, leaving your skin refreshed, firm, and radiant.
+                        </p>
+                        <p className="font-medium green">
+                          45 min
+                          <br />
+                          500 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">EYE CONTOUR & LIFT FACIAL</p>
+                        <p>
+                          Targeted eye-area massage to lift and firm sagging
+                          skin and soften fine lines. Include application of
+                          collagen gold eye mask to refresh tired eyes and help
+                          minimize eye bags.
+                        </p>
+                        <p className="font-medium green">
+                          60 min
+                          <br />
+                          500 IDR
                         </p>
                       </div>
                       <div className="col-sm-12 small italic text-center">
@@ -429,20 +540,18 @@ export default function Home() {
                         <p className="font-medium green">
                           60 min
                           <br />
-                          450 IDR
+                          480 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">Luxurious Keratin Mask</p>
+                        <p className="sm-heading">Luxurious Hair Renewal</p>
                         <p>
-                          {`You'll`} be pampered with this luxurious treatment.
-                          Start the treatment with hair wash, and then continues
-                          with a scalp massage while the ultra-rich keratin
-                          cream is applied to your hair. The Keratin Mask is
-                          infused with argan oil to increase hair softness and
-                          also reduce hair breakage and split ends. {`You'll`}{" "}
-                          also get hand, neck, and shoulder massage included in
-                          this treatment. Fabulous shinny and soft hair awaits.
+                          Keratin, a natural protein in hair, provides strength
+                          and smoothness. This transformative mask restores lost
+                          keratin, sealing the cuticle to smooth frizz, enhance
+                          elasticity, and add resilience. Quench your hair{`'`}s
+                          thirst while keeping it light, voluminous, and full of
+                          body all day.
                         </p>
                         <p className="font-medium green">
                           60 min
@@ -487,122 +596,6 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="tab-pane fade" id="pills-facial">
-                    <div className="row">
-                      <div className="col-sm-12">
-                        <h2 className="treatment-heading mb24">
-                          REJUVENATE FACIAL
-                        </h2>
-                      </div>
-                      <div className="col-md-8 mb30 mt-0 mx-auto text-center">
-                        <p>
-                          All facial treatments include a relaxing scalp
-                          massage, and full facial massage to reduce muscle
-                          tension and firm facial contours.
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">RĒ SIGNATURE FACIAL</p>
-                        <p className="font-medium green">REHYDRATING</p>
-                        <p>
-                          Gentle deep cleansing and exfoliation help the skin to
-                          improve the absorption of a nourishing moisturizing
-                          mask. Focuses on replenishing dry skin by providing
-                          vital nutrients that will restore skin hydration so
-                          that skin becomes more supple and healthy.
-                        </p>
-                        <p className="font-medium green">REBALANCING</p>
-                        <p>
-                          An intensive clarifying treatment specifically for
-                          oily/acne-prone skin. Incorporates steams, alongside
-                          facial massage and calming facial mask, this facial
-                          treatment aims to help repair the skin barrier to
-                          achieving balance and a clearer complexion.
-                        </p>
-                        <p className="font-medium green">REGENERATING</p>
-                        <p>
-                          Intensive boost for dull/distressed skin, with a
-                          facial massage to help stimulate new collagen
-                          formation. This will help with skin regeneration,
-                          improve dark-spots/hyperpigmentation, and leaves the
-                          skin radiant and plump after treatment.
-                        </p>
-                        <p className="font-medium green">
-                          60 min
-                          <br />
-                          500 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">ANTI-AGING FACIAL</p>
-                        <p>
-                          A facial treatment that is devoted to dealing with
-                          mature skin with problem of wrinkles and facial
-                          elasticity. By using skincare products specificly rich
-                          in antioxidants and enriched by silk protein and gold
-                          extract. Also combined with a 3-in-1 advanced
-                          photofacial treatment device that can stimulate
-                          collagen formation for plumper and smoother skin, and
-                          accelerate skin healing.
-                        </p>
-                        <p className="font-medium green">
-                          60 min
-                          <br />
-                          600 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">SUN S.O.S FACIAL</p>
-                        <p>
-                          Give your sun-soaked face some extra TLC with a
-                          cooling mini-facial treatment. Aloe Vera - a cherished
-                          ingredient used for centuries will help to reduce
-                          redness, restore luminosity after {`it's`} been
-                          dehydrated and weather-worn, also relieve
-                          heat/stinging after being overexposed to UV rays.
-                        </p>
-                        <p className="font-medium green">
-                          30 min
-                          <br />
-                          380 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">BEAUTY FACE ACCUPRESSURE</p>
-                        <p>
-                          Activate your glow with accupressure! Addresses the
-                          face from within to create a glowing exterior. This
-                          includes helping to tone the facial muscles and
-                          stimulation circulation.
-                        </p>
-                        <p className="font-medium green">
-                          30 min
-                          <br />
-                          200 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">HUFF THE PUFF</p>
-                        <p>
-                          Goodbye Panda eyes! Have a blissfully firming and
-                          hydrating treatment to target the under-eye area and
-                          achieve brighten and well-rested eyes.
-                        </p>
-                        <p className="font-medium green">
-                          30 min
-                          <br />
-                          360 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-12 small italic text-center">
-                        <p className="green mb-0">
-                          All prices are in thousands of Rupiah and are
-                          inclusive of 15% Government Tax
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
                   <div className="tab-pane fade" id="pills-scrub">
                     <div className="row">
                       <div className="col-sm-12">
@@ -622,22 +615,7 @@ export default function Home() {
                         <p className="font-medium green">
                           45 min**
                           <br />
-                          300 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">ALOE VERA BODY MASK</p>
-                        <p>
-                          {`it's`} no secret that aloe vera, the original
-                          natural sunburn soother, has a variety of skin-healthy
-                          benefits. Target whatever skin issue {`you've`} got
-                          (be it irritated, discolored, or sun-damaged skin) and
-                          gentle enough to prevent dryness.
-                        </p>
-                        <p className="font-medium green">
-                          15 min
-                          <br />
-                          200 IDR
+                          400 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -654,21 +632,7 @@ export default function Home() {
                         <p className="font-medium green">
                           45 min**
                           <br />
-                          300 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">PURE MILK BODY MASK</p>
-                        <p>
-                          Nourish your skin! Made from real milk powder, rich in
-                          antioxidants. Enhances elasticity, boosts suppleness,
-                          and helps combat back acne for smoother, healthier
-                          skin.
-                        </p>
-                        <p className="font-medium green">
-                          30 min
-                          <br />
-                          250 IDR
+                          400 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -681,6 +645,21 @@ export default function Home() {
                         </p>
                         <p className="font-medium green">
                           45 min**
+                          <br />
+                          400 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">ALOE VERA BODY MASK</p>
+                        <p>
+                          {`it's`} no secret that aloe vera, the original
+                          natural sunburn soother, has a variety of skin-healthy
+                          benefits. Target whatever skin issue {`you've`} got
+                          (be it irritated, discolored, or sun-damaged skin) and
+                          gentle enough to prevent dryness.
+                        </p>
+                        <p className="font-medium green">
+                          30 min
                           <br />
                           300 IDR
                         </p>
@@ -729,7 +708,7 @@ export default function Home() {
                             care) + Hand massage + Hand exfoliation + Milk hand
                             soak + Moisturizer
                           </p>
-                          <p className="font-medium green">60 min / 350 IDR</p>
+                          <p className="font-medium green">60 min / 370 IDR</p>
                         </div>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -748,7 +727,7 @@ export default function Home() {
                             care) + Callus Removal + Feet massage + Feet
                             exfoliation + Milk foot soak + Moisturizer
                           </p>
-                          <p className="font-medium green">75 min / 400 IDR</p>
+                          <p className="font-medium green">75 min / 420 IDR</p>
                         </div>
                       </div>
 
@@ -759,7 +738,7 @@ export default function Home() {
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="font-bold green">Sport Manicure</p>
                         <p>Nail trimming, basic shaping, cuticle care</p>
-                        <p className="font-medium green">45 min / 250 IDR</p>
+                        <p className="font-medium green">45 min / 270 IDR</p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="font-bold green">Sport Pedicure</p>
@@ -767,7 +746,7 @@ export default function Home() {
                           Nail trimming, basic shaping, cuticle care, callus
                           removal
                         </p>
-                        <p className="font-medium green">45 min / 275 IDR</p>
+                        <p className="font-medium green">45 min / 290 IDR</p>
                       </div>
                       {/*
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -787,11 +766,11 @@ export default function Home() {
                           <p className="font-medium green">
                             Regular Nail Polish
                             <br />
-                            30 min / 120 IDR
+                            30 min / 130 IDR
                             <br />
                             Gel Nail Polish
                             <br />
-                            30 min / 180 IDR
+                            30 min / 200 IDR
                             <br />
                             Gel Nail removal (hands/feet)
                             <br />
@@ -981,7 +960,7 @@ export default function Home() {
                         <p className="font-medium green">
                           60 / 90 min
                           <br />
-                          290 / 400 IDR
+                          310 / 430 IDR
                         </p>
                         <p className="font-bold green">FOOT MASSAGE</p>
                         <p>
@@ -992,24 +971,24 @@ export default function Home() {
                         <p className="font-medium green">
                           30** / 60 min
                           <br />
-                          150 / 250 IDR
+                          160 / 280 IDR
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">KIDDIE NAIL CARE</p>
                         <p className="font-bold green">
                           Mini Manicure{" "}
-                          <span className="font-medium">45 min / 200 IDR</span>
+                          <span className="font-medium">45 min / 220 IDR</span>
                         </p>
                         <p>Nails trimming & nail polish</p>
                         <p className="font-bold green">
                           Mini Pedicure{" "}
-                          <span className="font-medium">45 min / 200 IDR</span>
+                          <span className="font-medium">45 min / 220 IDR</span>
                         </p>
                         <p>Toenails trimming & nail polish</p>
                         <p className="font-bold green">
                           Mini Polish{" "}
-                          <span className="font-medium">30 min / 120 IDR</span>
+                          <span className="font-medium">30 min / 130 IDR</span>
                         </p>
                         <p className="font-bold green">
                           Mini Trimming{" "}
