@@ -869,6 +869,10 @@ body {
 .img-grey {
   filter: grayscale(100%);
 }
+.img-square {
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
 .text-right {
   text-align: right;
 }
