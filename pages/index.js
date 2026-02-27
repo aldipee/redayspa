@@ -151,24 +151,24 @@ export default function Home() {
                   nurture comfort in the middle of our hectic lives.
                 </h2>
                 <p>
-                  Re Massage Studio has been serving both quality
-                  interpretations of traditional balinese treatments and proven
-                  contemporary rejuvenation. We invite you to leave the busy
-                  streets, shops and bars behind you for a moment to feel the
-                  peaceful and tranquil ambience of our spa that will help you
-                  to relax, unwind and enjoy.{" "}
+                  Re Massage Studio is a calm space created for you to pause.
                 </p>
                 <p>
-                  At Re Massage Studio, the focus are to deliver genuine and
-                  friendly treatments that are personally crafted for each
-                  individual needs through holistic approach. Our utmost goal is
-                  to accommodate you in a comfortable atmosphere and bring you
-                  to the ultimate state of rejuvenation and relaxation.
+                  Step away from the busy streets, the traffic, and the noise,
+                  and allow yourself a moment to simply breathe. Our studio is
+                  designed to offer a peaceful, unhurried atmosphere where you
+                  can truly relax and reset.
                 </p>
                 <p>
-                  We look forward to welcoming you at Re Massage Studio and
-                  helping you to feel refreshed and to experience genuine
-                  Balinese hospitality.{" "}
+                  Every treatment is thoughtfully tailored to your needs. We
+                  take a personalized approach, understanding that each body is
+                  different and requires different attention. Whether you seek
+                  deep muscle relief or gentle relaxation, our goal is to ensure
+                  you leave feeling lighter, restored, and well cared for.
+                </p>
+                <p>
+                  We look forward to welcoming you and creating a comfortable
+                  space where you can fully unwind.
                 </p>
               </div>
               <div className="col-xl-2 col-sm-4 col-md-3">
@@ -274,13 +274,13 @@ export default function Home() {
                   <p className="mb50">
                     For every service is crafted to your needs.
                   </p>
-                  <h3 className="ttl-treatment mb30">TREATMENT</h3>
+                  <h3 className="ttl-treatment mb30">TREATMENTS</h3>
                   <p className="mb30">
                     At Re Massage Studio, enjoy a wide range of treatment
                     selections from head to toe! Soothing body massages,
                     luxurious hair nourishment, tailored facial massages for
-                    each skin type, or mani-pedis. Unwind, rejuvenate, and
-                    pamper yourself with us.
+                    each skin type, or nail care. Unwind, rejuvenate, and pamper
+                    yourself with us.
                   </p>
                   <Link href="treatment-menu">
                     <a className="btn btn-green mb50">SEE TREATMENT MENU</a>
@@ -305,19 +305,19 @@ export default function Home() {
               <div className="row">
                 <div className="col-sm-4">
                   <img
-                    src="https://res.cloudinary.com/dsq21hpwn/image/upload/v1672385242/Re%20Day%20Spa/treatment-1_bucbix.jpg"
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1771991780/Re%20Day%20Spa%20Website/smiling_iwffp5.jpg"
                     className="img-fluid mb30"
                   />
                 </div>
                 <div className="col-sm-4">
                   <img
-                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1703994203/treatment-2_tksktm.png"
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1771991780/Re%20Day%20Spa%20Website/feet-wash_bchl3v.jpg"
                     className="img-fluid mb30"
                   />
                 </div>
                 <div className="col-sm-4">
                   <img
-                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1703994195/treatment-3_epooct.png"
+                    src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1771991780/Re%20Day%20Spa%20Website/woman-delivering-tea_vhlgzr.jpg"
                     className="img-fluid mb30"
                   />
                 </div>
@@ -325,20 +325,30 @@ export default function Home() {
               <div className="row">
                 <div className="col-lg-8 offset-lg-2">
                   <p className="mb30">
-                    Wide variety of individually crafted treatments are inspired
-                    by local ingredients and based on authentic, age-old
-                    Balinese traditions. For all treatments we use high quality
-                    spa products that are composed of natural ingredients and
-                    produced in Bali to ensure freshness, purity and efficacy.
-                    The product compositions have been carefully selected to
-                    suit the different treatment purposes and for their beauty
-                    benefits and effectiveness.
+                    <strong>Rooted in tradition, delivered with heart.</strong>
                   </p>
                   <p>
-                    Our therapists have undergone intensive and advanced
-                    training to ensure a high quality standard of treatment
-                    experience. They are here to make you feel comfortable and
-                    to provide you with a tranquil tailored spa experience.
+                    Our treatments combine professional spa techniques with the
+                    warmth of genuine Balinese hospitality. We focus on quality
+                    and comfort — using carefully selected local products made
+                    in Bali, chosen for their effectiveness, freshness, and
+                    natural benefits. We believe good results come from good
+                    ingredients and skilled hands.
+                  </p>
+                  <p>
+                    As a proudly locally owned spa, all of our treatments are
+                    delivered by experienced Balinese therapists who are
+                    professionally trained and dedicated to providing attentive,
+                    heartfelt service.
+                  </p>
+                  <p>
+                    For us, hospitality is not a concept — it is simply who we
+                    are.
+                  </p>
+                  <p>
+                    No exaggeration. No unnecessary frills.
+                    <br />
+                    Just honest treatments, delivered with care.
                   </p>
                 </div>
               </div>

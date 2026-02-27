@@ -86,18 +86,6 @@ export default function Home() {
                   <li className="nav-item">
                     <button
                       className="nav-link"
-                      id="pills-hair-tab"
-                      data-bs-toggle="pill"
-                      data-bs-target="#pills-hair"
-                    >
-                      <img src="img/hair.svg" />
-                      <br />
-                      HAIR
-                    </button>
-                  </li>
-                  <li className="nav-item">
-                    <button
-                      className="nav-link"
                       id="pills-facial-tab"
                       data-bs-toggle="pill"
                       data-bs-target="#pills-facial"
@@ -105,6 +93,20 @@ export default function Home() {
                       <img src="img/facial.svg" />
                       <br />
                       FACIAL
+                      <br />
+                      MASSAGE
+                    </button>
+                  </li>
+                  <li className="nav-item">
+                    <button
+                      className="nav-link"
+                      id="pills-hair-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-hair"
+                    >
+                      <img src="img/hair.svg" />
+                      <br />
+                      HAIR
                     </button>
                   </li>
                   <li className="nav-item">
@@ -118,7 +120,7 @@ export default function Home() {
                       <br />
                       SCRUB &
                       <br />
-                      WRAP
+                      MASK
                     </button>
                   </li>
                   <li className="nav-item">
@@ -334,7 +336,9 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-8 mb30 p20 mt-0 r-5 mx-auto text-center bg-main">
-                        <p className="sm-heading">CUSTOMIZE YOUR OWN MASSAGE</p>
+                        <p className="sm-heading text-white">
+                          CUSTOMIZE YOUR OWN MASSAGE
+                        </p>
 
                         <p>
                           Choose any combination of our sofa massages — Tech
@@ -600,8 +604,19 @@ export default function Home() {
                     <div className="row">
                       <div className="col-sm-12">
                         <h2 className="treatment-heading mb24">
-                          REVIVE BODY SCRUB & WRAP
+                          REVIVE BODY SCRUB & MASK
                         </h2>
+                      </div>
+                      <div className="col-md-8 mb30 mt-0 mx-auto text-center">
+                        <p>
+                          Our body scrubs gently exfoliate, nourish, and refresh
+                          the skin. Please note that scrub treatments <strong>do not
+                          include massage</strong>. After each body scrub, the treatment
+                          is completed with a cooling yogurt mask to help seal
+                          in moisture and leave the skin soft and hydrated. Each
+                          session concludes with a shower, which is included
+                          within the treatment duration.
+                        </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">BALI COFFEE BODY SCRUB</p>
