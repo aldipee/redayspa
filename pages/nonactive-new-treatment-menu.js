@@ -80,6 +80,8 @@ export default function Home() {
                     >
                       <img src="img/massage.svg" />
                       <br />
+                      BODY
+                      <br />
                       MASSAGE
                     </button>
                   </li>
@@ -404,7 +406,9 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">RĒ SIGNATURE FACIAL</p>
+                        <p className="sm-heading">
+                          RĒ SIGNATURE SCULPTING FACIAL
+                        </p>
                         <p>
                           A customized facial designed to tone, sculpt, and lift
                           using focused facial massage techniques that support
@@ -413,6 +417,13 @@ export default function Home() {
                           treatment helps restore radiance, improve elasticity,
                           and leave the complexion refreshed and visibly
                           revitalized.
+                        </p>
+                        <p>
+                          Rehydrating: Quench dry, thirsty skin
+                          <br />
+                          Recalming: Calm and nurture sensitive skin
+                          <br />
+                          Regenerating: Brighten dull skin and reduce sunspots
                         </p>
                         <p className="font-medium green">
                           60 min
@@ -428,13 +439,7 @@ export default function Home() {
                           photo dynamic light therapy to support firmer, more
                           youthful skin.
                         </p>
-                        <p>
-                          Rehydrating: Quench dry, thirsty skin
-                          <br />
-                          Recalming: Calm and nurture sensitive skin
-                          <br />
-                          Regenerating: Brighten dull skin and reduce sunspots
-                        </p>
+
                         <p className="font-medium green">
                           90 min
                           <br />
@@ -483,7 +488,7 @@ export default function Home() {
                         <p className="font-medium green">
                           60 min
                           <br />
-                          500 IDR
+                          550 IDR
                         </p>
                       </div>
                       <div className="col-sm-12 small italic text-center">
@@ -495,12 +500,24 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="tab-pane fade" id="pills-hair">
+                  <div className="tab-pane fade" id="pills-hair">``
                     <div className="row">
                       <div className="col-sm-12">
                         <h2 className="treatment-heading mb24">
-                          REPLENISH TREATMENT
+                          REPLENISH HAIR TREATMENT
                         </h2>
+                      </div>
+
+                      <div className="col-md-8 mb30 mt-0 mx-auto text-center">
+                        <p>
+                          Hair and scalp treatments using trusted Indonesian
+                          hair care brands, designed to address specific hair
+                          concerns. These treatments gentle and nourshing for
+                          hair affected by sun, salt, hard water and styling
+                          products. Treatment time may slightly vary based on
+                          hair length and thickness. Hair wash & drying is
+                          provided and <strong>doesn't include blow dry styling</strong>
+                        </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">SCALP PURITY RITUAL</p>
@@ -560,35 +577,7 @@ export default function Home() {
                         <p className="font-medium green">
                           60 min
                           <br />
-                          450 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">INTENSELY NOURISHING HAIR</p>
-                        <p>
-                          Rich warm nourishing signature hair oil blend is
-                          massaged into the hair, conditioning the scalp and
-                          leaving your hair silky and shiny. The ingredients
-                          includes leaves extract called Mangkokan leaf and Waru
-                          leaf are Indonesian heritage recipe for healthy new
-                          hair and will strengthen hair roots.
-                        </p>
-                        <p className="font-medium green">
-                          60 min
-                          <br />
-                          450 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">BASIC HAIR WASH</p>
-                        <p>
-                          Shampoo + conditioner, include mini scalp massage and
-                          quick hair drying.
-                        </p>
-                        <p className="font-medium green">
-                          Short Hair 30 min / 220 IDR
-                          <br />
-                          Long Hair 45 min / 250 IDR
+                          480 IDR
                         </p>
                       </div>
                       <div className="col-sm-12 small italic text-center">
@@ -610,12 +599,13 @@ export default function Home() {
                       <div className="col-md-8 mb30 mt-0 mx-auto text-center">
                         <p>
                           Our body scrubs gently exfoliate, nourish, and refresh
-                          the skin. Please note that scrub treatments <strong>do not
-                          include massage</strong>. After each body scrub, the treatment
-                          is completed with a cooling yogurt mask to help seal
-                          in moisture and leave the skin soft and hydrated. Each
-                          session concludes with a shower, which is included
-                          within the treatment duration.
+                          the skin. Please note that scrub treatments{" "}
+                          <strong>do not include massage</strong>. After each
+                          body scrub, the treatment is completed with a cooling
+                          yogurt mask to help seal in moisture and leave the
+                          skin soft and hydrated. Each session concludes with a
+                          shower, which is included within the treatment
+                          duration.
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -1003,7 +993,7 @@ export default function Home() {
                         <p>Toenails trimming & nail polish</p>
                         <p className="font-bold green">
                           Mini Polish{" "}
-                          <span className="font-medium">30 min / 130 IDR</span>
+                          <span className="font-medium">30 min / 150 IDR</span>
                         </p>
                         <p className="font-bold green">
                           Mini Trimming{" "}
