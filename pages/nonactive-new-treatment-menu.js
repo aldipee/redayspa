@@ -80,6 +80,8 @@ export default function Home() {
                     >
                       <img src="img/massage.svg" />
                       <br />
+                      BODY
+                      <br />
                       MASSAGE
                     </button>
                   </li>
@@ -404,7 +406,9 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">RĒ SIGNATURE FACIAL</p>
+                        <p className="sm-heading">
+                          RĒ SIGNATURE SCULPTING FACIAL
+                        </p>
                         <p>
                           A customized facial designed to tone, sculpt, and lift
                           using focused facial massage techniques that support
@@ -413,6 +417,13 @@ export default function Home() {
                           treatment helps restore radiance, improve elasticity,
                           and leave the complexion refreshed and visibly
                           revitalized.
+                        </p>
+                        <p>
+                          Rehydrating: Quench dry, thirsty skin
+                          <br />
+                          Recalming: Calm and nurture sensitive skin
+                          <br />
+                          Regenerating: Brighten dull skin and reduce sunspots
                         </p>
                         <p className="font-medium green">
                           60 min
@@ -428,13 +439,7 @@ export default function Home() {
                           photo dynamic light therapy to support firmer, more
                           youthful skin.
                         </p>
-                        <p>
-                          Rehydrating: Quench dry, thirsty skin
-                          <br />
-                          Recalming: Calm and nurture sensitive skin
-                          <br />
-                          Regenerating: Brighten dull skin and reduce sunspots
-                        </p>
+
                         <p className="font-medium green">
                           90 min
                           <br />
@@ -610,12 +615,13 @@ export default function Home() {
                       <div className="col-md-8 mb30 mt-0 mx-auto text-center">
                         <p>
                           Our body scrubs gently exfoliate, nourish, and refresh
-                          the skin. Please note that scrub treatments <strong>do not
-                          include massage</strong>. After each body scrub, the treatment
-                          is completed with a cooling yogurt mask to help seal
-                          in moisture and leave the skin soft and hydrated. Each
-                          session concludes with a shower, which is included
-                          within the treatment duration.
+                          the skin. Please note that scrub treatments{" "}
+                          <strong>do not include massage</strong>. After each
+                          body scrub, the treatment is completed with a cooling
+                          yogurt mask to help seal in moisture and leave the
+                          skin soft and hydrated. Each session concludes with a
+                          shower, which is included within the treatment
+                          duration.
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
