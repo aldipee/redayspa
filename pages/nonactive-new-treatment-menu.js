@@ -65,7 +65,7 @@ export default function Home() {
         <section className="treatment-menu">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 mx-auto">
+              <div className="col-lg-8 col-sm-12 mx-auto">
                 <p className="sm-heading text-center">TREATMENT CATEGORY</p>
                 <ul
                   className="nav nav-lg nav-icon-lg flex-nowrap overflow-auto"
