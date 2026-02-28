@@ -796,13 +796,13 @@ export default function Home() {
                           MAKE YOUR OWN RELAXING RITUAL
                         </h2>
                       </div>
-                      <div className="col-sm-8 mr-center mb30">
+                      <div className="col-sm-8 mx-auto mb30">
                         <img
                           src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1672125532/Re%20Day%20Spa%20Website/main-hero_etj9ir.jpg"
                           className="img-fluid mb30"
                         />
                       </div>
-                      <div className="col-sm-7 mb30 mt-0 text-center">
+                      <div className="col-sm-7 mx-auto mb30 mt-0 text-center">
                         <p className="italic green mb-0">
                           Every body is different, and so is every need
                         </p>
