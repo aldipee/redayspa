@@ -80,9 +80,9 @@ export default function Home() {
                     >
                       <img src="img/massage.svg" />
                       <span className="treatment-category-text">
-                      BODY
-                      <br />
-                      MASSAGE
+                        BODY
+                        <br />
+                        MASSAGE
                       </span>
                     </button>
                   </li>
@@ -95,9 +95,9 @@ export default function Home() {
                     >
                       <img src="img/facial.svg" />
                       <span className="treatment-category-text">
-                      FACIAL
-                      <br />
-                      MASSAGE
+                        FACIAL
+                        <br />
+                        MASSAGE
                       </span>
                     </button>
                   </li>
@@ -109,9 +109,7 @@ export default function Home() {
                       data-bs-target="#pills-hair"
                     >
                       <img src="img/hair.svg" />
-                      <span className="treatment-category-text">
-                      HAIR
-                      </span>
+                      <span className="treatment-category-text">HAIR</span>
                     </button>
                   </li>
                   <li className="nav-item">
@@ -123,9 +121,9 @@ export default function Home() {
                     >
                       <img src="img/scrub.svg" />
                       <span className="treatment-category-text">
-                      SCRUB &
-                      <br />
-                      MASK
+                        SCRUB &
+                        <br />
+                        MASK
                       </span>
                     </button>
                   </li>
@@ -138,9 +136,9 @@ export default function Home() {
                     >
                       <img src="img/nail.svg" />
                       <span className="treatment-category-text">
-                      HAND &
-                      <br />
-                      FOOT
+                        HAND &
+                        <br />
+                        FOOT
                       </span>
                     </button>
                   </li>
@@ -152,9 +150,7 @@ export default function Home() {
                       data-bs-target="#pills-ritual"
                     >
                       <img src="img/ritual.svg" />
-                      <span className="treatment-category-text">
-                      RITUAL
-                      </span>
+                      <span className="treatment-category-text">RITUAL</span>
                     </button>
                   </li>
                   <li className="nav-item">
@@ -165,9 +161,7 @@ export default function Home() {
                       data-bs-target="#pills-kiddie"
                     >
                       <img src="img/kiddie.svg" />
-                      <span className="treatment-category-text">
-                      KIDDIE
-                      </span>
+                      <span className="treatment-category-text">KIDDIE</span>
                     </button>
                   </li>
                 </ul>
@@ -403,7 +397,7 @@ export default function Home() {
                           REJUVENATE FACIAL
                         </h2>
                       </div>
-                      <div className="col-md-8 mb30 mt-0 mx-auto text-center">
+                      <div className="col-md-6 mb30 mt-0 mx-auto text-center">
                         <p>
                           We use European facial massage techniques — a{" "}
                           {`“workout for the face“`} that gently activates
@@ -425,7 +419,9 @@ export default function Home() {
                           and leave the complexion refreshed and visibly
                           revitalized.
                         </p>
-                        <p>
+                        <p className="ft-12 lh-base">
+                          <strong>Based on your skin type:</strong>
+                          <br />
                           Rehydrating: Quench dry, thirsty skin
                           <br />
                           Recalming: Calm and nurture sensitive skin
@@ -514,7 +510,7 @@ export default function Home() {
                           REPLENISH HAIR TREATMENT
                         </h2>
                       </div>
-                      <div className="col-md-8 mb30 mt-0 mx-auto text-center">
+                      <div className="col-md-6 mb30 mt-0 mx-auto text-center">
                         <p>
                           Hair and scalp treatments using trusted Indonesian
                           hair care brands, designed to address specific hair
@@ -603,7 +599,7 @@ export default function Home() {
                           REVIVE BODY SCRUB & MASK
                         </h2>
                       </div>
-                      <div className="col-md-8 mb30 mt-0 mx-auto text-center">
+                      <div className="col-md-6 mb30 mt-0 mx-auto text-center">
                         <p>
                           Our body scrubs gently exfoliate, nourish, and refresh
                           the skin. Please note that scrub treatments{" "}
@@ -616,7 +612,8 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">BALI COFFEE BODY SCRUB</p>
+                        <p className="sm-heading">SCRUB</p>
+                        <p className="font-medium green">BALI COFFEE BODY</p>
                         <p>
                           Made from coffee beans grown at Kintamani, Bali, our
                           coffee scrub is a great way to scrub away dead skin to
@@ -624,14 +621,7 @@ export default function Home() {
                           will reduce the visibility of cellulites and will
                           leave you with smooth, glowing skin.
                         </p>
-                        <p className="font-medium green">
-                          45 min**
-                          <br />
-                          400 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">LULUR</p>
+                        <p className="font-medium green">LULUR</p>
                         <p>
                           Inspired by ancient Indonesian royalty tradition. Made
                           from a blend of finely ground Balinese native herbs
@@ -642,13 +632,8 @@ export default function Home() {
                           benefits.
                         </p>
                         <p className="font-medium green">
-                          45 min**
-                          <br />
-                          400 IDR
+                          COCO & VANILLA BODY SCRUB
                         </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">COCO & VANILLA BODY SCRUB</p>
                         <p>
                           This exfoliating, contouring and nourishing body scrub
                           will awaken your senses with its sweet vanilla and
@@ -695,7 +680,7 @@ export default function Home() {
                           RESHINE AND BUFF
                         </h2>
                       </div>
-                      <div className="col-md-8 mb30 mt-0 mx-auto text-center">
+                      <div className="col-md-6 mb30 mt-0 mx-auto text-center">
                         <p>
                           Your hands and feet are the hardest working parts of
                           your body, and they deserve more than just a basic
