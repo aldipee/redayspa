@@ -568,7 +568,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">Luxurious Hair Renewal</p>
+                        <p className="sm-heading">Keratin Hair Renewal</p>
                         <p>
                           Keratin, a natural protein in hair, provides strength
                           and smoothness. This transformative mask restores lost
@@ -851,7 +851,7 @@ export default function Home() {
                           perfect bonding time together with this massage.
                         </p>
                         <p className="font-medium green">
-                          30** / 60 min
+                          30 / 60 min
                           <br />
                           160 / 280 IDR
                         </p>
@@ -881,10 +881,6 @@ export default function Home() {
                         <p className="mb-0">
                           These treatments are valid for kids age 2 - 10 years
                           old and height under 150cm (4.9 Ft)
-                        </p>
-                        <p className="mb-10">
-                          ** 30 minutes treatments can only be taken with other
-                          treatments as an addition / cannot be taken alone
                         </p>
                         <p className="green mb-0">
                           All prices are in thousands of Rupiah and are
