@@ -29,13 +29,13 @@ export default function Home() {
                     <a className="w-100">
                       <img
                         src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1704902543/logo-green_rfi8ls.svg"
-                        className="img-fluid"
+                        className="w-25"
                         alt="re day spa logo"
                       />
                     </a>
                   </Link>
                 </p>
-                <h1 className="mb30">
+                <h1 className="fs-6 mb30">
                   <a
                     href="https://www.instagram.com/remassagestudio/"
                     target="_blank"

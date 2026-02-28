@@ -641,7 +641,7 @@ export default function Home() {
                           skin feeling hydrated, soft, and silky.
                         </p>
                         <p className="font-medium green">
-                          45 min**
+                          45 min
                           <br />
                           400 IDR
                         </p>
@@ -662,9 +662,6 @@ export default function Home() {
                         </p>
                       </div>
                       <div className="col-sm-12 small italic text-center">
-                        <p className="mb-0">
-                          ** Include shower time & body lotion application
-                        </p>
                         <p className="green mb-0">
                           All prices are in thousands of Rupiah and are
                           inclusive of 15% Government Tax
