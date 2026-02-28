@@ -397,7 +397,7 @@ export default function Home() {
                           REJUVENATE FACIAL
                         </h2>
                       </div>
-                      <div className="col-md-6 mb30 mt-0 mx-auto text-center">
+                      <div className="col-md-7 mb30 mt-0 mx-auto text-center">
                         <p>
                           We use European facial massage techniques — a{" "}
                           {`“workout for the face“`} that gently activates
@@ -793,144 +793,32 @@ export default function Home() {
                     <div className="row">
                       <div className="col-sm-12">
                         <h2 className="treatment-heading mb24">
-                          REVITALIZE RITUAL
+                          MAKE YOUR OWN RELAXING RITUAL
                         </h2>
                       </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">BODY REVIVE</p>
-                        <p>
-                          A staple ritual for pampering day. A classic
-                          combination of full body massage and body scrub for a
-                          quick fix; ease body soreness plus exfoliation for
-                          glowing skin.
-                        </p>
-                        <p className="ft-12 lh-base">
-                          <strong>Full body massage choice:</strong>
-                          <br />
-                          Balinese Massage (+IDR 50 for Deep / Dry / RĒ
-                          Signature massage)
-                          <br />
-                          Upgrade to 90m Balinese Massage +IDR 120
-                          <br />
-                          <strong>Scrub choice:</strong>
-                          <br />
-                          Lulur / Coffee / Coconut Vanilla
-                        </p>
-                        <p className="italic green mb-0">Treatment Steps</p>
-                        <p>
-                          Refreshing foot bath + Full Body Massage of your
-                          choice + Body scrub of your choice + Shower + RĒ
-                          Signature body lotion
-                        </p>
-                        <p className="font-medium green">
-                          1 hr 45 min
-                          <br />
-                          600 IDR
-                        </p>
+                      <div className="col-sm-8 mr-center mb30">
+                        <img
+                          src="https://res.cloudinary.com/dnnrll6sl/image/upload/v1672125532/Re%20Day%20Spa%20Website/main-hero_etj9ir.jpg"
+                          className="img-fluid mb30"
+                        />
                       </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">SUN RELIEVER</p>
+                      <div className="col-sm-7 mb30 mt-0 text-center">
+                        <p className="italic green mb-0">
+                          Every body is different, and so is every need
+                        </p>
                         <p>
-                          Out and about all day in the sun is not only
-                          physically exhausting for your body, but also for your
-                          skin. Come and get some after-sun/relaxation and take
-                          care of your body and let it heal to enjoy the rest of
-                          your stay in this sunshine island of Bali.
+                          Create a spa experience that feels right for you by
+                          combining a minimum of two different treatments into
+                          one personalized package.
                         </p>
-                        <p className="italic green mb-0">Treatment Steps</p>
                         <p>
-                          Refreshing Foot Bath + Balinese Massage + Aloe Body
-                          Mask + Sun S.O.S. Facial
+                          With a minimum total duration of 120 minutes, you{`’`}
+                          ll enjoy a perfectly balanced, deeply relaxing
+                          experience—designed around what your body truly needs.
                         </p>
-                        <p className="font-medium green">
-                          1 hr 45 min
-                          <br />
-                          800 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <div className="sm-heading">URBAN REWIND</div>
                         <p>
-                          A contemporary spin on Balinese body care tradition
-                          combined with our signature beauty recipes results in
-                          the perfect rejuvenation of the body and soul.
-                          Bringing curative benefits of fresh, natural, and
-                          quality ingredients, indulge mind and soul in a
-                          heartfelt Balinese treatment experience.
-                        </p>
-                        <p className="italic green mb-0">Treatment Steps</p>
-                        <p>
-                          Refreshing foot bath + RĒ Signature Massage + Body
-                          scrub of your choice + Shower + RĒ Signature body
-                          lotion + RĒ Signature mini facial
-                        </p>
-                        <p className="font-medium green">
-                          2 hr 15 min
-                          <br />
-                          900 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">BODY NOURISH</p>
-                        <p>
-                          Indulge in the ultimate self-care experience with this
-                          package. Crafted to melt away tension and promote deep
-                          relaxation. Exfoliates your skin, leaving it smooth
-                          and radiant. Finish with skin nourishment for
-                          hydration, restoring balance and vitality.
-                        </p>
-                        <p className="italic green mb-0">Treatment Steps</p>
-                        <p>
-                          Refreshing Foot Bath + 60min Balinese Massage + Body
-                          Scrub of your choice + Pure Milk Body Mask + Shower +
-                          RĒ Signature body lotion
-                        </p>
-                        <p className="ft-12 lh-base">
-                          Upgrade to 90m Balinese Massage +IDR 120
-                        </p>
-                        <p className="font-medium green">
-                          120 min
-                          <br />
-                          700 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">THE ROYAL</p>
-                        <p>
-                          The ultimate care package to make you feel like
-                          royalty! Pamper yourself from head to toe and feel
-                          luxurious authentic Balinese Royal ritual yourself.
-                          Guaranteed you will leave refreshed and looking
-                          absolutely perfect.
-                        </p>
-                        <p className="italic green mb-0">Treatment Steps</p>
-                        <p>
-                          Refreshing Foot Bath + Balinese Massage + Lulur + RĒ
-                          Signature Facial + Sport Manicure / Pedicure
-                        </p>
-                        <p className="font-medium green">
-                          3 hr 30 min
-                          <br />
-                          1200 IDR
-                        </p>
-                      </div>
-                      <div className="col-sm-6 mb30 mt-0 text-center">
-                        <p className="sm-heading">TOTALLY PAMPERED</p>
-                        <p>
-                          The favorite party-goers treatment. Cure your hangover
-                          and tiredness from last night with our treatment spa
-                          ritual. This treatment will help with your pounding
-                          head and body soreness immediately.
-                        </p>
-                        <p className="italic green mb-0">Treatment Steps</p>
-                        <p>
-                          Refreshing Foot Bath + Balinese Massage + Intuitive
-                          Head Pamper + Collagen Face Mask
-                        </p>
-                        <p className="font-medium green">
-                          90 min
-                          <br />
-                          700 IDR
+                          <strong>Enjoy 15% off per person</strong> when you
+                          build your own spa package.
                         </p>
                       </div>
                       <div className="col-sm-12 small italic text-center">
