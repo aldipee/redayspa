@@ -501,6 +501,7 @@ export default function Home() {
                   </div>
 
                   <div className="tab-pane fade" id="pills-hair">
+                    ``
                     <div className="row">
                       <div className="col-sm-12">
                         <h2 className="treatment-heading mb24">
@@ -516,7 +517,8 @@ export default function Home() {
                           hair affected by sun, salt, hard water and styling
                           products. Treatment time may slightly vary based on
                           hair length and thickness. Hair wash & drying is
-                          provided and <strong>doesn't include blow dry styling</strong>
+                          provided and{" "}
+                          <strong>doesn{`'`}t include blow dry styling</strong>
                         </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
@@ -993,7 +995,7 @@ export default function Home() {
                         <p>Toenails trimming & nail polish</p>
                         <p className="font-bold green">
                           Mini Polish{" "}
-                          <span className="font-medium">30 min / 130 IDR</span>
+                          <span className="font-medium">30 min / 150 IDR</span>
                         </p>
                         <p className="font-bold green">
                           Mini Trimming{" "}
