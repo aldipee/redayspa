@@ -385,6 +385,12 @@ body {
   padding-top: 100px;
   padding-bottom: 3rem;
 }
+.treatment-category-text {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .treatment-list {
   padding-bottom: 100px;
 }

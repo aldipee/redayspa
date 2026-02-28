@@ -79,10 +79,11 @@ export default function Home() {
                       data-bs-target="#pills-massage"
                     >
                       <img src="img/massage.svg" />
-                      <br />
+                      <span className="treatment-category-text">
                       BODY
                       <br />
                       MASSAGE
+                      </span>
                     </button>
                   </li>
                   <li className="nav-item">
@@ -93,10 +94,11 @@ export default function Home() {
                       data-bs-target="#pills-facial"
                     >
                       <img src="img/facial.svg" />
-                      <br />
+                      <span className="treatment-category-text">
                       FACIAL
                       <br />
                       MASSAGE
+                      </span>
                     </button>
                   </li>
                   <li className="nav-item">
@@ -107,8 +109,9 @@ export default function Home() {
                       data-bs-target="#pills-hair"
                     >
                       <img src="img/hair.svg" />
-                      <br />
+                      <span className="treatment-category-text">
                       HAIR
+                      </span>
                     </button>
                   </li>
                   <li className="nav-item">
@@ -119,10 +122,11 @@ export default function Home() {
                       data-bs-target="#pills-scrub"
                     >
                       <img src="img/scrub.svg" />
-                      <br />
+                      <span className="treatment-category-text">
                       SCRUB &
                       <br />
                       MASK
+                      </span>
                     </button>
                   </li>
                   <li className="nav-item">
@@ -133,10 +137,11 @@ export default function Home() {
                       data-bs-target="#pills-hand"
                     >
                       <img src="img/nail.svg" />
-                      <br />
+                      <span className="treatment-category-text">
                       HAND &
                       <br />
                       FOOT
+                      </span>
                     </button>
                   </li>
                   <li className="nav-item">
@@ -147,8 +152,9 @@ export default function Home() {
                       data-bs-target="#pills-ritual"
                     >
                       <img src="img/ritual.svg" />
-                      <br />
+                      <span className="treatment-category-text">
                       RITUAL
+                      </span>
                     </button>
                   </li>
                   <li className="nav-item">
@@ -159,8 +165,9 @@ export default function Home() {
                       data-bs-target="#pills-kiddie"
                     >
                       <img src="img/kiddie.svg" />
-                      <br />
+                      <span className="treatment-category-text">
                       KIDDIE
+                      </span>
                     </button>
                   </li>
                 </ul>
@@ -501,14 +508,12 @@ export default function Home() {
                   </div>
 
                   <div className="tab-pane fade" id="pills-hair">
-                    ``
                     <div className="row">
                       <div className="col-sm-12">
                         <h2 className="treatment-heading mb24">
                           REPLENISH HAIR TREATMENT
                         </h2>
                       </div>
-
                       <div className="col-md-8 mb30 mt-0 mx-auto text-center">
                         <p>
                           Hair and scalp treatments using trusted Indonesian
