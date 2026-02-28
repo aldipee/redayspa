@@ -510,7 +510,7 @@ export default function Home() {
                           REPLENISH HAIR TREATMENT
                         </h2>
                       </div>
-                      <div className="col-md-6 mb30 mt-0 mx-auto text-center">
+                      <div className="col-md-7 mb30 mt-0 mx-auto text-center">
                         <p>
                           Hair and scalp treatments using trusted Indonesian
                           hair care brands, designed to address specific hair
@@ -599,7 +599,7 @@ export default function Home() {
                           REVIVE BODY SCRUB & MASK
                         </h2>
                       </div>
-                      <div className="col-md-6 mb30 mt-0 mx-auto text-center">
+                      <div className="col-md-7 mb30 mt-0 mx-auto text-center">
                         <p>
                           Our body scrubs gently exfoliate, nourish, and refresh
                           the skin. Please note that scrub treatments{" "}
@@ -613,7 +613,7 @@ export default function Home() {
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">SCRUB</p>
-                        <p className="font-medium green">BALI COFFEE BODY</p>
+                        <p className="font-bold green">BALI COFFEE BODY</p>
                         <p>
                           Made from coffee beans grown at Kintamani, Bali, our
                           coffee scrub is a great way to scrub away dead skin to
@@ -621,7 +621,7 @@ export default function Home() {
                           will reduce the visibility of cellulites and will
                           leave you with smooth, glowing skin.
                         </p>
-                        <p className="font-medium green">LULUR</p>
+                        <p className="font-bold green">LULUR</p>
                         <p>
                           Inspired by ancient Indonesian royalty tradition. Made
                           from a blend of finely ground Balinese native herbs
@@ -631,7 +631,7 @@ export default function Home() {
                           antioxidants. Enjoy its exotic aroma while having its
                           benefits.
                         </p>
-                        <p className="font-medium green">
+                        <p className="font-bold green">
                           COCO & VANILLA BODY SCRUB
                         </p>
                         <p>
@@ -680,7 +680,7 @@ export default function Home() {
                           RESHINE AND BUFF
                         </h2>
                       </div>
-                      <div className="col-md-6 mb30 mt-0 mx-auto text-center">
+                      <div className="col-md-7 mb30 mt-0 mx-auto text-center">
                         <p>
                           Your hands and feet are the hardest working parts of
                           your body, and they deserve more than just a basic
