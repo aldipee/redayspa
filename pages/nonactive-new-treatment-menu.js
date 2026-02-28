@@ -488,7 +488,7 @@ export default function Home() {
                         <p className="font-medium green">
                           60 min
                           <br />
-                          550 IDR
+                          500 IDR
                         </p>
                       </div>
                       <div className="col-sm-12 small italic text-center">
@@ -504,20 +504,8 @@ export default function Home() {
                     <div className="row">
                       <div className="col-sm-12">
                         <h2 className="treatment-heading mb24">
-                          REPLENISH HAIR TREATMENT
+                          REPLENISH TREATMENT
                         </h2>
-                      </div>
-
-                      <div className="col-md-8 mb30 mt-0 mx-auto text-center">
-                        <p>
-                          Hair and scalp treatments using trusted Indonesian
-                          hair care brands, designed to address specific hair
-                          concerns. These treatments gentle and nourshing for
-                          hair affected by sun, salt, hard water and styling
-                          products. Treatment time may slightly vary based on
-                          hair length and thickness. Hair wash & drying is
-                          provided and <strong>doesn't include blow dry styling</strong>
-                        </p>
                       </div>
                       <div className="col-sm-6 mb30 mt-0 text-center">
                         <p className="sm-heading">SCALP PURITY RITUAL</p>
@@ -577,7 +565,23 @@ export default function Home() {
                         <p className="font-medium green">
                           60 min
                           <br />
-                          480 IDR
+                          450 IDR
+                        </p>
+                      </div>
+                      <div className="col-sm-6 mb30 mt-0 text-center">
+                        <p className="sm-heading">INTENSELY NOURISHING HAIR</p>
+                        <p>
+                          Rich warm nourishing signature hair oil blend is
+                          massaged into the hair, conditioning the scalp and
+                          leaving your hair silky and shiny. The ingredients
+                          includes leaves extract called Mangkokan leaf and Waru
+                          leaf are Indonesian heritage recipe for healthy new
+                          hair and will strengthen hair roots.
+                        </p>
+                        <p className="font-medium green">
+                          60 min
+                          <br />
+                          450 IDR
                         </p>
                       </div>
                       <div className="col-sm-12 small italic text-center">
